@@ -309,13 +309,13 @@ h3 { font-size: 26px; }
 .fin__total { text-align: right; }
 .fin__total .eyebrow { font-size: 14px; letter-spacing: .14em; }
 .fin__total div:last-child { font-family: var(--display); font-size: 26px; }
-.fin__rows { margin-top: 18px; display: grid; grid-template-columns: 1fr auto auto; gap: 2px 20px; align-items: baseline; }
-.fin__rows > div { padding: 8px 0; border-top: 1px solid rgba(36, 31, 26, .08); }
-.fin__t { font-size: 17px; }
-.fin__t span { display: block; font-size: 15px; color: var(--muted); }
-.fin__a, .fin__f { font-family: var(--mono); font-size: 16px; text-align: right; white-space: nowrap; }
-.fin__f { color: var(--muted); }
 .fin__notes ul { margin: 12px 0 0; padding-left: 18px; font-size: 16.5px; color: rgba(246, 242, 233, .8); line-height: 1.7; }
+
+.fingrupo { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--col); border-radius: 12px; padding: 22px 24px; }
+.fingrupo__top { display: flex; justify-content: space-between; align-items: flex-end; gap: 14px; flex-wrap: wrap; margin-bottom: 14px; }
+.fingrupo__t { font-family: var(--display); font-size: 28px; color: var(--col); }
+.fingrupo__itens { font-size: 16.5px; color: var(--muted); max-width: 56ch; text-wrap: pretty; margin-top: 2px; }
+.fingrupo__pct { font-family: var(--mono); font-size: 15px; color: var(--muted); margin-top: 8px; }
 
 /* ── prático ───────────────────────────────────────────────── */
 .res { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--col); border-radius: 10px; padding: 14px 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; }
@@ -375,8 +375,8 @@ h3 { font-size: 26px; }
   .tlstop { grid-template-columns: 1fr; gap: 12px; }
   .leg { grid-template-columns: 92px 26px 1fr; }
   .res { grid-template-columns: 1fr; }
-  .fin__rows { grid-template-columns: 1fr auto; }
-  .fin__f { display: none; }
+  .fingrupo__top { flex-direction: column; align-items: flex-start; gap: 8px; }
+  .fin__total { text-align: left; }
   .cal__tag { display: none; }
 }
 
