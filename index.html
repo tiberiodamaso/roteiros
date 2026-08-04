@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Natal na Europa — 11 dez 2026 a 02 jan 2027</title>
+<meta name="description" content="Roteiro de viagem: 23 dias, 7 bases, 9 pessoas. Lisboa, Paris, Interlaken, Zurique, Viena, Zagreb e o Réveillon em Paris.">
+<meta name="theme-color" content="#241f1a">
+<link rel="icon" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 200'><rect width='200' height='200' rx='36' fill='%23241f1a'/><circle cx='100' cy='100' r='52' fill='%23b4552f'/><text x='100' y='118' font-family='Georgia,serif' font-size='52' fill='%23f6f2e9' text-anchor='middle'>NE</text></svg>">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,400;12..96,500;12..96,600;12..96,700&family=Figtree:wght@400;500;600;700&family=Space+Mono:wght@400;700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+<div class="shell">
+
+  <aside class="nav" data-print-hide>
+    <div class="nav__brand">
+      <div class="eyebrow eyebrow--gold">11 dez 26 — 02 jan 27</div>
+      <div class="nav__title">Natal na<br>Europa</div>
+      <div class="nav__sub">9 viajantes · 7 bases · 23 dias</div>
+    </div>
+    <nav class="nav__list" id="navlist">
+      <button type="button" data-go="inicio"><span class="nav__num">01</span><span>Visão geral</span></button>
+      <button type="button" data-go="cidades"><span class="nav__num">02</span><span>Cidades</span></button>
+      <button type="button" data-go="dia"><span class="nav__num">03</span><span>Meu dia</span></button>
+      <button type="button" data-go="timeline"><span class="nav__num">04</span><span>Timeline</span></button>
+      <button type="button" data-go="checklist"><span class="nav__num">05</span><span>Falta comprar</span></button>
+      <button type="button" data-go="financeiro"><span class="nav__num">06</span><span>Financeiro</span></button>
+      <button type="button" data-go="pratico"><span class="nav__num">07</span><span>Prático</span></button>
+      <button type="button" data-go="completo"><span class="nav__num">08</span><span>Roteiro completo</span></button>
+    </nav>
+    <div class="nav__foot">
+      <div>faltam <span data-days>—</span> dias</div>
+      <div>checklist <span data-pct>0</span>% pronto</div>
+    </div>
+  </aside>
+
+  <main class="main">
+    <div class="search" data-print-hide>
+      <input id="q" type="search" autocomplete="off" placeholder="Buscar no roteiro inteiro — “raclette”, “Navigo”, “webcams”…">
+      <button type="button" id="clearq" hidden>limpar</button>
+    </div>
+    <div id="results"></div>
+    <div id="view"></div>
+  </main>
+
+</div>
+
+<noscript>
+  <div class="boot">Este roteiro precisa de JavaScript ativado para funcionar.</div>
+</noscript>
+
+<div class="boot" id="boot">Carregando o roteiro…</div>
+
+<script>
+  // Diagnóstico de boot: se o módulo não subir (página aberta por file:// em vez
+  // de um servidor http, por exemplo), a página explica em vez de ficar em branco.
+  (function () {
+    var boot = document.getElementById('boot');
+    function fail(msg) {
+      if (!boot || !boot.isConnected) return;
+      boot.className = 'boot boot--err';
+      boot.innerHTML = '<strong>O roteiro não carregou.</strong><br>' + msg;
+    }
+    window.addEventListener('error', function (e) {
+      if (e.target && e.target !== window && e.target.tagName) {
+        fail('Falha ao carregar <code>' + (e.target.getAttribute('src') || e.target.getAttribute('href') || '') + '</code>.');
+      } else if (e.message) {
+        fail('Erro de JavaScript: <code>' + e.message + '</code>');
+      }
+    }, true);
+    setTimeout(function () {
+      if (location.protocol === 'file:') {
+        fail('Abra por um servidor http, e não por <code>file://</code>.<br>' +
+             'No terminal, dentro desta pasta: <code>python3 -m http.server 8000</code><br>' +
+             'e acesse <code>http://localhost:8000</code>. No GitHub Pages funciona direto.');
+      } else {
+        fail('Veja o console do navegador (F12) para o motivo.');
+      }
+    }, 2500);
+  })();
+</script>
+<script type="module" src="app.js"></script>
+
+</body>
+</html>
