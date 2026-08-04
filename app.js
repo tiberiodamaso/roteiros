@@ -534,8 +534,8 @@ function viewDia() {
   const pend = pendFor(sel.id);
 
   return `<section class="rise">
-    <h1>Meu dia</h1>
-    <div class="sub">Escolha a data e veja só o que importa naquele dia.</div>
+    <h1 data-print-hide>Meu dia</h1>
+    <div class="sub" data-print-hide>Escolha a data e veja só o que importa naquele dia.</div>
     <div class="daynav" data-print-hide>
       <button type="button" class="btn" data-step="-1" aria-label="Dia anterior">←</button>
       <input type="date" id="daydate" value="${esc(sel.id)}" min="2026-12-11" max="2027-01-02">
@@ -577,8 +577,12 @@ function viewTimeline() {
   const col = colOf(sel.city);
   const stops = (sel.blocks || []).map((b, i) => {
     const nx = sel.blocks[i + 1];
-    const parada = `<div class="tlstop" style="--col:${col}">
-      ${photo('ill-' + sel.id + '-' + i, b.h, 'photo--sm')}
+    const slotId = 'ill-' + sel.id + '-' + i;
+    // Sem foto real, a moldura é só um lembrete na tela — no papel viraria
+    // um retângulo cinza vazio, então a impressão a descarta.
+    const semFoto = !PHOTOS[slotId];
+    const parada = `<div class="tlstop${semFoto ? ' tlstop--sem-foto' : ''}" style="--col:${col}">
+      ${photo(slotId, b.h, 'photo--sm')}
       <div class="tlstop__card">
         <div class="tlstop__t">${esc(b.t)}</div>
         <div class="tlstop__h">${esc(b.h)}</div>
@@ -603,10 +607,14 @@ function viewTimeline() {
   }).join('');
 
   return `<section class="rise">
-    <h1>Timeline</h1>
-    <div class="sub">Clique num dia do calendário e o roteiro vira uma linha do tempo: cada parada com sua ilustração e, entre elas, a seta e a condução que liga um ponto ao outro.</div>
+    <h1 data-print-hide>Timeline</h1>
+    <div class="sub" data-print-hide>Clique num dia do calendário e o roteiro vira uma linha do tempo: cada parada com sua ilustração e, entre elas, a seta e a condução que liga um ponto ao outro.</div>
     <div class="card" style="margin-top:24px;padding:22px 24px" data-print-hide>
       <div class="cal">${cells}</div>
+    </div>
+    <div class="daynav" data-print-hide>
+      <button type="button" class="btn btn--dark" data-print>Imprimir este dia / salvar em PDF</button>
+      <span class="muted" style="font-size:16px">sai só o dia aberto, com as paradas e a condução entre elas</span>
     </div>
     <div style="margin-top:26px">
       ${selHeadHtml(sel)}
@@ -705,12 +713,12 @@ function viewFinanceiro() {
       <div class="card card--dark">
         <div class="eyebrow" style="font-size:14.5px">total por adulto</div>
         <div class="fin__v">${esc(f.adulto)}</div>
-        <div class="kpi__s" style="color:rgba(246,242,233,.65)">pago + a comprar + durante a viagem</div>
+        <div class="kpi__s">pago + a comprar + durante a viagem</div>
       </div>
       <div class="card card--dark">
         <div class="eyebrow" style="font-size:14.5px">2 adultos + 1 criança</div>
         <div class="fin__v">${esc(f.familia)}</div>
-        <div class="kpi__s" style="color:rgba(246,242,233,.65)">criança de 10 anos, com meia-entrada e Swiss Family Card</div>
+        <div class="kpi__s">criança de 10 anos, com meia-entrada e Swiss Family Card</div>
       </div>
       <div class="card" style="--col:#2f6b4f">
         <div class="eyebrow eyebrow--col" style="font-size:14.5px">já pago pela família</div>

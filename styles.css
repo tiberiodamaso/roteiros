@@ -139,7 +139,7 @@ h3 { font-size: 26px; }
 .kpi__v { font-family: var(--display); font-size: 42px; line-height: 1.05; margin-top: 4px; color: var(--col); }
 .kpi__v small { font-size: 19.5px; opacity: .6; }
 .kpi__s { font-size: 16px; color: var(--muted); }
-.kpi--dark .kpi__s { color: rgba(246, 242, 233, .65); }
+.kpi--dark .kpi__s, .card--dark .kpi__s { color: rgba(246, 242, 233, .65); }
 .kpi__clock { font-family: var(--mono); font-size: 15.5px; color: rgba(246, 242, 233, .65); animation: tick 2s ease-in-out infinite; }
 
 .leg { display: grid; grid-template-columns: 132px 26px 1fr; align-items: start; }
@@ -388,5 +388,34 @@ h3 { font-size: 26px; }
   html, body { background: #fff !important; }
   .card, .day, .clblock, .citycard, .tl__item, .tlstop { break-inside: avoid; }
   .hoverable:hover { transform: none; box-shadow: none; }
+
+  /* Timeline no papel: sem a moldura vazia da ilustração e sem a seta de
+     124px por trecho — num dia de dez paradas as duas coisas somam uma
+     página inteira de nada. A condução continua, no selo. */
+  .tlstop { margin-bottom: 10px; }
+  .tlstop--sem-foto { grid-template-columns: 1fr; }
+  .tlstop--sem-foto .photo { display: none; }
+  .tlstop--link { grid-template-columns: 1fr; margin-bottom: 10px; }
+  .tlstop--link .tlstop__arrow { display: none; }
+
+  /* Blocos escuros no papel. O Chrome imprime SEM gráficos de plano de fundo
+     por padrão: o fundo não é pintado, o texto claro fica branco sobre branco
+     e some. No papel eles viram tinta sobre branco, com o acento na borda —
+     legível com ou sem a opção marcada, e sem gastar toner. */
+  .selhead, .cityhead, .pend, .progress, .card--dark, .kpi--dark, .res--night, .pill {
+    background: transparent !important;
+    color: var(--ink) !important;
+    border: 1px solid var(--line-strong);
+  }
+  .selhead, .cityhead { border: 1px solid var(--col); border-left-width: 5px; padding: 18px 22px; }
+  .pill { border-color: var(--col); }
+  .pill i { background: var(--col); }
+  .selhead .eyebrow, .cityhead .eyebrow { color: var(--col) !important; opacity: 1; }
+  .card--dark .eyebrow, .progress .eyebrow, .pend .eyebrow { color: var(--muted) !important; }
+  .selhead__meta, .cityhead__hotel, .progress__foot, .kpi__clock,
+  .kpi--dark .kpi__s, .card--dark .kpi__s, .fin__notes ul { color: var(--muted) !important; opacity: 1; }
+  .bar--dark { border: 1px solid var(--line); }
+  .bar--dark > i { background: var(--muted); }
+
   @page { margin: 14mm; }
 }

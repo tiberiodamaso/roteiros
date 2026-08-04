@@ -90,7 +90,13 @@ Two backgrounds carry meaning and should not be used decoratively:
 - **Ink block** = a summary or a warning. Sidebar, countdown, checklist progress, financial totals, the "buy this for today" list, the night-train row, transport pills.
 - **Full-bleed city color, radius 14** = "you are inside this city or this day". Used exactly twice: the city header and the selected-day header.
 
-Print (`@media print`) is a supported output, not an afterthought: `[data-print-hide]` strips nav, search and controls, the grid collapses to a single column, cards get `break-inside: avoid`, page margin 14mm. Two screens offer an explicit "Imprimir / salvar em PDF" button.
+### Print is a supported output
+
+Three screens offer an explicit PDF button — city detail, "Meu dia" and Timeline — so a single day can be carried on paper. `[data-print-hide]` strips nav, search, controls, and the on-screen instructions that mean nothing on paper; grids collapse to one column; cards get `break-inside: avoid`; page margin 14mm. A Timeline day comes out at 2–5 pages.
+
+**Nothing printable may depend on a painted background.** Chrome and Safari print with background graphics *off* by default, so an ink block prints as near-white text on white — invisible. In `@media print` the dark blocks (`.selhead`, `.cityhead`, `.pend`, `.progress`, `.card--dark`, `.kpi--dark`, `.res--night`, `.pill`) invert to ink on white with the accent moved to the border. Test print output with backgrounds suppressed, not with them on.
+
+The Timeline also drops, on paper, the empty illustration frames and the 124px connector arrows: for a ten-stop day those two together cost about a full sheet of nothing. The transport mode survives in its pill.
 
 ## Development rules
 
@@ -130,7 +136,8 @@ Adding an interaction means adding a `data-*` case, not an `addEventListener`.
 - **`CITIES[].dias` and `d.city` disagree on purpose.** A city's card lists the arrival/departure day that belongs to the *next* city's `city` field, so "ver os 5 dias" on Viena's card and 4 days under the Viena filter are both correct.
 - **Checklist item ids (`r1`, `a1`, `h1`, …) are `localStorage` keys** under `natal-europa:v1`. Renaming one silently resets that person's checkbox. The saved object also carries `plitvice` / `reveillon` / `ultimo`, kept for compatibility with what the app stored before.
 - **The `b0` block is force-checked** and non-toggleable — it still counts toward the percentage, which is why the page opens at 24% and not 0%.
-- **Dark blocks need an explicit color.** `--col` defaults to the dark ink at `:root`, so anything using `color: var(--col)` inside an ink block renders invisible unless overridden — this is what hid "129 dias" in the countdown until `.kpi--dark .kpi__v { color: inherit }` was added.
+- **Dark blocks need an explicit color, twice over.** On screen, `--col` defaults to the dark ink at `:root`, so anything using `color: var(--col)` inside an ink block renders invisible unless overridden — this is what hid "129 dias" in the countdown until `.kpi--dark .kpi__v { color: inherit }` was added. On paper, the same blocks disappear for the opposite reason: the background isn't painted, so light text lands on white. Both failures are silent and neither shows up in an assertion — only in a rendering.
+- **An inline `style="color:…"` beats every print override.** Two of them in `viewFinanceiro` had to become a class before `@media print` could reach them. This is the practical reason behind the "no inline colors in `app.js`" rule, not just tidiness.
 - **Desktop rules leak into the mobile nav.** Sidebar buttons are `width: 100%`; in the horizontal mobile bar that must become `width: auto`, or the flex scroller sizes itself to its content, inflates the grid track and drags the whole page into horizontal overflow.
 - **`MODO_FIXO` is keyed by `date|next-block-title`.** Renaming a block title in `roteiro-data.js` silently downgrades that leg's transport pill to "a pé" — no error, just a wrong itinerary.
 - **Photos are a manual map.** `PHOTOS` at the top of `app.js` pairs a slot id with a file in `fotos/`; anything unmapped renders a captioned placeholder. There is no upload path — the original drag-and-drop slots needed a host that a static site does not have.
