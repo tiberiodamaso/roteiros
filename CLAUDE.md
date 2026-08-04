@@ -33,9 +33,8 @@ Two lessons from doing it: Chrome's plain `--screenshot` with `--force-device-sc
 | [Roteiro-Europa-Completo.md](Roteiro-Europa-Completo.md) | Source-of-truth reference doc the app was derived from. Reconcile against it when facts change |
 | [fotos/](fotos/) | Images used by the site |
 | `.nojekyll` | Keeps GitHub Pages from running the files through Jekyll |
-| `Natal na Europa.dc.html`, `support.js`, `image-slot.js` | Claude Design source and its runtime. Unused by the site; kept only as design reference |
 
-The app was originally authored as that Claude Design document. It shipped a 500KB self-inflating bundle that never rendered, and was replaced by this static site. The design decisions from it survive here, described below.
+The app was originally authored as a Claude Design document (`Natal na Europa.dc.html` + `support.js` + `image-slot.js`). It shipped a 500KB self-inflating bundle that never rendered, and was replaced by this static site; the sources were removed in the commit after `140dd0a`, which still has them if they are ever needed. The design decisions from that version survive here, described below.
 
 ## Design system
 
