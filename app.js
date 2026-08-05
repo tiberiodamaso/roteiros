@@ -44,9 +44,10 @@ const PHOTOS = {
   'foto-viena': 'fotos/viena.jpg',
   'foto-zagreb': 'fotos/zagreb.jpg',
   'foto-salzburgo': 'fotos/salzburg.jpg',
-  // 'foto-plitvice': fotos/plitvice.jpg é um preview da Alamy, com marca
-  // d'água. Fora do mapa até ter uma imagem licenciada; o card cai no
-  // espaço reservado com a legenda.
+  // Este arquivo é um preview da Alamy e carrega a marca d'água da agência.
+  // Publicado assim por decisão do dono do roteiro; trocar por uma versão
+  // licenciada é só substituir o arquivo, sem mexer aqui.
+  'foto-plitvice': 'fotos/plitvice.jpg',
 };
 
 /* Legenda do espaço reservado, quando ainda não há foto. */
