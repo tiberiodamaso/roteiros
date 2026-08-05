@@ -658,16 +658,18 @@ function viewTimeline() {
     </div>`;
     if (!nx) return parada;
     const modo = MODO_FIXO[sel.id + '|' + nx.h] || 'a pé';
-    const ligacao = `<div class="tlstop tlstop--link" style="--col:${col}">
-      <div class="tlstop__arrow">
-        <svg width="84" height="124" viewBox="0 0 84 124" fill="none" aria-hidden="true">
+    // A seta corre entre um card e outro; o selo da condução fica por cima
+    // do meio dela, cortando o tracejado.
+    const ligacao = `<div class="conn" style="--col:${col}">
+      <div class="conn__meio">
+        <svg class="conn__seta" width="84" height="124" viewBox="0 0 84 124" fill="none" aria-hidden="true">
           <path d="M42 2 C 6 26, 78 62, 42 100" stroke="currentColor" stroke-width="3" stroke-linecap="round" stroke-dasharray="9 8" fill="none"></path>
           <path d="M42 112 L 33 94 L 42 99 L 51 94 Z" fill="currentColor"></path>
         </svg>
-      </div>
-      <div class="tlstop__modo">
-        <div class="pill"><i></i>${esc(modo)}</div>
-        <span class="muted" style="font-size:16.5px">até ${esc(nx.h)}</span>
+        <div class="conn__modo">
+          <div class="pill"><i></i>${esc(modo)}</div>
+          <span class="conn__ate">até ${esc(nx.h)}</span>
+        </div>
       </div>
     </div>`;
     return parada + ligacao;
@@ -749,7 +751,62 @@ function viewChecklist() {
   </section>`;
 }
 
-/* — 06 · Financeiro — */
+/* — 06 · Falta reservar — */
+
+function viewReservar() {
+  const total = D.RESTAURANTES.length;
+  const feitas = D.RESTAURANTES.filter(r => state.done[r.id]).length;
+  const pct = Math.round((feitas / total) * 100);
+
+  const linhas = D.RESTAURANTES.map(r => {
+    const d = dayOf(r.dia) || {};
+    const on = !!state.done[r.id];
+    return `<div class="mesa${on ? ' is-done' : ''}" style="--col:${colOf(r.city)}">
+      <button type="button" class="clbox${on ? ' is-on' : ''}" data-check="${esc(r.id)}"
+              aria-pressed="${on}" aria-label="${esc(r.ref + ' — ' + r.local)}">${on ? '✓' : ''}</button>
+      <div class="mesa__quando">
+        <div class="mesa__data">${esc(r.quando || d.label || '')}</div>
+        <div class="mesa__wd">${esc(r.quando ? '' : (d.wd || ''))}</div>
+      </div>
+      <div>
+        <div class="mesa__top">
+          <span class="mesa__ref">${esc(r.ref)}</span>
+          <span class="mesa__local">${esc(r.local)}</span>
+          ${r.urgente ? '<span class="mesa__tag">esgota</span>' : ''}
+        </div>
+        ${r.n ? `<div class="mesa__n">${esc(r.n)}</div>` : ''}
+        <div class="mesa__links">
+          ${r.tel ? `<a href="tel:${esc(r.tel.replace(/\s/g, ''))}">${esc(r.tel)}</a>` : ''}
+          <button type="button" class="linkish" data-day="${esc(r.dia)}">ver o dia →</button>
+        </div>
+      </div>
+    </div>`;
+  }).join('');
+
+  return `<section class="rise">
+    <h1>Falta reservar</h1>
+    <div class="sub">Mesas para nove. O que está marcado fica salvo neste navegador.</div>
+    <div class="progress">
+      <div class="progress__top">
+        <div class="eyebrow eyebrow--gold" style="font-size:15px">mesas reservadas</div>
+        <div class="progress__pct">${feitas} / ${total}</div>
+      </div>
+      <div class="bar bar--dark"><i style="width:${pct}%"></i></div>
+      <div class="progress__foot">para nove pessoas, restaurante europeu quase nunca aceita quem chega de surpresa</div>
+    </div>
+    <div class="stack stack--tight" style="margin-top:24px">${linhas}</div>
+    <div class="card card--dashed" style="margin-top:22px;padding:20px 24px">
+      <div style="font-family:var(--display);font-size:26px">Ao ligar, informem sempre</div>
+      <ul style="margin:10px 0 0;padding-left:18px;font-size:17.5px;color:var(--body)">
+        <li style="margin-bottom:4px">Nove pessoas, com uma criança de 10 anos e uma pessoa idosa.</li>
+        <li style="margin-bottom:4px">Mesa térrea e <strong>mesa única</strong> — o padrão é dividir o grupo em duas mesas distantes.</li>
+        <li>Reservem de véspera, à noite, do hotel. Leva cinco minutos por dia.</li>
+      </ul>
+    </div>
+  </section>`;
+}
+
+/* — 07 · Financeiro — */
 
 function viewFinanceiro() {
   const f = finance();
@@ -936,6 +993,7 @@ const TELAS = {
   dia: viewDia,
   timeline: viewTimeline,
   checklist: viewChecklist,
+  reservar: viewReservar,
   financeiro: viewFinanceiro,
   pratico: viewPratico,
   completo: viewCompleto,

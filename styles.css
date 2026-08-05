@@ -266,14 +266,29 @@ h3 { font-size: 26px; }
 .cal__tag { font-family: var(--mono); font-size: 11.5px; margin-top: 4px; opacity: .75; white-space: nowrap; overflow: hidden; text-overflow: ellipsis; }
 
 .tlstop { display: grid; grid-template-columns: 260px 1fr; gap: 26px; align-items: start; }
-.tlstop--link { align-items: center; }
 .tlstop__card { background: var(--card); border: 1px solid var(--line); border-left: 5px solid var(--col); border-radius: 12px; padding: 18px 22px; }
 .tlstop__t { font-family: var(--mono); font-size: 15.5px; font-weight: 700; letter-spacing: .1em; text-transform: uppercase; color: var(--col); }
 .tlstop__h { font-family: var(--display); font-size: 27px; line-height: 1.1; margin-top: 4px; }
 .tlstop__card ul { margin: 10px 0 0; color: var(--body); font-size: 17.5px; }
 .tlstop__card li { margin-bottom: 4px; text-wrap: pretty; }
-.tlstop__arrow { display: flex; justify-content: center; color: var(--col); }
-.tlstop__modo { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; }
+
+/* Conexão entre duas paradas: a seta tracejada, com o selo da condução
+   por cima do meio dela. O fundo do selo é que "corta" o tracejado. */
+/* A conexão repete a grade da parada para cair sob a coluna dos cards:
+   a seta desce alinhada ao conteúdo que ela liga, não ao meio da página. */
+.conn { display: grid; grid-template-columns: 260px 1fr; gap: 26px; }
+.conn__meio { grid-column: 2; position: relative; display: flex; justify-content: center; color: var(--col); overflow: hidden; }
+.conn__seta { display: block; }
+/* Só o selo é centrado na seta — é ele que corta o tracejado. O "até…" fica
+   fora do fluxo, à direita, para não empurrar o selo para o lado. */
+.conn__modo {
+  position: absolute; top: 50%; left: 50%; transform: translate(-50%, -50%);
+  background: var(--paper); border-radius: 999px; padding: 6px;
+}
+.conn__ate {
+  position: absolute; left: calc(100% + 6px); top: 50%; transform: translateY(-50%);
+  white-space: nowrap; font-size: 16.5px; color: var(--muted);
+}
 .pill { display: flex; align-items: center; gap: 9px; background: var(--ink); color: var(--card); border-radius: 999px; padding: 9px 18px; font-family: var(--mono); font-size: 15px; letter-spacing: .12em; text-transform: uppercase; }
 .pill i { width: 9px; height: 9px; border-radius: 50%; background: var(--gold); }
 
@@ -303,6 +318,24 @@ h3 { font-size: 26px; }
 .clitem.is-done .clitem__t { color: #8f877b; text-decoration: line-through; }
 .clitem__n { font-size: 16.5px; color: var(--muted); margin-top: 2px; text-wrap: pretty; }
 .clitem__links { display: flex; gap: 12px; margin-top: 4px; font-family: var(--mono); font-size: 16px; }
+
+/* ── falta reservar ────────────────────────────────────────── */
+.mesa {
+  display: grid; grid-template-columns: 26px 74px 1fr; gap: 14px; align-items: start;
+  background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--col);
+  border-radius: 10px; padding: 14px 18px;
+}
+.mesa__quando { padding-top: 1px; }
+.mesa__data { font-family: var(--mono); font-size: 15.5px; font-weight: 700; color: var(--col); }
+.mesa__wd { font-family: var(--mono); font-size: 14px; color: var(--muted); }
+.mesa__top { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
+.mesa__ref { font-family: var(--mono); font-size: 14px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
+.mesa__local { font-family: var(--display); font-size: 23px; }
+.mesa.is-done .mesa__local { color: #8f877b; text-decoration: line-through; }
+.mesa__tag { font-family: var(--mono); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--card); background: var(--rust); border-radius: 999px; padding: 2px 9px; }
+.mesa__n { font-size: 17px; color: var(--body); margin-top: 3px; text-wrap: pretty; }
+.mesa__links { display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; margin-top: 6px; font-family: var(--mono); font-size: 15.5px; }
+.linkish { background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--mono); font-size: 15.5px; color: var(--col); border-bottom: 1px solid currentColor; }
 
 /* ── financeiro ────────────────────────────────────────────── */
 .fin__v { font-family: var(--display); font-size: 38px; line-height: 1.1; margin-top: 6px; white-space: nowrap; }
@@ -373,6 +406,15 @@ h3 { font-size: 26px; }
   .tl { padding-left: 20px; }
   .tl__dot { left: -20px; }
   .tlstop { grid-template-columns: 1fr; gap: 12px; }
+  /* Empilhada, a moldura vazia da ilustração vira só um retângulo cinza
+     entre um card e outro. Some; a foto de verdade, quando houver, fica. */
+  .tlstop--sem-foto .photo { display: none; }
+  .conn { grid-template-columns: 1fr; }
+  .conn__meio { grid-column: 1; }
+  .conn__ate { display: none; }
+  .mesa { grid-template-columns: 26px 1fr; gap: 6px 12px; }
+  .mesa > div:last-child { grid-column: 2; }
+  .mesa__quando { display: flex; gap: 8px; align-items: baseline; }
   .leg { grid-template-columns: 92px 26px 1fr; }
   .res { grid-template-columns: 1fr; }
   .fingrupo__top { flex-direction: column; align-items: flex-start; gap: 8px; }
@@ -395,8 +437,10 @@ h3 { font-size: 26px; }
   .tlstop { margin-bottom: 10px; }
   .tlstop--sem-foto { grid-template-columns: 1fr; }
   .tlstop--sem-foto .photo { display: none; }
-  .tlstop--link { grid-template-columns: 1fr; margin-bottom: 10px; }
-  .tlstop--link .tlstop__arrow { display: none; }
+  .conn { display: block; margin-bottom: 10px; }
+  .conn__meio { display: block; }
+  .conn__seta { display: none; }
+  .conn__modo { position: static; transform: none; background: transparent; padding: 0; max-width: none; }
 
   /* Blocos escuros no papel. O Chrome imprime SEM gráficos de plano de fundo
      por padrão: o fundo não é pintado, o texto claro fica branco sobre branco

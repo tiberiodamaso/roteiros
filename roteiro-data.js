@@ -427,7 +427,6 @@ export const CHECKLIST = [
     { id:'c4', t:'Reserva de assento no Luzern-Interlaken Express, 18/12', n:'CRÍTICA e não estava na lista de vocês: garante os 9 sentados juntos, do lado direito, e no trem panorâmico. Reservem ANTES de comprar o bilhete Basel → Interlaken.', url:'https://www.zentralbahn.ch' },
     { id:'c5', t:'Passagens ÖBB Viena ⇄ Salzburgo, 26/12', n:'Tarifa Sparschiene, quantidade limitada por partida. Comprada na véspera, vocês pagam o preço cheio nove vezes. Vale escrever ao serviço de grupos (atende a partir de 6 pessoas).', url:'https://www.oebb.at' },
     { id:'c6', t:'Voo Viena (VIE) → Zagreb (ZAG), 28/12', n:'Partida entre 9h e 11h. Comprar franquia de bagagem junto. Reserva única para os 9.' },
-    { id:'c10', t:'Jantar Le Son de la Terre, 17/12 às 18h50', n:'Barcaça com música ao vivo; em dezembro esgota.', tel:'+33143294819' },
     { id:'c11', t:'Ingresso Palácio de Schönbrunn, 27/12, com hora marcada', n:'Domingo entre o Natal e o Ano Novo é dos dias mais cheios do ano em Viena.' },
   ]},
   { k:'b2', titulo:'Próximas semanas', sub:'Sem pressa, mas não deixem para depois', tom:'#a2761c', items:[
@@ -443,20 +442,6 @@ export const CHECKLIST = [
     { id:'p10', t:'Navigo Semaine, Paris — comprar no dia 14/12 no guichê ou pelo app', n:'32,40 € por pessoa. Não sai nas máquinas automáticas.' },
     { id:'p11', t:'Passe de 7 dias da Wiener Linien, Viena', n:'25,20 € por adulto na versão digital, no app WienMobil. A criança provavelmente não paga nada.' },
     { id:'p12', t:'Excursão aos Lagos de Plitvice', n:'Transporte porta a porta, busca no hotel ~8h. Veículo único para os 9. Perguntem se o barco do Kozjak e o trem panorâmico estarão operando. Ingresso do parque online com 1 dia de antecedência.' },
-    { id:'p13', t:'11/12 almoço — Casa do Alentejo' },
-    { id:'p14', t:'11/12 jantar — Trama Pasta Fresca', n:'Casa pequena. Se não conseguirem, cheguem às 18h30 e peguem o salão vazio.' },
-    { id:'p15', t:'12/12 almoço — Nova Cervejaria', tel:'+351218942169' },
-    { id:'p16', t:'12/12 jantar — A Licorista', n:'Confirmem se servem jantar ao sábado; as fontes divergem.', tel:'+351213431415' },
-    { id:'p17', t:'13/12 almoço — Adega de Belém ou O Pedrouços', tel:'+351213639167' },
-    { id:'p18', t:'13/12 jantar — Cervejaria Trindade', n:'Peçam explicitamente um dos salões dos azulejos.' },
-    { id:'p19', t:'14/12 jantar — La Villa des Abbesses, 19h00' },
-    { id:'p20', t:'18/12 jantar — Hopplá Bistro', n:'Reserva por WhatsApp.', tel:'+41796168695' },
-    { id:'p21', t:'19/12 jantar — Fondue Villa & Garden', tel:'+41772321171' },
-    { id:'p22', t:'20/12 jantar — Rheinfelder Bierhalle, Niederdorf' },
-    { id:'p23', t:'21, 22 e 23/12 — jantares em Zurique', n:'Reservem pela manhã de cada dia, antes de sair.' },
-    { id:'p24', t:'27/12 jantar final em Viena' },
-    { id:'p25', t:'29/12 jantar em Zagreb' },
-    { id:'p26', t:'01/01 almoço ou jantar em Paris', n:'A maioria dos restaurantes fecha no dia 1º.' },
   ]},
   { k:'b3', titulo:'Na véspera ou no dia', sub:'Não antecipem', tom:'#3a55a0', items:[
     { id:'v1', t:'Cartões Viva Viagem com saldo Zapping', n:'No dia 11/12, máquina do Rossio.' },
@@ -473,6 +458,43 @@ export const CHECKLIST = [
     { id:'d2', t:'Teleférico do First, Grindelwald: não comprem antecipado', n:'Comprem na bilheteria em 19/12, depois das webcams. Se o topo estiver fechado, o dinheiro está perdido. Apresentem o Half Fare para os 50%.' },
     { id:'d3', t:'Monte Titlis: não comprem antecipado', n:'Mesma regra, na base em Engelberg, dia 22/12. O Ice Flyer é bilhete separado (~CHF 12) e não tem desconto do Half Fare.' },
   ]},
+];
+
+/* Mesas a reservar. Os ids vêm do checklist, de onde estas linhas saíram —
+   e são chaves do localStorage, então não podem ser renomeados sem apagar
+   a marcação de quem já usou o site.
+   `dia` liga a reserva ao roteiro; `quando` só existe quando a reserva não
+   cai num único dia. */
+export const RESTAURANTES = [
+  { id:'p13', dia:'2026-12-11', ref:'almoço', local:'Casa do Alentejo', city:'lisboa',
+    n:'R. das Portas de Santo Antão 58, 5 min a pé do hotel. Cozinha alentejana e o salão mourisco.' },
+  { id:'p14', dia:'2026-12-11', ref:'jantar', local:'Trama Pasta Fresca', city:'lisboa',
+    n:'Casa pequena. Se não conseguirem reservar, cheguem às 18h30 e peguem o salão vazio.' },
+  { id:'p15', dia:'2026-12-12', ref:'almoço', local:'Nova Cervejaria', city:'lisboa',
+    n:'Porções enormes: peçam para dividir.', tel:'+351 21 894 2169' },
+  { id:'p16', dia:'2026-12-12', ref:'jantar', local:'A Licorista / O Bacalhoeiro', city:'lisboa',
+    n:'Confirmem na ligação se servem jantar ao sábado; as fontes divergem. Plano B: Taberna da Baixa.', tel:'+351 21 343 1415' },
+  { id:'p17', dia:'2026-12-13', ref:'almoço', local:'Adega de Belém ou O Pedrouços', city:'lisboa',
+    n:'Domingo em Belém é o pior dia para tentar sem reserva.', tel:'+351 21 363 9167' },
+  { id:'p18', dia:'2026-12-13', ref:'jantar', local:'Cervejaria Trindade', city:'lisboa',
+    n:'Peçam explicitamente um dos salões dos azulejos.' },
+  { id:'p19', dia:'2026-12-14', ref:'jantar', local:'La Villa des Abbesses', city:'paris1',
+    n:'19h00, em Montmartre.' },
+  { id:'c10', dia:'2026-12-17', ref:'jantar', local:'Le Son de la Terre', city:'paris1', urgente:true,
+    n:'18h50. Barcaça com música ao vivo, logo depois do cruzeiro no Sena. Em dezembro esgota — esta é a mais urgente da lista.', tel:'+33 1 43 29 48 19' },
+  { id:'p20', dia:'2026-12-18', ref:'jantar', local:'Hopplá Bistro', city:'interlaken',
+    n:'Reserva por WhatsApp.', tel:'+41 79 616 8695' },
+  { id:'p21', dia:'2026-12-19', ref:'jantar', local:'Fondue Villa & Garden', city:'interlaken',
+    tel:'+41 77 232 1171' },
+  { id:'p22', dia:'2026-12-20', ref:'jantar', local:'Rheinfelder Bierhalle, no Niederdorf', city:'zurique' },
+  { id:'p23', dia:'2026-12-21', quando:'21, 22 e 23/12', ref:'jantares', local:'A escolher, em Zurique', city:'zurique',
+    n:'Reservem pela manhã de cada dia, antes de sair.' },
+  { id:'p24', dia:'2026-12-27', ref:'jantar', local:'A escolher, em Viena', city:'viena',
+    n:'Último jantar em Viena, na noite anterior ao voo para Zagreb.' },
+  { id:'p25', dia:'2026-12-29', ref:'jantar', local:'A escolher, em Zagreb', city:'zagreb',
+    n:'Reservem pela manhã, antes de sair para Plitvice: ninguém vai querer procurar mesa depois de um dia de frio e estrada.' },
+  { id:'p26', dia:'2027-01-01', ref:'almoço ou jantar', local:'A escolher, em Paris', city:'paris2',
+    n:'A maioria dos restaurantes fecha no dia 1º. Reservem com antecedência ou resolvam nas compras da Rue Cler.' },
 ];
 
 export const TRANSPORTE = [
