@@ -18,7 +18,7 @@ export const CITIES = [
     dias:['2026-12-14','2026-12-15','2026-12-16','2026-12-17','2026-12-18'],
     dicas:[
       ['Navigo Semaine vale de segunda a domingo','Não é 7 dias a partir da compra. Vocês chegam numa segunda: comprando no dia 14, cobre a estadia inteira. 32,40 € por pessoa.'],
-      ['Não sai nas máquinas','Compre no guichê de Porte de Clignancourt, ou pelo app Île-de-France Mobilités. Com 9 pessoas, reserve 20 minutos.'],
+      ['Não sai nas máquinas','Compre no guichê de Porte de Clignancourt, ou pelo app Île-de-France Mobilités. Com 8 pessoas, reserve 20 minutos.'],
       ['Passe duplo pai + filha','Gere um segundo cartão virtual na Wallet e desative o Express Mode nos dois. Na catraca: duplo clique, escolha o cartão, aproxime.'],
       ['Metrô valida só na entrada; RER na entrada e na saída','Vale para Disney e para os aeroportos.'],
       ['Água da torneira é gratuita por lei','Peçam “une carafe d’eau”.'],
@@ -89,7 +89,7 @@ export const CITIES = [
       ['O Louvre fecha em 1º de janeiro — e não importa','A Cour Napoléon, o pátio da pirâmide, é pública, gratuita e plana. Sem museu aberto, o pátio fica ainda mais vazio.'],
       ['Hora azul entre 16h30 e 17h30','A pirâmide acende por dentro enquanto o céu ainda tem cor. É a melhor foto do dia 1º.'],
       ['CDG na chegada, ORLY na saída','São aeroportos diferentes. Confiram os dois transfers na hora de contratar — é o erro mais fácil de cometer.'],
-      ['O trajeto de metrô até Orly tem tarifa de aeroporto','Bem mais cara que o bilhete comum. E avaliem se vale uma baldeação com nove malas.'],
+      ['O trajeto de metrô até Orly tem tarifa de aeroporto','Bem mais cara que o bilhete comum. E avaliem se vale uma baldeação com oito malas.'],
     ] },
 ];
 
@@ -123,7 +123,7 @@ export const DAYS = [
       B('14h30','Uber/Bolt até o Castelo',['Dois carros XL, 25–30 min, ~18 € por carro. Desembarque no Largo do Chão da Feira — confirmem com o motorista que ele sobe até lá.']),
       B('15h00','Castelo de São Jorge',['Fecha às 18h no inverno, última entrada 17h30. Ingresso online na véspera.']),
       B('16h45','Descida a pé, a melhor parte do dia',['Miradouro das Portas do Sol — pôr do sol às 17h15, cheguem antes para a luz dourada.','17h15 Miradouro de Santa Luzia, 2 min descendo.','17h30 Descida pelo Bairro de Alfama, sem pressa.']),
-      B('18h00','Cerveja e petisco no Largo de São Miguel',['Alma do Fado (Largo de São Miguel 2, nota 4,7) ou Antù Alfama, ao lado — pequeno, pode ter espera com 9.','Nada de refeição: o jantar é logo depois. Peçam mesa dentro; às 18h já está escuro e frio.']),
+      B('18h00','Cerveja e petisco no Largo de São Miguel',['Alma do Fado (Largo de São Miguel 2, nota 4,7) ou Antù Alfama, ao lado — pequeno, pode ter espera com 8.','Nada de refeição: o jantar é logo depois. Peçam mesa dentro; às 18h já está escuro e frio.']),
       B('18h30','São Miguel → Baixa a pé, ~20 min',['Chafariz de Dentro (a calçada irregular termina aqui) → Campo das Cebolas → Rua da Alfândega → Rua dos Sapateiros.','Se alguém não aguentar: parem no Chafariz de Dentro e chamem dois Ubers, ~7 € cada. É dos poucos pontos de Alfama onde carro chega.']),
       B('19h00','Jantar — A Licorista / O Bacalhoeiro',['R. dos Sapateiros 218, 3 min do hotel. Casa de 1848. +351 21 343 1415.','Confirmem na ligação se servem jantar ao sábado — as fontes divergem.','Bacalhau à Minhota, à Brás, polvo à lagareiro. Peçam para dividir.','Plano B: Taberna da Baixa, R. dos Fanqueiros 161 — peçam a sala da cave abobadada.']),
     ] },
@@ -138,7 +138,7 @@ export const DAYS = [
       B('12h00','Padrão dos Descobrimentos',['30 min, fotos. A 7 min a pé do Mosteiro.']),
       B('13h00','Almoço em Belém',['Adega de Belém, R. de Belém 40, +351 21 363 9167 — bacalhau com natas, entrecosto com migas.','Ou O Pedrouços, Doca de Belém, +351 21 364 4475 — peixe grelhado inteiro, mais leve e mais caro.','Reserva obrigatória nos dois: domingo em Belém é o pior dia para tentar sem.']),
       B('14h45','Torre de Belém',['10–15 min a pé pela orla, plano. 30 min de fotos externas.']),
-      B('15h30','Pastéis de Belém',['R. de Belém 84. Duas filas: a da rua é longa, a de dentro anda mais rápido — com 9 pessoas vale sentar.']),
+      B('15h30','Pastéis de Belém',['R. de Belém 84. Duas filas: a da rua é longa, a de dentro anda mais rápido — com 8 pessoas vale sentar.']),
       B('16h45','Belém → Chiado, 25–30 min',['Trem até Cais do Sodré (terminal), valide na saída.','Sem sair do prédio, sigam o M vermelho até o metrô e validem de novo — são dois sistemas.','Linha Verde sentido Telheiras → Baixa-Chiado. Saiam pelas placas “Largo do Chiado” / “Rua Garrett”: as escadas rolantes sobem sem um degrau a pé. Não peguem “Rua do Crucifixo”.']),
       B('17h30','Jantar — Cervejaria Trindade',['Reservem num dos salões dos azulejos, em cervejariatrindade.pt.','É o jantar mais caro de Lisboa no roteiro: evitem marisco a peso, peçam pratos para dividir e água da torneira.']),
     ] },
@@ -147,14 +147,14 @@ export const DAYS = [
     blocks:[
       B('04h30','Saída de Lisboa',['04h30 acordar · 05h00 check-out · 05h30 transfer · 08h15 voo · 11h45 Paris.','Confirmem na véspera se a recepção funciona 24h. Café da manhã no aeroporto, já nas salas de embarque.']),
       B('12h30','Transfer Welcome Pickups → hotel',['13h30 check-in no Ibis Budget Porte de Montmartre. Liberado desde o meio-dia: subam as malas e saiam leves.']),
-      B('14h00','Almoço — La REcyclerie',['83 Bd Ornano. Antiga estação de trem virada café e fazenda urbana. Serviço de balcão, rápido para 9.']),
-      B('15h25','Comprar os Navigo Semaine',['Guichê de Porte de Clignancourt (não sai nas máquinas). 32,40 € cada. Com 9 pessoas, reserve 20 minutos.']),
+      B('14h00','Almoço — La REcyclerie',['83 Bd Ornano. Antiga estação de trem virada café e fazenda urbana. Serviço de balcão, rápido para 8.']),
+      B('15h25','Comprar os Navigo Semaine',['Guichê de Porte de Clignancourt (não sai nas máquinas). 32,40 € cada. Com 8 pessoas, reserve 20 minutos.']),
       B('15h45','Linha 4 → Montmartre',['Direção Bagneux-Lucie Aubrac → Anvers (4 estações). Por Anvers o caminho é bonito e movimentado, mais seguro que as entradas dos fundos.']),
       B('16h00','Subida até a Basílica',['Rue de Steinkerque → Square Louise Michel. Peguem o Funicular de Montmartre, incluído no Navigo — com criança e idoso é a escolha certa.']),
       B('16h25','Sacré-Coeur',['Pôr do sol às 16h55: assistam do adro em frente à basílica, onde está a vista panorâmica. Vocês pegam a cidade acendendo.']),
       B('17h05','Place du Tertre',['2 min da basílica. Pintores, caricaturistas, cafés com mesas na rua.']),
       B('17h40','Brechós da Rue Ravignan e Rue des Abbesses',['SHOPTAPÉPITE Vintage, 10 Rue Ravignan — nota 5,0, fecha às 19h.','Carmin Vintage, 8 Rue des Abbesses — nota 4,9, fecha às 19h30.']),
-      B('19h00','Jantar — La Villa des Abbesses',['61 Rue des Abbesses, na mesma rua do brechó. Reserva para 9. Aberta até 1h, sem pressa.','A sopa de cebola é o prato citado pelos clientes.']),
+      B('19h00','Jantar — La Villa des Abbesses',['61 Rue des Abbesses, na mesma rua do brechó. Reserva para 8. Aberta até 1h, sem pressa.','A sopa de cebola é o prato citado pelos clientes.']),
       B('21h00','Uber ou Bolt até o hotel',['Embarque na Place des Abbesses. Não marquem o pino nas ruelas do alto. Dois XL, 10–15 min.']),
     ] },
   { id:'2026-12-15', label:'15/12', wd:'terça', city:'paris1', title:'Disneyland Park',
@@ -169,7 +169,7 @@ export const DAYS = [
       B('noite','Disney Tales of Magic',['O espetáculo do castelo.','A volta é o trecho difícil, não a ida: o parque inteiro caminha junto para a mesma estação.','Melhor opção: fiquem 30 minutos numa loja ou café da Disney Village. A estação esvazia e vocês viajam sentados.']),
       B('volta','RER A → Châtelet → Linha 4',['A Linha 4 circula até ~00h40. Saindo do parque até 22h30, folga enorme.','Chegando tarde na Porte de Clignancourt, dois Ubers resolvem os últimos 15 minutos.']),
     ],
-    avoid:['Baixem o app Disneyland Paris antes de viajar: fila em tempo real, horário dos shows, mapa e pedidos de comida antecipados. Com 9 pessoas vale mais que roteiro impresso.'] },
+    avoid:['Baixem o app Disneyland Paris antes de viajar: fila em tempo real, horário dos shows, mapa e pedidos de comida antecipados. Com 8 pessoas vale mais que roteiro impresso.'] },
   { id:'2026-12-16', label:'16/12', wd:'quarta', city:'paris1', title:'Disney Adventure World',
     sun:['08:40','16:54'],
     blocks:[
@@ -197,11 +197,11 @@ export const DAYS = [
   { id:'2026-12-18', label:'18/12', wd:'sexta', city:'interlaken', title:'Paris → Interlaken pela rota do Brünig',
     sun:['08:12','16:40'], travel:{ from:'Paris', to:'Interlaken', mode:'trem' },
     blocks:[
-      B('05h15','Manhã em Paris',['Malas fechadas na véspera. 05h45 transfer privado até a Gare de Lyon, 40 min.','06h30 café da manhã na estação; comprem sanduíches e água para o trem.','A plataforma dos TGV internacionais só aparece no painel ~20 min antes. Com 9 pessoas e malas, não dá para correr.']),
+      B('05h15','Manhã em Paris',['Malas fechadas na véspera. 05h45 transfer privado até a Gare de Lyon, 40 min.','06h30 café da manhã na estação; comprem sanduíches e água para o trem.','A plataforma dos TGV internacionais só aparece no painel ~20 min antes. Com 8 pessoas e malas, não dá para correr.']),
       B('07h15','TGV Lyria → Basel SBB',['3h04, lugares marcados. Atravessa a Borgonha e o Jura ao longo do rio Doubs.','Durmam na primeira metade. Chegada ~10h20.']),
       B('11h00','Basel → Luzern',['Reservem 40 min de baldeação e não saiam da estação — há um Coop dentro, bom momento para o lanche.','~1h de trem direto. Chegada ~12h00.']),
       B('12h30','LUZERN–INTERLAKEN EXPRESS',['Baldeação fácil: Luzern é terminal, saguão único no nível do chão. Reservem 20–30 min.','SENTEM DO LADO DIREITO. ~2h.','Cinco lagos de montanha, Monte Pilatus e o Passo do Brünig. Pouco antes da subida o trem muda para cremalheira.','Para a criança: peçam à equipe para apontar os animais entalhados do “Brünig Safari”, entre Meiringen e Giswil.']),
-      B('14h40','Chegada em Interlaken Ost',['Com 9 malas, ônibus em vez dos 20 min a pé. Nesta primeira viagem comprem bilhete na máquina — a Guest Card só sai no check-in.']),
+      B('14h40','Chegada em Interlaken Ost',['Com 8 malas, ônibus em vez dos 20 min a pé. Nesta primeira viagem comprem bilhete na máquina — a Guest Card só sai no check-in.']),
       B('15h00','Check-in + Guest Card',['Peçam a Interlaken Guest Card no balcão, uma por pessoa, e preencham nome e datas na hora.']),
       B('15h45','Coop, parada essencial',['Almoço de amanhã na montanha: pão, frios, queijo, frutas, barras, chocolate. E o café da manhã.','Chocolate quente feito no hotel custa zero; no topo do First, CHF 7 o copo.']),
       B('16h15','Höhematte antes de escurecer',['Sol se põe às 16h40: ~25 minutos de luz para a vista do Jungfrau do parque central.']),
@@ -225,9 +225,9 @@ export const DAYS = [
     blocks:[
       B('manhã','Check-out às 10h',['Vocês compraram tudo no sábado, porque hoje os supermercados estão fechados.','Se sobrar tempo, malas na recepção e uma última volta pela Höheweg.']),
       B('12h00','Interlaken Ost → Zürich HB',['Trem direto, ~2h, de hora em hora (normalmente IC8). Interlaken → Spiez → Thun → Berna → Olten → Zürich.','Sentem do lado ESQUERDO no trecho Interlaken–Spiez: o trem margeia o Lago de Thun quase todo o tempo.','Cheguem à plataforma 15 min antes e embarquem perto dos bagageiros.']),
-      B('14h00','Chegada e hotel',['Com 9 pessoas e bagagem: 2 Uber XL ou táxi na saída Bahnhofplatz, 4–7 min.','Mais barato: trem local até Hardbrücke, uma parada, e 5–7 min a pé. Alternativa: tram 4 direção Altstetten até Technopark.','15h00 check-in e descanso. O sol se põe às 16h40 — vocês saem já no escuro, que é quando o centro fica bonito.']),
+      B('14h00','Chegada e hotel',['Com 8 pessoas e bagagem: 2 Uber XL ou táxi na saída Bahnhofplatz, 4–7 min.','Mais barato: trem local até Hardbrücke, uma parada, e 5–7 min a pé. Alternativa: tram 4 direção Altstetten até Technopark.','15h00 check-in e descanso. O sol se põe às 16h40 — vocês saem já no escuro, que é quando o centro fica bonito.']),
       B('16h15','Caminhada do centro iluminado',['Tram 4 direção Tiefenbrunnen até Bahnhofquai/HB, ~8 min. Daqui é tudo a pé.','1. Bahnhofstrasse, com a iluminação suspensa sobre a via. No domingo é só vitrine — e a iluminação é o ponto.','2. Werdmühleplatz: SINGING CHRISTMAS TREE, palco em forma de árvore com corais ao vivo. Confiram o horário dos corais antes de sair.','3. Lindenhof (opcional, tem escadas e ladeira — quem não quiser subir espera num café da Rennweg).','4. Münsterhof: mercado de Natal diante da Fraumünster.','5. Travessia da Münsterbrücke — a melhor foto noturna da cidade, e de graça.','6. Grossmünster e Niederdorf: ruas medievais, barracas do Dörfli na Mühlegasse e na Hirschenplatz.']),
-      B('19h30','Jantar no Niederdorf',['Rheinfelder Bierhalle: comida suíça tradicional, porções grandes, o melhor custo-benefício do centro.','Ou Zum Königstuhl (fondue e raclette, mais caro). Reservem para 9 — domingo de Advento no Niederdorf lota.']),
+      B('19h30','Jantar no Niederdorf',['Rheinfelder Bierhalle: comida suíça tradicional, porções grandes, o melhor custo-benefício do centro.','Ou Zum Königstuhl (fondue e raclette, mais caro). Reservem para 8 — domingo de Advento no Niederdorf lota.']),
       B('21h00','Retorno',['Tram 4 em Rudolf-Brun-Brücke ou Central, direção Altstetten, até Technopark.']),
     ] },
   { id:'2026-12-21', label:'21/12', wd:'segunda', city:'zurique', title:'Mercados de Natal, patinação e Lindt',
@@ -244,7 +244,7 @@ export const DAYS = [
       B('15h35','Ônibus 165 até Kilchberg',['~20 min, deixa vocês praticamente na porta. Emergência: S-Bahn de Zürich HB até Kilchberg (~10 min) + 5–10 a pé.']),
       B('16h00','Chegada, 30 min de folga',['Guardem casacos e mochilas nos armários, banheiro, organizem o grupo.','O átrio com a fonte de chocolate de 9 metros, a maior do mundo, é de acesso livre.']),
       B('16h30','Lindt Home of Chocolate',['Ingresso JÁ PAGO. Audioguia disponível em português, degustações liberadas ao longo da exposição.','1h30 a 2h no ritmo normal. O único compromisso rígido é sair às 18h15 para a loja.']),
-      B('18h15','Loja Lindt',['A maior do mundo, +500 m². FECHA ÀS 19h. É aqui que se resolvem presentes e lembranças.','Com 9 pessoas comprando, formem duas filas de caixa em paralelo a partir das 18h45 — a fila do fechamento é o gargalo.']),
+      B('18h15','Loja Lindt',['A maior do mundo, +500 m². FECHA ÀS 19h. É aqui que se resolvem presentes e lembranças.','Com 8 pessoas comprando, formem duas filas de caixa em paralelo a partir das 18h45 — a fila do fechamento é o gargalo.']),
       B('19h10','Retorno e jantar no Kreis 5',['Ônibus 165 até Bürkliplatz, tram 8 até Escher-Wyss-Platz. ~45 min.','20h00 jantar perto do hotel: Im Viadukt (arcos do viaduto virados galeria) ou Frau Gerolds Garten, com chalés de fondue no inverno.','Reservem pela MANHÃ, antes de sair.']),
     ] },
   { id:'2026-12-22', label:'22/12', wd:'terça', city:'zurique', title:'Mount Titlis',
@@ -262,7 +262,7 @@ export const DAYS = [
     sun:['08:17','16:42'], travel:{ from:'Zurique', to:'Viena', mode:'trem noturno' },
     blocks:[
       B('09h00','Malas e mochila de cabine',['Separem uma mochila por pessoa com o que será usado no trem: escova, muda de roupa, remédios, carregador, água, lanche.','11h00 check-out. Antes, se quiserem, uma volta pelo Im Viadukt.']),
-      B('11h30','Guarda-volumes na Zürich HB',['Os armários automáticos podem não comportar 9 malas grandes: procurem o guarda-volumes com atendente, que aceita volumes grandes.','Guardem tudo de uma vez e anotem onde fica. Vocês voltam aqui às 20h15.']),
+      B('11h30','Guarda-volumes na Zürich HB',['Os armários automáticos podem não comportar 8 malas grandes: procurem o guarda-volumes com atendente, que aceita volumes grandes.','Guardem tudo de uma vez e anotem onde fica. Vocês voltam aqui às 20h15.']),
       B('12h00','Museu Nacional Suíço',['Colado à estação, 3 minutos a pé atravessando o Limmat. Castelo neogótico do fim do século XIX.','A maior coisa que vocês ainda não viram em Zurique: coberta, aquecida, plana e com elevador. Duas horas dão conta.','CONFIRMEM O HORÁRIO DE 23/12 no site. Atrás fica o Platzspitz, na ponta onde Limmat e Sihl se encontram.']),
       B('14h00','Almoço perto da estação',['Reserva recomendada — é 23 de dezembro.','Alternativa de custo-benefício: o ShopVille, nível subterrâneo da própria estação, com supermercado e opções rápidas.']),
       B('15h00','Polybahn e a Polyterrasse',['5 min a pé até o ponto Central. O funicular sobe em menos de dois minutos até o terraço da ETH.','Uma das melhores vistas da cidade — a que o Lindenhof daria, mas SEM SUBIDA A PÉ. Com a pessoa idosa, essa diferença é tudo.','Às 15h30 a luz cai e a cidade começa a acender: é a melhor hora para estar lá em cima. Coberto pelo passe da zona 110.']),
@@ -289,11 +289,11 @@ export const DAYS = [
   { id:'2026-12-26', label:'26/12', wd:'sábado', city:'viena', title:'Salzburgo, bate-volta', sidetrip:'salzburgo',
     sun:['07:53','16:20'], travel:{ from:'Viena', to:'Salzburgo', mode:'trem (ida e volta)' },
     blocks:[
-      B('antes','Confirmem duas coisas',['O mercado de Natal de Salzburgo costuma encerrar em 26/12. Se for o último dia, melhor ainda; se já fechou, o resto do programa segue de pé.','A Sparschiene é vinculada ao trem específico: se perderem a partida, o bilhete não vale em outro. Com 9 pessoas, escolham horário com folga.']),
+      B('antes','Confirmem duas coisas',['O mercado de Natal de Salzburgo costuma encerrar em 26/12. Se for o último dia, melhor ainda; se já fechou, o resto do programa segue de pé.','A Sparschiene é vinculada ao trem específico: se perderem a partida, o bilhete não vale em outro. Com 8 pessoas, escolham horário com folga.']),
       B('07h30','Wien Hbf → Salzburg Hbf',['Railjet, ~2h20 a 2h30. Chegada 10h00.','Da estação ao centro histórico são ~20 min a pé, ou poucos minutos de ônibus urbano — com a pessoa idosa, peguem o ônibus na ida.']),
       B('10h00','Entrada na cidade velha',['Makartsteg, a ponte dos cadeados. Depois Getreidegasse, Domplatz e o mercado de Natal.']),
-      B('almoço','Augustiner Bräu Mülln',['Cervejaria de monges desde 1621, self-service: você pega a comida nos balcões e a cerveja em canecas de meio litro ou litro.','Mesas comunitárias grandes — sendo self-service, mesa para 9 deixa de ser problema. Não aceita e não precisa reserva.','Alternativa: Stiegl-Keller, na subida da Fortaleza, com vista da cidade e preço mais honesto que a Getreidegasse. Para 9 pessoas num dia 26, reserva praticamente obrigatória.']),
-      B('tarde','Fortaleza Hohensalzburg',['Subida pelo funicular. Vista panorâmica — o ponto alto do dia.','Antes de comprar o Salzburg Card, façam a conta: funicular + entrada da Fortaleza + dois ônibus. Se der perto, fiquem no avulso, mais simples com 9 pessoas.']),
+      B('almoço','Augustiner Bräu Mülln',['Cervejaria de monges desde 1621, self-service: você pega a comida nos balcões e a cerveja em canecas de meio litro ou litro.','Mesas comunitárias grandes — sendo self-service, mesa para 8 deixa de ser problema. Não aceita e não precisa reserva.','Alternativa: Stiegl-Keller, na subida da Fortaleza, com vista da cidade e preço mais honesto que a Getreidegasse. Para 8 pessoas num dia 26, reserva praticamente obrigatória.']),
+      B('tarde','Fortaleza Hohensalzburg',['Subida pelo funicular. Vista panorâmica — o ponto alto do dia.','Antes de comprar o Salzburg Card, façam a conta: funicular + entrada da Fortaleza + dois ônibus. Se der perto, fiquem no avulso, mais simples com 8 pessoas.']),
       B('17h00','Retorno para Viena',['Railjet de volta, ~2h30.']),
     ] },
   { id:'2026-12-27', label:'27/12', wd:'domingo', city:'viena', title:'Viena, o dia mais importante',
@@ -309,8 +309,8 @@ export const DAYS = [
     sun:['07:32','16:15'], travel:{ from:'Viena', to:'Zagreb', mode:'voo' },
     blocks:[
       B('a decisão','Avião, e por quê',['O trem direto existia (~6h30, nem todos os dias), mas transformaria o dia num dia inteiro de transporte e faria vocês perderem a primeira noite de Advent.','Voo direto de ~1h, Austrian ou Croatia. Partida entre 9h e 11h.']),
-      B('08h30','Transfer ao aeroporto de Viena',['Dois carros grandes reservados com antecedência: são ~20 km e 9 malas. Não tentem resolver na hora.','Cheguem com 2h30 de antecedência — despachar nove malas num balcão único leva tempo.']),
-      B('tarde','Chegada em Zagreb',['Franjo Tuđman fica a ~20 km do centro. Transfer reservado antes: com nove malas, dois carros resolvem melhor que o ônibus de ligação.','15h00 check-in no Hotel Garden, Vodnikova 13.']),
+      B('08h30','Transfer ao aeroporto de Viena',['Dois carros grandes reservados com antecedência: são ~20 km e 8 malas. Não tentem resolver na hora.','Cheguem com 2h30 de antecedência — despachar oito malas num balcão único leva tempo.']),
+      B('tarde','Chegada em Zagreb',['Franjo Tuđman fica a ~20 km do centro. Transfer reservado antes: com oito malas, dois carros resolvem melhor que o ônibus de ligação.','15h00 check-in no Hotel Garden, Vodnikova 13.']),
       B('check-in','Três coisas para resolver no balcão',['QUARTO LONGE DA RUA — há relatos de barulho de tram e trânsito.','LAVANDERIA: é o momento certo da viagem. Entreguem hoje e retirem no dia 29 ou 30.','ÁGUA comprada fora; a do hotel custa ~4 €.','Se o quarto chegar com problema, peçam troca no primeiro dia — a equipe é elogiada justamente por isso.']),
       B('fim de tarde','Primeira volta pelo Advent, sem roteiro fechado',['Praça Ban Jelačić: barracas de artesanato e comida, o coração da festa.','Zrinjevac: o parque com as luzes e o coreto com música ao vivo.','A caminhada do hotel até lá é o próprio passeio: Jardim Botânico → Praça do Rei Tomislav → Strossmayer → Zrinjevac → Ban Jelačić → Dolac. 1,5 km plano.']),
       B('jantar','Nas barracas mesmo',['Provem sarma (charuto de repolho), štrukli (massa com queijo, o prato de Zagreb) e fritule (bolinhos doces).','A maior variedade de comida do Advent fica na Praça Strossmayer. Preço de feira.']),
@@ -367,12 +367,12 @@ export const DAYS = [
     sun:['08:44','17:02'], travel:{ from:'Paris (Orly)', to:'Brasil', mode:'voo 20h35' },
     blocks:[
       B('atenção','São dois aeroportos diferentes',['Vocês chegaram no CHARLES DE GAULLE em 31/12 e partem de ORLY em 02/01. Confiram o aeroporto de cada transfer — é o erro mais fácil de cometer, e sai caro no dia.']),
-      B('o relógio','Contando de trás para frente',['17h35 estar no aeroporto (3h de antecedência: nove malas num balcão só).','16h30 saída do hotel. Do 7º até Orly são 30–40 min de carro; reservem 50, é sábado à tarde.','Ou seja: o dia inteiro livre, das 9h às 16h15.']),
+      B('o relógio','Contando de trás para frente',['17h35 estar no aeroporto (3h de antecedência: oito malas num balcão só).','16h30 saída do hotel. Do 7º até Orly são 30–40 min de carro; reservem 50, é sábado à tarde.','Ou seja: o dia inteiro livre, das 9h às 16h15.']),
       B('09h00','Rue Cler em dia de feira',['Sábado é o dia forte da rua: padarias, queijarias, peixaria, floricultura. O retrato mais parisiense do bairro, e fica na porta.','Últimas compras de queijo, chocolate e vinho. Comprem agora, não no aeroporto.']),
-      B('10h00','Escolham UM programa, todos a ≤15 min a pé',['MUSÉE D’ORSAY (recomendado): impressionistas na antiga estação. Dá para ver o essencial em 2–3 horas com nove pessoas. Ingresso com hora marcada na véspera.','LES INVALIDES e o túmulo de Napoleão, com o Museu do Exército.','MUSEU RODIN, pequeno, com jardim de esculturas — o mais leve dos três.','Ou o Champ de Mars e a Torre de novo, sem entrar, para fechar a viagem onde ela começou em Paris.']),
-      B('13h00','Almoço no bairro',['Liguem na véspera: sábado de almoço com nove pessoas no 7º lota. Não estiquem além das 14h30.']),
-      B('14h30','Malas e reorganização',['As malas ficaram na recepção depois do check-out das 12h.','Redistribuir peso, guardar as compras da manhã, conferir passaportes e cartões de embarque. Uma hora e meia parece muito — com nove pessoas, não é.']),
-      B('16h30','Saída para Orly',['Transfer privado, dois carros grandes, reservado com antecedência.','Alternativa: Linha 8 até Madeleine e Linha 14 direto ao aeroporto, 45–50 min. Mas há TARIFA DE AEROPORTO específica, bem mais cara — e é uma baldeação com nove malas.']),
+      B('10h00','Escolham UM programa, todos a ≤15 min a pé',['MUSÉE D’ORSAY (recomendado): impressionistas na antiga estação. Dá para ver o essencial em 2–3 horas com oito pessoas. Ingresso com hora marcada na véspera.','LES INVALIDES e o túmulo de Napoleão, com o Museu do Exército.','MUSEU RODIN, pequeno, com jardim de esculturas — o mais leve dos três.','Ou o Champ de Mars e a Torre de novo, sem entrar, para fechar a viagem onde ela começou em Paris.']),
+      B('13h00','Almoço no bairro',['Liguem na véspera: sábado de almoço com oito pessoas no 7º lota. Não estiquem além das 14h30.']),
+      B('14h30','Malas e reorganização',['As malas ficaram na recepção depois do check-out das 12h.','Redistribuir peso, guardar as compras da manhã, conferir passaportes e cartões de embarque. Uma hora e meia parece muito — com oito pessoas, não é.']),
+      B('16h30','Saída para Orly',['Transfer privado, dois carros grandes, reservado com antecedência.','Alternativa: Linha 8 até Madeleine e Linha 14 direto ao aeroporto, 45–50 min. Mas há TARIFA DE AEROPORTO específica, bem mais cara — e é uma baldeação com oito malas.']),
     ] },
 ];
 
@@ -382,7 +382,7 @@ export const PLITVICE_DAY = {
   blocks:[
     B('o que esperar','Sem romantizar',['Temporada de inverno: SÓ OS LAGOS INFERIORES abrem, normalmente só pela ENTRADA 1.','O PARQUE FECHA ÀS 16H, com última entrada às 14h. Isso define o dia inteiro.','Ingresso de inverno bem mais barato e poucas centenas de visitantes: vocês vão ter as passarelas quase só para vocês.','As cachoeiras congelam parcialmente e o cenário fica branco — a versão do parque que quase nenhum turista vê.']),
     B('o ponto crítico','As passarelas com gelo, e é real',['Madeira escorregadia e trechos sem corrimão. Com uma pessoa idosa, isso é risco de queda, não detalhe de conforto.','BOTA IMPERMEÁVEL COM SOLA DE ADERÊNCIA — tênis não serve. Comprem em Zurique ou Viena, antes de chegar a Zagreb.','BASTÕES DE CAMINHADA para quem tiver menos equilíbrio.','Ninguém anda sozinho: em duplas, com alguém ao lado da pessoa idosa e alguém ao lado da criança, o tempo todo.']),
-    B('na contratação','A pergunta que precisa ser feita',['“O barco do lago Kozjak e o trem panorâmico estarão operando nesta data?” São eles que tornam o passeio possível sem subida a pé.','SE NÃO ESTIVEREM: façam a versão curta — mirante da Veliki Slap, trecho inicial das passarelas do cânion e volta pelo mesmo caminho.','Excursão com transporte PORTA A PORTA, busca no hotel ~8h. Peçam veículo único para os 9 e comparem com orçamento de transporte privativo.','NÃO tentem de ônibus público: a janela até o fechamento às 16h é apertada demais.','Comprem o ingresso do parque online com pelo menos um dia de antecedência.']),
+    B('na contratação','A pergunta que precisa ser feita',['“O barco do lago Kozjak e o trem panorâmico estarão operando nesta data?” São eles que tornam o passeio possível sem subida a pé.','SE NÃO ESTIVEREM: façam a versão curta — mirante da Veliki Slap, trecho inicial das passarelas do cânion e volta pelo mesmo caminho.','Excursão com transporte PORTA A PORTA, busca no hotel ~8h. Peçam veículo único para os 8 e comparem com orçamento de transporte privativo.','NÃO tentem de ônibus público: a janela até o fechamento às 16h é apertada demais.','Comprem o ingresso do parque online com pelo menos um dia de antecedência.']),
     B('07h00','Café da manhã e mochila',['Água, lanche, luvas, gorro, capa de chuva.','MUITOS RESTAURANTES DO PARQUE FECHAM NO INVERNO. Levem comida suficiente para o dia inteiro, comprada no dia anterior.']),
     B('08h00','Busca no hotel',['~2 horas de estrada em cada trecho.']),
     B('10h00','Chegada, Entrada 1',['Banheiros na entrada e perto do embarcadouro. Confirmem na bilheteria quais trechos estão abertos hoje e se barco e trem estão rodando.']),
@@ -399,7 +399,7 @@ export const DECISOES = [
     contexto:'Está decidido que vai acontecer; falta cravar o dia. A recomendação é o 29 — se der ruim, o 30 ainda serve de reserva; e o dia da cidade funciona com qualquer tempo, Plitvice não. Decidam na noite do dia 28, olhando a previsão.',
     opcoes:[['29','29/12 (recomendado)'],['30','30/12']] },
   { k:'ultimo', pergunta:'02/01: qual museu?',
-    contexto:'O Orsay entrega uma experiência comparável em metade do esforço, a 15 minutos a pé do hotel. O Louvre por dentro cabe — sábado ele abre e o voo é só às 20h35 — mas seria um último dia corrido com nove pessoas cansadas de três semanas.',
+    contexto:'O Orsay entrega uma experiência comparável em metade do esforço, a 15 minutos a pé do hotel. O Louvre por dentro cabe — sábado ele abre e o voo é só às 20h35 — mas seria um último dia corrido com oito pessoas cansadas de três semanas.',
     opcoes:[['orsay','Musée d’Orsay (recomendado)'],['louvre','Louvre por dentro']] },
 ];
 
@@ -407,7 +407,7 @@ export const CHECKLIST = [
   { k:'b0', titulo:'Já resolvido', sub:'Não mexer', tom:'#2f6b4f', items:[
     { id:'r1', mapa:'Disneyland Paris', t:'Ingressos Disneyland Paris, 15 e 16/12' },
     { id:'r2', mapa:'Lindt Home of Chocolate, Kilchberg', t:'Lindt Home of Chocolate, 21/12', n:'Slot confirmado às 16h30' },
-    { id:'a1', t:'Aéreo internacional de ida — Brasil → Lisboa, chegada 11/12 às 05h15', n:'Bilhetes emitidos para os 9.' },
+    { id:'a1', t:'Aéreo internacional de ida — Brasil → Lisboa, chegada 11/12 às 05h15', n:'Bilhetes emitidos para os 8.' },
     { id:'a2', t:'Voo Lisboa → Paris (Orly), 14/12 às 08h15' },
     { id:'r4', t:'Voo Zagreb (ZAG) → Paris (CDG), 31/12' },
     { id:'a3', t:'Aéreo internacional de volta — Paris (Orly) → Brasil, 02/01', n:'Saída do hotel 16h30. Orly, não CDG.' },
@@ -424,9 +424,9 @@ export const CHECKLIST = [
     { id:'c1', mapa:'Torre Eiffel, Paris', t:'Ingressos Torre Eiffel, 17/12, com hora marcada', n:'Venda abre 60 dias antes. Esgotam semanas antes.', url:'https://www.toureiffel.paris' },
     { id:'c2', mapa:'Paris Gare de Lyon', t:'TGV Lyria, Paris Gare de Lyon → Basel SBB, 18/12', n:'Reserva de assento obrigatória, não se viaja em pé.', url:'https://www.tgv-lyria.com' },
     { id:'c3', mapa:'Zürich Hauptbahnhof', t:'Nightjet Zurique → Viena, 23/12', n:'Compartimento privativo comfort, até 4 por cabine.', url:'https://www.nightjet.com' },
-    { id:'c4', t:'Reserva de assento no Luzern-Interlaken Express, 18/12', n:'CRÍTICA e não estava na lista de vocês: garante os 9 sentados juntos, do lado direito, e no trem panorâmico. Reservem ANTES de comprar o bilhete Basel → Interlaken.', url:'https://www.zentralbahn.ch' },
-    { id:'c5', mapa:'Wien Hauptbahnhof', t:'Passagens ÖBB Viena ⇄ Salzburgo, 26/12', n:'Tarifa Sparschiene, quantidade limitada por partida. Comprada na véspera, vocês pagam o preço cheio nove vezes. Vale escrever ao serviço de grupos (atende a partir de 6 pessoas).', url:'https://www.oebb.at' },
-    { id:'c6', t:'Voo Viena (VIE) → Zagreb (ZAG), 28/12', n:'Partida entre 9h e 11h. Comprar franquia de bagagem junto. Reserva única para os 9.' },
+    { id:'c4', t:'Reserva de assento no Luzern-Interlaken Express, 18/12', n:'CRÍTICA e não estava na lista de vocês: garante os 8 sentados juntos, do lado direito, e no trem panorâmico. Reservem ANTES de comprar o bilhete Basel → Interlaken.', url:'https://www.zentralbahn.ch' },
+    { id:'c5', mapa:'Wien Hauptbahnhof', t:'Passagens ÖBB Viena ⇄ Salzburgo, 26/12', n:'Tarifa Sparschiene, quantidade limitada por partida. Comprada na véspera, vocês pagam o preço cheio oito vezes. Vale escrever ao serviço de grupos (atende a partir de 6 pessoas).', url:'https://www.oebb.at' },
+    { id:'c6', t:'Voo Viena (VIE) → Zagreb (ZAG), 28/12', n:'Partida entre 9h e 11h. Comprar franquia de bagagem junto. Reserva única para os 8.' },
     { id:'c11', mapa:'Palácio de Schönbrunn, Viena', t:'Ingresso Palácio de Schönbrunn, 27/12, com hora marcada', n:'Domingo entre o Natal e o Ano Novo é dos dias mais cheios do ano em Viena.' },
   ]},
   { k:'b2', titulo:'Próximas semanas', sub:'Sem pressa, mas não deixem para depois', tom:'#a2761c', items:[
@@ -441,7 +441,7 @@ export const CHECKLIST = [
     { id:'p9', t:'Transfer Hotel du Cadran → aeroporto de ORLY, 02/01, saída 16h30', n:'ATENÇÃO: vocês chegam no CDG e partem de Orly. São aeroportos diferentes.' },
     { id:'p10', mapa:'Estação Porte de Clignancourt, Paris', t:'Navigo Semaine, Paris — comprar no dia 14/12 no guichê ou pelo app', n:'32,40 € por pessoa. Não sai nas máquinas automáticas.' },
     { id:'p11', t:'Passe de 7 dias da Wiener Linien, Viena', n:'25,20 € por adulto na versão digital, no app WienMobil. A criança provavelmente não paga nada.' },
-    { id:'p12', mapa:'Parque Nacional dos Lagos de Plitvice', t:'Excursão aos Lagos de Plitvice', n:'Transporte porta a porta, busca no hotel ~8h. Veículo único para os 9. Perguntem se o barco do Kozjak e o trem panorâmico estarão operando. Ingresso do parque online com 1 dia de antecedência.' },
+    { id:'p12', mapa:'Parque Nacional dos Lagos de Plitvice', t:'Excursão aos Lagos de Plitvice', n:'Transporte porta a porta, busca no hotel ~8h. Veículo único para os 8. Perguntem se o barco do Kozjak e o trem panorâmico estarão operando. Ingresso do parque online com 1 dia de antecedência.' },
   ]},
   { k:'b3', titulo:'Na véspera ou no dia', sub:'Não antecipem', tom:'#3a55a0', items:[
     { id:'v1', mapa:'Estação do Rossio, Lisboa', t:'Cartões Viva Viagem com saldo Zapping', n:'No dia 11/12, máquina do Rossio.' },
@@ -678,7 +678,7 @@ export const APPS = [
 ];
 
 export const REGRAS_MESA = [
-  ['Nove pessoas é o limiar','Para nove, restaurante europeu quase nunca aceita quem chega de surpresa. Assumam que toda refeição sentada precisa de reserva.'],
+  ['Oito pessoas é o limiar','Para oito, restaurante europeu quase nunca aceita quem chega de surpresa. Assumam que toda refeição sentada precisa de reserva.'],
   ['Reservem de véspera, à noite, do hotel','Leva cinco minutos por dia e separa um jantar tranquilo de uma hora rodando no frio.'],
   ['Ao reservar, informem sempre','Número de pessoas, que há uma criança de 10 anos e uma pessoa idosa, e peçam mesa térrea. E MESA ÚNICA — o padrão é dividir vocês em duas mesas distantes.'],
   ['Almoço é mais barato que jantar','“Prato do dia”, “formule midi”, “Tagesmenü”. Na Suíça a diferença chega à metade do preço.'],
@@ -694,7 +694,7 @@ export const UBER_GANHA = [
   ['Lisboa, 12/12','eventual resgate no Chafariz de Dentro'],
   ['Paris, 14/12','saída de Montmartre à noite, da Place des Abbesses'],
   ['Paris, 17/12','do píer do Sena até o jantar, embarcando na Avenue Montaigne'],
-  ['Zurique, 20/12','da estação central ao hotel, com as nove malas'],
+  ['Zurique, 20/12','da estação central ao hotel, com as oito malas'],
   ['Viena, 24/12','da Wien Hauptbahnhof ao apartamento, com as malas'],
   ['Zagreb, 28/12','da chegada ao Hotel Garden'],
 ];

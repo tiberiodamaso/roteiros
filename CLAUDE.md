@@ -4,7 +4,9 @@ This file provides guidance to Claude Code (claude.ai/code) when working with co
 
 ## What this is
 
-A single-page, interactive travel itinerary ("Natal na Europa", 11/12/2026 → 02/01/2027, 9 travelers, 7 bases), published as a static site on GitHub Pages.
+A single-page, interactive travel itinerary ("Natal na Europa", 11/12/2026 → 02/01/2027, 8 travelers, 7 bases), published as a static site on GitHub Pages.
+
+The group is **7 adults — one of them over 60 — and one 10-year-old**. The count drives a lot of prose ("com oito pessoas, reserve 20 minutos", "mesa para oito", "oito malas num balcão só"), so it is not a cosmetic number. It is *not* the same as the finance denominator: `finance()` reports per adult and per family of 2 adults + 1 child (2.75 shares), which is one family inside the group, not the group.
 
 Plain HTML, CSS and vanilla JS. **No build step, no bundler, no framework, no dependencies.** If a change seems to need a package, it is the wrong change.
 

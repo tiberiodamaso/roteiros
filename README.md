@@ -4,7 +4,7 @@ Repositório para publicar roteiros de viagem.
 
 ## Natal na Europa — 11/12/2026 a 02/01/2027
 
-Site estático com o roteiro completo: 23 dias, 7 bases, 9 pessoas.
+Site estático com o roteiro completo: 23 dias, 7 bases, 8 pessoas.
 Oito telas — visão geral, cidades, meu dia, timeline, falta comprar,
 financeiro, prático e roteiro completo — com busca, contagem regressiva
 e checklist salvo no navegador.

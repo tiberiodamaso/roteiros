@@ -65,16 +65,16 @@ BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
    nightjet.com. Compartimento privativo comfort, até 4 por cabine.
 4. RESERVA DE ASSENTO no LUZERN-INTERLAKEN EXPRESS, 18/12
    zentralbahn.ch. Não estava na lista de vocês e é crítica: é o que garante
-   que os 9 sentem juntos, do lado direito, e que estarão no trem panorâmico
+   que os 8 sentem juntos, do lado direito, e que estarão no trem panorâmico
    e não no regional. Reservem ANTES de comprar o bilhete Basel -> Interlaken.
 5. PASSAGENS ÖBB VIENA <-> SALZBURGO, 26/12
    Não estava na lista de vocês. App ÖBB, tarifa Sparschiene, que é promocional
    com quantidade limitada por partida. Comprada na véspera, vocês pagam o
-   preço cheio nove vezes. Vale escrever ao serviço de grupos da ÖBB, que
+   preço cheio oito vezes. Vale escrever ao serviço de grupos da ÖBB, que
    atende a partir de 6 pessoas.
 6. VOO VIENA (VIE) -> ZAGREB (ZAG), 28/12
    Decidido avião. Partida entre 9h e 11h. Comprar franquia de bagagem junto.
-   Reserva única para os 9.
+   Reserva única para os 8.
 7. VOO ZAGREB (ZAG) -> PARIS (CDG), 31/12
    Não estava na lista de vocês. Preferir o voo da manhã: em 31/12 o comércio
    da região dos Champs-Élysées fecha entre 15h e 18h, e chegar às 16h30
@@ -122,14 +122,14 @@ BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
 23. [DECIDIDO: PLITVICE — FALTA COMPRAR] Excursão aos Lagos de Plitvice, 30/12
     (ou 29/12 — ver a discussão de data na seção do dia; recomendo o 29)
     Contratar excursão com transporte porta a porta, busca no hotel por volta
-    das 8h. Pedir veículo único para os 9 e comparar com orçamento de transporte
+    das 8h. Pedir veículo único para os 8 e comparar com orçamento de transporte
     privativo.
     PERGUNTAR NA CONTRATAÇÃO: o barco do lago Kozjak e o trem panorâmico estarão
     operando nesta data? Sem eles, a volta é subida a pé.
     Comprar o ingresso do parque online com pelo menos um dia de antecedência.
 
 RESERVAS DE RESTAURANTE — nenhuma estava na lista de vocês
-Com nove pessoas, todas são obrigatórias. Detalhes e telefones na seção
+Com oito pessoas, todas são obrigatórias. Detalhes e telefones na seção
 "RESTAURANTES — CUSTO-BENEFÍCIO E RESERVAS".
 24. 11/12 almoço — Casa do Alentejo
 25. 11/12 jantar — Trama Pasta Fresca
@@ -200,7 +200,7 @@ TRANSPORTE URBANO — CARTÕES, APPS E O QUE COMPRAR EM CADA CIDADE
 
 APPS PARA INSTALAR AINDA NO BRASIL
 Instalem e criem conta antes de embarcar. Fazer isso num aeroporto europeu,
-com nove pessoas e wi-fi ruim, é o pior momento possível.
+com oito pessoas e wi-fi ruim, é o pior momento possível.
 - FRANÇA: "Île-de-France Mobilités" — Navigo Semaine e bilhetes avulsos
 - SUÍÇA: "SBB Mobile" — trens, bilhetes urbanos e o Half Fare Card
 - ÁUSTRIA: "WienMobil" (transporte de Viena) e "ÖBB" (trens, inclusive Salzburgo)
@@ -353,11 +353,11 @@ COMPRAR: passagens ÖBB Wien Hauptbahnhof -> Salzburg Hauptbahnhof, ida e volta
 - COMPREM COM MESES DE ANTECEDÊNCIA. A ÖBB vende tarifas promocionais chamadas
   SPARSCHIENE, com preço fixo e quantidade limitada por partida. Compradas
   cedo, custam uma fração da tarifa de balcão. Compradas na véspera, vocês
-  pagam o preço cheio, nove vezes.
+  pagam o preço cheio, oito vezes.
 - A Sparschiene é vinculada àquele trem específico. Se perderem a partida, o
-  bilhete não vale em outro. Com nove pessoas, escolham um horário com folga.
+  bilhete não vale em outro. Com oito pessoas, escolham um horário com folga.
 - VALE PERGUNTAR: a ÖBB tem atendimento e tarifas para grupos a partir de seis
-  pessoas. Com nove, escrevam para o serviço de grupos antes de comprar
+  pessoas. Com oito, escrevam para o serviço de grupos antes de comprar
   individualmente e comparem.
 
 TRANSPORTE DENTRO DE SALZBURGO
@@ -373,7 +373,7 @@ CARTÃO TURÍSTICO: SALZBURG CARD
   caminhada pela cidade velha, mercado de Natal, almoço e a Fortaleza.
   Façam a conta simples antes de comprar: some o funicular mais a entrada da
   Fortaleza mais dois ônibus e compare com o preço do cartão. Se der perto,
-  fiquem no avulso, que é mais simples com nove pessoas.
+  fiquem no avulso, que é mais simples com oito pessoas.
 
 ---------------------------------------------------------------
 6. ZAGREB — 28 a 31/12
@@ -451,7 +451,7 @@ Nightjet, todos tratados nas seções específicas.
 ---------------------------------------------------------------
 ONDE O UBER GANHA DO TRANSPORTE PÚBLICO NESTA VIAGEM
 ---------------------------------------------------------------
-Com nove pessoas, dois carros custam pouco mais que nove bilhetes, e às vezes
+Com oito pessoas, dois carros custam pouco mais que oito bilhetes, e às vezes
 menos. Vale chamar carro nestes momentos específicos, todos já marcados no
 roteiro:
 - Lisboa, 12/12: subida ao Castelo de São Jorge
@@ -459,7 +459,7 @@ roteiro:
   a descida de Alfama
 - Paris, 14/12: saída de Montmartre à noite, da Place des Abbesses
 - Paris, 17/12: do píer do Sena até o jantar, embarcando na Avenue Montaigne
-- Zurique, 20/12: da estação central ao hotel, com as nove malas
+- Zurique, 20/12: da estação central ao hotel, com as oito malas
 - Viena, 24/12: da Wien Hauptbahnhof ao apartamento, com as malas
 - Zagreb, 28/12: da chegada ao Hotel Garden
 Regra de bolso: sempre que houver mala grande, chuva, ou mais de vinte minutos
@@ -475,14 +475,14 @@ RESTAURANTES — CUSTO-BENEFÍCIO E RESERVAS
 
 A REGRA QUE VALE PARA A VIAGEM INTEIRA
 - NOVE PESSOAS É O LIMIAR. Na Europa, restaurante aceita quem chega de surpresa
-  para mesa de dois a quatro. Para nove, quase nunca. Assumam que toda refeição
+  para mesa de dois a quatro. Para oito, quase nunca. Assumam que toda refeição
   sentada precisa de reserva, e tratem a exceção como sorte, não como plano.
 - Reservem de véspera, à noite, do hotel. Leva cinco minutos por dia e é o que
   separa um jantar tranquilo de uma hora rodando no frio procurando mesa.
 - Ao reservar, informem sempre: número de pessoas, que há uma criança de 10 anos
   e uma pessoa idosa, e peçam mesa térrea ou de fácil acesso. Muitas casas
   europeias têm salão em porão ou mezanino com escada estreita.
-- Peçam também mesa única, e não duas mesas separadas. Com nove pessoas, o
+- Peçam também mesa única, e não duas mesas separadas. Com oito pessoas, o
   padrão do restaurante é dividir vocês em duas mesas distantes.
 
 OS QUATRO GATILHOS DE CUSTO-BENEFÍCIO
@@ -495,7 +495,7 @@ OS QUATRO GATILHOS DE CUSTO-BENEFÍCIO
 2. ÁGUA DA TORNEIRA
    Na França é gratuita por lei: peçam "une carafe d'eau". Na Suíça e na Áustria
    não é automática, mas costuma ser servida se pedirem: "Hahnenwasser, bitte".
-   Com nove pessoas, água em garrafa em três refeições por dia vira uma conta
+   Com oito pessoas, água em garrafa em três refeições por dia vira uma conta
    por si só.
 3. DIVIDIR EM VEZ DE PEDIR INDIVIDUAL
    Em Portugal e na Suíça alemã as porções são grandes o bastante para dois.
@@ -519,7 +519,7 @@ LISBOA
 - 11/12 almoço — CASA DO ALENTEJO
   Custo-benefício: alto. Cozinha alentejana, porções grandes, preço honesto para
   o centro, e o salão mourisco é um passeio em si.
-  RESERVA: recomendada, e obrigatória para nove pessoas num fim de semana.
+  RESERVA: recomendada, e obrigatória para oito pessoas num fim de semana.
 - 11/12 jantar — TRAMA PASTA FRESCA
   Custo-benefício: alto. Massa fresca, nota 4,9, preço bem abaixo da média da
   Baixa.
@@ -530,7 +530,7 @@ LISBOA
   RESERVA: OBRIGATÓRIA. Já está marcada como tal no roteiro.
 - 12/12 petisco no Largo de São Miguel — Alma do Fado ou Antù Alfama
   RESERVA: não precisa. É parada de cerveja e petisco, não refeição.
-  Só cheguem cientes de que o Antù é pequeno e pode ter espera com nove.
+  Só cheguem cientes de que o Antù é pequeno e pode ter espera com oito.
 - 12/12 jantar — A LICORISTA
   Custo-benefício: alto. Porções generosas para dividir.
   RESERVA: OBRIGATÓRIA, e aproveitem a ligação para confirmar se servem jantar
@@ -558,14 +558,14 @@ PARIS 1
   destacam justamente a relação entre a comida e o preço, e a sopa de cebola é
   citada como a melhor que já provaram. O Le Poulbot, descartado, ficava na área
   da Place du Tertre, a zona mais turística e mais cara do bairro.
-  RESERVA: OBRIGATÓRIA para nove. Aberta até 1h, então não há pressa depois —
+  RESERVA: OBRIGATÓRIA para oito. Aberta até 1h, então não há pressa depois —
   o Uber das 21h na Place des Abbesses continua valendo, mas sem relógio em
   cima.
 - 15 e 16/12, Disney
   Custo-benefício: a estratégia já está no roteiro. Levem água e lanche,
   e paguem por UMA refeição sentada no meio da tarde, que vale como descanso.
   RESERVA: use o app oficial da Disneyland Paris para reservar mesa e para
-  pedir comida antecipadamente. Com nove pessoas, sem isso vocês ficam em pé
+  pedir comida antecipadamente. Com oito pessoas, sem isso vocês ficam em pé
   na fila e depois sem mesa.
 - 17/12 almoço — SMASH.B ÉLYSÉE
   Custo-benefício: alto para a região dos Champs-Élysées, que é das mais caras
@@ -621,7 +621,7 @@ SUÍÇA — ZURIQUE
 - 20/12 jantar — RHEINFELDER BIERHALLE
   Custo-benefício: o melhor do centro de Zurique. Comida suíça tradicional,
   porções grandes, ambiente informal, feito para grupo.
-  RESERVA: OBRIGATÓRIA para nove, num domingo de Advento no Niederdorf.
+  RESERVA: OBRIGATÓRIA para oito, num domingo de Advento no Niederdorf.
 - 20/12 jantar, alternativa — ZUM KÖNIGSTUHL
   AVISO DE CUSTO: fondue e raclette em casa antiga saem bem mais caro que a
   Bierhalle. Se o critério é custo-benefício, a Bierhalle ganha.
@@ -653,13 +653,13 @@ SUÍÇA — ZURIQUE
 - 26/12 almoço em Salzburgo — AUGUSTINER BRÄU MÜLLN
   Custo-benefício: o melhor dos dois. Cervejaria de monges desde 1621, sistema
   self-service em que você pega a comida nos balcões, mesas comunitárias
-  grandes. Sendo self-service, mesa para nove deixa de ser problema.
+  grandes. Sendo self-service, mesa para oito deixa de ser problema.
   RESERVA: não aceita e não precisa. Cheguem e sentem.
 - 26/12 almoço, alternativa — STIEGL-KELLER
   Custo-benefício: bom, e o preço é mais honesto que o dos restaurantes da
   Getreidegasse. Mas é restaurante com serviço, e sai acima do Augustiner.
   Vantagem: vista da cidade e localização na subida da Fortaleza.
-  RESERVA: recomendada, e para nove pessoas num dia 26 de dezembro, praticamente
+  RESERVA: recomendada, e para oito pessoas num dia 26 de dezembro, praticamente
   obrigatória.
 - 27/12 jantar final em Viena
   RESERVA: OBRIGATÓRIA. Domingo entre o Natal e o Ano Novo é dos dias mais
@@ -682,7 +682,7 @@ PARIS 2 — RÉVEILLON
 - 31/12 jantar — DUAS ESTRATÉGIAS OPOSTAS
   a) MENU DE RÉVEILLON em restaurante ou barco-restaurante.
      AVISO DE CUSTO: é a refeição mais cara da viagem inteira, disparado.
-     Preço fixo alto, e para nove pessoas o valor assusta.
+     Preço fixo alto, e para oito pessoas o valor assusta.
      RESERVA: OBRIGATÓRIA com MESES de antecedência. Se ainda não reservaram,
      provavelmente já não há mais o que reservar em boa relação preço-qualidade.
   b) CEIA MONTADA NO HOTEL, com compras da Rue Cler feitas na tarde do dia 31.
@@ -702,7 +702,7 @@ PARIS 2 — RÉVEILLON
   2. Repetir a compra da Rue Cler do dia 31 e comer no hotel.
   3. Restaurante, com RESERVA OBRIGATÓRIA feita com semanas de antecedência.
 - 02/01 — Rue Cler em pleno funcionamento de feira de sábado
-  RESERVA: não precisa para almoço de bairro, mas com nove pessoas vale ligar
+  RESERVA: não precisa para almoço de bairro, mas com oito pessoas vale ligar
   na véspera.
 
 
@@ -1456,7 +1456,7 @@ Onde comprar em Zurique:
 - Máquinas em todos os pontos de tram e de ônibus. Aceitam cartão.
 - App ZVV ou app SBB Mobile.
 - Guichê da estação central, se preferirem resolver com atendente na chegada.
-  Com 9 pessoas, o guichê é mais lento, mas evita erro de zona.
+  Com 8 pessoas, o guichê é mais lento, mas evita erro de zona.
 
 5. ENGELBERG E TITLIS, 22/12
 - Ônibus da estação de trem até a estação base do teleférico: GRATUITO,
@@ -1808,7 +1808,7 @@ TRECHO — Interlaken Ost -> Zürich HB
 - Meta: embarcar por volta do meio-dia e chegar por volta das 14h00
 
 CHEGADA A ZURIQUE — três formas de ir ao hotel
-- Recomendada com 9 pessoas e bagagem: 2 Uber XL ou táxi na saída Bahnhofplatz.
+- Recomendada com 8 pessoas e bagagem: 2 Uber XL ou táxi na saída Bahnhofplatz.
   São 4 a 7 minutos de carro.
 - Mais barata: trem local de Zürich HB até Zürich Hardbrücke, uma parada, e
   5 a 7 minutos a pé até o hotel. Só funciona bem se as malas rodarem.
@@ -1854,7 +1854,7 @@ Tudo a pé, num percurso contínuo de norte para sul e depois cruzando o rio.
   antiga
 - Opção 2 — Rheinfelder Bierhalle: comida suíça tradicional, porções grandes,
   o melhor custo-benefício do centro. Informal, boa para grupo.
-- Reservem para 9 pessoas. Domingo de Advento no Niederdorf lota.
+- Reservem para 8 pessoas. Domingo de Advento no Niederdorf lota.
 
 21h00 — Retorno ao hotel
 - Tram 4 em Rudolf-Brun-Brücke ou Central, direção Altstetten, até Technopark
@@ -1954,7 +1954,7 @@ Três avisos práticos
   cartão e não contem só com francos no bolso.
 - Preço de feira na Suíça não é barato. Uma porção de raclette e um vinho
   quente por pessoa já dão uma conta respeitável. Ainda assim sai bem abaixo de
-  um almoço sentado para nove pessoas, e vocês economizam quase uma hora.
+  um almoço sentado para oito pessoas, e vocês economizam quase uma hora.
 - Comam de verdade. Vocês vão passar a tarde inteira fora e só jantam às 20h,
   depois da Lindt. Petiscar pouco agora é receita de mau humor às 18h.
 
@@ -2011,7 +2011,7 @@ Bürkliplatz, sem precisar de transporte:
   mas só se vocês entrarem sabendo o que querem.
 - É aqui que se resolvem os presentes de Natal e as lembranças para o Brasil,
   com preço melhor e variedade maior que no aeroporto
-- Dica prática: com 9 pessoas comprando, formem duas filas de caixa em paralelo
+- Dica prática: com 8 pessoas comprando, formem duas filas de caixa em paralelo
   a partir das 18h45. A fila do fechamento é o gargalo, não a escolha.
 
 19h10 — Retorno
@@ -2088,7 +2088,7 @@ TRÊS COISAS QUE MUDARAM E QUE NÃO ESTAVAM NO ROTEIRO ANTIGO
 - Montem a mochila: luvas, gorro, óculos escuros, protetor solar. A neve a
   3.000 metros reflete mais que praia.
 - Comprem o almoço num Coop ou Migros da estação central. O restaurante
-  panorâmico do topo é caro, e a economia com 9 pessoas é significativa.
+  panorâmico do topo é caro, e a economia com 8 pessoas é significativa.
 
 08h00 — Hotel -> Zürich HB
 - Trem local de Hardbrücke, uma parada, ou tram 4
@@ -2196,7 +2196,7 @@ circular leve.
 11h00 — Check-out
 
 11h30 — Zürich Hauptbahnhof: resolver a bagagem
-- Os armários automáticos da estação podem não comportar 9 malas grandes.
+- Os armários automáticos da estação podem não comportar 8 malas grandes.
   Procurem o guarda-volumes com atendente, na própria estação, que aceita
   volumes grandes e cobra por peça.
 - Guardem tudo de uma vez e anotem onde fica. Vocês voltam aqui às 20h15.
@@ -2283,7 +2283,7 @@ conhece.
 20h15 — Retirar as malas do guarda-volumes
 
 20h30 — Plataforma
-- O número da plataforma aparece no painel. Com 9 pessoas e bagagem, estejam lá
+- O número da plataforma aparece no painel. Com 8 pessoas e bagagem, estejam lá
   com meia hora de folga.
 
 21h00 — Embarque no Nightjet, Zurique -> Viena
@@ -2435,7 +2435,7 @@ DECIDIDO: AVIÃO. PASSAGEM AINDA NÃO COMPRADA.
 - A opção de trem foi descartada. Ela existia (direto Wien Hbf -> Zagreb Glavni
   Kolodvor, cerca de 6h30, nem todos os dias, às vezes com baldeação em Graz ou
   Villach), mas transformaria o dia 28 num dia inteiro de transporte e faria
-  vocês perderem a primeira noite de Advent. Com nove pessoas, um idoso e uma
+  vocês perderem a primeira noite de Advent. Com oito pessoas, um idoso e uma
   criança, trocar sete horas de trem por uma de voo compra um dia inteiro de
   viagem de volta.
 
@@ -2447,7 +2447,7 @@ O QUE OBSERVAR NA HORA DE COMPRAR
    Evitem voo do fim da tarde: vocês ficariam com as malas nas costas o dia
    todo em Viena e chegariam a Zagreb já de noite, sem tempo de nada.
 2. BAGAGEM DESPACHADA: em rota curta europeia ela quase nunca está incluída na
-   tarifa básica. São nove malas grandes. Comprem a franquia junto com a
+   tarifa básica. São oito malas grandes. Comprem a franquia junto com a
    passagem, porque no balcão do aeroporto ela custa bem mais caro.
    Confiram também o peso máximo por peça — é mais baixo que em voo
    intercontinental, e vocês estarão vindo de três semanas de compras.
@@ -2467,15 +2467,15 @@ LOGÍSTICA DO DIA
 - 08h30 a 09h00 — Transfer do apartamento ao aeroporto de Viena.
   O apartamento fica no bairro 1020, e o aeroporto de Viena fica a cerca de
   20 km. Reservem dois carros grandes com antecedência; não tentem resolver na
-  hora com nove pessoas e nove malas.
+  hora com oito pessoas e oito malas.
   Alternativa de transporte público: trem S-Bahn ou railjet do Wien Hauptbahnhof
   ao aeroporto. Só compensa se o grupo estiver disposto a arrastar as malas até
   a estação.
 - Cheguem ao aeroporto com 2h30 de antecedência. Voo europeu de baixa distância
-  pede menos, mas despachar nove malas num balcão único leva tempo.
+  pede menos, mas despachar oito malas num balcão único leva tempo.
 - Chegada em Zagreb: reservem o transfer até o Hotel Garden antes de viajar.
   O aeroporto Franjo Tuđman fica a cerca de 20 km do centro. Há ônibus de
-  ligação até a rodoviária, mas com nove malas dois carros resolvem melhor.
+  ligação até a rodoviária, mas com oito malas dois carros resolvem melhor.
 - 15h00 — Check-in no Hotel Garden, Vodnikova 13
 
 O HOTEL GARDEN E POR QUE A LOCALIZAÇÃO DELE RESOLVE ZAGREB
@@ -2531,7 +2531,7 @@ JARDIM BOTÂNICO, LOGO AO LADO
 
 TRÊS COISAS PARA RESOLVER NO CHECK-IN
 1. PEÇAM QUARTO LONGE DA RUA. Há relatos de hóspedes sobre barulho de tram e
-   de trânsito com a janela aberta. Com nove pessoas chegando de uma viagem de
+   de trânsito com a janela aberta. Com oito pessoas chegando de uma viagem de
    um dia inteiro, um quarto silencioso vale a pergunta.
 2. LAVANDERIA. O hotel tem serviço de lavanderia elogiado por preço e rapidez.
    Este é o momento certo da viagem para usar: vocês estão no décimo oitavo dia,
@@ -2717,10 +2717,10 @@ COMO IR — CONTRATEM EXCURSÃO GUIADA, NÃO TENTEM POR CONTA
   operadores que fazem exatamente isso, com saída por volta das 8h e retorno no
   fim da tarde.
 - NÃO tentem de ônibus público. A janela entre a chegada e o fechamento do
-  parque às 16h é apertada demais, e com nove pessoas qualquer atraso
+  parque às 16h é apertada demais, e com oito pessoas qualquer atraso
   compromete o dia.
-- Ao contratar para nove pessoas, peçam veículo único. Vale pedir orçamento de
-  transporte privativo: com nove, às vezes sai igual ou mais barato que nove
+- Ao contratar para oito pessoas, peçam veículo único. Vale pedir orçamento de
+  transporte privativo: com oito, às vezes sai igual ou mais barato que oito
   lugares em excursão regular, e vocês ganham controle de horário.
 - Comprem o ingresso do parque online com pelo menos um dia de antecedência.
 
@@ -2802,12 +2802,12 @@ O VOO
   tem um relógio próprio, e chegar às 11h em vez de 15h muda completamente o
   que é possível fazer.
 - Há também voos da Ryanair para Beauvais (BVA), mas Beauvais fica a 85 km de
-  Paris e o ônibus de ligação é uma hora e quinze. No dia 31, com 9 pessoas,
+  Paris e o ônibus de ligação é uma hora e quinze. No dia 31, com 8 pessoas,
   não compensa a economia.
 - Confirmem os horários para a data exata: as grades de fim de ano mudam
 
 DO AEROPORTO AO HOTEL
-- Reservem transfer privado com antecedência, 2 vans para 9 pessoas e bagagem
+- Reservem transfer privado com antecedência, 2 vans para 8 pessoas e bagagem
 - CDG -> Hotel du Cadran (7º arrondissement): 45 min a 1h fora de pico
 - Não contem com táxi na hora. É 31 de dezembro.
 
@@ -2908,11 +2908,11 @@ Caminho 2 — Torre Eiffel a partir do bairro (minha recomendação)
 Caminho 3 — Jantar de Réveillon fechado
 - Restaurantes de Paris vendem menu de Réveillon com preço fixo, e barcos-
   restaurante no Sena fazem cruzeiro com jantar e vista da Torre à meia-noite
-- Precisa ser reservado com meses de antecedência, e para 9 pessoas quanto antes
+- Precisa ser reservado com meses de antecedência, e para 8 pessoas quanto antes
   melhor
 - É a opção mais cara e a mais confortável
 
-SUGESTÃO DE ARRANJO PARA UM GRUPO DE 9
+SUGESTÃO DE ARRANJO PARA UM GRUPO DE 8
 - Vocês não precisam escolher um caminho só. O grupo pode se dividir:
   - Quem quiser a experiência dos Champs-Élysées sai por volta das 18h30 e
     volta de metrô de madrugada, com transporte gratuito
@@ -3064,7 +3064,7 @@ fácil de cometer, e sai caro no dia.
 
 O RELÓGIO DO DIA
 - 17h35 — Estar no aeroporto. Três horas de antecedência para voo internacional
-  de longo curso, com nove pessoas e nove malas para despachar num balcão só.
+  de longo curso, com oito pessoas e oito malas para despachar num balcão só.
 - 16h30 — Saída do hotel. Do 7º arrondissement até Orly são cerca de 30 a 40
   minutos de carro; reservem 50, porque é sábado à tarde e ninguém quer fazer
   essa conta apertada.
@@ -3073,7 +3073,7 @@ O RELÓGIO DO DIA
 
 COMO IR ATÉ ORLY
 - RECOMENDADO: transfer privado, dois carros grandes, reservado com
-  antecedência. Com nove malas grandes no fim de uma viagem de três semanas,
+  antecedência. Com oito malas grandes no fim de uma viagem de três semanas,
   não há alternativa razoável.
 - Alternativa de transporte público, se quiserem economizar: do hotel são 2 a 3
   minutos a pé até École Militaire.
@@ -3084,7 +3084,7 @@ COMO IR ATÉ ORLY
   minutos no total.
   ATENÇÃO: o trajeto até Orly tem TARIFA DE AEROPORTO específica, bem mais cara
   que o bilhete comum. Confirmem o valor na hora. E avaliem honestamente se
-  vale fazer uma baldeação com nove malas para economizar.
+  vale fazer uma baldeação com oito malas para economizar.
 
 O DIA, HORA A HORA
 
@@ -3098,7 +3098,7 @@ O DIA, HORA A HORA
 Todos a 15 minutos ou menos a pé do hotel, sem transporte:
 - MUSÉE D'ORSAY (recomendado). Impressionistas na antiga estação de trem.
   Sábado abre normalmente. É um museu de primeira linha e, ao contrário do
-  Louvre, dá para ver o essencial em duas ou três horas com nove pessoas.
+  Louvre, dá para ver o essencial em duas ou três horas com oito pessoas.
   Comprem ingresso com hora marcada online, na véspera.
 - LES INVALIDES e o túmulo de Napoleão, com o Museu do Exército
 - MUSEU RODIN, pequeno, com jardim de esculturas. O mais leve dos três.
@@ -3106,14 +3106,14 @@ Todos a 15 minutos ou menos a pé do hotel, sem transporte:
   para fechar a viagem onde ela começou em Paris.
 
 13h00 às 14h30 — Almoço no bairro
-- RESERVA: liguem na véspera. Sábado de almoço com nove pessoas no 7º lota.
+- RESERVA: liguem na véspera. Sábado de almoço com oito pessoas no 7º lota.
 - Não estiquem além das 14h30. Vocês ainda precisam pegar as malas.
 
 14h30 às 16h00 — Volta ao hotel, malas e reorganização
 - As malas ficaram na recepção depois do check-out das 12h
 - Este é o momento de redistribuir peso entre as malas, guardar as compras da
   manhã e conferir passaportes e cartões de embarque de todo mundo
-- Uma hora e meia parece muito. Com nove pessoas, não é.
+- Uma hora e meia parece muito. Com oito pessoas, não é.
 
 16h30 — Saída para Orly
 
@@ -3127,7 +3127,7 @@ O LOUVRE POR DENTRO — CABE, MAS COM RESSALVA
 - Como funcionaria: metrô às 09h15 (Linha 8 até Concorde, depois Linha 1 até
   Palais Royal-Musée du Louvre), museu das 10h às 13h30, volta ao 7º, almoço
   rápido e malas às 15h.
-- A ressalva honesta: seria um último dia corrido, num museu enorme, com nove
+- A ressalva honesta: seria um último dia corrido, num museu enorme, com oito
   pessoas cansadas de três semanas, e ainda com um voo internacional pela
   frente. O Musée d'Orsay entrega uma experiência comparável em metade do
   esforço e a quinze minutos a pé do hotel.

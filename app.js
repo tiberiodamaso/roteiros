@@ -343,7 +343,7 @@ function finance() {
         { v: f(70), kid: 0 },         // Basel → Interlaken + reserva
         { v: e(120), kid: 0.7 },      // Nightjet Zurique → Viena
         { v: e(40), kid: 0.5 },       // ÖBB Viena ⇄ Salzburgo
-        { v: e(45), kid: 1 },         // transfers restantes, rateados entre 9
+        { v: e(50), kid: 1 },         // transfers restantes: custo por veículo, agora rateado entre 8 e não 9
       ] },
     { titulo: 'Passeios e ingressos', tom: '#b4552f', kid: 0.5,
       itens: 'Disney, cruzeiro no Sena, Lindt, teleféricos do First e do Titlis, Torre Eiffel, Schönbrunn, Orsay e Plitvice',
@@ -512,7 +512,7 @@ function viewInicio() {
 
   return `<section class="rise">
     <div class="eyebrow eyebrow--rust">Roteiro de viagem · dezembro 2026</div>
-    <h1 class="hero">Vinte e três dias,<br>sete bases,<br><b>nove pessoas</b>.</h1>
+    <h1 class="hero">Vinte e três dias,<br>sete bases,<br><b>oito pessoas</b>.</h1>
     <p class="lede">Lisboa, Paris, os Alpes, Viena e Zagreb — com Natal num apartamento e Réveillon a quinze minutos a pé da Torre Eiffel. Tudo o que está aqui vem do roteiro completo: horários, bilhetes, reservas e as dicas que evitam multa, fila e dinheiro jogado fora.</p>
 
     <div class="kpis">
@@ -815,20 +815,20 @@ function viewReservar() {
 
   return `<section class="rise">
     <h1>Falta reservar</h1>
-    <div class="sub">Mesas para nove. O que está marcado fica salvo neste navegador.</div>
+    <div class="sub">Mesas para oito. O que está marcado fica salvo neste navegador.</div>
     <div class="progress">
       <div class="progress__top">
         <div class="eyebrow eyebrow--gold" style="font-size:15px">mesas reservadas</div>
         <div class="progress__pct">${feitas} / ${total}</div>
       </div>
       <div class="bar bar--dark"><i style="width:${pct}%"></i></div>
-      <div class="progress__foot">para nove pessoas, restaurante europeu quase nunca aceita quem chega de surpresa</div>
+      <div class="progress__foot">para oito pessoas, restaurante europeu quase nunca aceita quem chega de surpresa</div>
     </div>
     <div class="stack stack--tight" style="margin-top:24px">${linhas}</div>
     <div class="card card--dashed" style="margin-top:22px;padding:20px 24px">
       <div style="font-family:var(--display);font-size:26px">Ao ligar, informem sempre</div>
       <ul style="margin:10px 0 0;padding-left:18px;font-size:17.5px;color:var(--body)">
-        <li style="margin-bottom:4px">Nove pessoas, com uma criança de 10 anos e uma pessoa idosa.</li>
+        <li style="margin-bottom:4px">Oito pessoas: sete adultos, um deles com mais de 60 anos, e uma criança de 10 anos.</li>
         <li style="margin-bottom:4px">Mesa térrea e <strong>mesa única</strong> — o padrão é dividir o grupo em duas mesas distantes.</li>
         <li>Reservem de véspera, à noite, do hotel. Leva cinco minutos por dia.</li>
       </ul>
@@ -920,7 +920,7 @@ function viewPratico() {
 
   return `<section class="rise">
     <h1>Prático</h1>
-    <div class="sub">Reservas, bilhetes, apps e as regras de mesa para nove pessoas.</div>
+    <div class="sub">Reservas, bilhetes, apps e as regras de mesa para oito pessoas.</div>
 
     <h2 style="font-size:30px;margin-top:38px">Reservas e hospedagens</h2>
     <div class="stack stack--tight">
@@ -935,15 +935,15 @@ function viewPratico() {
     <div class="grid2" style="margin-top:40px">
       <div>
         <h2 style="font-size:28px;margin:0 0 12px">Apps para instalar no Brasil</h2>
-        <div class="sub" style="margin-bottom:14px">Criar conta antes de embarcar. Fazer isso num aeroporto europeu, com nove pessoas e wi-fi ruim, é o pior momento possível.</div>
+        <div class="sub" style="margin-bottom:14px">Criar conta antes de embarcar. Fazer isso num aeroporto europeu, com oito pessoas e wi-fi ruim, é o pior momento possível.</div>
         <div style="display:flex;flex-direction:column;gap:6px">${apps}</div>
 
         <h2 style="font-size:28px;margin:34px 0 12px">Onde o carro ganha do metrô</h2>
-        <div class="sub" style="margin-bottom:14px">Com nove pessoas, dois carros custam pouco mais que nove bilhetes — e às vezes menos.</div>
+        <div class="sub" style="margin-bottom:14px">Com oito pessoas, dois carros custam pouco mais que oito bilhetes — e às vezes menos.</div>
         <div style="display:flex;flex-direction:column;gap:5px">${uber}</div>
       </div>
       <div>
-        <h2 style="font-size:28px;margin:0 0 12px">Mesa para nove</h2>
+        <h2 style="font-size:28px;margin:0 0 12px">Mesa para oito</h2>
         <div style="display:flex;flex-direction:column;gap:10px">${regras}</div>
       </div>
     </div>
