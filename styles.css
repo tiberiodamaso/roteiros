@@ -317,7 +317,6 @@ h3 { font-size: 26px; }
 .clitem__t { font-size: 18px; font-weight: 600; }
 .clitem.is-done .clitem__t { color: #8f877b; text-decoration: line-through; }
 .clitem__n { font-size: 16.5px; color: var(--muted); margin-top: 2px; text-wrap: pretty; }
-.clitem__links { display: flex; gap: 12px; margin-top: 4px; font-family: var(--mono); font-size: 16px; }
 
 /* ── falta reservar ────────────────────────────────────────── */
 .mesa {
@@ -334,8 +333,19 @@ h3 { font-size: 26px; }
 .mesa.is-done .mesa__local { color: #8f877b; text-decoration: line-through; }
 .mesa__tag { font-family: var(--mono); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--card); background: var(--rust); border-radius: 999px; padding: 2px 9px; }
 .mesa__n { font-size: 17px; color: var(--body); margin-top: 3px; text-wrap: pretty; }
-.mesa__links { display: flex; gap: 14px; align-items: baseline; flex-wrap: wrap; margin-top: 6px; font-family: var(--mono); font-size: 15.5px; }
-.linkish { background: none; border: 0; padding: 0; cursor: pointer; font-family: var(--mono); font-size: 15.5px; color: var(--col); border-bottom: 1px solid currentColor; }
+
+/* Links de contato — WhatsApp, Ligar, Maps, Site — com o ícone à esquerda. */
+.lnks { display: flex; flex-wrap: wrap; gap: 8px; margin-top: 10px; }
+.lnk {
+  display: inline-flex; align-items: center; gap: 7px;
+  font-family: var(--mono); font-size: 14.5px; line-height: 1;
+  border: 1px solid var(--line-strong); border-radius: 999px;
+  padding: 7px 13px 7px 11px; background: var(--card); color: var(--body);
+  cursor: pointer; transition: border-color .18s, color .18s, background .18s;
+}
+.lnk:hover { border-color: var(--col); color: var(--col); background: #fffdf7; }
+.lnk svg { width: 15px; height: 15px; flex: 0 0 auto; opacity: .75; }
+.lnk:hover svg { opacity: 1; }
 
 /* ── financeiro ────────────────────────────────────────────── */
 .fin__v { font-family: var(--display); font-size: 38px; line-height: 1.1; margin-top: 6px; white-space: nowrap; }
@@ -460,6 +470,9 @@ h3 { font-size: 26px; }
   .kpi--dark .kpi__s, .card--dark .kpi__s, .fin__notes ul { color: var(--muted) !important; opacity: 1; }
   .bar--dark { border: 1px solid var(--line); }
   .bar--dark > i { background: var(--muted); }
+
+  /* No papel não se toca num link: o número do telefone volta como texto. */
+  .lnk[data-tel]::after { content: " " attr(data-tel); }
 
   @page { margin: 14mm; }
 }

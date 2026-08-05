@@ -73,6 +73,31 @@ function photo(slotId, legenda, cls) {
   return `<div class="photo ${cls || ''}">${inner}</div>`;
 }
 
+/* Ícones dos links de contato. Inline e monocromáticos: herdam a cor do
+   link por currentColor e não dependem de nenhum arquivo externo. */
+const SVG = (d, extra) => `<svg viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"${extra || ''}>${d}</svg>`;
+const ICONES = {
+  zap: SVG('<path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.46 1.32 4.96L2 22l5.25-1.38a9.9 9.9 0 0 0 4.79 1.21c5.46 0 9.91-4.45 9.91-9.91S17.5 2 12.04 2zm5.8 14.02c-.24.68-1.2 1.25-1.97 1.41-.53.11-1.22.2-3.54-.76-2.97-1.23-4.88-4.25-5.03-4.45-.14-.2-1.2-1.6-1.2-3.05s.76-2.16 1.03-2.46c.27-.3.59-.37.79-.37h.56c.18.01.42-.07.66.5.24.58.83 2.01.9 2.16.07.15.12.32.02.52-.1.2-.15.32-.3.5-.15.17-.31.39-.44.52-.15.15-.3.31-.13.61.17.3.76 1.25 1.63 2.03 1.12 1 2.06 1.31 2.36 1.46.3.15.47.12.65-.07.18-.2.75-.87.95-1.17.2-.3.4-.25.67-.15.27.1 1.7.8 1.99.95.29.15.48.22.55.35.07.12.07.72-.17 1.4z"/>'),
+  tel: SVG('<path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.3.6 3.6.6.6 0 1 .4 1 1V20c0 .6-.4 1-1 1C10.6 21 3 13.4 3 4c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.2.2 2.4.6 3.6.1.4 0 .8-.2 1l-2.3 2.2z"/>'),
+  mapa: SVG('<path d="M12 2C8.13 2 5 5.13 5 9c0 5.25 7 13 7 13s7-7.75 7-13c0-3.87-3.13-7-7-7zm0 9.5A2.5 2.5 0 1 1 12 6.5a2.5 2.5 0 0 1 0 5z"/>'),
+  site: SVG('<path d="M12 2a10 10 0 1 0 0 20 10 10 0 0 0 0-20zM4.6 9h2.9c-.1 1-.2 2-.2 3s.1 2 .2 3H4.6a8 8 0 0 1 0-6zm.9 8h2.3c.3 1.4.8 2.6 1.4 3.5A8 8 0 0 1 5.5 17zm2.3-10H5.5a8 8 0 0 1 3.7-3.5C8.6 4.4 8.1 5.6 7.8 7zM11 20.5c-1-.7-1.9-2-2.4-3.5H11v3.5zM11 15H8.2c-.1-1-.2-2-.2-3s.1-2 .2-3H11v6zm0-8H8.6C9.1 5.5 10 4.2 11 3.5V7zm7.5 0h-2.3c-.3-1.4-.8-2.6-1.4-3.5A8 8 0 0 1 18.5 7zM13 3.5c1 .7 1.9 2 2.4 3.5H13V3.5zM13 9h2.8c.1 1 .2 2 .2 3s-.1 2-.2 3H13V9zm0 11.5V17h2.4c-.5 1.5-1.4 2.8-2.4 3.5zm1.8-.5c.6-.9 1.1-2.1 1.4-3.5h2.3a8 8 0 0 1-3.7 3.5zm1.7-5c.1-1 .2-2 .2-3s-.1-2-.2-3h2.9a8 8 0 0 1 0 6h-2.9z"/>'),
+  dia: SVG('<path d="M7 2v2H5a2 2 0 0 0-2 2v14a2 2 0 0 0 2 2h14a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2h-2V2h-2v2H9V2H7zm12 8v10H5V10h14z"/>'),
+};
+
+/* Fileira de links de um item. Só entra o que existe: sem telefone não há
+   "Ligar", sem celular não há WhatsApp, sem endereço não há Maps. */
+function linksHtml(o, extra) {
+  const l = [];
+  const abrir = (href, icone, rotulo) =>
+    `<a class="lnk" href="${href}" target="_blank" rel="noopener">${icone}${rotulo}</a>`;
+  if (o.tel && o.zap) l.push(abrir('https://wa.me/' + o.tel.replace(/\D/g, ''), ICONES.zap, 'WhatsApp'));
+  if (o.tel) l.push(`<a class="lnk" href="tel:${esc(o.tel.replace(/\s/g, ''))}" data-tel="${esc(o.tel)}">${ICONES.tel}Ligar</a>`);
+  if (o.mapa) l.push(abrir('https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(o.mapa), ICONES.mapa, 'Maps'));
+  if (o.url) l.push(abrir(esc(o.url), ICONES.site, 'Site'));
+  if (extra) l.push(extra);
+  return l.length ? `<div class="lnks">${l.join('')}</div>` : '';
+}
+
 /* ══════════════════════════════════════════════════════════════
    2. Estado
    ══════════════════════════════════════════════════════════════ */
@@ -709,10 +734,7 @@ function viewChecklist() {
         <div>
           <div class="clitem__t">${esc(i.t)}</div>
           ${i.n ? `<div class="clitem__n">${esc(i.n)}</div>` : ''}
-          ${(i.url || i.tel) ? `<div class="clitem__links">
-            ${i.url ? `<a href="${esc(i.url)}" target="_blank" rel="noopener">site oficial ↗</a>` : ''}
-            ${i.tel ? `<a href="tel:${esc(i.tel.replace(/\s/g, ''))}">${esc(i.tel)}</a>` : ''}
-          </div>` : ''}
+          ${linksHtml(i)}
         </div>
       </div>`;
     }).join('');
@@ -776,10 +798,7 @@ function viewReservar() {
           ${r.urgente ? '<span class="mesa__tag">esgota</span>' : ''}
         </div>
         ${r.n ? `<div class="mesa__n">${esc(r.n)}</div>` : ''}
-        <div class="mesa__links">
-          ${r.tel ? `<a href="tel:${esc(r.tel.replace(/\s/g, ''))}">${esc(r.tel)}</a>` : ''}
-          <button type="button" class="linkish" data-day="${esc(r.dia)}">ver o dia →</button>
-        </div>
+        ${linksHtml(r, `<button type="button" class="lnk" data-day="${esc(r.dia)}">${ICONES.dia}ver o dia</button>`)}
       </div>
     </div>`;
   }).join('');
