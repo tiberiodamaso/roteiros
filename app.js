@@ -192,6 +192,15 @@ const PENDENCIAS = {
   '2027-01-02': ['Transfer hotel → ORLY às 16h30 · ingresso do museu escolhido'],
 };
 
+/* Contato de uma parada da timeline. Quando a parada é uma refeição
+   reservada, telefone e site vêm da reserva — o número existe num lugar só. */
+function contatoDaParada(diaId, titulo) {
+  const lugar = D.LUGARES[diaId + '|' + titulo];
+  if (!lugar) return {};
+  const r = lugar.res ? (D.RESTAURANTES.find(x => x.id === lugar.res) || {}) : {};
+  return { mapa: lugar.mapa || r.mapa, tel: r.tel, zap: r.zap, url: lugar.url || r.url };
+}
+
 function pendFor(id) {
   const p = (PENDENCIAS[id] || []).slice();
   if (id === (PLITVICE === '29' ? '2026-12-29' : '2026-12-30')) {
@@ -680,6 +689,7 @@ function viewTimeline() {
         <div class="tlstop__t">${esc(b.t)}</div>
         <div class="tlstop__h">${esc(b.h)}</div>
         <ul>${li(b.l)}</ul>
+        ${linksHtml(contatoDaParada(sel.id, b.h))}
       </div>
     </div>`;
     if (!nx) return parada;

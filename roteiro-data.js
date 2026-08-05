@@ -514,6 +514,143 @@ export const RESTAURANTES = [
     n:'A maioria dos restaurantes fecha no dia 1º. Reservem com antecedência ou resolvam nas compras da Rue Cler.' },
 ];
 
+/* Endereço de cada parada da timeline, indexado por `data|título do bloco` —
+   mesma chave do MODO_FIXO em app.js. Só entram paradas que são um lugar
+   que se visita: deslocamento, aviso e bloco de instrução ficam de fora, e
+   sem entrada aqui o card simplesmente não mostra links.
+   `res` aponta para uma reserva de RESTAURANTES e traz telefone e site de lá,
+   para o número não viver em dois lugares. */
+export const LUGARES = {
+  '2026-12-11|Chegada em Lisboa': { mapa:'Aeroporto Humberto Delgado, Lisboa' },
+  '2026-12-11|Hotel Inn Rossio': { mapa:'Hotel Inn Rossio, Lisboa' },
+  '2026-12-11|Comprar os cartões Zapping': { mapa:'Estação do Rossio, Lisboa' },
+  '2026-12-11|Almoço — Casa do Alentejo': { res:'p13' },
+  '2026-12-11|Jantar — Trama Pasta Fresca': { res:'p14' },
+
+  '2026-12-12|Oceanário de Lisboa': { mapa:'Oceanário de Lisboa' },
+  '2026-12-12|Almoço — Nova Cervejaria': { res:'p15' },
+  '2026-12-12|Castelo de São Jorge': { mapa:'Castelo de São Jorge, Lisboa' },
+  '2026-12-12|Descida a pé, a melhor parte do dia': { mapa:'Miradouro das Portas do Sol, Lisboa' },
+  '2026-12-12|Cerveja e petisco no Largo de São Miguel': { mapa:'Largo de São Miguel, Alfama, Lisboa' },
+  '2026-12-12|Jantar — A Licorista / O Bacalhoeiro': { res:'p16' },
+
+  '2026-12-13|LX Factory': { mapa:'LX Factory, Lisboa' },
+  '2026-12-13|Mosteiro dos Jerónimos': { mapa:'Mosteiro dos Jerónimos, Lisboa' },
+  '2026-12-13|Padrão dos Descobrimentos': { mapa:'Padrão dos Descobrimentos, Lisboa' },
+  '2026-12-13|Almoço em Belém': { res:'p17' },
+  '2026-12-13|Torre de Belém': { mapa:'Torre de Belém, Lisboa' },
+  '2026-12-13|Pastéis de Belém': { mapa:'Pastéis de Belém, Rua de Belém 84, Lisboa' },
+  '2026-12-13|Jantar — Cervejaria Trindade': { res:'p18' },
+
+  '2026-12-14|Transfer Welcome Pickups → hotel': { mapa:'Ibis Budget Paris Porte de Montmartre' },
+  '2026-12-14|Almoço — La REcyclerie': { mapa:'La REcyclerie, Paris' },
+  '2026-12-14|Comprar os Navigo Semaine': { mapa:'Estação Porte de Clignancourt, Paris' },
+  '2026-12-14|Subida até a Basílica': { mapa:'Funiculaire de Montmartre, Paris' },
+  '2026-12-14|Sacré-Coeur': { mapa:'Basilique du Sacré-Cœur, Paris' },
+  '2026-12-14|Place du Tertre': { mapa:'Place du Tertre, Paris' },
+  '2026-12-14|Brechós da Rue Ravignan e Rue des Abbesses': { mapa:'Rue des Abbesses, Paris' },
+  '2026-12-14|Jantar — La Villa des Abbesses': { res:'p19' },
+
+  '2026-12-15|Marne-la-Vallée-Chessy': { mapa:'Disneyland Paris' },
+  '2026-12-16|Ex-Walt Disney Studios Park': { mapa:'Walt Disney Studios Park, Marne-la-Vallée' },
+
+  '2026-12-17|Trocadéro e Torre Eiffel': { mapa:'Trocadéro, Paris' },
+  '2026-12-17|Almoço — Smash.B Élysée': { mapa:'Smash.B, Champs-Élysées, Paris' },
+  '2026-12-17|Arco do Triunfo, por fora': { mapa:'Arco do Triunfo, Paris' },
+  '2026-12-17|Champs-Élysées descendo': { mapa:'Avenue des Champs-Élysées, Paris' },
+  '2026-12-17|Avenue Montaigne': { mapa:'Avenue Montaigne, Paris' },
+  '2026-12-17|Jantar com música ao vivo — Le Son de la Terre': { res:'c10' },
+
+  '2026-12-18|TGV Lyria → Basel SBB': { mapa:'Paris Gare de Lyon' },
+  '2026-12-18|Chegada em Interlaken Ost': { mapa:'Interlaken Ost' },
+  '2026-12-18|Check-in + Guest Card': { mapa:'The Guesthouse by the Hey Hotel, Interlaken' },
+  '2026-12-18|Coop, parada essencial': { mapa:'Coop, Interlaken' },
+  '2026-12-18|Höhematte antes de escurecer': { mapa:'Höhematte, Interlaken' },
+  '2026-12-18|Jantar — Hopplá Bistro': { res:'p20' },
+
+  '2026-12-19|Interlaken → Grindelwald': { mapa:'Grindelwald' },
+  '2026-12-19|Subida ao First': { mapa:'Grindelwald-First' },
+  '2026-12-19|No topo, até as 13h00': { mapa:'First Cliff Walk, Grindelwald' },
+  '2026-12-19|Parada na vila, e NÃO um segundo almoço': { mapa:'Grindelwald Dorf' },
+  '2026-12-19|Jantar — Fondue Villa & Garden': { res:'p21' },
+
+  '2026-12-20|Interlaken Ost → Zürich HB': { mapa:'Zürich Hauptbahnhof' },
+  '2026-12-20|Chegada e hotel': { mapa:'ibis budget Zurich City West' },
+  '2026-12-20|Caminhada do centro iluminado': { mapa:'Bahnhofstrasse, Zürich' },
+  '2026-12-20|Jantar no Niederdorf': { res:'p22' },
+
+  '2026-12-21|Christkindlimarkt, dentro da Zürich HB': { mapa:'Zürich Hauptbahnhof' },
+  '2026-12-21|Wienachtsdorf, Sechseläutenplatz': { mapa:'Sechseläutenplatz, Zürich' },
+  '2026-12-21|Patinação no gelo': { mapa:'Sechseläutenplatz, Zürich' },
+  '2026-12-21|Lago de Zurique, Bürkliplatz': { mapa:'Bürkliplatz, Zürich' },
+  '2026-12-21|Ônibus 165 até Kilchberg': { mapa:'Lindt Home of Chocolate, Kilchberg' },
+  '2026-12-21|Lindt Home of Chocolate': { mapa:'Lindt Home of Chocolate, Kilchberg' },
+  '2026-12-21|Retorno e jantar no Kreis 5': { mapa:'Kreis 5, Zürich' },
+
+  '2026-12-22|Zurique → Engelberg': { mapa:'Engelberg' },
+  '2026-12-22|Bilheteria da base': { mapa:'Titlis Bergbahnen, Engelberg' },
+  '2026-12-22|No cume, a 3.020 m': { mapa:'Titlis' },
+  '2026-12-22|Trübsee, na descida': { mapa:'Trübsee, Engelberg' },
+
+  '2026-12-23|Guarda-volumes na Zürich HB': { mapa:'Zürich Hauptbahnhof' },
+  '2026-12-23|Museu Nacional Suíço': { mapa:'Landesmuseum Zürich' },
+  '2026-12-23|Polybahn e a Polyterrasse': { mapa:'Polyterrasse, Zürich' },
+  '2026-12-23|Bahnhofstrasse, agora para comprar': { mapa:'Bahnhofstrasse, Zürich' },
+
+  '2026-12-24|Chegada em Viena': { mapa:'Wien Hauptbahnhof' },
+  '2026-12-24|Check-in no apartamento': { mapa:'Vienna Stay Apartments Tabor, Viena' },
+
+  '2026-12-26|Wien Hbf → Salzburg Hbf': { mapa:'Salzburg Hauptbahnhof' },
+  '2026-12-26|Entrada na cidade velha': { mapa:'Getreidegasse, Salzburgo' },
+  '2026-12-26|Augustiner Bräu Mülln': { mapa:'Augustiner Bräu Kloster Mülln, Salzburgo' },
+  '2026-12-26|Fortaleza Hohensalzburg': { mapa:'Festung Hohensalzburg, Salzburgo' },
+
+  '2026-12-27|Palácio de Schönbrunn': { mapa:'Palácio de Schönbrunn, Viena' },
+  '2026-12-27|Centro histórico completo': { mapa:'Stephansdom, Viena' },
+  '2026-12-27|Prater': { mapa:'Prater, Viena' },
+  '2026-12-27|Jantar final em Viena': { res:'p24' },
+
+  '2026-12-28|Transfer ao aeroporto de Viena': { mapa:'Aeroporto de Viena' },
+  '2026-12-28|Chegada em Zagreb': { mapa:'Aeroporto de Zagreb' },
+  '2026-12-28|Três coisas para resolver no balcão': { mapa:'Hotel Garden Zagreb, Vodnikova 13' },
+  '2026-12-28|Primeira volta pelo Advent, sem roteiro fechado': { mapa:'Praça Ban Jelačić, Zagreb' },
+
+  '2026-12-29|Busca no hotel': { mapa:'Hotel Garden Zagreb, Vodnikova 13' },
+  '2026-12-29|Chegada, Entrada 1': { mapa:'Plitvice Lakes National Park Entrance 1' },
+  '2026-12-29|Os Lagos Inferiores': { mapa:'Veliki Slap, Plitvice' },
+  '2026-12-29|Rastoke, no caminho de volta': { mapa:'Rastoke, Slunj' },
+  '2026-12-29|Retorno a Zagreb': { res:'p25' },
+
+  '2026-12-30|A pé pela Ferradura Verde': { mapa:'Zrinjevac, Zagreb' },
+  '2026-12-30|Mercado Dolac': { mapa:'Mercado Dolac, Zagreb' },
+  '2026-12-30|Kaptol e a Catedral': { mapa:'Catedral de Zagreb' },
+  '2026-12-30|Tkalčićeva e o Portão de Pedra': { mapa:'Tkalčićeva, Zagreb' },
+  '2026-12-30|Cidade Alta (Gornji Grad)': { mapa:'Gornji Grad, Zagreb' },
+  '2026-12-30|Funicular de Zagreb': { mapa:'Funicular de Zagreb' },
+  '2026-12-30|Almoço — štrukli': { mapa:'La Štruk, Zagreb' },
+  '2026-12-30|Túnel Grič': { mapa:'Grič Tunnel, Zagreb' },
+  '2026-12-30|Praça Europa e Strossmayer': { mapa:'Strossmartre, Zagreb' },
+  '2026-12-30|Zrinjevac ao acender das luzes': { mapa:'Zrinjevac, Zagreb' },
+  '2026-12-30|Ledeni Park, na Praça do Rei Tomislav': { mapa:'Ledeni park, Trg kralja Tomislava, Zagreb' },
+  // O bloco do Museu Nikola Tesla não entra: buildDays descarta a primeira
+  // parada do dia leve, para o dia mesclado não ter duas manhãs.
+
+  '2026-12-31|Chegada ao hotel': { mapa:'Hotel du Cadran, 10 Rue du Champ de Mars, Paris' },
+  '2026-12-31|Almoço e Champ de Mars': { mapa:'Champ de Mars, Paris' },
+  '2026-12-31|Compras na Rue Cler — isto é crítico': { mapa:'Rue Cler, Paris' },
+  '2026-12-31|Torre Eiffel a partir do bairro (recomendado)': { mapa:'Torre Eiffel, Paris' },
+  '2026-12-31|Champs-Élysées, o evento oficial': { mapa:'Avenue des Champs-Élysées, Paris' },
+
+  '2027-01-01|Place de la Concorde': { mapa:'Place de la Concorde, Paris' },
+  '2027-01-01|Jardin des Tuileries, entrando pelo portão oeste': { mapa:'Jardin des Tuileries, Paris' },
+  '2027-01-01|Arc de Triomphe du Carrousel': { mapa:'Arc de Triomphe du Carrousel, Paris' },
+  '2027-01-01|Cour Napoléon e a pirâmide': { mapa:'Cour Napoléon, Museu do Louvre, Paris' },
+  '2027-01-01|O dia mais difícil do ano para comer fora': { res:'p26' },
+
+  '2027-01-02|Rue Cler em dia de feira': { mapa:'Rue Cler, Paris' },
+  '2027-01-02|Saída para Orly': { mapa:'Aeroporto de Paris-Orly' },
+};
+
 export const TRANSPORTE = [
   { city:'lisboa', comprar:'Cartão Viva Viagem com saldo ZAPPING', custo:'≈ 10,50 €', app:'nenhum necessário',
     notas:['0,50 € o cartão + 10 € de carga, um por pessoa (não pode ser dividido).','Cobre metrô, ônibus Carris, elétricos, elevadores e trens da CP.','Máquinas amarelas em qualquer estação; a do Rossio fica ao lado do hotel.','Lisboa Card não compensa.'] },
