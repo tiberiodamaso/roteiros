@@ -27,10 +27,26 @@ const travelTxt = d => (d.travel ? '  ·  ' + d.travel.from + ' → ' + d.travel
 
 const li = arr => (arr || []).map(l => `<li>${esc(l)}</li>`).join('');
 
-/* Fotos reais. Para publicar uma nova imagem: coloque o arquivo em fotos/ e
-   acrescente uma linha aqui, com a mesma chave usada no card. */
+/* Fotos reais, por id de espaço. Para publicar uma nova imagem: coloque o
+   arquivo em fotos/ e acrescente uma linha aqui. O que não estiver mapeado
+   vira um espaço reservado com a legenda. O nome do arquivo não precisa
+   bater com a chave — quem manda é este mapa. */
 const PHOTOS = {
-  'foto-lisboa': { src: 'fotos/lisboa.png', alt: 'Lisboa' },
+  'foto-lisboa': 'fotos/lisboa.png',
+  // Os dois arquivos de Paris estão trocados em relação ao que cada card
+  // mostra: paris1.jpg é a Torre Eiffel e paris2.jpg é o Sacré-Cœur. A
+  // primeira estadia é em Montmartre e a segunda é a 15 min da Torre, então
+  // o mapa cruza os dois. Renomear os arquivos também resolveria.
+  'foto-paris1': 'fotos/paris2.jpg',
+  'foto-paris2': 'fotos/paris1.jpg',
+  'foto-interlaken': 'fotos/interlaken.jpg',
+  'foto-zurique': 'fotos/zurique.webp',
+  'foto-viena': 'fotos/viena.jpg',
+  'foto-zagreb': 'fotos/zagreb.jpg',
+  'foto-salzburgo': 'fotos/salzburg.jpg',
+  // 'foto-plitvice': fotos/plitvice.jpg é um preview da Alamy, com marca
+  // d'água. Fora do mapa até ter uma imagem licenciada; o card cai no
+  // espaço reservado com a legenda.
 };
 
 /* Legenda do espaço reservado, quando ainda não há foto. */
@@ -38,18 +54,20 @@ const LEGENDAS = {
   lisboa: 'Torre de Belém',
   paris1: 'Sacré-Cœur, Montmartre',
   interlaken: 'Grindelwald-First, nos Alpes',
-  zurique: 'Mercado de Natal e o Grossmünster',
+  zurique: 'O Grossmünster iluminado, no centro de Zurique',
   viena: 'Palácio de Schönbrunn',
-  zagreb: 'Advent u Zagrebu, Cidade Alta',
+  zagreb: 'Advent u Zagrebu, na Praça Ban Jelačić',
   paris2: 'Torre Eiffel',
   salzburgo: 'Cidade velha e a Fortaleza de Hohensalzburg',
   plitvice: 'Lagos Inferiores de Plitvice no inverno',
 };
 
+// A legenda serve para os dois casos: vira o alt da foto ou o texto do
+// espaço reservado. Uma fonte só para o que a imagem mostra.
 function photo(slotId, legenda, cls) {
-  const p = PHOTOS[slotId];
-  const inner = p
-    ? `<img src="${esc(p.src)}" alt="${esc(p.alt)}" loading="lazy">`
+  const src = PHOTOS[slotId];
+  const inner = src
+    ? `<img src="${esc(src)}" alt="${esc(legenda)}" loading="lazy">`
     : `<div class="photo__ph">${esc(legenda)}</div>`;
   return `<div class="photo ${cls || ''}">${inner}</div>`;
 }
