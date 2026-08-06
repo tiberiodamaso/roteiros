@@ -94,11 +94,11 @@ Two backgrounds carry meaning and should not be used decoratively:
 
 ### Print is a supported output
 
-Three screens offer an explicit PDF button — city detail, "Meu dia" and Timeline — so a single day can be carried on paper. `[data-print-hide]` strips nav, search, controls, and the on-screen instructions that mean nothing on paper; grids collapse to one column; cards get `break-inside: avoid`; page margin 14mm. A Timeline day comes out at 2–5 pages.
+Two screens offer an explicit PDF button — city detail and Diário — so a single day can be carried on paper. `[data-print-hide]` strips nav, search, controls, and the on-screen instructions that mean nothing on paper; grids collapse to one column; cards get `break-inside: avoid`; page margin 14mm. A Diário day comes out at 2–5 pages.
 
 **Nothing printable may depend on a painted background.** Chrome and Safari print with background graphics *off* by default, so an ink block prints as near-white text on white — invisible. In `@media print` the dark blocks (`.selhead`, `.cityhead`, `.pend`, `.progress`, `.card--dark`, `.kpi--dark`, `.res--night`, `.pill`) invert to ink on white with the accent moved to the border. Test print output with backgrounds suppressed, not with them on.
 
-The Timeline also drops, on paper, the empty illustration frames and the 124px connector arrows: for a ten-stop day those two together cost about a full sheet of nothing. The transport mode survives in its pill.
+Diário also drops, on paper, the empty illustration frames and the 124px connector arrows: for a ten-stop day those two together cost about a full sheet of nothing. The transport mode survives in its pill.
 
 ## Development rules
 
@@ -110,7 +110,7 @@ The Timeline also drops, on paper, the empty illustration frames and the 124px c
 | --- | --- |
 | `data-go` | switch screen (and clear the search) |
 | `data-city` / `data-back-cities` | open / close a city |
-| `data-day` | jump to a date in "Meu dia" |
+| `data-day` | jump to a date in Diário |
 | `data-date` | pick a date from the calendar |
 | `data-step` | previous / next day |
 | `data-filter` | filter "Roteiro completo" by city |
@@ -125,6 +125,8 @@ Adding an interaction means adding a `data-*` case, not an `addEventListener`.
 **Never re-render for the clock.** `atualizarContadores()` patches `[data-days]`, `[data-clock]` and `[data-pct]` in place, every second. Re-rendering a screen on a timer would fight the user.
 
 **Keep the search box out of `#view`.** It lives in `index.html` so re-rendering results never steals focus mid-typing. Screens that re-render in place (accordion, checkbox) save and restore `window.scrollY` by hand.
+
+**Diário replaced two screens, and its old addresses still resolve.** "Meu dia" (a day's blocks as a list) and "Timeline" (the same blocks as a time line) were merged into `viewDiario`; the day note and the per-day pendências block existed only on "Meu dia" and were carried over, so the merge lost a screen and not content. `APELIDOS` maps `dia` and `timeline` onto `diario` in `aplicarHash()`, because a link someone already shared must land on the day rather than fall through to `inicio`. The suite asserts both aliases.
 
 **Routing is `#/screen/param`** — `#/cidades/lisboa`, `#/dia/2026-12-15`, `#/completo/viena`. `ir()` writes the hash and lets `hashchange` drive the render, so every screen is linkable and the back button works. Unknown routes fall back to `inicio`. State that belongs in a link goes in the hash; state that belongs to the person (checkboxes) goes in `localStorage`.
 

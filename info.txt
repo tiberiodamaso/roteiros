@@ -12,9 +12,7 @@ Paris 2 - Hotel du Cadran - 10 Rue Du Champ De Mars, Paris, 75007 França (hotei
 Viena - Vienna Stay Apartments Tabor 1020 - Taborstraße 41, 02. Leopoldstadt, 1020 Vienna, Austria (booking.com) ckeck-in check-out
 Interlaken - Höheweg 7 - Interlaken, CH - 0-338278787 (Nu bank) ckeck-in check-out
 
-Informações desnecessárias
-
-Na timeline dia 31/12 zagreb - paris essas informações são desnecessárias uma vez que já temos o horário de pouso.
-"Chegando às 16h30 a tarde já acabou; chegando às 12h30, vocês têm a tarde inteira. É por isso que o voo da manhã importa.
-Ryanair para Beauvais não compensa: 85 km de Paris e 1h15 de ônibus de ligação."
+1 - O menu Meu Dia e Timeline parece fazer a mesma coisa. Exclua o menu Meu dia e altere o nome Timeline para Diário
+2 - Em falta reservar - coloque o nome da cidade após o nome do restaurante em todas opcoes
+3 - 
 

@@ -637,39 +637,17 @@ function cidadeDetalhe(c) {
   </section>`;
 }
 
-/* — 03 · Meu dia — */
+/* — 03 · Diário (calendário + paradas do dia) —
+ *
+ * Era duas telas: "Meu dia" listava os blocos do dia e a Timeline os mesmos
+ * blocos como linha do tempo. Viraram uma só. O calendário substitui o
+ * seletor de data que "Meu dia" tinha, mas a nota do dia e o bloco de
+ * pendências só existiam lá e foram trazidos para cá — sem eles a fusão
+ * teria perdido conteúdo em vez de só perder uma tela. */
 
-function viewDia() {
+function viewDiario() {
   const sel = dayOf(state.date) || DAYS[0];
   const pend = pendFor(sel.id);
-
-  return `<section class="rise">
-    <h1 data-print-hide>Meu dia</h1>
-    <div class="sub" data-print-hide>Escolha a data e veja só o que importa naquele dia.</div>
-    <div class="daynav" data-print-hide>
-      <button type="button" class="btn" data-step="-1" aria-label="Dia anterior">←</button>
-      <input type="date" id="daydate" value="${esc(sel.id)}" min="2026-12-11" max="2027-01-02">
-      <button type="button" class="btn" data-step="1" aria-label="Próximo dia">→</button>
-      <button type="button" class="btn btn--dark" data-print>Imprimir / salvar em PDF</button>
-    </div>
-    <div style="margin-top:24px">
-      ${selHeadHtml(sel)}
-      ${sel.nota ? `<div class="sel__nota">${esc(sel.nota)}</div>` : ''}
-      <div class="stack" style="gap:12px;margin-top:18px">
-        ${(sel.blocks || []).map(b => blocoHtml(b, 'block--card', colOf(sel.city))).join('')}
-      </div>
-      ${pend.length ? `<div class="pend">
-        <div class="eyebrow eyebrow--gold" style="font-size:15px">comprar ou reservar para este dia</div>
-        <ul>${li(pend)}</ul>
-      </div>` : ''}
-    </div>
-  </section>`;
-}
-
-/* — 04 · Timeline (calendário + paradas) — */
-
-function viewTimeline() {
-  const sel = dayOf(state.date) || DAYS[0];
 
   // O calendário começa na segunda-feira; 11/12/2026 é uma sexta.
   const lead = 4;
@@ -720,23 +698,30 @@ function viewTimeline() {
   }).join('');
 
   return `<section class="rise">
-    <h1 data-print-hide>Timeline</h1>
+    <h1 data-print-hide>Diário</h1>
     <div class="sub" data-print-hide>Clique num dia do calendário e o roteiro vira uma linha do tempo: cada parada com sua ilustração e, entre elas, a seta e a condução que liga um ponto ao outro.</div>
     <div class="card" style="margin-top:24px;padding:22px 24px" data-print-hide>
       <div class="cal">${cells}</div>
     </div>
     <div class="daynav" data-print-hide>
+      <button type="button" class="btn" data-step="-1" aria-label="Dia anterior">←</button>
+      <button type="button" class="btn" data-step="1" aria-label="Próximo dia">→</button>
       <button type="button" class="btn btn--dark" data-print>Imprimir este dia / salvar em PDF</button>
       <span class="muted" style="font-size:16px">sai só o dia aberto, com as paradas e a condução entre elas</span>
     </div>
     <div style="margin-top:26px">
       ${selHeadHtml(sel)}
+      ${sel.nota ? `<div class="sel__nota">${esc(sel.nota)}</div>` : ''}
       <div style="margin-top:24px">${stops}</div>
+      ${pend.length ? `<div class="pend">
+        <div class="eyebrow eyebrow--gold" style="font-size:15px">comprar ou reservar para este dia</div>
+        <ul>${li(pend)}</ul>
+      </div>` : ''}
     </div>
   </section>`;
 }
 
-/* — 05 · Falta comprar — */
+/* — 04 · Falta comprar — */
 
 function viewChecklist() {
   const { total, feitos, pct } = progresso();
@@ -792,7 +777,7 @@ function viewChecklist() {
   </section>`;
 }
 
-/* — 06 · Falta reservar — */
+/* — 05 · Falta reservar — */
 
 function viewReservar() {
   const total = D.RESTAURANTES.length;
@@ -813,6 +798,7 @@ function viewReservar() {
         <div class="mesa__top">
           <span class="mesa__ref">${esc(r.ref)}</span>
           <span class="mesa__local">${esc(r.local)}</span>
+          <span class="mesa__cidade">${esc(cityLabel(cityOf(r.city)))}</span>
           ${r.urgente ? '<span class="mesa__tag">esgota</span>' : ''}
         </div>
         ${r.n ? `<div class="mesa__n">${esc(r.n)}</div>` : ''}
@@ -844,7 +830,7 @@ function viewReservar() {
   </section>`;
 }
 
-/* — 07 · Financeiro — */
+/* — 06 · Financeiro — */
 
 function viewFinanceiro() {
   const f = finance();
@@ -1043,8 +1029,7 @@ function renderResults() {
 const TELAS = {
   inicio: viewInicio,
   cidades: viewCidades,
-  dia: viewDia,
-  timeline: viewTimeline,
+  diario: viewDiario,
   checklist: viewChecklist,
   reservar: viewReservar,
   financeiro: viewFinanceiro,
@@ -1057,16 +1042,22 @@ const elResults = $('#results');
 const elQ = $('#q');
 const elClear = $('#clearq');
 
+// "Meu dia" e "Timeline" viraram a tela "Diário". Os dois endereços antigos
+// continuam valendo: quem tiver um link salvo cai no dia certo, e não na
+// visão geral, que é onde uma rota desconhecida para.
+const APELIDOS = { dia: 'diario', timeline: 'diario' };
+
 // Endereço: #/tela ou #/tela/parametro — cada tela é linkável.
 function aplicarHash() {
   const partes = location.hash.replace(/^#\/?/, '').split('/');
-  const tela = TELAS[partes[0]] ? partes[0] : 'inicio';
+  const pedida = APELIDOS[partes[0]] || partes[0];
+  const tela = TELAS[pedida] ? pedida : 'inicio';
   let p = '';
   try { p = decodeURIComponent(partes[1] || ''); } catch (e) { p = ''; }
 
   state.view = tela;
   if (tela === 'cidades') state.city = D.CITIES.some(c => c.k === p) ? p : null;
-  if (tela === 'dia' || tela === 'timeline') { if (dayOf(p)) state.date = p; }
+  if (tela === 'diario') { if (dayOf(p)) state.date = p; }
   if (tela === 'completo') state.filter = (p === 'all' || D.CITIES.some(c => c.k === p)) ? p : 'all';
 
   render();
@@ -1116,7 +1107,7 @@ document.addEventListener('click', ev => {
   if ((el = alvo('[data-go]'))) { state.q = ''; elQ.value = ''; return ir(el.dataset.go); }
   if ((el = alvo('[data-city]'))) return ir('cidades', el.dataset.city);
   if (alvo('[data-back-cities]')) return ir('cidades');
-  if ((el = alvo('[data-day]'))) { state.q = ''; elQ.value = ''; return ir('dia', el.dataset.day); }
+  if ((el = alvo('[data-day]'))) { state.q = ''; elQ.value = ''; return ir('diario', el.dataset.day); }
   if ((el = alvo('[data-date]'))) return ir(state.view, el.dataset.date, { keepScroll: true });
   if ((el = alvo('[data-filter]'))) return ir('completo', el.dataset.filter, { keepScroll: true });
   if (alvo('[data-print]')) return window.print();
@@ -1124,7 +1115,7 @@ document.addEventListener('click', ev => {
   if ((el = alvo('[data-step]'))) {
     const i = DAYS.findIndex(d => d.id === state.date);
     const alvoDia = DAYS[Math.min(DAYS.length - 1, Math.max(0, i + (+el.dataset.step)))];
-    return ir('dia', alvoDia.id, { keepScroll: true });
+    return ir('diario', alvoDia.id, { keepScroll: true });
   }
 
   if ((el = alvo('[data-toggle]'))) {
@@ -1144,10 +1135,6 @@ document.addEventListener('click', ev => {
     render();
     window.scrollTo(0, y);
   }
-});
-
-document.addEventListener('change', ev => {
-  if (ev.target.id === 'daydate' && dayOf(ev.target.value)) ir('dia', ev.target.value, { keepScroll: true });
 });
 
 let debounce;

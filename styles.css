@@ -331,6 +331,8 @@ h3 { font-size: 26px; }
 .mesa__top { display: flex; align-items: baseline; gap: 9px; flex-wrap: wrap; }
 .mesa__ref { font-family: var(--mono); font-size: 14px; letter-spacing: .1em; text-transform: uppercase; color: var(--muted); }
 .mesa__local { font-family: var(--display); font-size: 23px; }
+/* A cidade sai na cor dela, que é o mesmo filete da esquerda da linha. */
+.mesa__cidade { font-family: var(--mono); font-size: 14px; letter-spacing: .1em; text-transform: uppercase; color: var(--col); }
 .mesa.is-done .mesa__local { color: #8f877b; text-decoration: line-through; }
 .mesa__tag { font-family: var(--mono); font-size: 13px; letter-spacing: .1em; text-transform: uppercase; color: var(--card); background: var(--rust); border-radius: 999px; padding: 2px 9px; }
 .mesa__n { font-size: 17px; color: var(--body); margin-top: 3px; text-wrap: pretty; }
