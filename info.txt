@@ -1,13 +1,20 @@
-Voo Paris Zagreb 31/12/26 - Croatia Airlines - Embarque 8:25 chegada 10:30
+Voo Zagreb Paris(CDG) 31/12/26 - Croatia Airlines - Embarque 8:25 chegada 10:30
 Voo Gru - Lis - 10/12/26 16:20 chegada em 11/12/26 05:15- TAP
-Lisboa - Paris - 14/12/26 8:15 - chegada 11:45
-Paris - GRU - 02/01/27 20:35 chega em GRU 03/01/27 6:50
+Lisboa - Paris (ORY) - 14/12/26 8:15 - chegada 11:45
+Paris (ORY) - GRU - 02/01/27 20:35 chega em GRU 03/01/27 6:50
 
 Hotéis
-Lisboa - Hotel in Rossio - Rua 1 de Dezembro N 73, Lisbon, 1200-358 Portugal (hoteis.com)
-Paris 1 - Ibis Budeget Paris Porte de Montmartre - Rue Du Docteur Babinski, 45 - 75018, Paris, 75018 França (hoteis.com)
-Zurich - ibis budget Zurich City West - Technoparkstrasse 2, Zürich, 8005 Suíça (hoteis.com)
-Zagreb - Hotel Garden - Ulica Valentina Vodnika 13, Zagreb, 10000 Croácia (hoteis.com)
-Paris 2 - Hotel du Cadran - 10 Rue Du Champ De Mars, Paris, 75007 França (hoteis.com)
-Viena - Vienna Stay Apartments Tabor 1020 - Taborstraße 41, 02. Leopoldstadt, 1020 Vienna, Austria (booking.com)
-Interlaken - Höheweg 7 - Interlaken, CH - 0-338278787 (Nu bank)
+Lisboa - Hotel in Rossio - Rua 1 de Dezembro N 73, Lisbon, 1200-358 Portugal (hoteis.com) ckeck-in 14:00 check-out 12:00
+Paris 1 - Ibis Budeget Paris Porte de Montmartre - Rue Du Docteur Babinski, 45 - 75018, Paris, 75018 França (hoteis.com) ckeck-in 14:30 check-out 12:00
+Zurich - ibis budget Zurich City West - Technoparkstrasse 2, Zürich, 8005 Suíça (hoteis.com) ckeck-in 15:00 check-out 11:00
+Zagreb - Hotel Garden - Ulica Valentina Vodnika 13, Zagreb, 10000 Croácia (hoteis.com) ckeck-in check-out
+Paris 2 - Hotel du Cadran - 10 Rue Du Champ De Mars, Paris, 75007 França (hoteis.com) ckeck-in check-out
+Viena - Vienna Stay Apartments Tabor 1020 - Taborstraße 41, 02. Leopoldstadt, 1020 Vienna, Austria (booking.com) ckeck-in check-out
+Interlaken - Höheweg 7 - Interlaken, CH - 0-338278787 (Nu bank) ckeck-in check-out
+
+Informações desnecessárias
+
+Na timeline dia 31/12 zagreb - paris essas informações são desnecessárias uma vez que já temos o horário de pouso.
+"Chegando às 16h30 a tarde já acabou; chegando às 12h30, vocês têm a tarde inteira. É por isso que o voo da manhã importa.
+Ryanair para Beauvais não compensa: 85 km de Paris e 1h15 de ônibus de ligação."
+

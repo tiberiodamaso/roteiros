@@ -378,15 +378,14 @@ export const DAYS = [
       B('jantar','O dia mais difícil do ano para comer fora',['Três saídas, em ordem de custo-benefício: comer no próprio mercado das Tuileries antes de voltar; repetir a compra da Rue Cler e comer no hotel; ou restaurante com reserva feita semanas antes.']),
     ] },
   { id:'2027-01-02', label:'02/01', wd:'sábado', city:'paris2', title:'Último dia — e voo às 20h35 de ORLY',
-    sun:['08:44','17:02'], travel:{ from:'Paris (Orly)', to:'Brasil', mode:'voo 20h35' },
+    sun:['08:44','17:02'], travel:{ from:'Paris (Orly)', to:'São Paulo (GRU)', mode:'voo 20h35 → 06h50 de 03/01' },
     blocks:[
       B('atenção','São dois aeroportos diferentes',['Vocês chegaram no CHARLES DE GAULLE em 31/12 e partem de ORLY em 02/01. Confiram o aeroporto de cada transfer — é o erro mais fácil de cometer, e sai caro no dia.']),
-      B('o relógio','Contando de trás para frente',['17h35 estar no aeroporto (3h de antecedência: oito malas num balcão só).','16h30 saída do hotel. Do 7º até Orly são 30–40 min de carro; reservem 50, é sábado à tarde.','Ou seja: o dia inteiro livre, das 9h às 16h15.']),
-      B('09h00','Rue Cler em dia de feira',['Sábado é o dia forte da rua: padarias, queijarias, peixaria, floricultura. O retrato mais parisiense do bairro, e fica na porta.','Últimas compras de queijo, chocolate e vinho. Comprem agora, não no aeroporto.']),
-      B('10h00','Escolham UM programa, todos a ≤15 min a pé',['MUSÉE D’ORSAY (recomendado): impressionistas na antiga estação. Dá para ver o essencial em 2–3 horas com oito pessoas. Ingresso com hora marcada na véspera.','LES INVALIDES e o túmulo de Napoleão, com o Museu do Exército.','MUSEU RODIN, pequeno, com jardim de esculturas — o mais leve dos três.','Ou o Champ de Mars e a Torre de novo, sem entrar, para fechar a viagem onde ela começou em Paris.']),
-      B('13h00','Almoço no bairro',['Liguem na véspera: sábado de almoço com oito pessoas no 7º lota. Não estiquem além das 14h30.']),
-      B('14h30','Malas e reorganização',['As malas ficaram na recepção depois do check-out das 12h.','Redistribuir peso, guardar as compras da manhã, conferir passaportes e cartões de embarque. Uma hora e meia parece muito — com oito pessoas, não é.']),
-      B('16h30','Saída para Orly',['Transfer privado, dois carros grandes, reservado com antecedência.','Alternativa: Linha 8 até Madeleine e Linha 14 direto ao aeroporto, 45–50 min. Mas há TARIFA DE AEROPORTO específica, bem mais cara — e é uma baldeação com oito malas.']),
+      B('o relógio','Sem programação, por escolha',['Não há museu, ingresso nem passeio marcado hoje. Depois de três semanas, o último dia é café da manhã, a feira da porta, almoço e aeroporto — e vocês vão para Orly cedo, sem correr atrás de horário.','Isso é o plano, e não uma sobra de tempo a ser preenchida. Museu no último dia com as malas na recepção custa mais do que rende.']),
+      B('09h00','Rue Cler em dia de feira',['Sábado é o dia forte da rua: padarias, queijarias, peixaria, floricultura. O retrato mais parisiense do bairro, e fica na porta do hotel.','É o único programa do dia, e não precisa de mais nada. Últimas compras de queijo, chocolate e vinho — aqui, não no aeroporto.','Cuidado só com o que não embarca: queijo fresco, presunto cru e mel entram na restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a vácuo, chocolate e vinho despachado, sem problema.']),
+      B('12h00','Check-out e malas na recepção',['Peso redistribuído, compras da manhã guardadas, passaportes e cartões de embarque conferidos. As malas ficam na recepção.','Uma hora parece muito para isso — com oito pessoas, não é.']),
+      B('13h00','Almoço no bairro',['Liguem na véspera: sábado de almoço com oito pessoas no 7º lota.','É a última refeição da viagem e não há nada depois dela, então ela pode durar o quanto quiser.']),
+      B('15h30','Saída para Orly',['Transfer privado reservado com antecedência, dois carros grandes. Do 7º até Orly são 30–40 min de carro; reservem 50, é sábado à tarde.','Chegando por volta das 16h20, sobram mais de 4h para o voo das 20h35. É a folga que vocês escolheram ter, com oito malas num balcão só.','Alternativa se o transfer falhar: Linha 8 até Madeleine e Linha 14 direto ao aeroporto, 45–50 min. Mas há TARIFA DE AEROPORTO específica, bem mais cara — e é uma baldeação com oito malas.']),
     ] },
 ];
 
@@ -396,7 +395,8 @@ export const PLITVICE_DAY = {
   blocks:[
     B('o que esperar','Sem romantizar',['Temporada de inverno: SÓ OS LAGOS INFERIORES abrem, normalmente só pela ENTRADA 1.','O PARQUE FECHA ÀS 16H, com última entrada às 14h. Isso define o dia inteiro.','Ingresso de inverno bem mais barato e poucas centenas de visitantes: vocês vão ter as passarelas quase só para vocês.','As cachoeiras congelam parcialmente e o cenário fica branco — a versão do parque que quase nenhum turista vê.']),
     B('o ponto crítico','As passarelas com gelo, e é real',['Madeira escorregadia e trechos sem corrimão. Com uma pessoa idosa, isso é risco de queda, não detalhe de conforto.','BOTA IMPERMEÁVEL COM SOLA DE ADERÊNCIA — tênis não serve. Comprem em Zurique ou Viena, antes de chegar a Zagreb.','BASTÕES DE CAMINHADA para quem tiver menos equilíbrio.','Ninguém anda sozinho: em duplas, com alguém ao lado da pessoa idosa e alguém ao lado da criança, o tempo todo.']),
-    B('na contratação','A pergunta que precisa ser feita',['“O barco do lago Kozjak e o trem panorâmico estarão operando nesta data?” São eles que tornam o passeio possível sem subida a pé.','SE NÃO ESTIVEREM: façam a versão curta — mirante da Veliki Slap, trecho inicial das passarelas do cânion e volta pelo mesmo caminho.','Excursão com transporte PORTA A PORTA, busca no hotel ~8h. Peçam veículo único para os 8 e comparem com orçamento de transporte privativo.','NÃO tentem de ônibus público: a janela até o fechamento às 16h é apertada demais.','Comprem o ingresso do parque online com pelo menos um dia de antecedência.']),
+    B('na contratação','O que exatamente comprar',['UM TRANSFER DO HOTEL ATÉ O PARQUE, COM O INGRESSO JÁ INCLUÍDO. É assim que este passeio foi decidido: um pacote só, não o transporte de um lado e a entrada de outro.','Ao fechar, confirmem por escrito que o ingresso está dentro do valor e para quantas pessoas — 7 adultos e 1 criança. Ingresso de inverno tem preço próprio e a criança paga menos.','Busca no hotel por volta das 8h, porta a porta, veículo único para os 8. São ~2 horas de estrada em cada trecho.','NÃO tentem de ônibus público: a janela até o fechamento às 16h é apertada demais.']),
+    B('na contratação','A pergunta que precisa ser feita',['“O barco do lago Kozjak e o trem panorâmico estarão operando nesta data?” São eles que tornam o passeio possível sem subida a pé.','SE NÃO ESTIVEREM: façam a versão curta — mirante da Veliki Slap, trecho inicial das passarelas do cânion e volta pelo mesmo caminho.']),
     B('07h00','Café da manhã e mochila',['Água, lanche, luvas, gorro, capa de chuva.','MUITOS RESTAURANTES DO PARQUE FECHAM NO INVERNO. Levem comida suficiente para o dia inteiro, comprada no dia anterior.']),
     B('08h00','Busca no hotel',['~2 horas de estrada em cada trecho.']),
     B('10h00','Chegada, Entrada 1',['Banheiros na entrada e perto do embarcadouro. Confirmem na bilheteria quais trechos estão abertos hoje e se barco e trem estão rodando.']),
@@ -412,9 +412,6 @@ export const DECISOES = [
   { k:'plitvice', pergunta:'Plitvice em qual dia?',
     contexto:'Está decidido que vai acontecer; falta cravar o dia. A recomendação é o 29 — se der ruim, o 30 ainda serve de reserva; e o dia da cidade funciona com qualquer tempo, Plitvice não. Decidam na noite do dia 28, olhando a previsão.',
     opcoes:[['29','29/12 (recomendado)'],['30','30/12']] },
-  { k:'ultimo', pergunta:'02/01: qual museu?',
-    contexto:'O Orsay entrega uma experiência comparável em metade do esforço, a 15 minutos a pé do hotel. O Louvre por dentro cabe — sábado ele abre e o voo é só às 20h35 — mas seria um último dia corrido com oito pessoas cansadas de três semanas.',
-    opcoes:[['orsay','Musée d’Orsay (recomendado)'],['louvre','Louvre por dentro']] },
 ];
 
 export const CHECKLIST = [
@@ -424,7 +421,7 @@ export const CHECKLIST = [
     { id:'a1', t:'Aéreo internacional de ida — Brasil → Lisboa, chegada 11/12 às 05h15', n:'Bilhetes emitidos para os 8.' },
     { id:'a2', t:'Voo Lisboa → Paris (Orly), 14/12 às 08h15' },
     { id:'r4', t:'Voo Zagreb (ZAG) → Paris (CDG), 31/12' },
-    { id:'a3', t:'Aéreo internacional de volta — Paris (Orly) → Brasil, 02/01', n:'Saída do hotel 16h30. Orly, não CDG.' },
+    { id:'a3', t:'Aéreo internacional de volta — Paris (Orly) → Guarulhos, 02/01 às 20h35', n:'Chegada em GRU em 03/01 às 06h50. Saída do hotel 15h30. Orly, não CDG.' },
     { id:'h1', mapa:'Hotel Inn Rossio, Lisboa', t:'Hotel Inn Rossio, Lisboa', n:'11/12 14h00 → 14/12 12h00 · 3 noites' },
     { id:'h2', mapa:'Ibis Budget Paris Porte de Montmartre', t:'Ibis Budget Paris Porte de Montmartre', n:'14/12 14h30 → 18/12 madrugada · 4 noites' },
     { id:'h3', mapa:'The Guesthouse by the Hey Hotel, Interlaken', t:'The Guesthouse by the Hey Hotel, Interlaken', n:'18/12 15h00 → 20/12 11h00 · 2 noites' },
@@ -445,17 +442,18 @@ export const CHECKLIST = [
   ]},
   { k:'b2', titulo:'Próximas semanas', sub:'Sem pressa, mas não deixem para depois', tom:'#a2761c', items:[
     { id:'p1', t:'Swiss Half Fare Card — início 18/12, CHF 150 × 7 adultos', n:'Comprar em sbb.ch LOGADO na conta do app SBB Mobile, com nome igual ao passaporte. PEDIR O SWISS FAMILY CARD JUNTO, para a criança viajar de graça. Baixar o PDF no celular de cada pessoa ainda no Brasil.', url:'https://www.sbb.ch/en/travelcards-and-tickets/railpasses/half-fare-card.html' },
-    { id:'p2', t:'Transfer aeroporto → hotel, Lisboa, 11/12' },
+    { id:'p2', t:'Transfer aeroporto → hotel, Lisboa, 11/12', n:'Pouso às 05h15. Passem o número do voo para rastrearem o atraso.' },
     { id:'p3', t:'Transfer hotel → aeroporto, Lisboa, 14/12 às 05h30' },
     { id:'p4', t:'Transfer aeroporto → hotel, Paris, 14/12 (Welcome Pickups)' },
     { id:'p5', t:'Transfer hotel → Gare de Lyon, Paris, 18/12 às 05h45' },
-    { id:'p6', t:'Transfer apartamento → aeroporto de Viena, 28/12', n:'Dois carros grandes.' },
+    { id:'t1', t:'Transfer hotel → Zürich HB para o Nightjet, 23/12', n:'Check-out às 11h e as malas ficam no guarda-volumes da estação até a noite. Alternativa sem contratar nada: o tram 4 sai do Technopark, na porta do hotel, direto à estação central — mas são oito malas grandes num tram de domingo… quarta-feira de véspera de Natal.' },
+    { id:'p6', t:'Transfer apartamento → aeroporto de Viena, 28/12', n:'Dois carros grandes. Alternativa: não há tram até o aeroporto de Viena — o que existe é o S-Bahn S7 ou o CAT desde Wien Mitte, com baldeação e escadas. Com oito malas, o transfer ganha.' },
     { id:'p7', t:'Transfer aeroporto de Zagreb → Hotel Garden, 28/12' },
     { id:'p8', t:'Transfer CDG → Hotel du Cadran, 31/12', n:'É dia de Réveillon; não contem com táxi na hora.' },
-    { id:'p9', t:'Transfer Hotel du Cadran → aeroporto de ORLY, 02/01, saída 16h30', n:'ATENÇÃO: vocês chegam no CDG e partem de Orly. São aeroportos diferentes.' },
+    { id:'p9', t:'Transfer Hotel du Cadran → aeroporto de ORLY, 02/01, saída 15h30', n:'ATENÇÃO: vocês chegam no CDG e partem de Orly. São aeroportos diferentes.' },
     { id:'p10', mapa:'Estação Porte de Clignancourt, Paris', t:'Navigo Semaine, Paris — comprar no dia 14/12 no guichê ou pelo app', n:'32,40 € por pessoa. Não sai nas máquinas automáticas.' },
     { id:'p11', t:'Passe de 7 dias da Wiener Linien, Viena', n:'25,20 € por adulto na versão digital, no app WienMobil. A criança provavelmente não paga nada.' },
-    { id:'p12', mapa:'Parque Nacional dos Lagos de Plitvice', t:'Excursão aos Lagos de Plitvice', n:'Transporte porta a porta, busca no hotel ~8h. Veículo único para os 8. Perguntem se o barco do Kozjak e o trem panorâmico estarão operando. Ingresso do parque online com 1 dia de antecedência.' },
+    { id:'p12', mapa:'Parque Nacional dos Lagos de Plitvice', t:'Transfer hotel → Plitvice COM INGRESSO INCLUÍDO, 29/12', n:'Pacote único: transporte porta a porta mais a entrada do parque, e não duas compras separadas. Busca no hotel ~8h, veículo único para os 8. Confirmem por escrito que o ingresso está no valor, para 7 adultos e 1 criança. Perguntem se o barco do Kozjak e o trem panorâmico estarão operando na data.' },
   ]},
   { k:'b3', titulo:'Na véspera ou no dia', sub:'Não antecipem', tom:'#3a55a0', items:[
     { id:'v1', mapa:'Estação do Rossio, Lisboa', t:'Cartões Viva Viagem com saldo Zapping', n:'No dia 11/12, máquina do Rossio.' },
@@ -466,6 +464,7 @@ export const CHECKLIST = [
     { id:'v6', mapa:'Engelberg, Suíça', t:'Bilhete Zürich HB → Engelberg, ida e volta, 22/12' },
     { id:'v7', t:'Bilhetes urbanos de Zurique, Viena e Zagreb', n:'No dia, conforme a seção de transporte.' },
     { id:'v8', mapa:'The Guesthouse by the Hey Hotel, Interlaken', t:'Interlaken Guest Card', n:'Não se compra: pedir no check-in, em 18/12, uma por pessoa.' },
+    { id:'v9', t:'Interlaken: hotel ⇄ estação, 18 e 20/12 — nada a comprar', n:'Uber existe em Interlaken, mas quem atende são táxis licenciados: é chamada de táxi com outro nome, e a oferta é fina numa cidade de 5 mil habitantes. Bolt não opera lá e não há tram. O ônibus local é GRÁTIS com a Guest Card e resolve os dois trechos; táxi só se a bagagem apertar. Deixem o número de um táxi salvo antes.' },
   ]},
   { k:'b4', titulo:'Três divergências', sub:'Estavam na lista de vocês e saem dela', tom:'#9e2c46', atencao:true, items:[
     { id:'d1', t:'LISBOA CARD: não comprem', n:'Não se paga neste roteiro. As duas entradas pagas não são cobertas integralmente e o transporte sai mais barato no Zapping.' },
@@ -726,9 +725,9 @@ export const VOOS = [
   { trecho:'Zagreb (ZAG) → Paris (CDG)', cia:'Croatia Airlines', city:'paris2', ok:true,
     sai:'31/12 (qui) 08h25', chega:'31/12 (qui) 10h30',
     nota:'Direto, ~2h05. É este voo da manhã que salva a tarde do dia 31.' },
-  { trecho:'Paris (ORY) → Brasil', cia:'', city:'paris2',
-    sai:'02/01 (sáb) 20h35', chega:'03/01 (dom) a confirmar',
-    nota:'Orly, e não CDG. Estar no aeroporto às 17h35.' },
+  { trecho:'Paris (ORY) → São Paulo (GRU)', cia:'', city:'paris2', ok:true,
+    sai:'02/01 (sáb) 20h35', chega:'03/01 (dom) 06h50',
+    nota:'Companhia a confirmar. ORLY, e não CDG. São 14h15 de porta a porta entre os fusos — bem mais que as ~11h30 de um voo direto, então o bilhete deve ter conexão: confirmem onde é a escala e quanto tempo dura.' },
 ];
 
 export const UBER_GANHA = [

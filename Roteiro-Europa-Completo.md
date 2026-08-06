@@ -47,8 +47,10 @@ Horários locais de cada aeroporto.
   EMITIDO. Direto, ~2h05. É este voo da manhã que salva a tarde do dia 31.
   ATENÇÃO AO SENTIDO: em 31/12 o voo é Zagreb -> Paris, e não o contrário.
   A estadia em Zagreb termina nesse dia e o Réveillon é em Paris.
-- ORY -> Brasil • parte 02/01 (sáb) 20h35
-  A CONFIRMAR. Orly, e não CDG. Estar no aeroporto às 17h35.
+- ORY -> GRU • parte 02/01 (sáb) 20h35 • chega 03/01 (dom) 06h50
+  EMITIDO, companhia a confirmar. ORLY, e não CDG.
+  São 14h15 de porta a porta entre os fusos, contra ~11h30 de um voo direto:
+  o bilhete deve ter conexão. Confirmem onde é a escala e quanto ela dura.
 
 
 ===============================================================
@@ -133,63 +135,76 @@ BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
 15. TRANSFER aeroporto -> hotel, PARIS, 14/12 (Welcome Pickups)
 16. TRANSFER hotel -> Gare de Lyon, PARIS, 18/12 às 05h45
 17. TRANSFER apartamento -> aeroporto de Viena, 28/12
-    Não estava na lista de vocês. Dois carros grandes.
+    Não estava na lista de vocês. Dois carros grandes. Não há tram até o
+    aeroporto de Viena: a alternativa seria S-Bahn S7 ou CAT desde Wien Mitte,
+    com baldeação e escadas. Com oito malas, o transfer ganha.
 18. TRANSFER aeroporto de Zagreb -> Hotel Garden, 28/12
     Não estava na lista de vocês.
 19. TRANSFER CDG -> Hotel du Cadran, 31/12
     Não estava na lista de vocês. É dia de Réveillon; não contem com táxi na
     hora.
-20. TRANSFER Hotel du Cadran -> AEROPORTO DE ORLY, 02/01, saída às 16h30
+20. TRANSFER Hotel du Cadran -> AEROPORTO DE ORLY, 02/01, saída às 15h30
     Não estava na lista de vocês. Voo às 20h35 em ORLY.
     ATENÇÃO: vocês CHEGAM no Charles de Gaulle em 31/12 e PARTEM de Orly em
     02/01. São aeroportos diferentes; confiram na hora de contratar os dois.
-21. NAVIGO SEMAINE, Paris, comprar no dia 14/12 no guichê ou pelo app
-22. PASSE DE 7 DIAS DA WIENER LINIEN, Viena
+21. TRANSFER hotel -> ZÜRICH HB para o Nightjet, 23/12
+    Check-out às 11h; as malas ficam no guarda-volumes da estação até a noite.
+    Alternativa sem contratar nada: o tram 4 sai do Technopark, na porta do
+    hotel, direto à estação central. Mas são oito malas grandes.
+22. INTERLAKEN, hotel <-> estação, 18 e 20/12 — NADA A COMPRAR
+    Uber existe em Interlaken, mas quem atende são táxis licenciados: é chamada
+    de táxi com outro nome, e a oferta é fina numa cidade de 5 mil habitantes.
+    Bolt não opera lá e não há tram. O ônibus local é GRÁTIS com a Guest Card e
+    resolve os dois trechos. Deixem o número de um táxi salvo antes.
+23. NAVIGO SEMAINE, Paris, comprar no dia 14/12 no guichê ou pelo app
+24. PASSE DE 7 DIAS DA WIENER LINIEN, Viena
     Não estava na lista de vocês. 25,20 EUR por adulto na versão digital, no
     app WienMobil. A criança provavelmente não paga nada.
-23. [DECIDIDO: PLITVICE — FALTA COMPRAR] Excursão aos Lagos de Plitvice, 30/12
-    (ou 29/12 — ver a discussão de data na seção do dia; recomendo o 29)
-    Contratar excursão com transporte porta a porta, busca no hotel por volta
-    das 8h. Pedir veículo único para os 8 e comparar com orçamento de transporte
-    privativo.
+25. [DECIDIDO: PLITVICE — FALTA COMPRAR] TRANSFER hotel -> Plitvice COM O
+    INGRESSO DO PARQUE INCLUÍDO, 29/12 (o 30/12 fica de reserva de clima)
+    É UM PACOTE SÓ: transporte porta a porta mais a entrada do parque, e não
+    duas compras separadas. Busca no hotel por volta das 8h, veículo único para
+    os 8, ~2 horas de estrada em cada trecho.
+    CONFIRMAR POR ESCRITO que o ingresso está dentro do valor e para quantas
+    pessoas: 7 adultos e 1 criança. O ingresso de inverno tem preço próprio e a
+    criança paga menos.
     PERGUNTAR NA CONTRATAÇÃO: o barco do lago Kozjak e o trem panorâmico estarão
     operando nesta data? Sem eles, a volta é subida a pé.
-    Comprar o ingresso do parque online com pelo menos um dia de antecedência.
 
 RESERVAS DE RESTAURANTE — nenhuma estava na lista de vocês
 Com oito pessoas, todas são obrigatórias. Detalhes e telefones na seção
 "RESTAURANTES — CUSTO-BENEFÍCIO E RESERVAS".
-24. 11/12 almoço — Casa do Alentejo
-25. 11/12 jantar — Trama Pasta Fresca
-26. 12/12 almoço — Nova Cervejaria, +351 21 894 2169
-27. 12/12 jantar — A Licorista, +351 21 343 1415
-28. 13/12 almoço — Adega de Belém, +351 21 363 9167, ou O Pedrouços
-29. 13/12 jantar — Cervejaria Trindade, salão dos azulejos
-30. 14/12 jantar — La Villa des Abbesses, 19h00
-31. 18/12 jantar — Hopplá Bistro, WhatsApp +41 79 616 86 95
-32. 19/12 jantar — Fondue Villa & Garden, +41 77 232 11 71
-33. 20/12 jantar — Rheinfelder Bierhalle, Niederdorf
-34. 21, 22 e 23/12 jantares em Zurique
-35. 27/12 jantar final em Viena
-36. 29/12 jantar em Zagreb
-37. 01/01 almoço ou jantar em Paris — a maioria dos restaurantes fecha no dia 1º
+26. 11/12 almoço — Casa do Alentejo
+27. 11/12 jantar — Trama Pasta Fresca
+28. 12/12 almoço — Nova Cervejaria, +351 21 894 2169
+29. 12/12 jantar — A Licorista, +351 21 343 1415
+30. 13/12 almoço — Adega de Belém, +351 21 363 9167, ou O Pedrouços
+31. 13/12 jantar — Cervejaria Trindade, salão dos azulejos
+32. 14/12 jantar — La Villa des Abbesses, 19h00
+33. 18/12 jantar — Hopplá Bistro, WhatsApp +41 79 616 86 95
+34. 19/12 jantar — Fondue Villa & Garden, +41 77 232 11 71
+35. 20/12 jantar — Rheinfelder Bierhalle, Niederdorf
+36. 21, 22 e 23/12 jantares em Zurique
+37. 27/12 jantar final em Viena
+38. 29/12 jantar em Zagreb
+39. 01/01 almoço ou jantar em Paris — a maioria dos restaurantes fecha no dia 1º
 
 ---------------------------------------------------------------
 BLOCO 3 — COMPRAR NA VÉSPERA OU NO DIA. Não antecipem.
 ---------------------------------------------------------------
-38. Cartões VIVA VIAGEM com saldo Zapping — no dia 11/12, máquina do Rossio
-39. Ingresso CASTELO DE SÃO JORGE — online, na véspera
-40. Bilhete BASEL SBB -> INTERLAKEN OST — app SBB, na véspera, selecionando a
+40. Cartões VIVA VIAGEM com saldo Zapping — no dia 11/12, máquina do Rossio
+41. Ingresso CASTELO DE SÃO JORGE — online, na véspera
+42. Bilhete BASEL SBB -> INTERLAKEN OST — app SBB, na véspera, selecionando a
     conexão VIA LUZERN e depois de já ter a reserva do panorâmico
-41. Bilhete INTERLAKEN OST -> GRINDELWALD, 19/12 — app SBB, na véspera
+43. Bilhete INTERLAKEN OST -> GRINDELWALD, 19/12 — app SBB, na véspera
     ATENÇÃO: na lista de vocês estava escrito "Zurique/Grindelwald". Grindelwald
     é bate-volta a partir de INTERLAKEN, no dia 19/12. Zurique só entra no
     roteiro a partir do dia 20.
-42. Bilhete INTERLAKEN OST -> ZÜRICH HB, 20/12 — app SBB, na véspera
-43. Bilhete ZÜRICH HB -> ENGELBERG ida e volta, 22/12 — app SBB, na véspera
-44. Bilhetes urbanos de Zurique, Viena e Zagreb — no dia, conforme a seção de
+44. Bilhete INTERLAKEN OST -> ZÜRICH HB, 20/12 — app SBB, na véspera
+45. Bilhete ZÜRICH HB -> ENGELBERG ida e volta, 22/12 — app SBB, na véspera
+46. Bilhetes urbanos de Zurique, Viena e Zagreb — no dia, conforme a seção de
     transporte
-45. INTERLAKEN GUEST CARD — não se compra. Pedir no check-in, em 18/12.
+47. INTERLAKEN GUEST CARD — não se compra. Pedir no check-in, em 18/12.
 
 ---------------------------------------------------------------
 BLOCO 4 — TRÊS DIVERGÊNCIAS COM A LISTA DE VOCÊS
@@ -218,7 +233,8 @@ O QUE AINDA DEPENDE DE VOCÊS PARA EU FECHAR
   Recomendo o 29, e a decisão final pode ficar para a noite do dia 28, olhando
   a previsão do tempo.
 - Escolha entre menu de Réveillon e ceia no hotel, em 31/12.
-- No dia 02/01: Musée d'Orsay (recomendado) ou Louvre por dentro.
+- O dia 02/01 não é mais uma escolha: fica SEM PROGRAMAÇÃO, por decisão de
+  vocês. Café da manhã, a feira da Rue Cler, almoço e Orly cedo.
 
 
 
@@ -3082,8 +3098,13 @@ Alternativa, se o grupo quiser mais um ponto no dia
 02/01/2027 (SÁBADO) — Último dia
 ---------------------------------------------------------------
 
-VOO CONFIRMADO: 20h35, AEROPORTO DE ORLY (ORY)
-Check-out do hotel às 12h00.
+VOO CONFIRMADO: 02/01 às 20h35 do AEROPORTO DE ORLY (ORY), chegada em GRU em
+03/01 às 06h50. Check-out do hotel às 12h00.
+
+ESTE DIA NÃO TEM PROGRAMAÇÃO, POR ESCOLHA
+Não há museu, ingresso nem passeio marcado. O último dia é café da manhã, a
+feira da Rue Cler na porta do hotel, almoço, e saída cedo para Orly. Isso é o
+plano, e não uma sobra de tempo a ser preenchida.
 
 ATENÇÃO — SÃO DOIS AEROPORTOS DIFERENTES NESTA PERNA
 Vocês chegam a Paris em 31/12 no CHARLES DE GAULLE e partem em 02/01 de ORLY.
@@ -3091,13 +3112,11 @@ Ao contratar os dois transfers, confiram o aeroporto de cada um. É o erro mais
 fácil de cometer, e sai caro no dia.
 
 O RELÓGIO DO DIA
-- 17h35 — Estar no aeroporto. Três horas de antecedência para voo internacional
-  de longo curso, com oito pessoas e oito malas para despachar num balcão só.
-- 16h30 — Saída do hotel. Do 7º arrondissement até Orly são cerca de 30 a 40
-  minutos de carro; reservem 50, porque é sábado à tarde e ninguém quer fazer
-  essa conta apertada.
-- Ou seja: vocês têm o dia inteiro livre, das 9h às 16h15. É um dia cheio de
-  verdade, não uma manhã espremida.
+- 15h30 — Saída do hotel, cedo e sem pressa. Do 7º arrondissement até Orly são
+  cerca de 30 a 40 minutos de carro; reservem 50, porque é sábado à tarde.
+- 16h20 — Chegada ao aeroporto. Sobram mais de quatro horas até o voo, com
+  oito pessoas e oito malas para despachar num balcão só. É a folga que vocês
+  escolheram ter.
 
 COMO IR ATÉ ORLY
 - RECOMENDADO: transfer privado, dois carros grandes, reservado com
@@ -3122,42 +3141,22 @@ O DIA, HORA A HORA
 - Últimas compras de queijo, chocolate e vinho para levar. Comprem agora, não
   no aeroporto.
 
-10h00 às 13h00 — Escolham UM programa
-Todos a 15 minutos ou menos a pé do hotel, sem transporte:
-- MUSÉE D'ORSAY (recomendado). Impressionistas na antiga estação de trem.
-  Sábado abre normalmente. É um museu de primeira linha e, ao contrário do
-  Louvre, dá para ver o essencial em duas ou três horas com oito pessoas.
-  Comprem ingresso com hora marcada online, na véspera.
-- LES INVALIDES e o túmulo de Napoleão, com o Museu do Exército
-- MUSEU RODIN, pequeno, com jardim de esculturas. O mais leve dos três.
-- Ou simplesmente o Champ de Mars e a Torre Eiffel de novo, sem entrar,
-  para fechar a viagem onde ela começou em Paris.
+- CUIDADO COM O QUE NÃO EMBARCA: queijo fresco, presunto cru e mel entram na
+  restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a
+  vácuo, chocolate e vinho despachado passam sem problema.
 
-13h00 às 14h30 — Almoço no bairro
+12h00 — Check-out e malas na recepção
+- Redistribuir peso entre as malas, guardar as compras da manhã e conferir
+  passaportes e cartões de embarque de todo mundo.
+- Uma hora parece muito para isso. Com oito pessoas, não é.
+
+13h00 — Almoço no bairro
 - RESERVA: liguem na véspera. Sábado de almoço com oito pessoas no 7º lota.
-- Não estiquem além das 14h30. Vocês ainda precisam pegar as malas.
+- É a última refeição da viagem e não há nada depois dela: pode durar o quanto
+  quiser.
 
-14h30 às 16h00 — Volta ao hotel, malas e reorganização
-- As malas ficaram na recepção depois do check-out das 12h
-- Este é o momento de redistribuir peso entre as malas, guardar as compras da
-  manhã e conferir passaportes e cartões de embarque de todo mundo
-- Uma hora e meia parece muito. Com oito pessoas, não é.
+15h30 — Saída para Orly
 
-16h30 — Saída para Orly
-
-17h35 — Aeroporto
+16h20 — Aeroporto
 
 20h35 — Voo
-
-O LOUVRE POR DENTRO — CABE, MAS COM RESSALVA
-- 2 de janeiro é sábado e o museu abre normalmente. Com o voo só às 20h35,
-  este é o único dia da viagem em que a visita interna caberia.
-- Como funcionaria: metrô às 09h15 (Linha 8 até Concorde, depois Linha 1 até
-  Palais Royal-Musée du Louvre), museu das 10h às 13h30, volta ao 7º, almoço
-  rápido e malas às 15h.
-- A ressalva honesta: seria um último dia corrido, num museu enorme, com oito
-  pessoas cansadas de três semanas, e ainda com um voo internacional pela
-  frente. O Musée d'Orsay entrega uma experiência comparável em metade do
-  esforço e a quinze minutos a pé do hotel.
-- Se decidirem pelo Louvre mesmo assim, o ingresso com hora marcada é
-  obrigatório e precisa ser comprado com antecedência.

@@ -107,7 +107,10 @@ const STORE = 'natal-europa:v1';
 // Decisões já fechadas no roteiro. Ficam aqui como constantes porque o app
 // original também as forçava a estes valores na montagem.
 const PLITVICE = '29';   // '29' | '30'
-const ULTIMO = 'orsay';  // 'orsay' | 'louvre'
+// O último dia deixou de ter museu: 02/01 é café da manhã, feira e aeroporto.
+// A constante sobrevive só porque o valor vai para o localStorage, e sumir com
+// a chave mexeria no objeto que já está gravado no navegador de cada um.
+const ULTIMO = 'orsay';
 const REVEILLON = 'ceia';
 
 // Câmbio usado no financeiro (era ajustável pelo editor do Claude Design).
@@ -163,9 +166,7 @@ const DAYS = (() => {
       return Object.assign({}, d, { nota: 'Sem ceia de Réveillon e sem jantar reservado. Voo Zagreb → Paris já comprado. Compras na Rue Cler até as 18h resolvem a noite e o café da manhã do dia 1º.' });
     }
     if (d.id === '2027-01-02') {
-      return Object.assign({}, d, { nota: ULTIMO === 'orsay'
-        ? 'Decidido: Musée d’Orsay das 10h às 13h. Ingresso com hora marcada, comprado na véspera.'
-        : 'Decidido: Louvre por dentro. Metrô às 09h15, museu das 10h às 13h30, volta ao 7º e malas às 15h. Ingresso com hora marcada, obrigatório.' });
+      return Object.assign({}, d, { nota: 'Sem programação, por escolha: café da manhã, a feira da Rue Cler, almoço e saída para Orly às 15h30. Nada de museu nem ingresso.' });
     }
     return d;
   });
@@ -184,12 +185,13 @@ const PENDENCIAS = {
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
   '2026-12-21': ['Passe diário com as zonas até Kilchberg, comprado às 9h'],
   '2026-12-22': ['Bilhete Zürich HB → Engelberg (véspera) · teleférico do Titlis só na base · Ice Flyer à parte'],
-  '2026-12-23': ['Nightjet Zurique → Viena · jantar reservado perto da estação'],
+  '2026-12-23': ['Nightjet Zurique → Viena · transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação'],
+  '2026-12-29': ['Transfer até Plitvice COM o ingresso do parque incluído no pacote'],
   '2026-12-26': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene'],
   '2026-12-27': ['Ingresso de Schönbrunn com hora marcada · jantar final reservado'],
   '2026-12-28': ['Voo VIE → ZAG · transfers dos dois lados · franquia de bagagem'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
-  '2027-01-02': ['Transfer hotel → ORLY às 16h30 · ingresso do museu escolhido'],
+  '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nenhum ingresso: o dia não tem programação'],
 };
 
 /* Contato de uma parada da timeline. Quando a parada é uma refeição
@@ -346,14 +348,18 @@ function finance() {
         { v: e(50), kid: 1 },         // transfers restantes: custo por veículo, agora rateado entre 8 e não 9
       ] },
     { titulo: 'Passeios e ingressos', tom: '#b4552f', kid: 0.5,
-      itens: 'Disney, cruzeiro no Sena, Lindt, teleféricos do First e do Titlis, Torre Eiffel, Schönbrunn, Orsay e Plitvice',
+      itens: 'Disney, cruzeiro no Sena, Lindt, teleféricos do First e do Titlis, Torre Eiffel, Schönbrunn e Plitvice',
       linhas: [
         { v: pago.passeios * share, fam: pago.passeios },
         { v: f(60), kid: 0.5 },              // Grindelwald–First e trem BOB
         { v: f(60), kid: 0.5 },              // Titlis
         { v: e(30), kid: 0.5 },              // Torre Eiffel até o cume
-        { v: e(43) + f(13), kid: 0.3 },      // Schönbrunn, Orsay, Museu Nacional Suíço
-        { v: e(10), kid: 0.5 },              // Plitvice no inverno
+        { v: e(27) + f(13), kid: 0.3 },      // Schönbrunn e Museu Nacional Suíço — o Orsay saiu com o programa do dia 02
+        // Plitvice deixou de ser só o ingresso de inverno (~10 €): agora é um
+        // pacote de transfer porta a porta COM a entrada inclusa. Estimativa de
+        // van privativa rateada entre 8, mais o ingresso. Troquem pelo valor do
+        // orçamento assim que ele chegar — é o item menos firme desta tela.
+        { v: e(75), kid: 0.5 },
       ] },
     { titulo: 'Alimentação', tom: '#a2761c', kid: 0.6,
       itens: '23 dias. Lisboa e Paris ~€ 30–35/dia · Suíça ~CHF 45–50/dia · Viena e Zagreb ~€ 25–28/dia',
@@ -779,7 +785,7 @@ function viewChecklist() {
       <div style="font-family:var(--display);font-size:26px">Decidido</div>
       <ul style="margin:10px 0 0;padding-left:18px;font-size:17.5px;color:var(--body)">
         <li style="margin-bottom:4px">Plitvice em <strong>${PLITVICE === '29' ? '29/12' : '30/12'}</strong>. O dia 30 segue como reserva de clima, mas o roteiro e as compras já contam com o 29.</li>
-        <li>02/01 no <strong>${ULTIMO === 'orsay' ? 'Musée d’Orsay' : 'Louvre por dentro'}</strong>, das 10h às 13h, com ingresso de hora marcada comprado na véspera.</li>
+        <li>02/01 <strong>sem programação</strong>: café da manhã, a feira da Rue Cler, almoço e Orly cedo. Não há ingresso a comprar para o último dia.</li>
       </ul>
     </div>
   </section>`;
