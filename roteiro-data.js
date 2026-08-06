@@ -98,7 +98,7 @@ export const CITIES = [
     dias:['2026-12-31','2027-01-01','2027-01-02'],
     dicas:[
       ['NÃO comprem o Navigo Semaine de novo','São dois dias e meio com poucos deslocamentos. Em 31/12 o transporte é gratuito em toda a Île-de-France a partir das 17h, e segue grátis até o meio-dia do dia 1º.'],
-      ['O relógio do dia 31','Lojas dos Champs-Élysées fecham entre 15h e 18h; terraços a partir das 16h; a avenida abre a pedestres às 19h. Chegar às 16h30 é perder a tarde inteira — por isso o voo da manhã.'],
+      ['O relógio do dia 31','Lojas dos Champs-Élysées fecham entre 15h e 18h; terraços a partir das 16h; a avenida abre a pedestres às 19h.'],
       ['1º de janeiro fecha Paris','A maioria dos restaurantes e até padarias fecham. O que não for comprado na Rue Cler no dia 31, vocês não terão no dia 1º.'],
       ['O Louvre fecha em 1º de janeiro — e não importa','A Cour Napoléon, o pátio da pirâmide, é pública, gratuita e plana. Sem museu aberto, o pátio fica ainda mais vazio.'],
       ['Hora azul entre 16h30 e 17h30','A pirâmide acende por dentro enquanto o céu ainda tem cor. É a melhor foto do dia 1º.'],
@@ -322,7 +322,7 @@ export const DAYS = [
   { id:'2026-12-28', label:'28/12', wd:'segunda', city:'zagreb', title:'Viena → Zagreb + primeira noite de Advent',
     sun:['07:32','16:15'], travel:{ from:'Viena', to:'Zagreb', mode:'voo' },
     blocks:[
-      B('a decisão','Avião, e por quê',['O trem direto existia (~6h30, nem todos os dias), mas transformaria o dia num dia inteiro de transporte e faria vocês perderem a primeira noite de Advent.','Voo direto de ~1h, Austrian ou Croatia. Partida entre 9h e 11h.']),
+      B('o voo','Viena → Zagreb',['Voo direto de ~1h, Austrian ou Croatia. Partida entre 9h e 11h.']),
       B('08h30','Transfer ao aeroporto de Viena',['Dois carros grandes reservados com antecedência: são ~20 km e 8 malas. Não tentem resolver na hora.','Cheguem com 2h30 de antecedência — despachar oito malas num balcão único leva tempo.']),
       B('tarde','Chegada em Zagreb',['Franjo Tuđman fica a ~20 km do centro. Transfer reservado antes: com oito malas, dois carros resolvem melhor que o ônibus de ligação.','15h00 check-in no Hotel Garden, Vodnikova 13.']),
       B('check-in','Três coisas para resolver no balcão',['QUARTO LONGE DA RUA — há relatos de barulho de tram e trânsito.','LAVANDERIA: é o momento certo da viagem. Entreguem hoje e retirem no dia 29 ou 30.','ÁGUA comprada fora; a do hotel custa ~4 €.','Se o quarto chegar com problema, peçam troca no primeiro dia — a equipe é elogiada justamente por isso.']),
@@ -724,7 +724,7 @@ export const VOOS = [
     nota:'Ainda não emitido. Comprar a franquia de bagagem junto, em reserva única.' },
   { trecho:'Zagreb (ZAG) → Paris (CDG)', cia:'Croatia Airlines', city:'paris2', ok:true,
     sai:'31/12 (qui) 08h25', chega:'31/12 (qui) 10h30',
-    nota:'Direto, ~2h05. É este voo da manhã que salva a tarde do dia 31.' },
+    nota:'Direto, ~2h05.' },
   { trecho:'Paris (ORY) → São Paulo (GRU)', cia:'', city:'paris2', ok:true,
     sai:'02/01 (sáb) 20h35', chega:'03/01 (dom) 06h50',
     nota:'Companhia a confirmar. ORLY, e não CDG. São 14h15 de porta a porta entre os fusos — bem mais que as ~11h30 de um voo direto, então o bilhete deve ter conexão: confirmem onde é a escala e quanto tempo dura.' },

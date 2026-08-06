@@ -107,9 +107,10 @@ const STORE = 'natal-europa:v1';
 // Decisões já fechadas no roteiro. Ficam aqui como constantes porque o app
 // original também as forçava a estes valores na montagem.
 const PLITVICE = '29';   // '29' | '30'
-// O último dia deixou de ter museu: 02/01 é café da manhã, feira e aeroporto.
-// A constante sobrevive só porque o valor vai para o localStorage, e sumir com
-// a chave mexeria no objeto que já está gravado no navegador de cada um.
+// ULTIMO e REVEILLON não são mais lidos por tela nenhuma: o dia 02/01 ficou
+// sem museu e o Réveillon já está resolvido. Continuam existindo só porque o
+// valor vai para o localStorage, e sumir com a chave mexeria no objeto já
+// gravado no navegador de cada um.
 const ULTIMO = 'orsay';
 const REVEILLON = 'ceia';
 
