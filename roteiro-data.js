@@ -356,7 +356,7 @@ export const DAYS = [
   { id:'2026-12-31', label:'31/12', wd:'quinta', city:'paris2', title:'Zagreb → Paris + Réveillon',
     sun:['08:44','17:00'], travel:{ from:'Zagreb', to:'Paris (CDG)', mode:'voo' },
     blocks:[
-      B('o voo','Já comprado',['Croatia Airlines, ZAG → CDG, embarque 08h25 e pouso 10h30. Direto, ~2h05.','Chegando às 16h30 a tarde já acabou; chegando às 12h30, vocês têm a tarde inteira. É por isso que o voo da manhã importa.','Ryanair para Beauvais não compensa: 85 km de Paris e 1h15 de ônibus de ligação.','Transfer privado reservado com antecedência, 2 vans. CDG → 7º arrondissement: 45 min a 1h. Não contem com táxi na hora.']),
+      B('o voo','Já comprado',['Croatia Airlines, ZAG → CDG, embarque 08h25 e pouso 10h30. Direto, ~2h05.','Transfer privado reservado com antecedência, 2 vans. CDG → 7º arrondissement: 45 min a 1h. Não contem com táxi na hora.']),
       B('12h30','Chegada ao hotel',['Hotel du Cadran, 10 Rue du Champ de Mars. Deixar as malas — check-in às 15h.','Metrô École Militaire (Linha 8) a 2–3 min. Rue Cler a menos de um minuto. Torre Eiffel a ~15 min a pé.']),
       B('13h00','Almoço e Champ de Mars',['Almoço na Rue Cler ou arredores.','14h30 caminhada até o Champ de Mars e a Torre, 15 min plano. Não precisa subir — vocês já subiram em 17/12.']),
       B('16h00','Compras na Rue Cler — isto é crítico',['Não há ceia montada nem jantar reservado hoje: o que vocês comprarem aqui é a comida da noite e o café da manhã do dia 1º.','Em 1º de janeiro a maior parte do comércio de Paris fecha, inclusive padarias. O que não comprarem hoje, não terão amanhã.','17h00 volta ao hotel, check-in, descanso e banho antes da noite.']),
