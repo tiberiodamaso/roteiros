@@ -193,6 +193,7 @@ h3 { font-size: 26px; }
 .cityhead .eyebrow { opacity: .75; color: inherit; }
 .cityhead__resumo { margin-top: 14px; max-width: 640px; font-size: 19px; }
 .cityhead__hotel { margin-top: 16px; font-family: var(--mono); font-size: 16px; opacity: .85; }
+.cityhead__end { margin-top: 4px; font-family: var(--mono); font-size: 15px; opacity: .7; }
 
 .tip { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
 .tip__row { display: flex; gap: 10px; align-items: flex-start; }
@@ -365,7 +366,20 @@ h3 { font-size: 26px; }
 .res__n { font-family: var(--display); font-size: 24px; }
 .res__n span { font-family: var(--mono); font-size: 15.5px; color: var(--muted); }
 .res__hotel { font-size: 17px; color: var(--body); }
+.res__end { margin-top: 4px; font-family: var(--mono); font-size: 15px; color: var(--muted); }
 .res__dates { font-family: var(--mono); font-size: 16px; color: var(--muted); }
+.res .lnks { grid-column: 1 / -1; margin-top: 2px; }
+
+/* Voos. Mesma gramática dos cards de cidade: filete de 4px na cor da cidade
+   de destino, números em mono. O selo de situação é o único lugar da tela
+   que distingue o que já está emitido do que ainda depende de compra. */
+.voo { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--col); border-radius: 10px; padding: 14px 18px; }
+.voo__top { display: flex; gap: 12px; align-items: baseline; justify-content: space-between; flex-wrap: wrap; }
+.voo__t { font-family: var(--display); font-size: 22px; }
+.voo__sit { font-family: var(--mono); font-size: 13.5px; text-transform: uppercase; letter-spacing: .12em; color: var(--rust); border: 1px solid var(--line-strong); border-radius: 999px; padding: 3px 10px; }
+.voo__sit--ok { color: var(--col); }
+.voo__h { display: flex; gap: 22px; flex-wrap: wrap; margin-top: 8px; font-family: var(--mono); font-size: 16.5px; }
+.voo__n { margin-top: 6px; font-size: 17px; color: var(--body); }
 .res--night { background: var(--ink); color: var(--card); border: 0; display: block; font-family: var(--mono); font-size: 15.5px; }
 
 .trans { background: var(--card); border: 1px solid var(--line); border-radius: 10px; padding: 18px 20px; }
@@ -466,7 +480,7 @@ h3 { font-size: 26px; }
   .pill i { background: var(--col); }
   .selhead .eyebrow, .cityhead .eyebrow { color: var(--col) !important; opacity: 1; }
   .card--dark .eyebrow, .progress .eyebrow, .pend .eyebrow { color: var(--muted) !important; }
-  .selhead__meta, .cityhead__hotel, .progress__foot, .kpi__clock,
+  .selhead__meta, .cityhead__hotel, .cityhead__end, .progress__foot, .kpi__clock,
   .kpi--dark .kpi__s, .card--dark .kpi__s, .fin__notes ul { color: var(--muted) !important; opacity: 1; }
   .bar--dark { border: 1px solid var(--line); }
   .bar--dark > i { background: var(--muted); }

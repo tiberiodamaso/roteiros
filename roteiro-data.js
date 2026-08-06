@@ -2,6 +2,8 @@
 export const CITIES = [
   { k:'lisboa', n:'Lisboa', pais:'Portugal', col:'#b4552f', datas:'11 — 14 dez', noites:3, moeda:'EUR',
     hotel:'Hotel Inn Rossio', ci:'11/12 (sex) 14h00', co:'14/12 (seg) 12h00',
+    end:'Rua 1º de Dezembro 73, 1200-358 Lisboa', app:'Hotéis.com',
+    mapa:'Hotel Inn Rossio, Rua 1 de Dezembro 73, Lisboa',
     resumo:'Baixa, Alfama e Belém quase tudo a pé. O cartão Zapping resolve metrô, elétrico, elevadores e os trens para Belém.',
     dias:['2026-12-11','2026-12-12','2026-12-13','2026-12-14'],
     dicas:[
@@ -13,7 +15,9 @@ export const CITIES = [
       ['Máquinas recusam crédito às vezes','Levem alguns euros em dinheiro na primeira compra.'],
     ] },
   { k:'paris1', n:'Paris', sub:'1ª estadia', pais:'França', col:'#3a55a0', datas:'14 — 18 dez', noites:4, moeda:'EUR',
-    hotel:'Ibis Budget Paris Porte de Montmartre', ci:'14/12 (seg) 14h30', co:'18/12 (sex) madrugada',
+    hotel:'ibis budget Paris Porte de Montmartre', ci:'14/12 (seg) 14h30', co:'18/12 (sex) madrugada',
+    end:'45 Rue du Docteur Babinski, 75018 Paris', app:'Hotéis.com',
+    mapa:'ibis budget Paris Porte de Montmartre, 45 Rue du Docteur Babinski, Paris',
     resumo:'Montmartre, dois dias de Disney, Torre Eiffel e o Sena. Navigo Semaine cobre tudo, inclusive Disney e aeroportos.',
     dias:['2026-12-14','2026-12-15','2026-12-16','2026-12-17','2026-12-18'],
     dicas:[
@@ -26,7 +30,9 @@ export const CITIES = [
       ['Uber na saída de Montmartre','Não marquem o pino nas ruelas do alto: o motorista não chega. Embarquem na Place des Abbesses.'],
     ] },
   { k:'interlaken', n:'Interlaken', pais:'Suíça', col:'#2f6b4f', datas:'18 — 20 dez', noites:2, moeda:'CHF',
-    hotel:'The Guesthouse by the Hey Hotel', ci:'18/12 (sex) 15h00', co:'20/12 (dom) 11h00',
+    hotel:'The Guesthouse by The Hey Hotel', ci:'18/12 (sex) 15h00', co:'20/12 (dom) 11h00',
+    end:'Höheweg 7, 3800 Interlaken', app:'Nubank', tel:'+41 33 827 87 87',
+    mapa:'The Guesthouse by The Hey Hotel, Höheweg 7, Interlaken',
     resumo:'Chegada pela rota panorâmica do Brünig e um dia inteiro em Grindelwald e no First.',
     dias:['2026-12-18','2026-12-19','2026-12-20'],
     dicas:[
@@ -40,6 +46,8 @@ export const CITIES = [
     ] },
   { k:'zurique', n:'Zurique', pais:'Suíça', col:'#7a4577', datas:'20 — 23 dez', noites:3, moeda:'CHF',
     hotel:'ibis budget Zurich City West', ci:'20/12 (dom) 15h00', co:'23/12 (qua) 11h00',
+    end:'Technoparkstrasse 2, 8005 Zürich', app:'Hotéis.com',
+    mapa:'ibis budget Zurich City West, Technoparkstrasse 2, Zürich',
     resumo:'Mercados de Natal, Lindt em Kilchberg, o Titlis e um último dia leve antes do trem noturno.',
     dias:['2026-12-20','2026-12-21','2026-12-22','2026-12-23'],
     dicas:[
@@ -53,6 +61,8 @@ export const CITIES = [
     ] },
   { k:'viena', n:'Viena', pais:'Áustria', col:'#9e2c46', datas:'24 — 28 dez', noites:4, moeda:'EUR',
     hotel:'Vienna Stay Apartments Tabor 1020', ci:'24/12 (qui) 15h00', co:'28/12 (seg) 11h00',
+    end:'Taborstraße 41, Leopoldstadt, 1020 Viena', app:'Booking.com',
+    mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien',
     resumo:'Natal em casa, o centro histórico, bate-volta a Salzburgo e o domingo de Schönbrunn.',
     dias:['2026-12-24','2026-12-25','2026-12-26','2026-12-27','2026-12-28'],
     dicas:[
@@ -66,7 +76,9 @@ export const CITIES = [
       ['O Prater é a distância de caminhada do apartamento','Não gastem viagem com ele no dia 27.'],
     ] },
   { k:'zagreb', n:'Zagreb', pais:'Croácia', col:'#a2761c', datas:'28 — 31 dez', noites:3, moeda:'EUR',
-    hotel:'Hotel Garden — Vodnikova 13', ci:'28/12 (seg) 15h00', co:'31/12 (qui) 11h00',
+    hotel:'Hotel Garden', ci:'28/12 (seg) 15h00', co:'31/12 (qui) 11h00',
+    end:'Ulica Valentina Vodnika 13, 10000 Zagreb', app:'Hotéis.com',
+    mapa:'Hotel Garden Zagreb, Ulica Valentina Vodnika 13',
     resumo:'Advent u Zagrebu em cima da Ferradura Verde, Cidade Alta e o bate-volta a Plitvice.',
     dias:['2026-12-28','2026-12-29','2026-12-30','2026-12-31'],
     dicas:[
@@ -79,7 +91,9 @@ export const CITIES = [
       ['Três coisas no check-in','Quarto longe da rua (barulho de tram), lavanderia (é o momento certo da viagem) e água comprada fora — a do hotel custa ~4 €.'],
     ] },
   { k:'paris2', n:'Paris', sub:'2ª estadia · Réveillon', pais:'França', col:'#2c3f78', datas:'31 dez — 02 jan', noites:2, moeda:'EUR',
-    hotel:'Hotel du Cadran — 10 Rue du Champ de Mars', ci:'31/12 (qui) 15h00', co:'02/01 (sáb) 12h00',
+    hotel:'Hotel du Cadran', ci:'31/12 (qui) 15h00', co:'02/01 (sáb) 12h00',
+    end:'10 Rue du Champ de Mars, 75007 Paris', app:'Hotéis.com',
+    mapa:'Hotel du Cadran, 10 Rue du Champ de Mars, Paris',
     resumo:'Base no 7º arrondissement: Torre Eiffel a 15 minutos a pé, Rue Cler na porta, Louvre e Tuileries no dia 1º.',
     dias:['2026-12-31','2027-01-01','2027-01-02'],
     dicas:[
@@ -106,7 +120,7 @@ export const DAYS = [
   { id:'2026-12-11', label:'11/12', wd:'sexta', city:'lisboa', title:'Chegada + Baixa e Chiado',
     sun:['07:47','17:16'],
     blocks:[
-      B('05h15','Chegada em Lisboa',['Transfer privado até o hotel. Passem o número do voo para rastrearem o pouso e peçam o WhatsApp do motorista.']),
+      B('05h15','Chegada em Lisboa',['TAP, saída de Guarulhos em 10/12 às 16h20 e pouso em Lisboa às 05h15.','Transfer privado até o hotel. Passem o número do voo para rastrearem o pouso e peçam o WhatsApp do motorista.']),
       B('manhã','Hotel Inn Rossio',['Deixar as malas — check-in às 14h.','Café da manhã com calma e descanso rápido se possível.']),
       B('11h30','Comprar os cartões Zapping',['Máquina amarela da estação Rossio, ao lado do hotel.','8 cartões Viva Viagem, 0,50 € cada, opção “Zapping”, 10 € de carga por pessoa.']),
       B('12h30','Almoço — Casa do Alentejo',['R. das Portas de Santo Antão 58, 5 min a pé. Cozinha alentejana e o salão mourisco.','Alternativa central: Museu da Cerveja, na Praça do Comércio.']),
@@ -342,7 +356,7 @@ export const DAYS = [
   { id:'2026-12-31', label:'31/12', wd:'quinta', city:'paris2', title:'Zagreb → Paris + Réveillon',
     sun:['08:44','17:00'], travel:{ from:'Zagreb', to:'Paris (CDG)', mode:'voo' },
     blocks:[
-      B('o voo','Já comprado',['ZAG → CDG, direto, ~2h05 a 2h15.','Chegando às 16h30 a tarde já acabou; chegando às 12h30, vocês têm a tarde inteira. É por isso que o voo da manhã importa.','Ryanair para Beauvais não compensa: 85 km de Paris e 1h15 de ônibus de ligação.','Transfer privado reservado com antecedência, 2 vans. CDG → 7º arrondissement: 45 min a 1h. Não contem com táxi na hora.']),
+      B('o voo','Já comprado',['Croatia Airlines, ZAG → CDG, embarque 08h25 e pouso 10h30. Direto, ~2h05.','Chegando às 16h30 a tarde já acabou; chegando às 12h30, vocês têm a tarde inteira. É por isso que o voo da manhã importa.','Ryanair para Beauvais não compensa: 85 km de Paris e 1h15 de ônibus de ligação.','Transfer privado reservado com antecedência, 2 vans. CDG → 7º arrondissement: 45 min a 1h. Não contem com táxi na hora.']),
       B('12h30','Chegada ao hotel',['Hotel du Cadran, 10 Rue du Champ de Mars. Deixar as malas — check-in às 15h.','Metrô École Militaire (Linha 8) a 2–3 min. Rue Cler a menos de um minuto. Torre Eiffel a ~15 min a pé.']),
       B('13h00','Almoço e Champ de Mars',['Almoço na Rue Cler ou arredores.','14h30 caminhada até o Champ de Mars e a Torre, 15 min plano. Não precisa subir — vocês já subiram em 17/12.']),
       B('16h00','Compras na Rue Cler — isto é crítico',['Não há ceia montada nem jantar reservado hoje: o que vocês comprarem aqui é a comida da noite e o café da manhã do dia 1º.','Em 1º de janeiro a maior parte do comércio de Paris fecha, inclusive padarias. O que não comprarem hoje, não terão amanhã.','17h00 volta ao hotel, check-in, descanso e banho antes da noite.']),
@@ -687,7 +701,35 @@ export const REGRAS_MESA = [
   ['Uma refeição de feira por dia','Já está no roteiro em Zurique e em Zagreb: comida típica por uma fração do restaurante.'],
 ];
 
-export const RESERVAS = CITIES.map(c => ({ city:c.k, n:c.n, sub:c.sub, hotel:c.hotel, ci:c.ci, co:c.co, noites:c.noites, col:c.col }));
+export const RESERVAS = CITIES.map(c => ({ city:c.k, n:c.n, sub:c.sub, hotel:c.hotel, ci:c.ci, co:c.co,
+  noites:c.noites, col:c.col, end:c.end, mapa:c.mapa, app:c.app, tel:c.tel }));
+
+/* Voos, na ordem em que acontecem.
+ *
+ * `ok` marca o que já foi conferido no bilhete emitido. O que está sem `ok`
+ * ainda depende de confirmação — aparece na tela com essa ressalva, em vez
+ * de sumir, justamente para não passar por fechado.
+ *
+ * O trecho de 31/12 é ZAGREB → PARIS: a estadia em Zagreb termina nesse dia
+ * e o Réveillon é em Paris. Quem anotar "Paris–Zagreb" está nomeando a rota,
+ * não o sentido do voo. */
+export const VOOS = [
+  { trecho:'São Paulo (GRU) → Lisboa (LIS)', cia:'TAP', city:'lisboa', ok:true,
+    sai:'10/12 (qui) 16h20', chega:'11/12 (sex) 05h15',
+    nota:'Voo noturno: o roteiro começa na chegada, já no dia 11.' },
+  { trecho:'Lisboa (LIS) → Paris (ORY)', cia:'', city:'paris1', ok:true,
+    sai:'14/12 (seg) 08h15', chega:'14/12 (seg) 11h45',
+    nota:'Companhia a confirmar. Check-out às 05h00 e transfer às 05h30 — a saída mais cedo da viagem.' },
+  { trecho:'Viena (VIE) → Zagreb (ZAG)', cia:'', city:'zagreb',
+    sai:'28/12 (seg) entre 9h e 11h', chega:'28/12 (seg) a confirmar',
+    nota:'Ainda não emitido. Comprar a franquia de bagagem junto, em reserva única.' },
+  { trecho:'Zagreb (ZAG) → Paris (CDG)', cia:'Croatia Airlines', city:'paris2', ok:true,
+    sai:'31/12 (qui) 08h25', chega:'31/12 (qui) 10h30',
+    nota:'Direto, ~2h05. É este voo da manhã que salva a tarde do dia 31.' },
+  { trecho:'Paris (ORY) → Brasil', cia:'', city:'paris2',
+    sai:'02/01 (sáb) 20h35', chega:'03/01 (dom) a confirmar',
+    nota:'Orly, e não CDG. Estar no aeroporto às 17h35.' },
+];
 
 export const UBER_GANHA = [
   ['Lisboa, 12/12','subida ao Castelo de São Jorge'],

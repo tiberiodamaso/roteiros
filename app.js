@@ -619,6 +619,7 @@ function cidadeDetalhe(c) {
       ${c.sub ? `<div class="mono" style="font-size:15.5px;opacity:.8">${esc(c.sub)}</div>` : ''}
       <div class="cityhead__resumo">${esc(c.resumo)}</div>
       <div class="cityhead__hotel">${esc(c.hotel)} · entrada ${esc(c.ci)} · saída ${esc(c.co)}</div>
+      ${c.end ? `<div class="cityhead__end">${esc(c.end)}${c.app ? ' · reservado em ' + esc(c.app) : ''}</div>` : ''}
     </div>
 
     <h2 style="font-size:30px;margin-top:40px">Dia a dia</h2>
@@ -900,8 +901,19 @@ function viewPratico() {
       <div>
         <div class="res__n">${esc(r.n)} <span>${esc(r.sub || '')}</span></div>
         <div class="res__hotel">${esc(r.hotel)}</div>
+        ${r.end ? `<div class="res__end">${esc(r.end)}</div>` : ''}
       </div>
-      <div class="res__dates">entrada ${esc(r.ci)}<br>saída ${esc(r.co)} · ${esc(nightsTxt(r.noites))}</div>
+      <div class="res__dates">entrada ${esc(r.ci)}<br>saída ${esc(r.co)} · ${esc(nightsTxt(r.noites))}${r.app ? `<br>reservado em ${esc(r.app)}` : ''}</div>
+      ${linksHtml(r)}
+    </div>`).join('');
+
+  const voos = D.VOOS.map(v => `<div class="voo" style="--col:${colOf(v.city)}">
+      <div class="voo__top">
+        <div class="voo__t">${esc(v.trecho)}</div>
+        <div class="voo__sit${v.ok ? ' voo__sit--ok' : ''}">${v.ok ? 'emitido' : 'a confirmar'}</div>
+      </div>
+      <div class="voo__h"><span>parte ${esc(v.sai)}</span><span>chega ${esc(v.chega)}</span></div>
+      <div class="voo__n">${v.cia ? esc(v.cia) + ' · ' : ''}${esc(v.nota)}</div>
     </div>`).join('');
 
   const transporte = D.TRANSPORTE.map(t => `<div class="trans" style="--col:${colOf(t.city)}">
@@ -921,6 +933,10 @@ function viewPratico() {
   return `<section class="rise">
     <h1>Prático</h1>
     <div class="sub">Reservas, bilhetes, apps e as regras de mesa para oito pessoas.</div>
+
+    <h2 style="font-size:30px;margin-top:38px">Voos</h2>
+    <div class="sub" style="margin-top:-10px">Horários locais de cada aeroporto. O trecho de 31/12 é Zagreb → Paris: a estadia em Zagreb acaba nesse dia e o Réveillon é em Paris.</div>
+    <div class="stack stack--tight" style="margin-top:20px">${voos}</div>
 
     <h2 style="font-size:30px;margin-top:38px">Reservas e hospedagens</h2>
     <div class="stack stack--tight">

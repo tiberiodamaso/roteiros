@@ -1,26 +1,54 @@
 ROTEIRO EUROPA — 11/12/2026 a 02/01/2027
-Grupo: 8 adultos + 1 criança (10 anos)
+Grupo: 7 adultos + 1 criança (10 anos) = 8 pessoas. Um dos adultos tem mais de
+60 anos.
 
 
 ===============================================================
 MAPA GERAL DAS RESERVAS
 ===============================================================
 
-- Lisboa — Hotel Inn Rossio
+- Lisboa — Hotel Inn Rossio (Hotéis.com)
+  Rua 1º de Dezembro 73, 1200-358 Lisboa
   Entrada 11/12 (sex) 14h00 • Saída 14/12 (seg) 12h00 • 3 noites
-- Paris 1 — Ibis Budget Paris Porte de Montmartre
+- Paris 1 — ibis budget Paris Porte de Montmartre (Hotéis.com)
+  45 Rue du Docteur Babinski, 75018 Paris
   Entrada 14/12 (seg) 14h30 • Saída 19/12 (sáb) 12h00 • 5 noites
-- Interlaken — The Guesthouse by the Hey Hotel
+- Interlaken — The Guesthouse by The Hey Hotel (Nubank)
+  Höheweg 7, 3800 Interlaken • +41 33 827 87 87
   Entrada 18/12 (sex) 15h00 • Saída 20/12 (dom) 11h00 • 2 noites
-- Zurique — ibis budget Zurich City West
+- Zurique — ibis budget Zurich City West (Hotéis.com)
+  Technoparkstrasse 2, 8005 Zürich
   Entrada 20/12 (dom) 15h00 • Saída 23/12 (qua) 11h00 • 3 noites
 - Trem noturno — Nightjet Zurique -> Viena, noite de 23/12 para 24/12
-- Viena — Vienna Stay Apartments Tabor 1020
+- Viena — Vienna Stay Apartments Tabor 1020 (Booking.com)
+  Taborstraße 41, Leopoldstadt, 1020 Viena
   Entrada 24/12 (qui) 15h00 • Saída 28/12 (seg) 11h00 • 4 noites
-- Zagreb — Hotel Garden
+- Zagreb — Hotel Garden (Hotéis.com)
+  Ulica Valentina Vodnika 13, 10000 Zagreb
   Entrada 28/12 (seg) 15h00 • Saída 31/12 (qui) 11h00 • 3 noites
-- Paris 2 — Hotel du Cadran
+- Paris 2 — Hotel du Cadran (Hotéis.com)
+  10 Rue du Champ de Mars, 75007 Paris
   Entrada 31/12 (qui) 15h00 • Saída 02/01/2027 (sáb) 12h00 • 2 noites
+
+
+===============================================================
+VOOS
+===============================================================
+
+Horários locais de cada aeroporto.
+
+- GRU -> LIS • TAP • parte 10/12 (qui) 16h20 • chega 11/12 (sex) 05h15
+  EMITIDO. Voo noturno: o roteiro começa no desembarque, já no dia 11.
+- LIS -> ORY • parte 14/12 (seg) 08h15 • chega 14/12 (seg) 11h45
+  EMITIDO, companhia a confirmar. Check-out 05h00, transfer 05h30.
+- VIE -> ZAG • parte 28/12 (seg) entre 9h e 11h
+  A CONFIRMAR. Comprar a franquia de bagagem junto, em reserva única.
+- ZAG -> CDG • Croatia Airlines • parte 31/12 (qui) 08h25 • chega 10h30
+  EMITIDO. Direto, ~2h05. É este voo da manhã que salva a tarde do dia 31.
+  ATENÇÃO AO SENTIDO: em 31/12 o voo é Zagreb -> Paris, e não o contrário.
+  A estadia em Zagreb termina nesse dia e o Réveillon é em Paris.
+- ORY -> Brasil • parte 02/01 (sáb) 20h35
+  A CONFIRMAR. Orly, e não CDG. Estar no aeroporto às 17h35.
 
 
 ===============================================================
