@@ -121,10 +121,10 @@ export const DAYS = [
     sun:['07:47','17:16'],
     blocks:[
       B('05h15','Chegada em Lisboa',['TAP, saída de Guarulhos em 10/12 às 16h20 e pouso em Lisboa às 05h15.','Transfer privado até o hotel. Passem o número do voo para rastrearem o pouso e peçam o WhatsApp do motorista.']),
-      B('manhã','Hotel Inn Rossio',['Deixar as malas — check-in às 14h.','Café da manhã com calma e descanso rápido se possível.']),
+      B('07h30','Hotel Inn Rossio',['Chegada estimada ao hotel às 07h30 — imigração, bagagem e transfer somam cerca de duas horas depois do pouso.','Deixar as malas — check-in às 14h.','Café da manhã com calma e descanso rápido se possível.','Sugestões: Confeitaria Nacional, Fábrica da Nata (pastéis de nata), A Padaria Portuguesa — ou o café do próprio hotel.']),
       B('11h30','Comprar os cartões Zapping',['Máquina amarela da estação Rossio, ao lado do hotel.','8 cartões Viva Viagem, 0,50 € cada, opção “Zapping”, 10 € de carga por pessoa.']),
       B('12h30','Almoço — Casa do Alentejo',['R. das Portas de Santo Antão 58, 5 min a pé. Cozinha alentejana e o salão mourisco.','Alternativa central: Museu da Cerveja, na Praça do Comércio.']),
-      B('14h00','Tarde a pé, sem transporte',['Rossio → Rua Augusta → Arco da Rua Augusta → Praça do Comércio → Chiado na volta.','Tudo plano e contíguo.']),
+      B('14h00','Tarde a pé, sem transporte',['Rossio → Rua Augusta → Arco da Rua Augusta → Praça do Comércio. Tudo plano e contíguo.','Da Praça do Comércio subam ao Chiado pela Rua Nova do Almada até a Rua Garrett — é a única subida do dia, e curta.','A descida do Chiado pela Rua do Carmo termina no Rossio, a poucos minutos do jantar e do hotel: ninguém refaz caminho a pé.']),
       B('18h30','Jantar — Trama Pasta Fresca',['Rua da Vitória 28, 6 min do hotel. Nota 4,9.','Chegando às 18h30 vocês pegam o salão vazio. Dormir cedo.']),
     ],
     avoid:['Na Rua Augusta, evitem: menu em 5 idiomas, fotos gigantes de comida na porta e “menu turístico 15 € completo”.'] },
@@ -161,9 +161,9 @@ export const DAYS = [
     blocks:[
       B('04h30','Saída de Lisboa',['04h30 acordar · 05h00 check-out · 05h30 transfer · 08h15 voo · 11h45 Paris.','Confirmem na véspera se a recepção funciona 24h. Café da manhã no aeroporto, já nas salas de embarque.']),
       B('12h30','Transfer Welcome Pickups → hotel',['13h30 check-in no Ibis Budget Porte de Montmartre. Liberado desde o meio-dia: subam as malas e saiam leves.']),
+      B('13h30','Navigo Semaine no app',['Compra pelo Île-de-France Mobilités: um passe por celular, sem guichê e sem fila. 32,40 € cada, zonas 1 a 5.','Vale de segunda a domingo, não 7 dias a partir da compra — comprando hoje, cobre até 20/12.','A criança entra num segundo cartão virtual no celular do pai: no app, “Need a new virtual card to travel with others?”. Na catraca é bip duplo — o cartão dela primeiro, o seu depois.','Desativem o Express Mode na Wallet dos dois passes, senão o celular escolhe sozinho sempre o mesmo.','Resolvam agora, não às 15h45 com o metrô na frente: se o app falhar, o guichê de Porte de Clignancourt ainda é o plano B.']),
       B('14h00','Almoço — La REcyclerie',['83 Bd Ornano. Antiga estação de trem virada café e fazenda urbana. Serviço de balcão, rápido para 8.']),
-      B('15h25','Comprar os Navigo Semaine',['Guichê de Porte de Clignancourt (não sai nas máquinas). 32,40 € cada. Com 8 pessoas, reserve 20 minutos.']),
-      B('15h45','Linha 4 → Montmartre',['Direção Bagneux-Lucie Aubrac → Anvers (4 estações). Por Anvers o caminho é bonito e movimentado, mais seguro que as entradas dos fundos.']),
+      B('15h45','Porte de Clignancourt → Anvers',['A estação fica a 2 min do La REcyclerie, na esquina do Bd Ornano. É o terminal da linha 4: o trem sai vazio e os 8 sentam.','Linha 4, direção Bagneux-Lucie Aubrac, até Barbès-Rochechouart (4 estações). Baldeação para a linha 2, direção Nation, e uma estação até Anvers.','A linha 4 NÃO passa em Anvers — sem a baldeação vocês param em Barbès. Quem não quiser trocar de trem faz esse último trecho a pé: 5 min planos pelo Bd de Rochechouart.','Por Anvers o caminho até a basílica é bonito e movimentado, mais seguro que as entradas dos fundos.']),
       B('16h00','Subida até a Basílica',['Rue de Steinkerque → Square Louise Michel. Peguem o Funicular de Montmartre, incluído no Navigo — com criança e idoso é a escolha certa.']),
       B('16h25','Sacré-Coeur',['Pôr do sol às 16h55: assistam do adro em frente à basílica, onde está a vista panorâmica. Vocês pegam a cidade acendendo.']),
       B('17h05','Place du Tertre',['2 min da basílica. Pintores, caricaturistas, cafés com mesas na rua.']),
@@ -451,7 +451,7 @@ export const CHECKLIST = [
     { id:'p7', t:'Transfer aeroporto de Zagreb → Hotel Garden, 28/12' },
     { id:'p8', t:'Transfer CDG → Hotel du Cadran, 31/12', n:'É dia de Réveillon; não contem com táxi na hora.' },
     { id:'p9', t:'Transfer Hotel du Cadran → aeroporto de ORLY, 02/01, saída 15h30', n:'ATENÇÃO: vocês chegam no CDG e partem de Orly. São aeroportos diferentes.' },
-    { id:'p10', mapa:'Estação Porte de Clignancourt, Paris', t:'Navigo Semaine, Paris — comprar no dia 14/12 no guichê ou pelo app', n:'32,40 € por pessoa. Não sai nas máquinas automáticas.' },
+    { id:'p10', mapa:'Estação Porte de Clignancourt, Paris', t:'Navigo Semaine, Paris — comprar no dia 14/12 pelo app, no hotel', n:'32,40 € por pessoa, no Île-de-France Mobilités. Um passe por celular; a criança vai num segundo cartão virtual no celular do pai. Não sai nas máquinas automáticas: se o app falhar, o plano B é o guichê de Porte de Clignancourt.' },
     { id:'p11', t:'Passe de 7 dias da Wiener Linien, Viena', n:'25,20 € por adulto na versão digital, no app WienMobil. A criança provavelmente não paga nada.' },
     { id:'p12', mapa:'Parque Nacional dos Lagos de Plitvice', t:'Transfer hotel → Plitvice COM INGRESSO INCLUÍDO, 29/12', n:'Pacote único: transporte porta a porta mais a entrada do parque, e não duas compras separadas. Busca no hotel ~8h, veículo único para os 8. Confirmem por escrito que o ingresso está no valor, para 7 adultos e 1 criança. Perguntem se o barco do Kozjak e o trem panorâmico estarão operando na data.' },
   ]},
@@ -535,9 +535,15 @@ export const RESTAURANTES = [
    para o número não viver em dois lugares. */
 export const LUGARES = {
   '2026-12-11|Chegada em Lisboa': { mapa:'Aeroporto Humberto Delgado, Lisboa' },
-  '2026-12-11|Hotel Inn Rossio': { mapa:'Hotel Inn Rossio, Lisboa' },
+  '2026-12-11|Hotel Inn Rossio': { mapa:'Hotel Inn Rossio, Lisboa', extras:[
+    { n:'Confeitaria Nacional', mapa:'Confeitaria Nacional, Praça da Figueira 18B, Lisboa' },
+    { n:'Fábrica da Nata', mapa:'Fábrica da Nata, Praça dos Restauradores 62, Lisboa' },
+    { n:'A Padaria Portuguesa', mapa:'A Padaria Portuguesa, Rossio, Lisboa' },
+  ] },
   '2026-12-11|Comprar os cartões Zapping': { mapa:'Estação do Rossio, Lisboa' },
-  '2026-12-11|Almoço — Casa do Alentejo': { res:'p13' },
+  '2026-12-11|Almoço — Casa do Alentejo': { res:'p13', extras:[
+    { n:'Museu da Cerveja', mapa:'Museu da Cerveja, Praça do Comércio 62, Lisboa' },
+  ] },
   '2026-12-11|Jantar — Trama Pasta Fresca': { res:'p14' },
 
   '2026-12-12|Oceanário de Lisboa': { mapa:'Oceanário de Lisboa' },
@@ -545,19 +551,26 @@ export const LUGARES = {
   '2026-12-12|Castelo de São Jorge': { mapa:'Castelo de São Jorge, Lisboa' },
   '2026-12-12|Descida a pé, a melhor parte do dia': { mapa:'Miradouro das Portas do Sol, Lisboa' },
   '2026-12-12|Cerveja e petisco no Largo de São Miguel': { mapa:'Largo de São Miguel, Alfama, Lisboa' },
-  '2026-12-12|Jantar — A Licorista / O Bacalhoeiro': { res:'p16' },
+  '2026-12-12|Jantar — A Licorista / O Bacalhoeiro': { res:'p16', extras:[
+    { n:'Taberna da Baixa', mapa:'Taberna da Baixa, Rua dos Fanqueiros 161, Lisboa' },
+  ] },
 
   '2026-12-13|LX Factory': { mapa:'LX Factory, Lisboa' },
   '2026-12-13|Mosteiro dos Jerónimos': { mapa:'Mosteiro dos Jerónimos, Lisboa' },
   '2026-12-13|Padrão dos Descobrimentos': { mapa:'Padrão dos Descobrimentos, Lisboa' },
-  '2026-12-13|Almoço em Belém': { res:'p17' },
+  '2026-12-13|Almoço em Belém': { res:'p17', extras:[
+    { n:'O Pedrouços', mapa:'Restaurante O Pedrouços, Doca de Belém, Lisboa' },
+  ] },
   '2026-12-13|Torre de Belém': { mapa:'Torre de Belém, Lisboa' },
   '2026-12-13|Pastéis de Belém': { mapa:'Pastéis de Belém, Rua de Belém 84, Lisboa' },
   '2026-12-13|Jantar — Cervejaria Trindade': { res:'p18' },
 
   '2026-12-14|Transfer Welcome Pickups → hotel': { mapa:'Ibis Budget Paris Porte de Montmartre' },
   '2026-12-14|Almoço — La REcyclerie': { mapa:'La REcyclerie, Paris' },
-  '2026-12-14|Comprar os Navigo Semaine': { mapa:'Estação Porte de Clignancourt, Paris' },
+  '2026-12-14|Porte de Clignancourt → Anvers': { mapa:'Estação Porte de Clignancourt, Paris' },
+  '2026-12-14|Navigo Semaine no app': { url:'https://www.iledefrance-mobilites.fr/', extras:[
+    { n:'Guichê Porte de Clignancourt (plano B)', mapa:'Estação Porte de Clignancourt, Paris' },
+  ] },
   '2026-12-14|Subida até a Basílica': { mapa:'Funiculaire de Montmartre, Paris' },
   '2026-12-14|Sacré-Coeur': { mapa:'Basilique du Sacré-Cœur, Paris' },
   '2026-12-14|Place du Tertre': { mapa:'Place du Tertre, Paris' },
@@ -668,7 +681,7 @@ export const TRANSPORTE = [
   { city:'lisboa', comprar:'Cartão Viva Viagem com saldo ZAPPING', custo:'≈ 10,50 €', app:'nenhum necessário',
     notas:['0,50 € o cartão + 10 € de carga, um por pessoa (não pode ser dividido).','Cobre metrô, ônibus Carris, elétricos, elevadores e trens da CP.','Máquinas amarelas em qualquer estação; a do Rossio fica ao lado do hotel.','Lisboa Card não compensa.'] },
   { city:'paris1', comprar:'Navigo Semaine, zonas 1 a 5', custo:'32,40 €', app:'Île-de-France Mobilités',
-    notas:['Total do grupo: 259 €. Vale de segunda a domingo.','Cobre metrô, RER, ônibus, tram, funicular de Montmartre, Disney e aeroportos.','Paris Pass e similares não compensam: vocês fazem poucas entradas pagas fora da Torre e da Disney.'] },
+    notas:['Total do grupo: 259 €. Vale de segunda a domingo.','Comprado no app, no hotel do dia 14 — não precisa passar no guichê. Um passe por celular, não transferível; a criança entra num segundo cartão virtual no celular do pai.','Cobre metrô, RER, ônibus, tram, funicular de Montmartre, Disney e aeroportos.','Paris Pass e similares não compensam: vocês fazem poucas entradas pagas fora da Torre e da Disney.'] },
   { city:'interlaken', comprar:'Swiss Half Fare Card + Guest Card gratuita', custo:'CHF 150 / adulto', app:'SBB Mobile',
     notas:['O Half Fare não é passe: é cartão de desconto. Vocês continuam comprando bilhete para cada trecho.','Swiss Family Card faz a criança viajar de graça — pedir junto na compra.','Guest Card gratuita no check-in dá ônibus local grátis em Interlaken.','Mostrem ao fiscal três coisas: cartão, bilhete do trecho e passaporte ORIGINAL.'] },
   { city:'zurique', comprar:'Zona 110 — avulso ou passe diário', custo:'CHF 150 + trechos', app:'SBB Mobile / ZVV',

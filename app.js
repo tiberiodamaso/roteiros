@@ -85,14 +85,19 @@ const ICONES = {
 };
 
 /* Fileira de links de um item. Só entra o que existe: sem telefone não há
-   "Ligar", sem celular não há WhatsApp, sem endereço não há Maps. */
+   "Ligar", sem celular não há WhatsApp, sem endereço não há Maps.
+   `extras` são lugares citados no texto da parada (uma sugestão de café da
+   manhã, uma alternativa de almoço): viram chips de Maps com o nome próprio,
+   e não "Maps", porque no papel o rótulo é a única coisa que sobra. */
 function linksHtml(o, extra) {
   const l = [];
+  const mapaHref = q => 'https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(q);
   const abrir = (href, icone, rotulo) =>
     `<a class="lnk" href="${href}" target="_blank" rel="noopener">${icone}${rotulo}</a>`;
   if (o.tel && o.zap) l.push(abrir('https://wa.me/' + o.tel.replace(/\D/g, ''), ICONES.zap, 'WhatsApp'));
   if (o.tel) l.push(`<a class="lnk" href="tel:${esc(o.tel.replace(/\s/g, ''))}" data-tel="${esc(o.tel)}">${ICONES.tel}Ligar</a>`);
-  if (o.mapa) l.push(abrir('https://www.google.com/maps/search/?api=1&amp;query=' + encodeURIComponent(o.mapa), ICONES.mapa, 'Maps'));
+  if (o.mapa) l.push(abrir(mapaHref(o.mapa), ICONES.mapa, 'Maps'));
+  for (const e of o.extras || []) l.push(abrir(mapaHref(e.mapa), ICONES.mapa, esc(e.n)));
   if (o.url) l.push(abrir(esc(o.url), ICONES.site, 'Site'));
   if (extra) l.push(extra);
   return l.length ? `<div class="lnks">${l.join('')}</div>` : '';
@@ -201,7 +206,7 @@ function contatoDaParada(diaId, titulo) {
   const lugar = D.LUGARES[diaId + '|' + titulo];
   if (!lugar) return {};
   const r = lugar.res ? (D.RESTAURANTES.find(x => x.id === lugar.res) || {}) : {};
-  return { mapa: lugar.mapa || r.mapa, tel: r.tel, zap: r.zap, url: lugar.url || r.url };
+  return { mapa: lugar.mapa || r.mapa, tel: r.tel, zap: r.zap, url: lugar.url || r.url, extras: lugar.extras };
 }
 
 function pendFor(id) {
@@ -224,7 +229,10 @@ const MODO_FIXO = {
   '2026-12-13|Alcântara-Mar → Belém': 'trem',
   '2026-12-13|Belém → Chiado, 25–30 min': 'trem',
   '2026-12-14|Transfer Welcome Pickups → hotel': 'avião',
-  '2026-12-14|Linha 4 → Montmartre': 'metrô',
+  // Parada sem deslocamento: a compra acontece no próprio hotel, e o "a pé"
+  // padrão sugeriria uma caminhada que não existe.
+  '2026-12-14|Navigo Semaine no app': 'no hotel',
+  '2026-12-14|Porte de Clignancourt → Anvers': 'metrô',
   '2026-12-14|Subida até a Basílica': 'funicular',
   '2026-12-14|Uber ou Bolt até o hotel': 'transfer',
   '2026-12-15|Linha 4 até Châtelet': 'metrô',

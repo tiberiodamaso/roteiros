@@ -789,9 +789,13 @@ Transfer do aeroporto — o que alinhar antes
 
 05h15 — Chegada em Lisboa. Transfer privado até o hotel.
 
-Manhã — Hotel Inn Rossio
+07h30 — Hotel Inn Rossio (chegada estimada; imigração, bagagem e transfer
+somam cerca de duas horas depois do pouso)
 - Deixar as malas (check-in às 14h)
 - Café da manhã com calma
+- Sugestões: Confeitaria Nacional (Praça da Figueira 18B), Fábrica da Nata
+  (Praça dos Restauradores 62), A Padaria Portuguesa (Rossio) — ou o café
+  do próprio hotel
 - Descanso rápido se possível
 
 11h30 — Comprar os cartões Zapping
@@ -806,9 +810,11 @@ Manhã — Hotel Inn Rossio
 14h00 — Tarde livre a pé, nenhum transporte
 - Rossio -> Rua Augusta (5 min)
 - Arco da Rua Augusta
-- Praça do Comércio (10 min do hotel)
-- Ruas do Chiado na volta
-- Tudo plano e contíguo
+- Praça do Comércio (10 min do hotel) — até aqui tudo plano e contíguo
+- Subida ao Chiado pela Rua Nova do Almada até a Rua Garrett (única subida
+  do dia, e curta)
+- Descida pela Rua do Carmo, que cai no Rossio: o jantar e o hotel ficam
+  a poucos minutos, sem refazer caminho a pé
 
 Noite — Jantar perto do hotel, dormir cedo
 - Trama Pasta Fresca — Rua da Vitória 28, 6 minutos do hotel. Nota 4,9.
@@ -1022,15 +1028,25 @@ Regra de validação
 - 83 Bd Ornano — antiga estação de trem virada café, fazenda urbana e brechó
 - Serviço de balcão com bipe, rápido para 8 pessoas
 
-15h20 — Restaurante -> Estação Porte de Clignancourt, 2 min a pé
+13h30 — Comprar os Navigo Semaine pelo app, ainda no hotel
+- App "Île-de-France Mobilités". Um passe por celular, 32,40 EUR cada
+- Não precisa ir ao guichê nem à estação. Não sai nas máquinas automáticas
+- Ver "Se for usar no celular", acima: o passe duplo do pai + filha e o bip
+  duplo na catraca
+- Se o app falhar, o plano B é o guichê de Porte de Clignancourt — descobrir
+  isso no hotel, e não às 15h45 com o metrô na frente
 
-15h25 — Comprar os Navigo Semaine no guichê, ou já ter o aplicativo
-- Não sai nas máquinas automáticas
-- 8 cartões, 32,40 EUR cada
-- Com 8 pessoas, reserve 20 minutos
+15h40 — La REcyclerie -> Estação Porte de Clignancourt, 2 min a pé
+- Na esquina do Bd Ornano. É o terminal da linha 4: o trem sai vazio e os
+  oito sentam
 
-15h45 — Linha 4 -> Montmartre
-- Direção Bagneux-Lucie Aubrac -> descer em Anvers (4 estações)
+15h45 — Porte de Clignancourt -> Anvers
+- Linha 4, direção Bagneux-Lucie Aubrac, até Barbès-Rochechouart (4 estações)
+- Baldeação para a linha 2, direção Nation, uma estação até Anvers
+- ATENÇÃO: a linha 4 NÃO passa em Anvers, que é estação da linha 2. Sem a
+  baldeação vocês param em Barbès-Rochechouart
+- Alternativa sem trocar de trem: descer em Barbès e fazer os últimos 350 m
+  a pé pelo Bd de Rochechouart, 5 min planos
 - Por que Anvers: o caminho até a basílica é bonito, cheio de lojas e cafés,
   com muito movimento, e a sensação de segurança é melhor que nas entradas
   dos fundos do bairro
