@@ -1019,28 +1019,51 @@ Regra de validação
 14/12 (SEGUNDA) — Chegada + Montmartre
 ---------------------------------------------------------------
 
+ANTES DE EMBARCAR EM LISBOA
+- As passagens de metrô de Paris já vêm compradas. O Navigo Semaine sai no app
+  "Île-de-France Mobilités", instalado no celular de cada um
+- Não há guichê nem máquina no roteiro: quem desembarcar sem o app não passa
+  na catraca das 15h45
+- Ver "Se for usar no celular", acima: o passe duplo do pai + filha e o bip
+  duplo na catraca
+
 11h45 — Chegada em Paris (Orly)
 12h30 — Transfer Welcome Pickups -> hotel
 13h30 — Check-in: Ibis Budget Paris Porte de Montmartre
 - Check-in liberado desde o meio-dia. Subam as malas e saiam leves.
 
-14h00 — Almoço: La REcyclerie
-- 83 Bd Ornano — antiga estação de trem virada café, fazenda urbana e brechó
-- Serviço de balcão com bipe, rápido para 8 pessoas
+13h45 — Comprar os suprimentos da Disney
+- Supermarché Diagonal, Av. Gabriel Péri, 93400 Saint-Ouen-sur-Seine, do outro
+  lado do périphérique. Uns 8 min a pé do hotel
+- É a compra de amanhã, feita hoje: a saída no dia 15 é às 07h30 e nada estará
+  aberto
+- Água é o item que mais pesa no orçamento do parque. Garrafas reutilizáveis
+  vazias também: há bebedouros gratuitos lá dentro
+- Barrinhas de cereal, castanhas, frutas, bolachas. Sanduíches, se quiserem
+  economizar mesmo
 
-13h30 — Comprar os Navigo Semaine pelo app, ainda no hotel
-- App "Île-de-France Mobilités". Um passe por celular, 32,40 EUR cada
-- Não precisa ir ao guichê nem à estação. Não sai nas máquinas automáticas
-- Ver "Se for usar no celular", acima: o passe duplo do pai + filha e o bip
-  duplo na catraca
-- Se o app falhar, o plano B é o guichê de Porte de Clignancourt — descobrir
-  isso no hotel, e não às 15h45 com o metrô na frente
+14h20 — Voltar ao hotel e largar as compras
+- Tudo sobe para o quarto antes de sair. Ninguém carrega água de um dia de
+  parque para Montmartre
+- O mercado fica de um lado do hotel e a estação do outro: a volta não custa
+  desvio nenhum
+
+14h40 — Almoço: La REcyclerie
+- 83 Bd Ornano, 12 min a pé do hotel, já na direção da estação
+- Antiga estação de trem virada café, fazenda urbana e brechó
+- Serviço de balcão com bipe, rápido para 8 pessoas — e hoje precisa ser
+  rápido: o metrô é às 15h45
 
 15h40 — La REcyclerie -> Estação Porte de Clignancourt, 2 min a pé
 - Na esquina do Bd Ornano. É o terminal da linha 4: o trem sai vazio e os
   oito sentam
 
 15h45 — Porte de Clignancourt -> Anvers
+- Primeira catraca da viagem. O Navigo Semaine já está comprado no app
+  Île-de-France Mobilités, no celular de cada um. Cada pessoa aproxima o seu:
+  o passe é pessoal e não passa duas vezes
+- A criança vai num segundo cartão virtual no celular do pai — bip duplo, o
+  cartão dela primeiro e o seu depois
 - Linha 4, direção Bagneux-Lucie Aubrac, até Barbès-Rochechouart (4 estações)
 - Baldeação para a linha 2, direção Nation, uma estação até Anvers
 - ATENÇÃO: a linha 4 NÃO passa em Anvers, que é estação da linha 2. Sem a
@@ -1095,15 +1118,22 @@ Regra de validação
 Espetáculo noturno: Disney Tales of Magic (castelo)
 
 O que levar
-- Água. É o item que mais pesa no orçamento. Comprem no supermercado perto do
-  hotel. Há bebedouros gratuitos no parque; levem garrafas reutilizáveis vazias.
-- Barrinhas de cereal, castanhas, frutas, bolachas. Sanduíches, se quiserem
-  economizar mesmo.
+- Já comprados no dia 14, no Supermarché Diagonal: água, barrinhas de cereal,
+  castanhas, frutas, bolachas.
+- Garrafas reutilizáveis vazias na mochila. Há bebedouros gratuitos no parque.
 
 O que comprar lá dentro
 - Não façam o dia inteiro de marmita. Sentar num restaurante do parque no meio
   da tarde é descanso, não luxo — uma hora sentado no aquecido vale ouro depois
   de horas em pé no frio de dezembro.
+
+06h50 — Café da manhã no hotel
+- Buffet do Ibis Budget, no térreo. Comam sentados aqui: dentro do parque o
+  mesmo café custa várias vezes mais
+- Com oito pessoas, reservem os 40 minutos até a saída
+- Perguntem no check-in do dia 14 o horário de abertura. Se o buffet só abrir
+  às 07h, não serve: o plano vira comer no quarto o que veio do Diagonal e
+  sair no horário
 
 07h30 — Hotel -> Porte de Clignancourt, 10 a 15 minutos a pé
 
@@ -1188,7 +1218,8 @@ Ex-Walt Disney Studios Park, renomeado em março de 2026.
 
 TRECHO 1 — Hotel -> Trocadéro
 
-08h00 — A pé até Porte de Saint-Ouen, 10 a 12 min, plano
+08h00 — A pé até a estação de metrô Porte de Saint-Ouen, na linha 13
+  10 a 12 min, plano
 
 Linha 13, direção Châtillon-Montrouge
 - Porte de Saint-Ouen -> Guy Môquet -> La Fourche -> Place de Clichy -> Liège
@@ -1211,11 +1242,9 @@ Linha 9, direção Pont de Sèvres
 
 TRECHO 2 — Torre -> Almoço
 
-11h45 — A pé pela margem
-- Port de Suffren -> Quai Branly -> Pont de l'Alma, 13 min
-- Na saída da ponte, a Flamme de la Liberté. Foto de 2 min.
-
-12h00 — Place de l'Alma
+12h00 — Alma-Marceau -> Franklin D. Roosevelt
+- Da Torre até a estação são 13 min a pé pela margem: Port de Suffren ->
+  Quai Branly -> Pont de l'Alma
 - Linha 9, direção Mairie de Montreuil
 - Alma-Marceau -> FRANKLIN D. ROOSEVELT, 1 estação, 2 min
 - Saída: "Rond-Point des Champs-Élysées"
@@ -1233,52 +1262,58 @@ TRECHO 3 — Almoço -> Arco
 - Franklin D. Roosevelt -> George V -> CHARLES DE GAULLE-ÉTOILE, 2 estações, 4 min
 - Não subam para a rua. Sigam as placas "Arc de Triomphe" dentro do subterrâneo.
 
-13h45 às 14h20 — Arco do Triunfo, só por fora
-- JAMAIS ATRAVESSEM A ROTATÓRIA. 12 faixas sem semáforo.
+13h45 às 14h20 — Arco do Triunfo, acesso subterrâneo
+- A passagem corre por baixo da praça e emerge ao pé do monumento. Não é um
+  atalho: é o único acesso que existe
+- JAMAIS ATRAVESSEM A ROTATÓRIA. São 12 avenidas convergindo numa praça sem
+  faixa de pedestre e sem semáforo. Por cima não há travessia nenhuma, só 12
+  faixas de carros que não param
+- A visita é por fora, do pé do Arco. Não há ingresso para o terraço no
+  roteiro; 35 minutos resolvem
 
-14h25 às 15h40 — Champs-Élysées descendo
+14h25 às 15h00 — Champs-Élysées descendo até George V
 - Saída da passagem: placa "Avenue des Champs-Élysées"
-- 1,2 km em declive suave. Calçada do lado par (2, 4, 6...)
-- Marcos: Avenue de Friedland -> Rue Balzac -> Rue de Berri -> Avenue George V
-  -> Rue Marbeuf -> Rond-Point
-- Se alguém cansar: Linha 1 em George V, direção Château de Vincennes ->
-  Franklin D. Roosevelt. Depois Linha 9 direção Pont de Sèvres -> Alma-Marceau.
+- Declive suave. Calçada do lado par (2, 4, 6...)
+- Marcos: Avenue de Friedland -> Rue Balzac -> Rue de Berri -> Avenue George V,
+  uns 450 m
+- É a parte alta da avenida, a das vitrines iluminadas. O trecho de baixo, de
+  Marbeuf ao Rond-Point, fica de fora por escolha: com oito pessoas, 1,2 km
+  inteiros no frio custam mais do que rendem
 
-15h40 às 16h00 — Avenue Montaigne
-- No Rond-Point, à direita. 750 m até a Place de l'Alma, pelas maisons com as
-  instalações de Natal.
+15h05 — George V -> Alma-Marceau
+- Linha 1, direção Château de Vincennes, 1 estação -> Franklin D. Roosevelt
+- Baldeação para a Linha 9, direção Pont de Sèvres, 1 estação -> Alma-Marceau
+- ~10 min no total, contando a troca
 
-16h00 às 16h25 — Parada para aquecer
-- La Mascotte — Av. du Président Wilson 6
+15h30 às 16h25 — Parada para aquecer
+- La Mascotte — Av. du Président Wilson 6, 3 min a pé da saída do metrô
 - Evitem Chez Francis e Le Grand Corona (3,6 e 3,7)
+- Quase uma hora sentados no aquecido antes de um barco em dezembro: é a parte
+  do dia que sustenta o resto
 - Gorro, cachecol e luvas no corpo agora, não no barco
 - Banheiro aqui; os do barco são pequenos
 
-16h30 — No píer
+16h30 — No píer, a pé (5 min do La Mascotte)
+- BATEAUX-MOUCHES — Pont de l'Alma, Port de la Conférence, 75008 Paris
 - Rampa de descida ao cais, margem direita, lado de montante da ponte
-- Port de la Conférence
 - 16h45 Fila de embarque
 - 17h00 às 18h10 Cruzeiro. Hora azul das 17h00 às 17h30. Torre Eiffel cintila
   às 18h00.
 
 TRECHO 4 — Píer -> Jantar
 
-18h20 — Subam a rampa até o nível da rua
+18h30 — Jantar com música ao vivo: Le Son de la Terre
+- Subam a rampa do cais e vão A PÉ até a AVENUE MONTAIGNE, número 1 ou 3, bem
+  no começo da avenida: é ali que vocês pedem o Uber. Rua larga, meio-fio
+  livre, iluminada, fácil de encostar com dois carros
 - Não peçam o carro na Place de l'Alma: rotatória de trânsito pesado, sem lugar
-  para parar
-- Não peçam no cais: os carros não descem até o embarcadouro
-- Peçam na AVENUE MONTAIGNE, número 1 ou 3, bem no começo da avenida. Rua larga,
-  meio-fio livre, iluminada, fácil de encostar com dois carros.
-- Alternativa: Place de la Reine Astrid, uma pracinha logo ao lado
-- Confiram no app qual das duas o sistema sugere
-
-18h30 — Dois Uber XL ou Bolt XL, 20 a 25 min, cerca de 50 EUR no total
-- Destino: Le Son de la Terre, 2 Port de Montebello, 75005
-- Se o motorista não achar: Quai de Montebello ou Square René Viviani, ao lado,
-  3 min a pé
-
-18h50 às 21h00 — Jantar com música ao vivo: Le Son de la Terre
-- Barcaça no Sena, de frente para a Notre-Dame
+  para parar. Nem no cais: os carros não descem até o embarcadouro
+- Alternativa: Place de la Reine Astrid, uma pracinha logo ao lado. Confiram no
+  app qual das duas o sistema sugere
+- Dois Uber XL ou Bolt XL, 20 a 25 min, cerca de 50 EUR no total
+- Destino: Le Son de la Terre, 2 Port de Montebello, 75005. Se o motorista não
+  achar: Quai de Montebello ou Square René Viviani, ao lado, 3 min a pé
+- Reserva às 18h50, até as 21h00. Barcaça no Sena, de frente para a Notre-Dame
 - +33 1 43 29 48 19 • sondelaterre.fr
 
 TRECHO 5 — Jantar -> Hotel

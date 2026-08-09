@@ -185,7 +185,7 @@ const PENDENCIAS = {
   '2026-12-11': ['Cartões Viva Viagem com Zapping, na máquina do Rossio', 'Almoço na Casa do Alentejo e jantar no Trama — reservados'],
   '2026-12-12': ['Ingresso do Castelo de São Jorge, comprado online na véspera'],
   '2026-12-15': ['Reserva de mesa no app da Disneyland Paris'],
-  '2026-12-17': ['Torre Eiffel com hora marcada · Le Son de la Terre 18h50 (o cruzeiro do Sena já está comprado, Beautomux)'],
+  '2026-12-17': ['Torre Eiffel com hora marcada · Le Son de la Terre 18h50 (o cruzeiro do Sena já está comprado, Bateaux-Mouches)'],
   '2026-12-18': ['TGV Lyria · reserva de assento no Luzern-Interlaken Express · bilhete Basel → Interlaken via Luzern (na véspera)', 'Pedir a Interlaken Guest Card no check-in'],
   '2026-12-19': ['Bilhete Interlaken Ost → Grindelwald (véspera) · teleférico do First só na bilheteria, depois das webcams'],
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
@@ -229,9 +229,9 @@ const MODO_FIXO = {
   '2026-12-13|Alcântara-Mar → Belém': 'trem',
   '2026-12-13|Belém → Chiado, 25–30 min': 'trem',
   '2026-12-14|Transfer Welcome Pickups → hotel': 'avião',
-  // Parada sem deslocamento: a compra acontece no próprio hotel, e o "a pé"
-  // padrão sugeriria uma caminhada que não existe.
-  '2026-12-14|Navigo Semaine no app': 'no hotel',
+  // Parada sem deslocamento: o "a pé" padrão sugeriria uma caminhada que não
+  // existe.
+  '2026-12-15|Café da manhã no hotel': 'no hotel',
   '2026-12-14|Porte de Clignancourt → Anvers': 'metrô',
   '2026-12-14|Subida até a Basílica': 'funicular',
   '2026-12-14|Uber ou Bolt até o hotel': 'transfer',
@@ -241,13 +241,15 @@ const MODO_FIXO = {
   '2026-12-15|Marne-la-Vallée-Chessy': 'trem',
   '2026-12-15|RER A → Châtelet → Linha 4': 'trem',
   '2026-12-17|Hotel → Trocadéro': 'metrô',
-  '2026-12-17|Alma-Marceau → Franklin D. Roosevelt': 'metrô',
-  '2026-12-17|Cruzeiro no Sena — Beautomux, já comprado': 'barco',
-  '2026-12-17|Píer → jantar de Uber': 'transfer',
+  // O trecho até aqui é a caminhada pela margem; o metrô só começa dentro
+  // desta parada.
+  '2026-12-17|Alma-Marceau → Franklin D. Roosevelt': 'a pé',
+  '2026-12-17|George V → Alma-Marceau': 'metrô',
+  '2026-12-17|Jantar com música ao vivo — Le Son de la Terre': 'transfer',
   '2026-12-17|Volta ao hotel': 'metrô',
-  '2026-12-18|TGV Lyria → Basel SBB': 'transfer',
-  '2026-12-18|Basel → Luzern': 'trem',
-  '2026-12-18|LUZERN–INTERLAKEN EXPRESS': 'trem',
+  '2026-12-18|Gare de Lyon — TGV Lyria para Basel SBB': 'transfer',
+  '2026-12-18|Basel': 'trem',
+  '2026-12-18|Luzern-Interlaken Express': 'trem',
   '2026-12-18|Chegada em Interlaken Ost': 'trem',
   '2026-12-18|Check-in + Guest Card': 'ônibus',
   '2026-12-19|Interlaken → Grindelwald': 'trem',
