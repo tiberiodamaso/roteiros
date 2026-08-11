@@ -1657,29 +1657,38 @@ Confirmem os horários exatos em sbb.ch em outubro: o horário europeu muda em
   Half Fare Card mais o bilhete.
 - Perguntem também que descontos ela dá em dezembro; a lista muda por temporada.
 
-15h45 — Coop, parada essencial
+15h45 — Coop, comprar suprimentos
 - Comprem o almoço de amanhã na montanha: pão, frios, queijo, frutas, barras,
   chocolate. E o café da manhã.
-- Chocolate quente feito no hotel custa zero; no topo do First, CHF 7 o copo.
+- 
 
 16h15 — Höhematte antes de escurecer
+- A Höhematte é o campo aberto no meio de Interlaken. Ele existe porque no
+  século XIX os moradores compraram o terreno para impedir que fosse
+  construído, e é esse vão livre que abre a vista.
+- O Jungfrau é o pico de 4.158 m ao fundo do vale, um dos mais conhecidos da
+  Suíça, ao lado do Eiger e do Mönch. Daqui vocês veem só ele: os outros dois
+  ficam escondidos pelo relevo mais próximo e aparecem amanhã, do First.
 - O sol se põe às 16h40. Vocês têm uns 25 minutos de luz, só a vista rápida do
-  Jungfrau do parque central. O passeio pela Höheweg fica para depois, já
-  iluminada.
+  Jungfrau do parque central. Mas a montanha é alta demais para escurecer junto
+  com a cidade: ela segue iluminada depois, e ainda pega o rosado na neve.
+- O passeio pela Höheweg fica para depois, já iluminada.
 
 18h30 — Jantar
-- Hopplá Bistro (destaque) — Jungfraustrasse 74
-  - 4,8 com 699 avaliações, a mais alta de Interlaken
-  - Cozinha húngara caseira, tocada por uma família
-  - Goulash e schnitzel muito elogiados; um cliente descreve a sensação de que
-    a avó de alguém estava cozinhando
-  - +41 79 616 86 95 (reserva por WhatsApp)
-- Hüsi Bierhaus — Postgasse 3
-  - 4,5 com 2.644 avaliações. Bratwurst, hambúrguer, joelho de porco.
-  - Porções generosas, informal, bom para grupo. +41 33 823 23 32
-- Fondue Villa & Garden — Seestrasse 44, Unterseen
-  - 4,8 com 2.534 avaliações. Fondue clássico ilimitado. Abre 17h.
-  - +41 77 232 11 71
+- Art Pizza (primeira opção) — Hauptstrasse 5, a uns 5 minutos da Interlaken
+  West e perto do hotel
+  - Massa fina feita na hora, com opções vegetarianas e veganas. 4,5 de nota,
+    ainda que com poucas avaliações
+  - Cerca de CHF 15 a pizza de 30 cm. Para oito, algo em torno de CHF 120,
+    contra os CHF 300 a 400 de um jantar de restaurante suíço
+  - Faz takeaway: se não couberem oito sentados juntos numa sexta, levem para o
+    hotel
+  - Abre até 22h30. Fecha às terças, o que não pega nenhum dia de vocês
+  - +41 33 821 67 85. Telefone fixo, então não há WhatsApp
+- Asllani's Corner (plano B) — Höheweg 94, a mesma rua do hotel
+  - Hambúrgueres, formato informal de esquina
+  - Dá para voltar da Höhematte a pé, sem ônibus nem táxi
+  - +41 33 821 23 23. Telefone fixo, então não há WhatsApp
 - Restaurant Taverne: há relato de CHF 160 para duas pessoas com porções
   pequenas, descrito como armadilha para turista
 
@@ -1693,10 +1702,15 @@ Pernoite. Mochila da montanha montada antes de dormir.
 Sábado é dia de esqui. First vai estar cheia de esquiadores locais. Chegar cedo
 importa mais que nunca.
 
-07h30 — CONFIRAM AS WEBCAMS
-- Painel de Operações da Região de Jungfrau
-- Se o topo estiver fechado, nublado ou com vento, não subam. O teleférico é
-  caro demais para ver névoa.
+07h30 — Café da manhã no hotel
+- Comam com o que veio do Coop ontem. Sair alimentado daqui evita a primeira
+  compra cara da montanha.
+- CONFIRAM AS WEBCAMS antes de sair, em jungfrau.ch/en-gb/live/webcams/. Se o
+  topo estiver nublado ou com vento, não subam. O teleférico é caro demais para
+  ver névoa.
+- No mesmo site, em "Live", fica o Painel de Operações da Região de Jungfrau: é
+  ele que diz se o teleférico está de fato rodando. Confiram os dois antes de
+  comprar o bilhete.
 
 PLANO B SE O FIRST ESTIVER FECHADO
 - Não contem com o Harder Kulm. O funicular do Harder opera por temporada e
@@ -1757,23 +1771,47 @@ Trecho 2 — Subida ao First
        no grupo só nesse almoço.
   4. Pausa com vista (30 min)
      - Chocolate quente olhando o Eiger, o Mönch e o Jungfrau
-- Snow Tubing (opcional)
-  - Boia inflável descendo pistas de neve preparadas, no Snow Fun Park ou na
-    Bodmi Arena, na base da montanha. É a atividade que a criança de 10 anos vai
-    lembrar da viagem inteira.
+  5. FIRST FLYER — e ele é a primeira perna da descida, então façam por último
+     - Tirolesa de 800 m do First até Schreckfeld, a até 84 km/h, quatro
+       pessoas por vez. Com oito, são duas descidas.
+     - Exigências: 130 cm de altura, 35 kg, e menores de 14 anos acompanhados.
+       A criança de 10 entra pela ALTURA, não pela idade — confiram antes de
+       prometer a ela.
+     - Preço de inverno: CHF 35 por adulto, CHF 26 de 6 a 15 anos. É de graça
+       para quem tem passe de esqui da Região da Jungfrau, que não é o caso
+       de vocês.
+     - Bilhete online só até as 11h do próprio dia. Depois disso, só na
+       bilheteria do First — outra razão para resolver na subida, às 09h25.
+     - ATENÇÃO: o Flyer termina em SCHRECKFELD, uma estação abaixo do topo.
+       Quem descer por ele não volta ao First sem pegar a gôndola de novo.
+- NÃO há snow tubing no cume. O que existe no First é o Snowpark
+  Grindelwald-First, um terrain park de halfpipe, kickers e rails para
+  snowboard e freeski — não serve para a criança.
+  - O "Snow Fun Park" que aparece em algumas listas fica no JUNGFRAUJOCH, a
+    3.454 m, que não está neste roteiro, e opera na temporada de verão.
+  - O tubing de verdade é na BODMI ARENA, na base, e por isso entra no card
+    das 14h05, depois da descida.
 
-13h15 — Descida para Grindelwald
+13h15 — A DESCIDA DO TOPO ATÉ A BODMI, em duas etapas
+- Primeira: First -> Schreckfeld. Quem fizer o First Flyer desce por ele; quem
+  não fizer, desce de gôndola. Os dois chegam ao mesmo lugar.
+- Segunda: Schreckfeld -> Bort -> Grindelwald, de gôndola. Descendo tudo de
+  gôndola, são cerca de 25 min do topo até a vila.
+- A estação da Firstbahn fica no CENTRO DA VILA, a 8 a 10 min a pé da estação
+  de trem.
+- Dali sai o ÔNIBUS 122 sentido Bodmi, que passa pela Terrassenweg e tem ponto
+  na própria arena. Cerca de 10 min. É GRÁTIS com o bilhete da Bodmi, então
+  comprem o bilhete antes de embarcar.
+- A pé da estação até a Bodmi são 30 min de subida. Depois de um dia de
+  montanha, não vale.
+- A PARADA NA VILA SAIU DO ROTEIRO: com o tubing no programa, não há tempo para
+  uma parada sentada entre a descida e a Bodmi. Se alguém quiser comer algo, o
+  Coop da Dorfstrasse fica no caminho e resolve na mão.
 
-13h50 — Parada na vila, e NÃO um segundo almoço
-Vocês já almoçaram no topo, com a comida trazida do Coop. O que faz sentido
-aqui é uma parada quente e barata, não uma refeição.
-- MELHOR CUSTO-BENEFÍCIO: o COOP da Dorfstrasse, a rua principal, tem comida
-  pronta e mesas. Sanduíche e sopa quente por cerca de CHF 10, contra CHF 42
-  de prato principal nos restaurantes da rua.
-- Se ainda assim o grupo quiser sentar num restaurante, as três opções da
-  Dorfstrasse estão abaixo. RESERVEM PELA MANHÃ, do próprio teleférico: um
-  cliente observa que não há muitos restaurantes bons em Grindelwald, e num
-  sábado de dezembro os poucos que há lotam.
+RESTAURANTES DE GRINDELWALD — fora do roteiro, guardados para o caso de a Bodmi
+estar fechada por falta de neve e a parada na vila voltar ao programa.
+Reservem pela manhã, do teleférico mesmo: não há muitos restaurantes bons em
+Grindelwald, e num sábado de dezembro os poucos que há lotam.
 - BaseCamp Restaurant (destaque) — Almisgässli 1
   - 4,6 com 579 avaliações. Dois níveis, vista do Eiger, aberto das 11h30 às 22h.
   - Um cliente conta que caminhou 10 minutos ladeira acima da estação e que foi
@@ -1798,17 +1836,30 @@ aqui é uma parada quente e barata, não uma refeição.
   - Um cliente pondera que as porções são pequenas para o preço, com pratos
     principais a partir de CHF 42
   - +41 33 854 77 77
-- Reservem pela manhã, do teleférico mesmo. Um cliente observa que não há muitos
-  restaurantes bons em Grindelwald, e num sábado de dezembro os poucos que há
-  lotam.
-- Alternativa mais barata: o Coop de Grindelwald, na Dorfstrasse, tem comida
-  pronta e mesas. Sanduíche e sopa quente por CHF 10.
+- Alternativa mais barata: o Coop de Grindelwald, Dorfstrasse 101, tem comida
+  pronta e mesas. Sanduíche e sopa quente por CHF 10, aberto das 8h às 19h.
 
-15h15 — Grindelwald -> Interlaken Ost
-- Mesmo trem da ida, Berner Oberland Bahn, cerca de 35 min
+14h05 — SNOW TUBING NA BODMI ARENA
+- Como chegar: ver o bloco das 13h15 acima.
+- Pista de iniciantes com tapete rolante, feita para crianças a partir dos
+  3 anos. É a atividade que a criança de 10 anos vai lembrar da viagem inteira.
+- Vocês têm até as 15h45: quase duas horas, de sobra.
+- Fecha às 16h30 no sábado, e depende de a neve já ter chegado à vila — o
+  boletim de neve do Grindelwald Tourismus informa. Se não estiver operando, a
+  parada na vila volta a ser sentada e vocês pegam um trem mais cedo.
 
-16h00 — Tarde livre em Interlaken
-- Já estará escurecendo. Höheweg iluminada, lojas, mercado de Natal.
+16h15 — Grindelwald -> Interlaken Ost
+- 15h45 saída da Bodmi, ônibus até a estação. Mesmo trem da ida, Berner
+  Oberland Bahn, cerca de 36 min. Chegada à Interlaken Ost por volta das 16h51.
+- A BOB sai de meia em meia hora e o último parte por volta das 22h05, então o
+  horário não é imposto pelo trem.
+- POR QUE 16h15 E NÃO O TREM SEGUINTE: o Coop de Interlaken fecha às 18h no
+  sábado e domingo não abre. Esperar a Bodmi fechar às 16h30 e pegar a BOB das
+  16h45 deixaria a compra de amanhã em 40 minutos contados, com oito pessoas.
+
+17h00 — Compra de domingo e tarde livre em Interlaken
+- PRIMEIRO O COOP, antes das 18h: café da manhã e o lanche do trem de amanhã.
+- Feito isso, já estará escurecendo. Höheweg iluminada, lojas, mercado de Natal.
 
 18h30 — Jantar
 - Pizzeria Horn, ou a opção de ontem que vocês não usaram. Se jantaram no

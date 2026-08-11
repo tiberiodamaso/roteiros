@@ -219,7 +219,11 @@ function pendFor(id) {
 }
 
 /* Condução declarada por trecho (dia + parada de destino).
-   Tudo o que não está aqui é a pé. */
+   Tudo o que não está aqui é a pé.
+
+   O valor é a condução. Quando o destino do trecho não é o título do card
+   seguinte — o ônibus leva à estação, o trem é que leva ao destino do card —
+   use { modo, ate } e o “até …” ao lado da pílula passa a usar `ate`. */
 const MODO_FIXO = {
   '2026-12-11|Hotel Inn Rossio': 'transfer',
   '2026-12-12|Hotel → Oceanário': 'metrô',
@@ -251,10 +255,11 @@ const MODO_FIXO = {
   '2026-12-18|Basel': 'trem',
   '2026-12-18|Luzern-Interlaken Express': 'trem',
   '2026-12-18|Chegada em Interlaken Ost': 'trem',
-  '2026-12-18|Check-in + Guest Card': 'ônibus',
-  '2026-12-19|Interlaken → Grindelwald': 'trem',
+  '2026-12-18|Check-in na Guesthouse by The Hey Hotel': 'ônibus',
+  '2026-12-19|Trem até Grindelwald': { modo:'ônibus', ate:'estação Interlaken Ost' },
   '2026-12-19|Subida ao First': 'teleférico',
-  '2026-12-19|Volta a Interlaken': 'trem',
+  '2026-12-19|Snow tubing na Bodmi Arena': { modo:'teleférico + ônibus', ate:'Bodmi Arena' },
+  '2026-12-19|Volta a Interlaken': { modo:'ônibus', ate:'estação de Grindelwald' },
   '2026-12-20|Interlaken Ost → Zürich HB': 'trem',
   '2026-12-20|Chegada e hotel': 'transfer',
   '2026-12-20|Caminhada do centro iluminado': 'tram',
@@ -689,7 +694,9 @@ function viewDiario() {
       </div>
     </div>`;
     if (!nx) return parada;
-    const modo = MODO_FIXO[sel.id + '|' + nx.h] || 'a pé';
+    const trecho = MODO_FIXO[sel.id + '|' + nx.h];
+    const modo = (typeof trecho === 'string' ? trecho : trecho && trecho.modo) || 'a pé';
+    const ate = (trecho && trecho.ate) || nx.h;
     // A seta corre entre um card e outro; o selo da condução fica por cima
     // do meio dela, cortando o tracejado.
     const ligacao = `<div class="conn" style="--col:${col}">
@@ -700,7 +707,7 @@ function viewDiario() {
         </svg>
         <div class="conn__modo">
           <div class="pill"><i></i>${esc(modo)}</div>
-          <span class="conn__ate">até ${esc(nx.h)}</span>
+          <span class="conn__ate">até ${esc(ate)}</span>
         </div>
       </div>
     </div>`;

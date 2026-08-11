@@ -32,12 +32,14 @@ export const CITIES = [
   { k:'interlaken', n:'Interlaken', pais:'Suíça', col:'#2f6b4f', datas:'18 — 20 dez', noites:2, moeda:'CHF',
     hotel:'The Guesthouse by The Hey Hotel', ci:'18/12 (sex) 15h00', co:'20/12 (dom) 11h00',
     end:'Höheweg 7, 3800 Interlaken', app:'Nubank', tel:'+41 33 827 87 87',
-    mapa:'The Guesthouse by The Hey Hotel, Höheweg 7, Interlaken',
+    mapa:'The Guesthouse by The Hey Hotel, Höheweg 7, 3800 Interlaken',
     resumo:'Chegada pela rota panorâmica do Brünig e um dia inteiro em Grindelwald e no First.',
     dias:['2026-12-18','2026-12-19','2026-12-20'],
     dicas:[
-      ['Peçam a Interlaken Guest Card no check-in','Uma por pessoa, gratuita (já paga na taxa de turismo). Dá ônibus local grátis em Interlaken. Preencham nome e datas na hora — cartão em branco pode gerar multa.'],
-      ['A Guest Card NÃO cobre trem para Grindelwald nem teleféricos','Para esses vale Half Fare Card + bilhete.'],
+      ['O que é a Interlaken Guest Card','Um cartão que o hotel entrega no balcão, no check-in, a quem dorme em Interlaken. Não se compra e não se reserva: já está paga dentro da taxa de turismo da diária. Sai uma por pessoa, inclusive para a criança, e vale enquanto vocês estiverem hospedados — de 18 a 20/12.'],
+      ['O que ela cobre','Transporte público local grátis na região de Interlaken. É ela que resolve os trechos hotel ⇄ Interlaken Ost com oito malas, sem táxi. Dá também descontos em atrações e lojas, e a lista muda por temporada: perguntem no balcão quais valem em dezembro.'],
+      ['O que ela NÃO cobre','Trem para Grindelwald e teleféricos ficam de fora — para esses vale Half Fare Card + bilhete. E ela só existe a partir do check-in: na chegada, 18/12, o ônibus de Interlaken Ost até o hotel ainda é bilhete de máquina. É a única vez.'],
+      ['Preencham a Guest Card na hora','Nome e datas, ali no balcão. Cartão em branco ou com dado errado não vale numa fiscalização e pode gerar multa.'],
       ['Teleférico: só compre no dia, na bilheteria','Vejam as webcams do Jungfrau às 7h30. Se o topo estiver fechado por vento ou névoa, o dinheiro está perdido.'],
       ['O trem BOB se divide em Zweilütschinen','Uma parte segue para Grindelwald, a outra para Lauterbrunnen. Confiram o letreiro de cada vagão. Desçam em “Grindelwald”, não em “Grindelwald Terminal”.'],
       ['Almoço trazido do Coop','Comam no salão aquecido do topo e paguem só as bebidas quentes: economiza cerca de CHF 150 no grupo.'],
@@ -216,20 +218,20 @@ export const DAYS = [
       B('11h00','Basel',['Reservem 40 min de baldeação e não saiam da estação — há um Coop (rede de supermercados suíços) dentro, bom momento para o lanche.','O bilhete é um só, Basel SBB → Interlaken Ost, comprado com a conexão VIA LUZERN. Não há passagem a comprar aqui: vocês já estão com ela.','Primeira perna: trem direto até Luzern, ~1h, chegada ~12h00. Em Luzern vocês trocam para o panorâmico.']),
       B('12h30','Luzern-Interlaken Express',['Baldeação fácil: Luzern é terminal, saguão único no nível do chão. Reservem 20–30 min.','Este é o trem panorâmico, e é a segunda perna do mesmo bilhete. Os 8 lugares já estão reservados em zentralbahn.ch. SENTEM DO LADO DIREITO. ~2h.','Na plataforma, os vagões panorâmicos são inconfundíveis: janelas que sobem até o teto, curvando por cima da cabeça. Nem todos os vagões da composição são assim — confiram o símbolo na lateral antes de subir.','Cinco lagos de montanha, Monte Pilatus e o Passo do Brünig. Pouco antes da subida o trem muda para cremalheira.','Para a criança: peçam à equipe para apontar os animais entalhados do “Brünig Safari”, entre Meiringen e Giswil.']),
       B('14h40','Chegada em Interlaken Ost',['Com 8 malas, ônibus em vez dos 20 min a pé. Nesta primeira viagem comprem bilhete na máquina — a Guest Card só sai no check-in.']),
-      B('15h00','Check-in + Guest Card',['Peçam a Interlaken Guest Card no balcão, uma por pessoa, e preencham nome e datas na hora.']),
-      B('15h45','Coop, parada essencial',['Almoço de amanhã na montanha: pão, frios, queijo, frutas, barras, chocolate. E o café da manhã.','Chocolate quente feito no hotel custa zero; no topo do First, CHF 7 o copo.']),
-      B('16h15','Höhematte antes de escurecer',['Sol se põe às 16h40: ~25 minutos de luz para a vista do Jungfrau do parque central.']),
-      B('18h30','Jantar — Hopplá Bistro',['Jungfraustrasse 74. Nota 4,8, a mais alta de Interlaken. Cozinha húngara caseira, de família. Reserva por WhatsApp: +41 79 616 86 95.','Alternativas: Hüsi Bierhaus (+41 33 823 23 32) e Fondue Villa & Garden (+41 77 232 11 71).']),
+      B('15h00','Check-in na Guesthouse by The Hey Hotel',['PEÇAM A INTERLAKEN GUEST CARD NO BALCÃO. É o cartão que o hotel dá a quem se hospeda em Interlaken: gratuito, já pago dentro da taxa de turismo da diária, uma por pessoa — a criança também tem a dela.','Ela dá transporte público local grátis na região de Interlaken enquanto vocês estiverem hospedados, inclusive o ônibus até Interlaken Ost que vocês pegam amanhã de manhã. Trem para Grindelwald e teleféricos NÃO entram: para esses vale Half Fare Card + bilhete.','Preencham nome e datas na hora. Cartão em branco ou com dado errado pode dar multa numa fiscalização.','Perguntem que descontos ela dá em dezembro — a lista muda por temporada.']),
+      B('15h45','Coop, comprar suprimentos',['Almoço de amanhã na montanha: pão, frios, queijo, frutas, barras, chocolate. E o café da manhã.']),
+      B('16h15','Höhematte antes de escurecer',['A Höhematte é o campo aberto no meio de Interlaken. Ele existe porque no século XIX os moradores compraram o terreno para impedir que fosse construído — e é esse vão livre que abre a vista.','O Jungfrau é o pico de 4.158 m ao fundo do vale, um dos mais conhecidos da Suíça, ao lado do Eiger e do Mönch. Daqui vocês veem só ele: os outros dois ficam escondidos pelo relevo mais próximo e aparecem amanhã, do First.','Sol se põe às 16h40: ~25 minutos de luz para a vista do parque central. Mas a montanha é alta demais para escurecer junto com a cidade — ela segue iluminada depois, e ainda pega o rosado na neve.']),
+      B('18h30','Jantar — Art Pizza',['Hauptstrasse 5, uns 5 minutos da Interlaken West e perto do hotel. Massa fina feita na hora, com opções vegetarianas e veganas.','Cerca de CHF 15 a pizza de 30 cm: para oito, algo em torno de CHF 120, contra os CHF 300 a 400 que um jantar de restaurante suíço alcança sem esforço.','Faz takeaway — se não couberem oito sentados juntos numa sexta, levem para o hotel. Abre até 22h30 e fecha às terças, o que não pega nenhum dia de vocês.','Telefone fixo (+41 33 821 67 85), sem WhatsApp. Plano B: Asllani’s Corner, hambúrgueres na Höheweg 94, a mesma rua do hotel (+41 33 821 23 23).']),
     ] },
   { id:'2026-12-19', label:'19/12', wd:'sábado', city:'interlaken', title:'Grindelwald + First',
     sun:['08:13','16:40'],
     blocks:[
-      B('07h30','CONFIRAM AS WEBCAMS',['Painel de Operações da Região de Jungfrau. Se o topo estiver fechado, nublado ou com vento, não subam.','Sábado é dia de esqui: o First estará cheio de esquiadores locais. Chegar cedo importa mais que nunca.']),
-      B('08h15','Interlaken → Grindelwald',['Hotel → Interlaken Ost de ônibus (grátis com a Guest Card) ou 20 min a pé.','08h35 Berner Oberland Bahn, ~35 min. O trem SE DIVIDE em Zweilütschinen — confiram o letreiro do vagão.','Desçam em “Grindelwald”, não em “Grindelwald Terminal”. Chegada 09h10.']),
+      B('07h30','Café da manhã no hotel',['Comam com o que veio do Coop ontem. Sair alimentado daqui evita a primeira compra cara da montanha.','CONFIRAM AS WEBCAMS antes de sair: o site abre as câmeras ao vivo da Região de Jungfrau. Se o topo estiver nublado ou com vento, não subam — o teleférico é caro demais para ver névoa.','No mesmo site, em “Live”, fica o Painel de Operações: é ele que diz se o teleférico está de fato rodando. Confiram os dois antes de comprar o bilhete.','Sábado é dia de esqui: o First estará cheio de esquiadores locais. Chegar cedo importa mais que nunca.']),
+      B('08h15','Trem até Grindelwald',['Primeiro o ônibus até a Interlaken Ost, grátis com a Guest Card, ou 20 min a pé. Levem a de cada um no bolso.','08h35 Berner Oberland Bahn, ~35 min. O trem SE DIVIDE em Zweilütschinen — confiram o letreiro do vagão.','Desçam em “Grindelwald”, não em “Grindelwald Terminal”. Chegada 09h10.']),
       B('09h15','Subida ao First',['8–12 min a pé até a Firstbahn, placas amarelas. 09h25 bilheteria: apresentem o Half Fare para os 50% e perguntem se o Cliff Walk está aberto.','09h30 subida, 3 etapas, ~25 min. 10h00 no First, a 2.168 m — acima da linha de sombra do vale.']),
-      B('10h00','No topo, até as 13h00',['First Cliff Walk (30–40 min): passarela suspensa na borda da montanha. A melhor foto do dia.','Área de neve livre (40–60 min): brincar, fotos com os picos, boneco de neve.','Almoço trazido de casa (45 min) no salão aquecido, comprando só as bebidas quentes.','Pausa com chocolate quente olhando o Eiger, o Mönch e o Jungfrau.','Opcional: snow tubing no Snow Fun Park ou na Bodmi Arena — é o que a criança vai lembrar da viagem.']),
-      B('13h50','Parada na vila, e NÃO um segundo almoço',['Melhor custo-benefício: o Coop da Dorfstrasse, com comida pronta e mesas — sanduíche e sopa por ~CHF 10, contra CHF 42 de prato principal na rua.','Se o grupo quiser sentar: BaseCamp (o mais amigável para a criança, +41 33 853 07 10), Pinte (+41 33 853 12 34) ou Adlerstube (+41 33 854 77 77). RESERVEM PELA MANHÃ, do próprio teleférico.']),
-      B('15h15','Volta a Interlaken',['Mesmo trem BOB, ~35 min. 16h00 tarde livre com a Höheweg iluminada, lojas e mercado de Natal.']),
+      B('10h00','No topo, até as 13h00',['First Cliff Walk (30–40 min): passarela suspensa na borda da montanha. A melhor foto do dia.','FIRST FLYER: tirolesa de 800 m do First até Schreckfeld, a até 84 km/h, quatro pessoas por vez — com oito, são duas descidas. Exige 130 cm de altura, 35 kg e menor de 14 anos acompanhado; a criança de 10 entra pela altura, não pela idade. No inverno, CHF 35 por adulto e CHF 26 pela criança.','O Flyer deixa vocês em Schreckfeld, uma estação abaixo do topo: façam por ÚLTIMO, como primeira perna da descida. Bilhete online só até as 11h do próprio dia — depois disso, na bilheteria do First.','Área de neve livre (40–60 min): brincar, fotos com os picos, boneco de neve.','Almoço trazido de casa (45 min) no salão aquecido, comprando só as bebidas quentes.','Pausa com chocolate quente olhando o Eiger, o Mönch e o Jungfrau.']),
+      B('14h05','Snow tubing na Bodmi Arena',['A DESCIDA, em duas etapas. Primeiro First → Schreckfeld: no First Flyer, quem for, e na gôndola quem não for — os dois chegam ao mesmo lugar. Depois Schreckfeld → Bort → Grindelwald, de gôndola. Descendo tudo de gôndola, são ~25 min do topo até a vila.','A estação da Firstbahn fica no centro da vila, a 8–10 min a pé da estação de trem. Dali sai o ÔNIBUS 122 sentido Bodmi, que passa pela Terrassenweg e tem ponto na própria arena: ~10 min. É GRÁTIS com o bilhete da Bodmi, então comprem o bilhete antes de embarcar. A pé seriam 30 min de subida, e depois de um dia de montanha não vale.','Pista de iniciantes com tapete rolante, feita para crianças a partir dos 3 anos. Vocês têm até as 15h45: quase duas horas, de sobra.','Fecha às 16h30 no sábado, e depende de a neve já ter chegado à vila — o boletim do Grindelwald Tourismus informa. Se não estiver operando, peguem um trem mais cedo de volta a Interlaken.']),
+      B('16h15','Volta a Interlaken',['15h45 saída da Bodmi, ônibus até a estação. BOB das 16h15, ~36 min, chegada à Interlaken Ost por volta das 16h51.','O COOP FECHA ÀS 18h e domingo não abre: comprem hoje o café da manhã e o lanche do trem de amanhã. É por isso que a volta é às 16h15 e não no último trem — a Bodmi fecha às 16h30, mas esperar até lá deixaria a compra em 40 minutos contados, com oito pessoas.','Feita a compra, a Höheweg já acesa, lojas e mercado de Natal até o jantar.']),
       B('18h30','Jantar — Fondue Villa & Garden',['+41 77 232 11 71, abre às 17h. Fondue clássico ilimitado: preço fixo com repetição livre é o formato que favorece grupo grande.','Ou Pizzeria Horn, se preferirem.']),
       B('noite','Antes de dormir',['Amanhã é check-out e mudança para Zurique: malas prontas.','Domingo os supermercados fecham — comprem hoje o café da manhã e o lanche do trem.']),
     ],
@@ -424,7 +426,7 @@ export const CHECKLIST = [
     { id:'a3', t:'Aéreo internacional de volta — Paris (Orly) → Guarulhos, 02/01 às 20h35', n:'Chegada em GRU em 03/01 às 06h50. Saída do hotel 15h30. Orly, não CDG.' },
     { id:'h1', mapa:'Hotel Inn Rossio, Lisboa', t:'Hotel Inn Rossio, Lisboa', n:'11/12 14h00 → 14/12 12h00 · 3 noites' },
     { id:'h2', mapa:'Ibis Budget Paris Porte de Montmartre', t:'Ibis Budget Paris Porte de Montmartre', n:'14/12 14h30 → 18/12 madrugada · 4 noites' },
-    { id:'h3', mapa:'The Guesthouse by the Hey Hotel, Interlaken', t:'The Guesthouse by the Hey Hotel, Interlaken', n:'18/12 15h00 → 20/12 11h00 · 2 noites' },
+    { id:'h3', mapa:'The Guesthouse by The Hey Hotel, Höheweg 7, 3800 Interlaken', t:'The Guesthouse by The Hey Hotel, Interlaken', n:'18/12 15h00 → 20/12 11h00 · 2 noites' },
     { id:'h4', mapa:'ibis budget Zurich City West', t:'ibis budget Zurich City West', n:'20/12 15h00 → 23/12 11h00 · 3 noites' },
     { id:'h5', mapa:'Vienna Stay Apartments Tabor, Viena', t:'Vienna Stay Apartments Tabor 1020', n:'24/12 15h00 → 28/12 11h00 · 4 noites · o Natal é aqui' },
     { id:'h6', mapa:'Hotel Garden Zagreb, Vodnikova 13', t:'Hotel Garden, Zagreb — Vodnikova 13', n:'28/12 15h00 → 31/12 11h00 · 3 noites' },
@@ -463,7 +465,7 @@ export const CHECKLIST = [
     { id:'v5', t:'Bilhete Interlaken Ost → Zürich HB, 20/12' },
     { id:'v6', mapa:'Engelberg, Suíça', t:'Bilhete Zürich HB → Engelberg, ida e volta, 22/12' },
     { id:'v7', t:'Bilhetes urbanos de Zurique, Viena e Zagreb', n:'No dia, conforme a seção de transporte.' },
-    { id:'v8', mapa:'The Guesthouse by the Hey Hotel, Interlaken', t:'Interlaken Guest Card', n:'Não se compra: pedir no check-in, em 18/12, uma por pessoa.' },
+    { id:'v8', mapa:'The Guesthouse by The Hey Hotel, Höheweg 7, 3800 Interlaken', t:'Interlaken Guest Card', n:'Não se compra nem se reserva: é o cartão que o hotel entrega no check-in a quem dorme em Interlaken, já pago dentro da taxa de turismo da diária. Peçam no balcão em 18/12, uma por pessoa, a criança também. Dá transporte público local grátis na região e descontos que mudam por temporada; não cobre trem para Grindelwald nem teleféricos. Preencham nome e datas na hora — cartão em branco pode dar multa.' },
     { id:'v9', t:'Interlaken: hotel ⇄ estação, 18 e 20/12 — nada a comprar', n:'Uber existe em Interlaken, mas quem atende são táxis licenciados: é chamada de táxi com outro nome, e a oferta é fina numa cidade de 5 mil habitantes. Bolt não opera lá e não há tram. O ônibus local é GRÁTIS com a Guest Card e resolve os dois trechos; táxi só se a bagagem apertar. Deixem o número de um táxi salvo antes.' },
   ]},
   { k:'b4', titulo:'Três divergências', sub:'Estavam na lista de vocês e saem dela', tom:'#9e2c46', atencao:true, items:[
@@ -505,9 +507,9 @@ export const RESTAURANTES = [
   { id:'c10', dia:'2026-12-17', ref:'jantar', local:'Le Son de la Terre', city:'paris1', urgente:true,
     mapa:'Le Son de la Terre, Paris',
     n:'18h50. Barcaça com música ao vivo, logo depois do cruzeiro no Sena. Em dezembro esgota — esta é a mais urgente da lista.', tel:'+33 1 43 29 48 19' },
-  { id:'p20', dia:'2026-12-18', ref:'jantar', local:'Hopplá Bistro', city:'interlaken',
-    mapa:'Hopplá Bistro, Interlaken',
-    n:'Reserva por WhatsApp.', tel:'+41 79 616 8695', zap:true },
+  { id:'p20', dia:'2026-12-18', ref:'jantar', local:'Art Pizza', city:'interlaken',
+    mapa:'Art Pizza, Hauptstrasse 5, 3800 Interlaken',
+    n:'Hauptstrasse 5, perto da Interlaken West. ~CHF 15 a pizza de 30 cm, e faz takeaway. Telefone fixo, sem WhatsApp: a reserva sai por ligação. Plano B: Asllani’s Corner, +41 33 821 23 23.', tel:'+41 33 821 67 85' },
   { id:'p21', dia:'2026-12-19', ref:'jantar', local:'Fondue Villa & Garden', city:'interlaken',
     mapa:'Fondue Villa Garden, Interlaken',
     tel:'+41 77 232 1171', zap:true },
@@ -544,13 +546,20 @@ export const LUGARES = {
   '2026-12-11|Almoço — Casa do Alentejo': { res:'p13', extras:[
     { n:'Museu da Cerveja', mapa:'Museu da Cerveja, Praça do Comércio 62, Lisboa' },
   ] },
+  '2026-12-11|Tarde a pé, sem transporte': { mapa:'Arco da Rua Augusta, Lisboa', extras:[
+    { n:'Praça do Comércio', mapa:'Praça do Comércio, Lisboa' },
+    { n:'Rua Garrett', mapa:'Rua Garrett, Chiado, Lisboa' },
+  ] },
   '2026-12-11|Jantar — Trama Pasta Fresca': { res:'p14' },
 
   '2026-12-12|Oceanário de Lisboa': { mapa:'Oceanário de Lisboa' },
   '2026-12-12|Almoço — Nova Cervejaria': { res:'p15' },
   '2026-12-12|Castelo de São Jorge': { mapa:'Castelo de São Jorge, Lisboa' },
   '2026-12-12|Descida a pé, a melhor parte do dia': { mapa:'Miradouro das Portas do Sol, Lisboa' },
-  '2026-12-12|Cerveja e petisco no Largo de São Miguel': { mapa:'Largo de São Miguel, Alfama, Lisboa' },
+  '2026-12-12|Cerveja e petisco no Largo de São Miguel': { mapa:'Largo de São Miguel, Alfama, Lisboa', extras:[
+    { n:'Alma do Fado', mapa:'Alma do Fado, Largo de São Miguel 2, Lisboa' },
+    { n:'Antù Alfama', mapa:'Antù Alfama, Largo de São Miguel, Lisboa' },
+  ] },
   '2026-12-12|Jantar — A Licorista / O Bacalhoeiro': { res:'p16', extras:[
     { n:'Taberna da Baixa', mapa:'Taberna da Baixa, Rua dos Fanqueiros 161, Lisboa' },
   ] },
@@ -573,11 +582,16 @@ export const LUGARES = {
   '2026-12-14|Subida até a Basílica': { mapa:'Funiculaire de Montmartre, Paris' },
   '2026-12-14|Sacré-Coeur': { mapa:'Basilique du Sacré-Cœur, Paris' },
   '2026-12-14|Place du Tertre': { mapa:'Place du Tertre, Paris' },
-  '2026-12-14|Brechós da Rue Ravignan e Rue des Abbesses': { mapa:'Rue des Abbesses, Paris' },
+  '2026-12-14|Brechós da Rue Ravignan e Rue des Abbesses': { mapa:'Rue des Abbesses, Paris', extras:[
+    { n:'SHOPTAPÉPITE Vintage', mapa:'SHOPTAPEPITE Vintage, 10 Rue Ravignan, Paris' },
+    { n:'Carmin Vintage', mapa:'Carmin Vintage, 8 Rue des Abbesses, Paris' },
+  ] },
   '2026-12-14|Jantar — La Villa des Abbesses': { res:'p19' },
 
   '2026-12-15|Marne-la-Vallée-Chessy': { mapa:'Disneyland Paris' },
+  '2026-12-15|Disney Tales of Magic': { mapa:'Disney Village, Marne-la-Vallée' },
   '2026-12-16|Ex-Walt Disney Studios Park': { mapa:'Walt Disney Studios Park, Marne-la-Vallée' },
+  '2026-12-16|Disney Cascade of Lights': { mapa:'Disney Village, Marne-la-Vallée' },
 
   '2026-12-17|Hotel → Trocadéro': { mapa:'Estação Porte de Saint-Ouen, Métro ligne 13, Paris' },
   '2026-12-17|Trocadéro e Torre Eiffel': { mapa:'Trocadéro, Paris' },
@@ -591,21 +605,40 @@ export const LUGARES = {
 
   '2026-12-18|Gare de Lyon — TGV Lyria para Basel SBB': { mapa:'Paris Gare de Lyon' },
   '2026-12-18|Chegada em Interlaken Ost': { mapa:'Interlaken Ost' },
-  '2026-12-18|Check-in + Guest Card': { mapa:'The Guesthouse by the Hey Hotel, Interlaken' },
-  '2026-12-18|Coop, parada essencial': { mapa:'Coop, Interlaken' },
+  '2026-12-18|Check-in na Guesthouse by The Hey Hotel': { mapa:'The Guesthouse by The Hey Hotel, Höheweg 7, 3800 Interlaken' },
+  '2026-12-18|Coop, comprar suprimentos': { mapa:'Coop Pronto Shop Interlaken Zentrum, Höheweg 26, 3800 Interlaken' },
   '2026-12-18|Höhematte antes de escurecer': { mapa:'Höhematte, Interlaken' },
-  '2026-12-18|Jantar — Hopplá Bistro': { res:'p20' },
+  '2026-12-18|Jantar — Art Pizza': { res:'p20', extras:[
+    { n:'Asllani’s Corner (plano B)', mapa:'Asllanis Corner, Höheweg 94, 3800 Interlaken' },
+  ] },
 
-  '2026-12-19|Interlaken → Grindelwald': { mapa:'Grindelwald' },
-  '2026-12-19|Subida ao First': { mapa:'Grindelwald-First' },
+  '2026-12-19|Café da manhã no hotel': { url:'https://www.jungfrau.ch/en-gb/live/webcams/' },
+  '2026-12-19|Trem até Grindelwald': { mapa:'Grindelwald' },
+  '2026-12-19|Subida ao First': { mapa:'Grindelwald-First', url:'https://www.jungfrau.ch/en-gb/grindelwaldfirst/' },
   '2026-12-19|No topo, até as 13h00': { mapa:'First Cliff Walk, Grindelwald' },
-  '2026-12-19|Parada na vila, e NÃO um segundo almoço': { mapa:'Grindelwald Dorf' },
-  '2026-12-19|Jantar — Fondue Villa & Garden': { res:'p21' },
+  '2026-12-19|Snow tubing na Bodmi Arena': { mapa:'Bodmi Arena, Grindelwald', extras:[
+    { n:'Firstbahn, estação do vale', mapa:'Firstbahn Talstation, Grindelwald' },
+  ] },
+  '2026-12-19|Volta a Interlaken': { mapa:'Interlaken Ost', extras:[
+    { n:'Coop, antes das 18h', mapa:'Coop Supermarkt, Untere Bönigstrasse 10, 3800 Interlaken' },
+  ] },
+  '2026-12-19|Jantar — Fondue Villa & Garden': { res:'p21', extras:[
+    { n:'Pizzeria Horn', mapa:'Pizzeria Horn, Interlaken' },
+  ] },
 
   '2026-12-20|Interlaken Ost → Zürich HB': { mapa:'Zürich Hauptbahnhof' },
   '2026-12-20|Chegada e hotel': { mapa:'ibis budget Zurich City West' },
-  '2026-12-20|Caminhada do centro iluminado': { mapa:'Bahnhofstrasse, Zürich' },
-  '2026-12-20|Jantar no Niederdorf': { res:'p22' },
+  '2026-12-20|Caminhada do centro iluminado': { mapa:'Bahnhofstrasse, Zürich', extras:[
+    { n:'Werdmühleplatz', mapa:'Werdmühleplatz, Zürich' },
+    { n:'Lindenhof', mapa:'Lindenhof, Zürich' },
+    { n:'Münsterhof', mapa:'Münsterhof, Zürich' },
+    { n:'Münsterbrücke', mapa:'Münsterbrücke, Zürich' },
+    { n:'Grossmünster', mapa:'Grossmünster, Zürich' },
+    { n:'Niederdorf', mapa:'Niederdorf, Zürich' },
+  ] },
+  '2026-12-20|Jantar no Niederdorf': { res:'p22', extras:[
+    { n:'Zum Königstuhl', mapa:'Restaurant Zum Königstuhl, Stüssihofstatt 3, Zürich' },
+  ] },
 
   '2026-12-21|Christkindlimarkt, dentro da Zürich HB': { mapa:'Zürich Hauptbahnhof' },
   '2026-12-21|Wienachtsdorf, Sechseläutenplatz': { mapa:'Sechseläutenplatz, Zürich' },
@@ -613,35 +646,71 @@ export const LUGARES = {
   '2026-12-21|Lago de Zurique, Bürkliplatz': { mapa:'Bürkliplatz, Zürich' },
   '2026-12-21|Ônibus 165 até Kilchberg': { mapa:'Lindt Home of Chocolate, Kilchberg' },
   '2026-12-21|Lindt Home of Chocolate': { mapa:'Lindt Home of Chocolate, Kilchberg' },
+  '2026-12-21|Tarde livre, com folga de verdade': { mapa:'Fraumünster, Zürich', extras:[
+    { n:'Münsterhof', mapa:'Münsterhof, Zürich' },
+    { n:'Paradeplatz', mapa:'Paradeplatz, Zürich' },
+  ] },
   '2026-12-21|Retorno e jantar no Kreis 5': { mapa:'Kreis 5, Zürich' },
 
+  '2026-12-22|Webcams e mochila': { url:'https://www.titlis.ch/', extras:[
+    { n:'Kapellbrücke', mapa:'Kapellbrücke, Luzern' },
+    { n:'Löwendenkmal', mapa:'Löwendenkmal, Luzern' },
+    { n:'Coop da Zürich HB', mapa:'Coop, Zürich Hauptbahnhof' },
+  ] },
   '2026-12-22|Zurique → Engelberg': { mapa:'Engelberg' },
   '2026-12-22|Bilheteria da base': { mapa:'Titlis Bergbahnen, Engelberg' },
   '2026-12-22|No cume, a 3.020 m': { mapa:'Titlis' },
   '2026-12-22|Trübsee, na descida': { mapa:'Trübsee, Engelberg' },
+  '2026-12-22|Descida final': { mapa:'Kloster Engelberg' },
+  '2026-12-22|Volta e jantar': { mapa:'Kreis 5, Zürich', extras:[
+    { n:'Niederdorf', mapa:'Niederdorf, Zürich' },
+  ] },
 
+  '2026-12-23|Malas e mochila de cabine': { mapa:'Im Viadukt, Zürich' },
   '2026-12-23|Guarda-volumes na Zürich HB': { mapa:'Zürich Hauptbahnhof' },
   '2026-12-23|Museu Nacional Suíço': { mapa:'Landesmuseum Zürich' },
+  '2026-12-23|Almoço perto da estação': { mapa:'ShopVille, Zürich Hauptbahnhof' },
   '2026-12-23|Polybahn e a Polyterrasse': { mapa:'Polyterrasse, Zürich' },
   '2026-12-23|Bahnhofstrasse, agora para comprar': { mapa:'Bahnhofstrasse, Zürich' },
 
+  '2026-12-23|Parada aquecida e preparativos': { mapa:'ShopVille, Zürich Hauptbahnhof' },
+
   '2026-12-24|Chegada em Viena': { mapa:'Wien Hauptbahnhof' },
+  '2026-12-24|Supermercados fecham cedo hoje': { mapa:'Billa, Taborstraße, Viena', extras:[
+    { n:'Spar', mapa:'Spar, Taborstraße, Viena' },
+  ] },
   '2026-12-24|Check-in no apartamento': { mapa:'Vienna Stay Apartments Tabor, Viena' },
+
+  '2026-12-25|Tudo externo': { mapa:'Stephansplatz, Viena', extras:[
+    { n:'Hofburg', mapa:'Hofburg, Viena' },
+    { n:'Graben', mapa:'Graben, Viena' },
+    { n:'Kohlmarkt', mapa:'Kohlmarkt, Viena' },
+  ] },
 
   '2026-12-26|Wien Hbf → Salzburg Hbf': { mapa:'Salzburg Hauptbahnhof' },
   '2026-12-26|Entrada na cidade velha': { mapa:'Getreidegasse, Salzburgo' },
-  '2026-12-26|Augustiner Bräu Mülln': { mapa:'Augustiner Bräu Kloster Mülln, Salzburgo' },
+  '2026-12-26|Augustiner Bräu Mülln': { mapa:'Augustiner Bräu Kloster Mülln, Salzburgo', extras:[
+    { n:'Stiegl-Keller', mapa:'Stiegl-Keller, Festungsgasse 10, Salzburgo' },
+  ] },
   '2026-12-26|Fortaleza Hohensalzburg': { mapa:'Festung Hohensalzburg, Salzburgo' },
 
   '2026-12-27|Palácio de Schönbrunn': { mapa:'Palácio de Schönbrunn, Viena' },
-  '2026-12-27|Centro histórico completo': { mapa:'Stephansdom, Viena' },
+  '2026-12-27|Centro histórico completo': { mapa:'Stephansdom, Viena', extras:[
+    { n:'Graben e Kohlmarkt', mapa:'Graben, Viena' },
+    { n:'Hofburg', mapa:'Hofburg, Viena' },
+    { n:'Museu de História da Arte', mapa:'Kunsthistorisches Museum, Viena' },
+  ] },
   '2026-12-27|Prater': { mapa:'Prater, Viena' },
   '2026-12-27|Jantar final em Viena': { res:'p24' },
 
   '2026-12-28|Transfer ao aeroporto de Viena': { mapa:'Aeroporto de Viena' },
   '2026-12-28|Chegada em Zagreb': { mapa:'Aeroporto de Zagreb' },
   '2026-12-28|Três coisas para resolver no balcão': { mapa:'Hotel Garden Zagreb, Vodnikova 13' },
-  '2026-12-28|Primeira volta pelo Advent, sem roteiro fechado': { mapa:'Praça Ban Jelačić, Zagreb' },
+  '2026-12-28|Primeira volta pelo Advent, sem roteiro fechado': { mapa:'Praça Ban Jelačić, Zagreb', extras:[
+    { n:'Zrinjevac', mapa:'Zrinjevac, Zagreb' },
+    { n:'Mercado Dolac', mapa:'Mercado Dolac, Zagreb' },
+  ] },
+  '2026-12-28|Nas barracas mesmo': { mapa:'Trg Josipa Jurja Strossmayera, Zagreb' },
 
   '2026-12-29|Busca no hotel': { mapa:'Hotel Garden Zagreb, Vodnikova 13' },
   '2026-12-29|Chegada, Entrada 1': { mapa:'Plitvice Lakes National Park Entrance 1' },
@@ -660,19 +729,27 @@ export const LUGARES = {
   '2026-12-30|Praça Europa e Strossmayer': { mapa:'Strossmartre, Zagreb' },
   '2026-12-30|Zrinjevac ao acender das luzes': { mapa:'Zrinjevac, Zagreb' },
   '2026-12-30|Ledeni Park, na Praça do Rei Tomislav': { mapa:'Ledeni park, Trg kralja Tomislava, Zagreb' },
+  '2026-12-30|Se o grupo quiser mais': { mapa:'Cemitério de Mirogoj, Zagreb', extras:[
+    { n:'Relacionamentos Desfeitos', mapa:'Museum of Broken Relationships, Zagreb' },
+  ] },
   // O bloco do Museu Nikola Tesla não entra: buildDays descarta a primeira
   // parada do dia leve, para o dia mesclado não ter duas manhãs.
 
   '2026-12-31|Chegada ao hotel': { mapa:'Hotel du Cadran, 10 Rue du Champ de Mars, Paris' },
   '2026-12-31|Almoço e Champ de Mars': { mapa:'Champ de Mars, Paris' },
   '2026-12-31|Compras na Rue Cler — isto é crítico': { mapa:'Rue Cler, Paris' },
-  '2026-12-31|Torre Eiffel a partir do bairro (recomendado)': { mapa:'Torre Eiffel, Paris' },
+  '2026-12-31|Torre Eiffel a partir do bairro (recomendado)': { mapa:'Torre Eiffel, Paris', extras:[
+    { n:'Avenue de Suffren', mapa:'Avenue de Suffren, Paris' },
+    { n:'Avenue de la Bourdonnais', mapa:'Avenue de la Bourdonnais, Paris' },
+    { n:'Pont de Bir-Hakeim', mapa:'Pont de Bir-Hakeim, Paris' },
+  ] },
   '2026-12-31|Champs-Élysées, o evento oficial': { mapa:'Avenue des Champs-Élysées, Paris' },
 
   '2027-01-01|Place de la Concorde': { mapa:'Place de la Concorde, Paris' },
   '2027-01-01|Jardin des Tuileries, entrando pelo portão oeste': { mapa:'Jardin des Tuileries, Paris' },
   '2027-01-01|Arc de Triomphe du Carrousel': { mapa:'Arc de Triomphe du Carrousel, Paris' },
   '2027-01-01|Cour Napoléon e a pirâmide': { mapa:'Cour Napoléon, Museu do Louvre, Paris' },
+  '2027-01-01|A hora azul, o motivo de estar aqui no fim da tarde': { mapa:'Carrousel du Louvre, Paris' },
   '2027-01-01|O dia mais difícil do ano para comer fora': { res:'p26' },
 
   '2027-01-02|Rue Cler em dia de feira': { mapa:'Rue Cler, Paris' },
@@ -685,7 +762,7 @@ export const TRANSPORTE = [
   { city:'paris1', comprar:'Navigo Semaine, zonas 1 a 5', custo:'32,40 €', app:'Île-de-France Mobilités',
     notas:['Total do grupo: 259 €. Vale de segunda a domingo.','Comprado antes de viajar, no app instalado no celular de cada um — não há guichê nem máquina no roteiro. Um passe por celular, pessoal e não transferível; a criança entra num segundo cartão virtual no celular do pai.','Cobre metrô, RER, ônibus, tram, funicular de Montmartre, Disney e aeroportos.','Paris Pass e similares não compensam: vocês fazem poucas entradas pagas fora da Torre e da Disney.'] },
   { city:'interlaken', comprar:'Swiss Half Fare Card + Guest Card gratuita', custo:'CHF 150 / adulto', app:'SBB Mobile',
-    notas:['O Half Fare não é passe: é cartão de desconto. Vocês continuam comprando bilhete para cada trecho.','Swiss Family Card faz a criança viajar de graça — pedir junto na compra.','Guest Card gratuita no check-in dá ônibus local grátis em Interlaken.','Mostrem ao fiscal três coisas: cartão, bilhete do trecho e passaporte ORIGINAL.'] },
+    notas:['O Half Fare não é passe: é cartão de desconto. Vocês continuam comprando bilhete para cada trecho.','Swiss Family Card faz a criança viajar de graça — pedir junto na compra.','A Guest Card não é comprada: o hotel entrega no check-in, uma por pessoa, e ela já está paga na taxa de turismo da diária. Dá transporte público local grátis na região de Interlaken enquanto vocês estiverem hospedados — mas não vale para o trem de Grindelwald nem para teleféricos.','Mostrem ao fiscal três coisas: cartão, bilhete do trecho e passaporte ORIGINAL.'] },
   { city:'zurique', comprar:'Zona 110 — avulso ou passe diário', custo:'CHF 150 + trechos', app:'SBB Mobile / ZVV',
     notas:['O mesmo bilhete serve para trem, ônibus e tram dentro das zonas compradas.','20/12 avulso · 21/12 passe diário com zonas até Kilchberg · 22/12 avulso · 23/12 passe diário.','Passe diário custa duas passagens avulsas: da terceira viagem em diante compensa. Vale 24h a partir da compra.','Não há venda dentro do tram, e não há validação nem catraca — o bilhete já sai com data e hora.'] },
   { city:'viena', comprar:'Passe de 7 dias digital', custo:'25,20 €', app:'WienMobil + ÖBB',
