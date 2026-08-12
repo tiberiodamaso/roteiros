@@ -1995,7 +1995,7 @@ Tudo a pé, num percurso contínuo de norte para sul e depois cruzando o rio.
        Hirschenplatz, lojas e cafés
      - Aqui vocês param para jantar
 
-19h30 — Jantar no Niederdorf
+19h30 — Jantar em Niederdorf
 - Opção 1 — Zum Königstuhl: fondue e raclette tradicionais, ambiente de casa
   antiga
 - Opção 2 — Rheinfelder Bierhalle: comida suíça tradicional, porções grandes,

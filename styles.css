@@ -272,6 +272,8 @@ h3 { font-size: 26px; }
 .tlstop__h { font-family: var(--display); font-size: 27px; line-height: 1.1; margin-top: 4px; }
 .tlstop__card ul { margin: 10px 0 0; color: var(--body); font-size: 17.5px; }
 .tlstop__card li { margin-bottom: 4px; text-wrap: pretty; }
+/* Card de recado não tem conector depois: sem ele, o respiro vem daqui */
+.tlstop--aviso { margin-bottom: 5%; }
 
 /* Conexão entre duas paradas: a seta tracejada, com o selo da condução
    por cima do meio dela. O fundo do selo é que "corta" o tracejado. */

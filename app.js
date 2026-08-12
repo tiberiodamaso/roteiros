@@ -96,9 +96,13 @@ function linksHtml(o, extra) {
     `<a class="lnk" href="${href}" target="_blank" rel="noopener">${icone}${rotulo}</a>`;
   if (o.tel && o.zap) l.push(abrir('https://wa.me/' + o.tel.replace(/\D/g, ''), ICONES.zap, 'WhatsApp'));
   if (o.tel) l.push(`<a class="lnk" href="tel:${esc(o.tel.replace(/\s/g, ''))}" data-tel="${esc(o.tel)}">${ICONES.tel}Ligar</a>`);
-  if (o.mapa) l.push(abrir(mapaHref(o.mapa), ICONES.mapa, 'Maps'));
-  for (const e of o.extras || []) l.push(abrir(mapaHref(e.mapa), ICONES.mapa, esc(e.n)));
-  if (o.url) l.push(abrir(esc(o.url), ICONES.site, 'Site'));
+  if (o.mapa) l.push(abrir(mapaHref(o.mapa), ICONES.mapa, esc(o.mapaN || 'Maps')));
+  for (const e of o.extras || []) {
+    if (e.mapa) l.push(abrir(mapaHref(e.mapa), ICONES.mapa, esc(e.n)));
+    // Um extra pode trazer o próprio site; o rótulo é dele, senão o nome repetiria o chip do mapa
+    if (e.url) l.push(abrir(esc(e.url), ICONES.site, esc(e.urlN || e.n)));
+  }
+  if (o.url) l.push(abrir(esc(o.url), ICONES.site, esc(o.urlN || 'Site')));
   if (extra) l.push(extra);
   return l.length ? `<div class="lnks">${l.join('')}</div>` : '';
 }
@@ -206,7 +210,7 @@ function contatoDaParada(diaId, titulo) {
   const lugar = D.LUGARES[diaId + '|' + titulo];
   if (!lugar) return {};
   const r = lugar.res ? (D.RESTAURANTES.find(x => x.id === lugar.res) || {}) : {};
-  return { mapa: lugar.mapa || r.mapa, tel: r.tel, zap: r.zap, url: lugar.url || r.url, extras: lugar.extras };
+  return { mapa: lugar.mapa || r.mapa, mapaN: lugar.mapaN, tel: lugar.tel || r.tel, zap: lugar.zap || r.zap, url: lugar.url || r.url, urlN: lugar.urlN, extras: lugar.extras };
 }
 
 function pendFor(id) {
@@ -260,20 +264,22 @@ const MODO_FIXO = {
   '2026-12-19|Subida ao First': 'teleférico',
   '2026-12-19|Snow tubing na Bodmi Arena': { modo:'teleférico + ônibus', ate:'Bodmi Arena' },
   '2026-12-19|Volta a Interlaken': { modo:'ônibus', ate:'estação de Grindelwald' },
-  '2026-12-20|Interlaken Ost → Zürich HB': 'trem',
-  '2026-12-20|Chegada e hotel': 'transfer',
+  '2026-12-20|Interlaken Ost → Zürich HB': { modo:'Uber ou ônibus', ate:'Interlaken Ost' },
+  '2026-12-20|Check-in': { modo:'transfer', ate:'hotel ibis budget Zurich City West' },
   '2026-12-20|Caminhada do centro iluminado': 'tram',
-  '2026-12-20|Retorno': 'tram',
-  '2026-12-21|Christkindlimarkt, dentro da Zürich HB': 'tram',
+  '2026-12-20|Retorno': { modo:'tram', ate:'o hotel' },
+  '2026-12-21|Wienachtsdorf, Sechseläutenplatz': { modo:'tram 4', ate:'Opernhaus' },
   '2026-12-21|Lago de Zurique, Bürkliplatz': 'tram',
-  '2026-12-21|Ônibus 165 até Kilchberg': 'ônibus',
+  '2026-12-21|Singing Christmas Tree, Werdmühleplatz': { modo:'tram 11', ate:'Rennweg, e 3 min a pé' },
+  '2026-12-21|Ônibus 165 até Kilchberg': { modo:'tram 11', ate:'Bürkliplatz' },
   '2026-12-21|Retorno e jantar no Kreis 5': 'tram',
-  '2026-12-22|Zurique → Engelberg': 'trem',
+  '2026-12-22|Zurique → Engelberg': { modo:'tram 4 + trem', ate:'Engelberg' },
   '2026-12-22|No cume, a 3.020 m': 'teleférico',
   '2026-12-22|Trübsee, na descida': 'teleférico',
   '2026-12-22|Descida final': 'teleférico',
   '2026-12-22|Volta e jantar': 'trem',
-  '2026-12-23|Guarda-volumes na Zürich HB': 'tram',
+  '2026-12-23|Guarda-volumes na Zürich HB': { modo:'tram 4', ate:'Bahnhofquai/HB' },
+  '2026-12-23|Christkindlimarkt, dentro da Zürich HB': { modo:'a pé', ate:'o saguão da estação' },
   '2026-12-23|Polybahn e a Polyterrasse': 'funicular',
   '2026-12-24|Check-in no apartamento': 'transfer',
   '2026-12-26|Wien Hbf → Salzburg Hbf': 'trem',
@@ -684,7 +690,7 @@ function viewDiario() {
     // Sem foto real, a moldura é só um lembrete na tela — no papel viraria
     // um retângulo cinza vazio, então a impressão a descarta.
     const semFoto = !PHOTOS[slotId];
-    const parada = `<div class="tlstop${semFoto ? ' tlstop--sem-foto' : ''}" style="--col:${col}">
+    const parada = `<div class="tlstop${semFoto ? ' tlstop--sem-foto' : ''}${b.aviso ? ' tlstop--aviso' : ''}" style="--col:${col}">
       ${photo(slotId, b.h, 'photo--sm')}
       <div class="tlstop__card">
         <div class="tlstop__t">${esc(b.t)}</div>
@@ -693,7 +699,8 @@ function viewDiario() {
         ${linksHtml(contatoDaParada(sel.id, b.h))}
       </div>
     </div>`;
-    if (!nx) return parada;
+    // Card de aviso não é lugar: nada conduz dele ao próximo
+    if (!nx || b.aviso) return parada;
     const trecho = MODO_FIXO[sel.id + '|' + nx.h];
     const modo = (typeof trecho === 'string' ? trecho : trecho && trecho.modo) || 'a pé';
     const ate = (trecho && trecho.ate) || nx.h;
