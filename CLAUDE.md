@@ -100,6 +100,18 @@ Two screens offer an explicit PDF button — city detail and Diário — so a si
 
 Diário also drops, on paper, the empty illustration frames and the 124px connector arrows: for a ten-stop day those two together cost about a full sheet of nothing. The transport mode survives in its pill.
 
+## How card text is written
+
+Every line inside a block's `l` array is a card bullet, and all of them follow the same four rules. They apply to new text and to any line you touch.
+
+**Objective and explanatory, never opinionated.** State the fact and the reason it matters; do not tell the reader how to feel about it or defend a decision the reader already made. "Fecha às 16h30" and "fecha às 16h30, então 3h30 é o que cabe" are both fine. "É o ponto alto do dia", "vale a pena", "é o melhor de Viena", "é justamente o que vocês vieram buscar" are not — cut them, or replace them with the fact that made them seem true. A card explains; it does not persuade.
+
+**Bold, never caps.** Emphasis is `**assim**`, which `forte()` in `app.js` turns into `<strong>` after escaping. It is the only markup the block text accepts — do not add more. Full-caps runs (`NÃO FECHA`, `ATENÇÃO`, `COMPREM ONLINE`) are gone from the cards on purpose: they were shouting at the reader and they broke as soon as a proper noun landed inside one. Names keep their own capitalisation (`Hietzinger Tor`, `ÖBB`, `WienMobil`, `U4`) and are not emphasis.
+
+**One fact per bullet, and only facts the reader cannot recover on the spot.** Hours, prices, station and gate names, seasonal closures, what to buy in advance, what breaks if it is missed. Cut the background colour, the second telling of something another card on the same day already says, and the justification of the itinerary's own order.
+
+**Escaping still applies.** `forte()` escapes before it converts, so an unmatched `**` is harmless and HTML in the data is inert. The search haystack strips the markers via `semMarcacao()`, so a query still matches across an emphasised phrase.
+
 ## Development rules
 
 **Content vs. presentation.** Itinerary prose lives in `roteiro-data.js`, never inline in a template — with two documented exceptions in `app.js`: `PENDENCIAS` (what to buy per date) and `MODO_FIXO` (transport per leg).

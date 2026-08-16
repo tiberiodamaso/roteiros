@@ -324,7 +324,7 @@ PREÇOS EM VIGOR (Wiener Linien, desde 01/01/2026)
 RECOMENDAÇÃO PARA O GRUPO: PASSE DE 7 DIAS DIGITAL, 25,20 EUR por adulto
 A conta: vocês ficam cinco dias e devem fazer de dez a doze viagens por pessoa
 (centro no dia 25, ida e volta à estação no dia 26 para Salzburgo, Schönbrunn
-e Prater no dia 27, e a saída no dia 28). A doze viagens avulsas digitais, o
+centro e museu no dia 27, e a saída no dia 28). A doze viagens avulsas digitais, o
 custo seria cerca de 36 EUR por pessoa. O passe de 7 dias custa 25,20 EUR e
 ainda tira a decisão de cada viagem da cabeça de todo mundo.
 - 7 adultos x 25,20 EUR = 176,40 EUR
@@ -379,8 +379,6 @@ ONDE VOCÊS ESTÃO HOSPEDADOS
 - Vienna Stay Apartments Tabor fica no bairro 1020, Leopoldstadt, na região da
   Taborstraße e do Praterstern
 - Praterstern é um nó grande: metrô U1 e U2, mais S-Bahn
-- Vantagem prática para o dia 27: o Prater fica a distância de caminhada do
-  apartamento. Não gastem viagem com ele.
 - Para Schönbrunn: metrô até Karlsplatz e depois a linha U4 até a estação
   Schönbrunn. Confirmem a conexão no app WienMobil na hora.
 
@@ -2476,23 +2474,80 @@ Manhã — Chegada em Viena
 
 
 ---------------------------------------------------------------
-25/12 (SEXTA) — Viena, o dia mais limitado do ano
+25/12 (SEXTA) — Natal em Schönbrunn
 ---------------------------------------------------------------
 
-Muitos locais fecham ou funcionam parcialmente. Programe um dia curto.
+Muitos locais fecham ou funcionam parcialmente. Schönbrunn é das poucas
+coisas abertas em Viena, e o dia inteiro acontece dentro do parque.
 
-Manhã — Café no apartamento
+NÃO SE ENTRA NO PALÁCIO. A visita às salas foi cortada. O único ingresso
+do dia é o do zoo.
 
-Centro histórico, tudo externo
-- Stephansplatz: Catedral de São Estêvão (exterior), ruas decoradas
-- Hofburg (externo): antiga residência dos Habsburgo
+08h00 — Café no apartamento
+- Saída às 8h30, no portão do zoo por volta das 9h
+- DESCER EM HIETZING, NÃO EM SCHÖNBRUNN: o portão principal do zoo é o
+  Hietzinger Tor, servido pela U4 Hietzing. Schönbrunn serve o palácio e
+  o mercado, que ficam para depois do almoço
+- CAMINHO 1: U1 (Praterstern -> Schwedenplatz, 2 paradas) + U4
+  (-> Hietzing, 10 paradas)
+- CAMINHO 2: U2 (Taborstraße -> Schottenring, 1 parada) + U4
+  (-> Hietzing, 11 paradas). Schottenring cruza U2 com U4
+- Dá no mesmo: 12 paradas e uma baldeação nos dois. Escolher pela porta
+- ~25 min, UMA passagem: a baldeação não conta como segunda viagem
+- CONFERIR A U2 NO WIENMOBIL NA VÉSPERA: obras do U2xU5 em curso, com a
+  U5 (Karlsplatz-Frankhplatz) prevista para o outono de 2026. Se a U2
+  estiver interrompida, a Praterstern resolve sem mudar mais nada
 
-Passeio leve
-- Graben
-- Kohlmarkt
-- Centro histórico iluminado
+09h00 — Zoo de Schönbrunn
+- Entrada pelo Hietzinger Tor, na hora da abertura. ESTE É O PONTO DO DIA:
+  recintos vazios, sem fila, e bicho mais ativo de manhã
+- COMEÇAR PELO URSO POLAR (Polarium) E PELOS PANDAS GIGANTES
+- Pandas: Lan Yun e He Feng, casal jovem chegado em abril de 2025. Os
+  pandas antigos voltaram para a China em setembro de 2024
+- Abre 365 dias por ano. Novembro e dezembro: 9h às 16h30. ~3h30 aqui
+- ÚNICO INGRESSO DO DIA e maior gasto: oito entradas, ~29 EUR por adulto
+- COMPRAR ONLINE: zoovienna.at/en/zoo-and-visitors/tickets-online-en/
+- COMER ALGO AQUI DENTRO ~11h30: o almoço é só às 14h15 e a subida da
+  colina vem logo ao sair
+- O portão do Tirolergarten existe, mas a descida dele é íngreme
 
-Noite — Jantar em casa. Dia curto e tranquilo.
+12h30 — Subida ao Gloriette
+- ANTES DO ALMOÇO de propósito: ninguém sobe morro de estômago cheio, e
+  tudo depois dela é descida
+- Subida gratuita, 10 a 15 min, com desnível real e risco de piso gelado
+- SÓ A SUBIDA E A VISTA: sem parar no café do alto
+- TERRAÇO DO TELHADO FECHADO no inverno (reabre por volta do fim de março)
+- Quem não quiser subir espera no pé da colina, na Fonte de Netuno
+
+13h20 — Fonte de Netuno
+- No pé da colina, na descida: passa-se por ela de qualquer jeito
+- Grupo escultórico barroco de 1780: Netuno, Tétis e o cortejo marinho
+- Parada curta, ~20 min
+
+13h45 — Jardins franceses (Grande Parterre)
+- Percorrido no sentido da volta: da fonte em direção ao palácio
+- Caminhada plana, ~10 min. Em dezembro, sem flor: linha, não cor
+
+14h15 — Almoço no mercado, no pátio de honra
+- O parterre desemboca no Ehrenhof, e o dia termina aqui
+- 90 barracas, 10h às 19h nos dias 25 e 26; segue como mercado de Ano
+  Novo até 06/01
+- Restaurante aberto em Viena no dia 25 é menu de hotel a 225 EUR ou mais
+- Pôr do sol às 16h08: almoçam com luz e ficam para o mercado aceso
+- Jardins fecham às 17h30, mas o mercado fica fora deles
+- Pista de gelo, carrossel, roda-gigante e trenzinho infantil
+
+Noite — Jantar em casa
+- Volta pela estação SCHÖNBRUNN (U4), na Schönbrunner Schloßstraße, ao
+  lado do pátio de honra. Não pela Hietzing, que serviu o zoo de manhã
+- Pela Praterstern: U4 (-> Schwedenplatz, 9 paradas) + U1 (-> Praterstern,
+  2 paradas)
+- Pela Taborstraße: U4 (-> Schottenring, 10 paradas) + U2 (-> Taborstraße,
+  1 parada)
+- Um bilhete de 3,00 EUR cobre o percurso. Da estação à Taborstraße 41
+  são poucos minutos a pé, planos
+- Jantar no apartamento, com o que veio do mercado do dia 24
+- Dormir cedo: dia 26 acorda às 6h para Salzburgo
 
 
 ---------------------------------------------------------------
@@ -2535,7 +2590,14 @@ Fortaleza
 - Vista panorâmica. Subir com o funicular.
 - Ponto alto do dia
 
-17h00 — Retorno para Viena
+17h00 — Retorno para Viena e jantar em casa
+- De volta à estação pelo mesmo caminho, a pé, ~20 min
+- Railjet SALZBURG HBF -> WIEN HBF, ~2h30. Chegada ~19h30
+- Na Wien Hbf, estação de metrô SÜDTIROLER PLATZ-HAUPTBAHNHOF: U1 direção
+  Leopoldau até PRATERSTERN, seis paradas, ~12 min
+- Da Praterstern à Taborstraße 41, poucos minutos a pé
+- Trecho urbano é Wiener Linien: avulso de 3,00 EUR, à parte da ÖBB
+- Chegada em casa ~20h. Jantar no apartamento
 
 
 ---------------------------------------------------------------
@@ -2550,9 +2612,6 @@ Palácio de Schönbrunn
 - Jardins, se não estiver neve pesada
 - Interior do palácio
 - Ingresso com hora marcada, comprar antecipado
-
-Prater (opcional, família)
-- Roda-gigante, parque de diversões leve
 
 Centro histórico completo
 - Stephansplatz e Stephansdom (agora por dentro)

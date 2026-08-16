@@ -25,7 +25,14 @@ const cityLabel = c => c.n + (c.sub ? (c.k === 'paris1' ? ' ①' : ' ②') : '')
 const sunTxt = d => (d.sun ? d.sun[0] + ' → ' + d.sun[1] : '');
 const travelTxt = d => (d.travel ? '  ·  ' + d.travel.from + ' → ' + d.travel.to + ' (' + d.travel.mode + ')' : '');
 
-const li = arr => (arr || []).map(l => `<li>${esc(l)}</li>`).join('');
+/* Ênfase nos cards: **assim**. Escapa PRIMEIRO e converte depois — na ordem
+   inversa, um dado que contivesse "<strong>" escaparia a própria marcação.
+   É a única marcação aceita no texto dos blocos; não abra para mais. */
+const forte = s => esc(s).replace(/\*\*([^*]+)\*\*/g, '<strong>$1</strong>');
+const li = arr => (arr || []).map(l => `<li>${forte(l)}</li>`).join('');
+/* A busca varre o texto cru, então os asteriscos precisam sair do palheiro:
+   senão "não fecha" deixaria de casar em "**não fecha** no Natal". */
+const semMarcacao = s => String(s).replace(/\*\*/g, '');
 
 /* Fotos reais, por id de espaço. Para publicar uma nova imagem: coloque o
    arquivo em fotos/ e acrescente uma linha aqui. O que não estiver mapeado
@@ -197,8 +204,9 @@ const PENDENCIAS = {
   '2026-12-22': ['Bilhete Zürich HB → Engelberg (véspera) · teleférico do Titlis só na base · Ice Flyer à parte'],
   '2026-12-23': ['Nightjet Zurique → Viena · transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação'],
   '2026-12-29': ['Transfer até Plitvice COM o ingresso do parque incluído no pacote'],
+  '2026-12-25': ['Ingressos do Zoo de Schönbrunn — o único do dia · nada de palácio por dentro'],
   '2026-12-26': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene'],
-  '2026-12-27': ['Ingresso de Schönbrunn com hora marcada · jantar final reservado'],
+  '2026-12-27': ['Ingressos do Kunsthistorisches, comprados online · jantar final reservado'],
   '2026-12-28': ['Voo VIE → ZAG · transfers dos dois lados · franquia de bagagem'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
   '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nenhum ingresso: o dia não tem programação'],
@@ -281,13 +289,21 @@ const MODO_FIXO = {
   '2026-12-23|Guarda-volumes na Zürich HB': { modo:'tram 4', ate:'Bahnhofquai/HB' },
   '2026-12-23|Christkindlimarkt, dentro da Zürich HB': { modo:'a pé', ate:'o saguão da estação' },
   '2026-12-23|Polybahn e a Polyterrasse': 'funicular',
-  '2026-12-24|Check-in no apartamento': 'transfer',
+  '2026-12-24|Check-in + Mercado (ceia de Natal)': { modo:'transfer', ate:'o apartamento' },
+  '2026-12-24|Check-in no apartamento': { modo:'a pé', ate:'o apartamento' },
+  '2026-12-25|Zoo de Schönbrunn': { modo:'U1/U2 + U4', ate:'Hietzing, e o Hietzinger Tor' },
+  '2026-12-25|Almoço no mercado, no pátio de honra': { modo:'a pé', ate:'o pátio de honra' },
+  '2026-12-25|Jardins franceses': { modo:'a pé', ate:'o parterre, subindo para o palácio' },
+  '2026-12-25|Fonte de Netuno': { modo:'a pé', ate:'o pé da colina' },
+  '2026-12-25|Subida ao Gloriette': { modo:'a pé', ate:'o alto da colina' },
+  '2026-12-25|Jantar em casa': { modo:'U4 + U1/U2', ate:'o apartamento' },
   '2026-12-26|Wien Hbf → Salzburg Hbf': 'trem',
   '2026-12-26|Fortaleza Hohensalzburg': 'funicular',
-  '2026-12-26|Retorno para Viena': 'trem',
-  '2026-12-27|Palácio de Schönbrunn': 'metrô',
-  '2026-12-27|Centro histórico completo': 'metrô',
-  '2026-12-27|Prater': 'metrô',
+  '2026-12-26|Retorno para Viena e jantar em casa': { modo:'a pé + trem + U1', ate:'Salzburg Hbf, Wien Hbf e o apartamento' },
+  '2026-12-27|Kunsthistorisches Museum': { modo:'U3', ate:'Volkstheater' },
+  '2026-12-27|Figlmüller Wollzeile — o schnitzel': { modo:'a pé', ate:'a Wollzeile 5' },
+  '2026-12-27|Centro histórico completo': { modo:'U1', ate:'Stephansplatz' },
+  '2026-12-27|Jantar final em Viena': { modo:'U3 + U1', ate:'Praterstern' },
   '2026-12-28|Transfer ao aeroporto de Viena': 'transfer',
   '2026-12-28|Chegada em Zagreb': 'avião',
   '2026-12-28|Três coisas para resolver no balcão': 'transfer',
@@ -370,13 +386,16 @@ function finance() {
         { v: e(50), kid: 1 },         // transfers restantes: custo por veículo, agora rateado entre 8 e não 9
       ] },
     { titulo: 'Passeios e ingressos', tom: '#b4552f', kid: 0.5,
-      itens: 'Disney, cruzeiro no Sena, Lindt, teleféricos do First e do Titlis, Torre Eiffel, Schönbrunn e Plitvice',
+      itens: 'Disney, cruzeiro no Sena, Lindt, teleféricos do First e do Titlis, Torre Eiffel, zoo de Schönbrunn e Plitvice',
       linhas: [
         { v: pago.passeios * share, fam: pago.passeios },
         { v: f(60), kid: 0.5 },              // Grindelwald–First e trem BOB
         { v: f(60), kid: 0.5 },              // Titlis
         { v: e(30), kid: 0.5 },              // Torre Eiffel até o cume
-        { v: e(27) + f(13), kid: 0.3 },      // Schönbrunn e Museu Nacional Suíço — o Orsay saiu com o programa do dia 02
+        // O ingresso do palácio de Schönbrunn (27 €) saiu: o dia 25 não entra
+        // mais nas salas. No lugar dele entra o zoo, que virou o único ingresso
+        // do dia — ~29 € por adulto, a confirmar no site antes de fechar a conta.
+        { v: e(29) + f(13), kid: 0.35 },     // Zoo de Schönbrunn e Museu Nacional Suíço — o Orsay saiu com o programa do dia 02
         // Plitvice deixou de ser só o ingresso de inverno (~10 €): agora é um
         // pacote de transfer porta a porta COM a entrada inclusa. Estimativa de
         // van privativa rateada entre 8, mais o ingresso. Troquem pelo valor do
@@ -513,7 +532,7 @@ function viewInicio() {
     </div>`).join('');
 
   const custos = [['lisboa', 10.5, '≈ 10,50 €'], ['paris1', 32.4, '32,40 €'], ['interlaken', 160, 'CHF 150 +'],
-    ['zurique', 40, 'bilhetes'], ['viena', 25.2, '25,20 €'], ['zagreb', 7.5, '5–10 €'], ['paris2', 10, '≈ 10 €']];
+    ['zurique', 40, 'bilhetes'], ['viena', 21, '≈ 21 €'], ['zagreb', 7.5, '5–10 €'], ['paris2', 10, '≈ 10 €']];
   const costs = custos.map(([k, v, txt]) => `<div class="mbar" style="--col:${colOf(k)}">
       <div class="mbar__n">${esc(cityLabel(cityOf(k)))}</div>
       <div class="bar"><i style="width:${Math.max(6, Math.round((v / 160) * 100))}%"></i></div>
@@ -1025,7 +1044,7 @@ function renderResults() {
   const out = [];
   DAYS.forEach(d => {
     const hay = [];
-    (d.blocks || []).forEach(b => { hay.push(b.h); (b.l || []).forEach(l => hay.push(l)); });
+    (d.blocks || []).forEach(b => { hay.push(b.h); (b.l || []).forEach(l => hay.push(semMarcacao(l))); });
     const hit = hay.find(h => String(h).toLowerCase().includes(q));
     const titleHit = String(d.title).toLowerCase().includes(q);
     if (hit || titleHit) out.push({ d, snippet: (hit || d.title).slice(0, 210) });
