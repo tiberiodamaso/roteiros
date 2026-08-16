@@ -102,7 +102,7 @@ Diário also drops, on paper, the empty illustration frames and the 124px connec
 
 ## How card text is written
 
-Every line inside a block's `l` array is a card bullet, and all of them follow the same four rules. They apply to new text and to any line you touch.
+Every line inside a block's `l` array is a card bullet, and all of them follow the same five rules. They apply to new text and to any line you touch.
 
 **Objective and explanatory, never opinionated.** State the fact and the reason it matters; do not tell the reader how to feel about it or defend a decision the reader already made. "Fecha às 16h30" and "fecha às 16h30, então 3h30 é o que cabe" are both fine. "É o ponto alto do dia", "vale a pena", "é o melhor de Viena", "é justamente o que vocês vieram buscar" are not — cut them, or replace them with the fact that made them seem true. A card explains; it does not persuade.
 
@@ -110,7 +110,11 @@ Every line inside a block's `l` array is a card bullet, and all of them follow t
 
 **One fact per bullet, and only facts the reader cannot recover on the spot.** Hours, prices, station and gate names, seasonal closures, what to buy in advance, what breaks if it is missed. Cut the background colour, the second telling of something another card on the same day already says, and the justification of the itinerary's own order.
 
-**Escaping still applies.** `forte()` escapes before it converts, so an unmatched `**` is harmless and HTML in the data is inert. The search haystack strips the markers via `semMarcacao()`, so a query still matches across an emphasised phrase.
+**A card you travel to opens with a "Como chegar" line.** Written literally as `**Como chegar**: ` at the head of the bullet, it is the first bullet, always, and 67 of the 178 blocks carry it. A block qualifies when it has a real origin and a real destination — somewhere the group moves *to*. Skip it for cards where the group is already standing still (`Café em casa`, `Café da manhã no hotel`, `Antes de dormir`), for `aviso` cards, and for cards where transport is only mentioned in passing (a note about tram noise from the hotel room is not a route). When the route ends up buried in a later bullet, move it up rather than duplicating it; when the first bullet mixes the route with something else, split it in two and let the route go first.
+
+**The connector pill and the `Como chegar` line are one thought split across two elements — write them together.** The pill between two cards renders `MODO_FIXO[date|next-block-title]` as *mode* + *até destination*, so it already answers "by what, and to where". The card's line must therefore carry what the pill cannot: line numbers and directions (`U3 direção Ottakring`), stop counts, which exit to take, where the walk starts, what to buy before boarding. Never restate the pill — a bullet reading "de metrô até o museu" under a pill reading `U3 · até Volkstheater` is pure noise. The two must also agree: change a route in the text and the pill's `modo` / `ate` has to change with it, and vice versa. The failure is silent, because `MODO_FIXO` is keyed by the *next* block's title and a miss falls back to `'a pé'` — which is how a 4 km leg once rendered as a walk.
+
+**Escaping still applies.** `forte()` escapes before it converts, so an unmatched `**` is harmless and HTML in the data is inert. Emphasis does not nest: `**Como chegar**: **Brasserie Federal**` renders as two adjacent bold runs and reads as a mistake — put the name in plain text when it follows the label. The search haystack strips the markers via `semMarcacao()`, so a query still matches across an emphasised phrase.
 
 ## Development rules
 

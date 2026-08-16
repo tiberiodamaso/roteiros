@@ -176,11 +176,7 @@ const DAYS = (() => {
       return Object.assign(slot, {
         title: cid.title,
         blocks: cid.blocks.concat(leve.blocks.slice(1)),
-        nota: 'Este é o dia da cidade. Plitvice está marcado para ' + (plitDate === '2026-12-29' ? '29/12' : '30/12') + '.',
       });
-    }
-    if (d.id === '2026-12-31') {
-      return Object.assign({}, d, { nota: 'Sem ceia de Réveillon e sem jantar reservado. Voo Zagreb → Paris já comprado. Compras na Rue Cler até as 18h resolvem a noite e o café da manhã do dia 1º.' });
     }
     if (d.id === '2027-01-02') {
       return Object.assign({}, d, { nota: 'Sem programação, por escolha: café da manhã, a feira da Rue Cler, almoço e saída para Orly às 15h30. Nada de museu nem ingresso.' });
@@ -203,10 +199,9 @@ const PENDENCIAS = {
   '2026-12-21': ['Passe diário com as zonas até Kilchberg, comprado às 9h'],
   '2026-12-22': ['Bilhete Zürich HB → Engelberg (véspera) · teleférico do Titlis só na base · Ice Flyer à parte'],
   '2026-12-23': ['Nightjet Zurique → Viena · transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação'],
-  '2026-12-29': ['Transfer até Plitvice COM o ingresso do parque incluído no pacote'],
   '2026-12-25': ['Ingressos do Zoo de Schönbrunn — o único do dia · nada de palácio por dentro'],
   '2026-12-26': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene'],
-  '2026-12-27': ['Ingressos do Kunsthistorisches, comprados online · jantar final reservado'],
+  '2026-12-27': ['Ingressos do Kunsthistorisches, comprados online — nenhuma reserva de jantar hoje'],
   '2026-12-28': ['Voo VIE → ZAG · transfers dos dois lados · franquia de bagagem'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
   '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nenhum ingresso: o dia não tem programação'],
@@ -224,7 +219,6 @@ function contatoDaParada(diaId, titulo) {
 function pendFor(id) {
   const p = (PENDENCIAS[id] || []).slice();
   if (id === (PLITVICE === '29' ? '2026-12-29' : '2026-12-30')) {
-    p.push('Excursão a Plitvice com busca no hotel + ingresso do parque online');
     p.push('Perguntar se o barco do Kozjak e o trem panorâmico estarão operando');
   }
   return p;
@@ -303,18 +297,19 @@ const MODO_FIXO = {
   '2026-12-27|Kunsthistorisches Museum': { modo:'U3', ate:'Volkstheater' },
   '2026-12-27|Figlmüller Wollzeile — o schnitzel': { modo:'a pé', ate:'a Wollzeile 5' },
   '2026-12-27|Centro histórico completo': { modo:'U1', ate:'Stephansplatz' },
-  '2026-12-27|Jantar final em Viena': { modo:'U3 + U1', ate:'Praterstern' },
-  '2026-12-28|Transfer ao aeroporto de Viena': 'transfer',
+  '2026-12-27|Prater': { modo:'U3 + U1', ate:'Praterstern' },
+  '2026-12-27|Volta ao apartamento e malas': { modo:'a pé', ate:'a Taborstraße 41' },
+  '2026-12-28|Transfer ao aeroporto de Viena': { modo:'transfer', ate:'o aeroporto de Viena' },
   '2026-12-28|Chegada em Zagreb': 'avião',
   '2026-12-28|Três coisas para resolver no balcão': 'transfer',
   '2026-12-29|Funicular de Zagreb': 'funicular',
-  '2026-12-29|Chegada, Entrada 1': 'ônibus',
-  '2026-12-29|Rastoke, no caminho de volta': 'ônibus',
-  '2026-12-29|Retorno a Zagreb': 'ônibus',
+  '2026-12-29|Parque Plitvice': 'transfer',
+  '2026-12-29|Retorno a Zagreb': { modo:'transfer', ate:'Zagreb' },
+  '2026-12-29|Malas prontas': { modo:'a pé', ate:'o hotel' },
   '2026-12-30|Museu Técnico Nikola Tesla': 'tram',
-  '2026-12-30|Chegada, Entrada 1': 'ônibus',
-  '2026-12-30|Rastoke, no caminho de volta': 'ônibus',
-  '2026-12-30|Retorno a Zagreb': 'ônibus',
+  '2026-12-30|Parque Plitvice': 'transfer',
+  '2026-12-30|Retorno a Zagreb': { modo:'transfer', ate:'Zagreb' },
+  '2026-12-30|Malas prontas': { modo:'a pé', ate:'o hotel' },
   '2026-12-31|Chegada ao hotel': 'avião',
   '2027-01-01|Hotel → Concorde': 'metrô',
   '2027-01-01|Volta ao hotel': 'metrô',
@@ -396,11 +391,11 @@ function finance() {
         // mais nas salas. No lugar dele entra o zoo, que virou o único ingresso
         // do dia — ~29 € por adulto, a confirmar no site antes de fechar a conta.
         { v: e(29) + f(13), kid: 0.35 },     // Zoo de Schönbrunn e Museu Nacional Suíço — o Orsay saiu com o programa do dia 02
-        // Plitvice deixou de ser só o ingresso de inverno (~10 €): agora é um
-        // pacote de transfer porta a porta COM a entrada inclusa. Estimativa de
-        // van privativa rateada entre 8, mais o ingresso. Troquem pelo valor do
-        // orçamento assim que ele chegar — é o item menos firme desta tela.
-        { v: e(75), kid: 0.5 },
+        // Plitvice deixou de ser estimativa: a excursão da GetYourGuide está
+        // comprada, com a entrada do parque inclusa, a R$ 534,04 por adulto.
+        // O peso da criança segue estimado — se a operadora cobrar tarifa
+        // infantil própria, troque o 0.5 pelo valor real dividido por 534,04.
+        { v: 534.04, kid: 0.5 },
       ] },
     { titulo: 'Alimentação', tom: '#a2761c', kid: 0.6,
       itens: '23 dias. Lisboa e Paris ~€ 30–35/dia · Suíça ~CHF 45–50/dia · Viena e Zagreb ~€ 25–28/dia',
@@ -962,6 +957,48 @@ function viewPratico() {
       <ul>${li(t.notas)}</ul>
     </div>`).join('');
 
+  /* Vale o cartão? Uma tabela de três colunas por país. O total só é somado
+     onde somar significa alguma coisa — em Viena cada linha é um cenário
+     inteiro, e a soma de dois cenários alternativos não existe. */
+  const passes = D.PASSES.map(p => {
+    const num = n => n.toLocaleString('pt-BR', { minimumFractionDigits: 2, maximumFractionDigits: 2 });
+    const moeda = v => p.moeda === '€' ? `${num(v)} €` : `${p.moeda} ${num(v)}`;
+    // A coluna que perde fica apagada. Qual delas é depende do país: na Suíça
+    // o cartão ganha, em Viena o avulso — marcar sempre a mesma mentiria.
+    const perde = c => c === p.melhor ? '' : ' fare__v--perde';
+    const linhas = p.linhas.map(l => `<div class="fare__row">
+        <div class="fare__t">${esc(l.t)}${l.nota ? `<span class="fare__nota">${esc(l.nota)}</span>` : ''}</div>
+        <div class="fare__v${perde('a')}">${esc(moeda(l.a))}</div>
+        <div class="fare__v${perde('b')}">${esc(moeda(l.b))}</div>
+      </div>`).join('');
+
+    const soma = p.somar ? (() => {
+      const a = p.linhas.reduce((s, l) => s + l.a, 0);
+      const b = p.linhas.reduce((s, l) => s + l.b, 0);
+      const saldo = (a - b) - p.custoN;
+      return `<div class="fare__row fare__row--tot">
+        <div class="fare__t">Total por adulto <span class="fare__nota">economia de ${esc(moeda(a - b))}, menos ${esc(moeda(p.custoN))} de cartão: sobram ${esc(moeda(saldo))} por adulto, ${esc(moeda(saldo * 7))} nos sete</span></div>
+        <div class="fare__v${perde('a')}">${esc(moeda(a))}</div>
+        <div class="fare__v${perde('b')}">${esc(moeda(b))}</div>
+      </div>`;
+    })() : '';
+
+    return `<div class="card card--accent" style="--col:${colOf(p.city)}">
+      <div class="eyebrow">${esc(p.custo)}</div>
+      <h3 class="fare__h">${esc(p.titulo)}</h3>
+      <div class="fare__sub">${esc(p.sub)}</div>
+      <div class="fare">
+        <div class="fare__row fare__row--head">
+          <div class="fare__t">trecho</div>
+          <div class="fare__v">${esc(p.colA)}</div>
+          <div class="fare__v">${esc(p.colB)}</div>
+        </div>
+        ${linhas}${soma}
+      </div>
+      <div class="card card--dark fare__vd"><ul>${li(p.veredito)}</ul></div>
+    </div>`;
+  }).join('');
+
   const apps = D.APPS.map(([pais, txt]) => `<div class="app"><div class="app__pais">${esc(pais)}</div><div>${esc(txt)}</div></div>`).join('');
   const uber = D.UBER_GANHA.map(([quando, txt]) => `<div class="uber"><div class="uber__q">${esc(quando)}</div><div>${esc(txt)}</div></div>`).join('');
   const regras = D.REGRAS_MESA.map(([h, b]) => `<div class="rule"><div class="rule__h">${esc(h)}</div><div class="rule__b">${esc(b)}</div></div>`).join('');
@@ -983,6 +1020,10 @@ function viewPratico() {
     <h2 style="font-size:30px">Transporte, cidade por cidade</h2>
     <div class="sub" style="margin-top:-10px">Regra que vale nas seis cidades: comprem sempre ANTES de embarcar. Não há catraca de entrada em tram ou ônibus — a fiscalização é aleatória e posterior, e a multa é alta.</div>
     <div class="grid2 grid2--tight" style="margin-top:20px">${transporte}</div>
+
+    <h2 style="font-size:30px;margin-top:38px">Vale a pena o cartão?</h2>
+    <div class="sub" style="margin-top:-10px">As duas contas que decidem gasto de transporte na viagem. Valores por adulto, tarifa cheia de referência — confiram no SBB Mobile e no WienMobil, que a tarifa dos dois países muda em dezembro.</div>
+    <div class="stack" style="margin-top:20px">${passes}</div>
 
     <div class="grid2" style="margin-top:40px">
       <div>

@@ -2622,10 +2622,26 @@ Opcional, dependendo de abertura
 - Museus do Hofburg
 - Museu de História da Arte
 
-Jantar final em Viena
-- Região central ou próximo ao apartamento
+Prater (16h30)
+- Aberto ao público desde 1766, por decreto de José II, que liberou o
+  antigo terreno de caça imperial: um dos parques públicos mais antigos
+  do mundo. O parque de diversões dentro dele, o Wurstelprater, é de 1895
+- COMO CHEGAR do museu: Volkstheater, U3 direção Simmering ->
+  Stephansplatz, e U1 direção Leopoldau -> PRATERSTERN. Um bilhete só
+- Área aberta 365 dias por ano, sem catraca. Paga-se por brinquedo
+- Temporada de inverno de 01/11 a 14/03: parte das atrações só abre com
+  tempo bom
+- Riesenrad (roda-gigante de 1897): 10h às 21h45
+- Wintermarkt no Riesenradplatz: domingos e feriados, 11h às 22h
+- Pôr do sol às 16h10: chega-se com tudo iluminado
+- Do Praterstern ao apartamento, poucos minutos a pé
 
-Pernoite. Malas prontas: amanhã é dia de mudança de país.
+Volta ao apartamento e malas (noite)
+- COMO CHEGAR, saindo do Wintermarkt: do Praterstern à Taborstraße 41 são
+  poucos minutos a pé, planos e iluminados. Sem metrô, sem bilhete
+- MALAS PRONTAS HOJE. Amanhã é voo para Zagreb, com transfer nos dois
+  lados e franquia de bagagem a conferir
+- Separar a bagagem de mão e conferir os passaportes
 
 
 ===============================================================
@@ -2679,7 +2695,7 @@ LOGÍSTICA DO DIA
 - Cheguem ao aeroporto com 2h30 de antecedência. Voo europeu de baixa distância
   pede menos, mas despachar oito malas num balcão único leva tempo.
 - Chegada em Zagreb: reservem o transfer até o Hotel Garden antes de viajar.
-  O aeroporto Franjo Tuđman fica a cerca de 20 km do centro. Há ônibus de
+  O aeroporto fica a cerca de 20 km do centro. Há ônibus de
   ligação até a rodoviária, mas com oito malas dois carros resolvem melhor.
 - 15h00 — Check-in no Hotel Garden, Vodnikova 13
 
