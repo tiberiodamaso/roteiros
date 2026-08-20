@@ -193,7 +193,7 @@ const PENDENCIAS = {
   '2026-12-12': ['Ingresso do Castelo de São Jorge, comprado online na véspera'],
   '2026-12-15': ['Reserva de mesa no app da Disneyland Paris'],
   '2026-12-17': ['Torre Eiffel com hora marcada · Le Son de la Terre 18h50 (o cruzeiro do Sena já está comprado, Bateaux-Mouches)'],
-  '2026-12-18': ['TGV Lyria · reserva de assento no Luzern-Interlaken Express · bilhete Basel → Interlaken via Luzern (na véspera)', 'Pedir a Interlaken Guest Card no check-in'],
+  '2026-12-18': ['Reserva de assento no Luzern-Interlaken Express, partida das 13h06 — o bilhete Basel → Interlaken já está comprado', 'Pedir a Interlaken Guest Card no check-in'],
   '2026-12-19': ['Bilhete Interlaken Ost → Grindelwald (véspera) · teleférico do First só na bilheteria, depois das webcams'],
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
   '2026-12-21': ['Passe diário com as zonas até Kilchberg, comprado às 9h'],
@@ -202,7 +202,7 @@ const PENDENCIAS = {
   '2026-12-25': ['Ingressos do Zoo de Schönbrunn — o único do dia · nada de palácio por dentro'],
   '2026-12-26': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene'],
   '2026-12-27': ['Ingressos do Kunsthistorisches, comprados online — nenhuma reserva de jantar hoje'],
-  '2026-12-28': ['Voo VIE → ZAG · transfers dos dois lados · franquia de bagagem'],
+  '2026-12-28': ['Transfers dos dois lados · confirmar a franquia de bagagem despachada — o voo VIE → ZAG já está comprado'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
   '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nenhum ingresso: o dia não tem programação'],
 };
