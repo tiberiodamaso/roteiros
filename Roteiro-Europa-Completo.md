@@ -3080,11 +3080,11 @@ Ou seja: se vocês chegarem ao hotel às 16h30, a tarde já acabou. Chegando às
 
 Se vocês pegarem o voo da manhã
 - 12h30 Chegada ao hotel, deixar as malas (check-in às 15h)
-- 13h00 Almoço na Rue Cler ou arredores
+- 13h00 Almoço de comida de rua na Rue Cler, sem parar em restaurante
 - 14h30 Caminhada até o Champ de Mars e a Torre Eiffel, 15 minutos, plano
   - Não precisa subir; vocês já subiram em 17/12. É só a vista de base e as
     fotos do gramado.
-- 16h00 Compras na Rue Cler para a noite e para o café da manhã do dia 1º
+- 16h00 Compras na Rue Cler para a noite (o café da manhã do dia 1º é no hotel)
   - IMPORTANTE: no dia 1º de janeiro a maior parte do comércio de Paris fecha.
     O que vocês não comprarem hoje, não terão amanhã.
 - 17h00 Volta ao hotel, check-in, descanso e banho antes da noite
@@ -3179,10 +3179,10 @@ qualquer alternativa em dezembro. As razões:
 O ROTEIRO DO DIA
 
 Manhã — sem pressa
-- Vocês viraram o ano. Café da manhã tarde, com o que foi comprado na véspera
-  na Rue Cler.
+- Vocês viraram o ano. Café da manhã no hotel, sem pressa.
 - Em 1º de janeiro quase todo o comércio de Paris está fechado, inclusive
-  padarias. Por isso as compras do dia 31 importam.
+  padarias. Por isso as compras do dia 31, para o jantar da virada e para o
+  resto do dia 1º, importam.
 - O sol nasce por volta das 08h45 e se põe por volta das 17h00. O dia útil de
   luz é curto: planejem sair até as 11h.
 

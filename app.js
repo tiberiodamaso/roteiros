@@ -356,14 +356,15 @@ function progresso() {
 function finance() {
   const e = n => n * CAMBIO_EUR, f = n => n * CAMBIO_CHF;
   const share = 1 / 2.75;
-  const pago = { voos: 18269.28, hosp: 22022.57, passeios: 7571.17 };
+  const pago = { voos: 18269.28, vieZag: 3621.82, hosp: 22022.57, passeios: 7571.17, basel: 442.57 };
 
   const G = [
     { titulo: 'Voos', tom: '#3a55a0', kid: 0.9,
       itens: 'Ida do Brasil, Lisboa → Paris, Viena → Zagreb, Zagreb → Paris e a volta de Orly',
       linhas: [
         { v: pago.voos * share, fam: pago.voos },
-        { v: e(120), kid: 0.9 },
+        // Viena → Zagreb deixou de ser estimativa: bilhete comprado, R$ 3.621,82.
+        { v: pago.vieZag * share, fam: pago.vieZag },
       ] },
     { titulo: 'Hospedagem', tom: '#7a4577', kid: 0.75,
       itens: '7 bases, 21 noites em cama. A noite no Nightjet está em trens e transfers',
@@ -375,7 +376,11 @@ function finance() {
       linhas: [
         { v: f(150), kid: 0 },        // Swiss Half Fare Card — criança grátis com o Family Card
         { v: e(80), kid: 0.5 },       // TGV Lyria Paris → Basel
-        { v: f(70), kid: 0 },         // Basel → Interlaken + reserva
+        // Basel → Interlaken comprado, R$ 442,57. A reserva de assento do
+        // panorâmico é compra à parte e continua pendente: CHF 12 por pessoa,
+        // taxa fixa sem meia tarifa, então a criança paga inteiro.
+        { v: pago.basel * share, fam: pago.basel },
+        { v: f(12), kid: 1 },         // reserva do Luzern-Interlaken Express
         { v: e(120), kid: 0.7 },      // Nightjet Zurique → Viena
         { v: e(40), kid: 0.5 },       // ÖBB Viena ⇄ Salzburgo
         { v: e(50), kid: 1 },         // transfers restantes: custo por veículo, agora rateado entre 8 e não 9
