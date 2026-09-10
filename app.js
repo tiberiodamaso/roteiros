@@ -198,7 +198,7 @@ const PENDENCIAS = {
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
   '2026-12-21': ['Passe diário com as zonas até Kilchberg, comprado às 9h'],
   '2026-12-22': ['Bilhete Zürich HB → Engelberg (véspera) · teleférico do Titlis só na base · Ice Flyer à parte'],
-  '2026-12-23': ['Nightjet Zurique → Viena · transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação'],
+  '2026-12-23': ['Transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação — o Nightjet já está comprado'],
   '2026-12-25': ['Ingressos do Zoo de Schönbrunn — o único do dia · nada de palácio por dentro'],
   '2026-12-26': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene'],
   '2026-12-27': ['Ingressos do Kunsthistorisches, comprados online — nenhuma reserva de jantar hoje'],
@@ -381,7 +381,10 @@ function finance() {
         // taxa fixa sem meia tarifa, então a criança paga inteiro.
         { v: pago.basel * share, fam: pago.basel },
         { v: f(12), kid: 1 },         // reserva do Luzern-Interlaken Express
-        { v: e(120), kid: 0.7 },      // Nightjet Zurique → Viena
+        // Nightjet Zurique → Viena, comprado: € 129,90 por adulto e € 34,90
+        // pela criança — a tarifa infantil é ~27% da adulta, e não os 0,7
+        // que estavam estimados aqui.
+        { v: e(129.90), kid: 34.90 / 129.90 },
         { v: e(40), kid: 0.5 },       // ÖBB Viena ⇄ Salzburgo
         { v: e(50), kid: 1 },         // transfers restantes: custo por veículo, agora rateado entre 8 e não 9
       ] },
@@ -1019,7 +1022,7 @@ function viewPratico() {
     <h2 style="font-size:30px;margin-top:38px">Reservas e hospedagens</h2>
     <div class="stack stack--tight">
       ${reservas}
-      <div class="res res--night">Trem noturno Nightjet · Zurique → Viena · noite de 23 para 24/12 · compartimento privativo comfort</div>
+      <div class="res res--night">Trem noturno Nightjet · Zurique → Viena · 23/12 às 21h40 → 24/12 às 08h00 · compartimento privativo comfort</div>
     </div>
 
     <h2 style="font-size:30px">Transporte, cidade por cidade</h2>

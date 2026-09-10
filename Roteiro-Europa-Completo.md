@@ -19,7 +19,7 @@ MAPA GERAL DAS RESERVAS
 - Zurique — ibis budget Zurich City West (Hotéis.com)
   Technoparkstrasse 2, 8005 Zürich
   Entrada 20/12 (dom) 15h00 • Saída 23/12 (qua) 11h00 • 3 noites
-- Trem noturno — Nightjet Zurique -> Viena, noite de 23/12 para 24/12
+- Trem noturno — Nightjet Zurique -> Viena, 23/12 às 21h40 -> 24/12 às 08h00
 - Viena — Vienna Stay Apartments Tabor 1020 (Booking.com)
   Taborstraße 41, Leopoldstadt, 1020 Viena
   Entrada 24/12 (qui) 15h00 • Saída 28/12 (seg) 11h00 • 4 noites
@@ -91,8 +91,10 @@ BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
    Venda abre 60 dias antes, em toureiffel.paris. Esgotam semanas antes.
 2. TGV LYRIA, Paris Gare de Lyon -> Basel SBB, 18/12
    tgv-lyria.com. Reserva de assento obrigatória, não se viaja em pé.
-3. NIGHTJET Zurique -> Viena, 23/12
-   nightjet.com. Compartimento privativo comfort, até 4 por cabine.
+3. NIGHTJET Zurique -> Viena, 23/12 — COMPRADO
+   Partida 23/12 às 21h40 da Zürich HB, chegada 24/12 às 08h00 na Wien
+   Hauptbahnhof. Compartimento privativo comfort, até 4 por cabine.
+   129,90 EUR por adulto e 34,90 EUR pela criança.
 4. RESERVA DE ASSENTO no LUZERN-INTERLAKEN EXPRESS, 18/12
    zentralbahn.ch. Não estava na lista de vocês e é crítica: é o que garante
    que os 8 sentem juntos, do lado direito, e que estarão no trem panorâmico
@@ -1883,10 +1885,10 @@ O QUE AINDA FALTA COMPRAR
 - Passagem Interlaken Ost -> Zürich HB (na véspera, app SBB)
 - Passagem Zürich HB -> Engelberg ida e volta (na véspera, app SBB)
 - Teleférico do Titlis — SÓ no dia, na bilheteria, depois das webcams
-- Nightjet Zurique -> Viena
-  nightjet.com/en/ticket-buchen#/reservierung
+- Nightjet Zurique -> Viena — JÁ COMPRADO
+  Partida 23/12 às 21h40, chegada 24/12 às 08h00
   Comfort private compartment em vagão couchette, até 4 passageiros
-  A partir de 409,90 / 484,90 / 574,90 EUR
+  129,90 EUR por adulto e 34,90 EUR pela criança
 
 
 ONDE VOCÊS ESTÃO HOSPEDADOS — ISSO MUDA A LOGÍSTICA DOS TRÊS DIAS
@@ -2426,11 +2428,14 @@ conhece.
 
 20h15 — Retirar as malas do guarda-volumes
 
-20h30 — Plataforma
+21h00 — Plataforma
 - O número da plataforma aparece no painel. Com 8 pessoas e bagagem, estejam lá
-  com meia hora de folga.
+  com folga. Até as 21h, a espera é no mercado do saguão, aquecido e sentado.
 
-21h00 — Embarque no Nightjet, Zurique -> Viena
+21h40 — Partida do Nightjet, Zurique -> Viena
+- COMPRADO. Partida 23/12 às 21h40 da Zürich HB, chegada 24/12 às 08h00 na Wien
+  Hauptbahnhof. 129,90 EUR por adulto e 34,90 EUR pela criança.
+- O embarque abre cerca de 20 minutos antes da partida
 - Vocês reservaram compartimento privativo comfort em vagão couchette, até 4
   passageiros por cabine
 - Como funciona na prática:
@@ -2441,7 +2446,7 @@ conhece.
   - Há lavatório no vagão. Levem chinelo.
   - Café da manhã simples costuma estar incluído nas categorias privativas.
     Confirmem na reserva.
-- Chegada em Viena na manhã de 24/12
+- Chegada em Viena às 08h00 de 24/12
 
 
 ===============================================================
@@ -2453,8 +2458,8 @@ Apartamento: Vienna Stay Apartments Tabor 1020
 24/12 (QUINTA) — Chegada + compras + Natal no apartamento
 ---------------------------------------------------------------
 
-Manhã — Chegada em Viena
-- Wien Hauptbahnhof, chegada do Nightjet
+08h00 — Chegada em Viena
+- Wien Hauptbahnhof, chegada do Nightjet às 08h00
 - Transfer para o apartamento (Uber XL, 3 km, 10 a 15 min)
 
 11h00 às 15h00
