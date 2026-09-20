@@ -254,6 +254,7 @@ const MODO_FIXO = {
   // O trecho até aqui é a caminhada pela margem; o metrô só começa dentro
   // desta parada.
   '2026-12-17|Alma-Marceau → Franklin D. Roosevelt': 'a pé',
+  '2026-12-17|Champs-Élysées subindo até George V': { modo:'a pé', ate:'o Rond-Point des Champs-Élysées' },
   '2026-12-17|George V → Alma-Marceau': 'metrô',
   '2026-12-17|Jantar com música ao vivo — Le Son de la Terre': 'transfer',
   '2026-12-17|Volta ao hotel': 'metrô',
@@ -311,7 +312,11 @@ const MODO_FIXO = {
   '2026-12-30|Retorno a Zagreb': { modo:'transfer', ate:'Zagreb' },
   '2026-12-30|Malas prontas': { modo:'a pé', ate:'o hotel' },
   '2026-12-31|Chegada ao hotel': 'avião',
-  '2027-01-01|Hotel → Concorde': 'metrô',
+  '2027-01-01|Hotel → Charles de Gaulle-Étoile': { modo:'metrô', ate:'Charles de Gaulle-Étoile' },
+  // A passagem subterrânea é o único acesso ao monumento; a perna entre a
+  // estação e o pé do Arco é a pé, por baixo da praça.
+  '2027-01-01|Arco do Triunfo, acesso subterrâneo': { modo:'a pé', ate:'o pé do Arco, pela passagem subterrânea' },
+  '2027-01-01|Étoile → Concorde': { modo:'metrô', ate:'a Place de la Concorde' },
   '2027-01-01|Volta ao hotel': 'metrô',
   '2027-01-02|Saída para Orly': 'transfer',
 };

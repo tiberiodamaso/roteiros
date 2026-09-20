@@ -1254,42 +1254,32 @@ TRECHO 2 — Torre -> Almoço
 12h20 às 13h30 — Almoço: Smash.B Élysée
 - 37 bis Rue de Ponthieu. Sem reserva, serviço de balcão.
 
-TRECHO 3 — Almoço -> Arco
+TRECHO 3 — Almoço -> Champs-Élysées
 
-13h30 — Voltar a Franklin D. Roosevelt, 5 min
-- Linha 1, direção LA DÉFENSE
-- "Château de Vincennes" é o sentido oposto
-- Franklin D. Roosevelt -> George V -> CHARLES DE GAULLE-ÉTOILE, 2 estações, 4 min
-- Não subam para a rua. Sigam as placas "Arc de Triomphe" dentro do subterrâneo.
+O ARCO DO TRIUNFO NÃO ENTRA MAIS NESTE DIA
+Ele foi para 01/01, onde abre o Eixo Histórico que termina no Louvre. O dia 1º
+percorre o eixo inteiro de uma vez, do Arco ao Carrousel, e este dia 17 fica
+com a Torre, a avenida e o Sena.
 
-13h45 às 14h20 — Arco do Triunfo, acesso subterrâneo
-- A passagem corre por baixo da praça e emerge ao pé do monumento. Não é um
-  atalho: é o único acesso que existe
-- JAMAIS ATRAVESSEM A ROTATÓRIA. São 12 avenidas convergindo numa praça sem
-  faixa de pedestre e sem semáforo. Por cima não há travessia nenhuma, só 12
-  faixas de carros que não param
-- A visita é por fora, do pé do Arco. Não há ingresso para o terraço no
-  roteiro; 35 minutos resolvem
+13h30 às 14h40 — Champs-Élysées subindo até George V
+- Da Rue de Ponthieu, 5 min a pé de volta ao Rond-Point des Champs-Élysées
+- Aclive suave. Calçada do lado par (2, 4, 6...)
+- Marcos: Rue de Marignan -> Rue Marbeuf -> AVENUE GEORGE V, uns 700 m
+- É o trecho comercial da avenida, o das vitrines e das árvores decoradas. A
+  iluminação de Natal só acende no fim da tarde, depois de vocês
+- A subida para em George V, na metade do caminho até o Étoile. O Arco fica ao
+  fundo o tempo todo, e a visita a ele é no dia 1º
 
-14h25 às 15h00 — Champs-Élysées descendo até George V
-- Saída da passagem: placa "Avenue des Champs-Élysées"
-- Declive suave. Calçada do lado par (2, 4, 6...)
-- Marcos: Avenue de Friedland -> Rue Balzac -> Rue de Berri -> Avenue George V,
-  uns 450 m
-- É a parte alta da avenida, a das vitrines iluminadas. O trecho de baixo, de
-  Marbeuf ao Rond-Point, fica de fora por escolha: com oito pessoas, 1,2 km
-  inteiros no frio custam mais do que rendem
-
-15h05 — George V -> Alma-Marceau
+14h45 — George V -> Alma-Marceau
 - Linha 1, direção Château de Vincennes, 1 estação -> Franklin D. Roosevelt
 - Baldeação para a Linha 9, direção Pont de Sèvres, 1 estação -> Alma-Marceau
 - ~10 min no total, contando a troca
 
-15h30 às 16h25 — Parada para aquecer
+15h00 às 16h25 — Parada para aquecer
 - La Mascotte — Av. du Président Wilson 6, 3 min a pé da saída do metrô
 - Evitem Chez Francis e Le Grand Corona (3,6 e 3,7)
-- Quase uma hora sentados no aquecido antes de um barco em dezembro: é a parte
-  do dia que sustenta o resto
+- São 1h25 sentados no aquecido antes de um barco aberto em dezembro: é a parte
+  do dia que sustenta o resto, e ela herdou o tempo que era do Arco
 - Gorro, cachecol e luvas no corpo agora, não no barco
 - Banheiro aqui; os do barco são pequenos
 
@@ -3157,7 +3147,7 @@ JANTAR DE 31/12
 
 
 ---------------------------------------------------------------
-01/01/2027 (SEXTA) — LOUVRE E JARDIN DES TUILERIES
+01/01/2027 (SEXTA) — ARCO DO TRIUNFO, TUILERIES E LOUVRE POR FORA
 ---------------------------------------------------------------
 
 ESTE É O DIA DO LOUVRE
@@ -3177,9 +3167,21 @@ qualquer alternativa em dezembro. As razões:
 - O mercado costuma funcionar todos os dias das 11h às 23h45, inclusive no dia
   1º de janeiro, e a temporada vai até o primeiro fim de semana de janeiro.
   Confirmem as datas da edição 2026/2027 mais perto da viagem.
-- E o melhor: do hotel são 3 estações de metrô diretas até a Concorde, sem
-  baldeação. O passeio inteiro é uma linha reta plana, do oeste para o leste,
+- E o melhor: o passeio inteiro é uma linha reta plana, do oeste para o leste,
   sem uma subida.
+
+O ARCO DO TRIUNFO ABRE O DIA
+O Arco saiu de 17/12 e passou para cá. O motivo é geográfico: ele é o extremo
+oeste do mesmo Eixo Histórico que termina na pirâmide do Louvre, e fazer os
+dois no mesmo dia transforma o passeio numa linha só — Arco, Concorde,
+Tuileries, Carrousel, Cour Napoléon. O dia 1º tinha folga de sobra para
+absorver os 40 minutos que ele custa.
+- A visita é por fora, do pé do Arco: o terrapleno em volta é aberto e gratuito
+- O interior e o terraço não abrem em 1º de janeiro, que é um dos dias de
+  fechamento do monumento, junto com 1º de maio e 25 de dezembro. Como a visita
+  é externa, isso não muda nada
+- Do Arco até a Concorde são 4 estações da Linha 1, ou 1,9 km a pé descendo a
+  própria avenida
 
 O ROTEIRO DO DIA
 
@@ -3189,24 +3191,52 @@ Manhã — sem pressa
   padarias. Por isso as compras do dia 31, para o jantar da virada e para o
   resto do dia 1º, importam.
 - O sol nasce por volta das 08h45 e se põe por volta das 17h00. O dia útil de
-  luz é curto: planejem sair até as 11h.
+  luz é curto: planejem sair até as 10h15.
 
-11h00 — Hotel -> Place de la Concorde
+10h15 — Hotel -> Charles de Gaulle-Étoile
 - A pé até École Militaire, 2 a 3 minutos
-- LINHA 8, direção Créteil-Pointe du Lac
-  École Militaire -> La Tour-Maubourg -> Invalides -> CONCORDE
-- 3 estações, cerca de 6 minutos, sem baldeação
-- Saída: placas "Jardin des Tuileries" ou "Place de la Concorde"
+- LINHA 8, direção Balard
+  École Militaire -> LA MOTTE-PICQUET-GRENELLE, 1 estação
+- Baldeação para a LINHA 6, direção Charles de Gaulle-Étoile, que é ponta de
+  linha
+  Dupleix -> Bir-Hakeim -> Passy -> Trocadéro -> Boissière -> Kléber ->
+  CHARLES DE GAULLE-ÉTOILE, 7 estações, cerca de 15 minutos
+- Cerca de 25 minutos no total, com a baldeação
+- Entre Bir-Hakeim e Passy a Linha 6 corre elevada e cruza o Sena pelo viaduto:
+  a Torre Eiffel aparece inteira, rio acima
 
-11h20 às 11h45 — Place de la Concorde
+10h45 às 11h20 — ARCO DO TRIUNFO, acesso subterrâneo
+- Chegando, não subam para a rua. Sigam as placas "Arc de Triomphe" dentro do
+  subterrâneo: a passagem corre por baixo da praça e emerge ao pé do monumento.
+  Não é um atalho, é o único acesso que existe
+- JAMAIS ATRAVESSEM A ROTATÓRIA. São 12 avenidas convergindo numa praça sem
+  faixa de pedestre e sem semáforo. Por cima não há travessia nenhuma, só 12
+  faixas de carros que não param
+- A limpeza da avenida depois da virada segue pela manhã do dia 1º, com grades
+  e caminhões ainda na calçada. A passagem subterrânea não é afetada
+- A visita é por fora, do pé do Arco; 35 minutos resolvem
+- Debaixo do Arco ficam o túmulo do Soldado Desconhecido e a chama, reacesa
+  todos os dias às 18h30. De manhã não há cerimônia
+- Olhando para leste, a descida dos Champs-Élysées com o Obelisco ao fundo: é o
+  eixo que vocês percorrem hoje até o Louvre
+- Para sair, placa "Avenue des Champs-Élysées"
+
+11h25 — Étoile -> Concorde
+- De volta pela mesma passagem até a estação
+- LINHA 1, direção Château de Vincennes
+  Charles de Gaulle-Étoile -> George V -> Franklin D. Roosevelt ->
+  Champs-Élysées-Clemenceau -> CONCORDE, 4 estações, cerca de 7 minutos
+- Saída: placas "Jardin des Tuileries" ou "Place de la Concorde"
+- A pé, descendo a própria avenida, são 1,9 km e 25 a 30 minutos
+
+11h45 às 12h10 — Place de la Concorde
 - O Obelisco de Luxor no centro da praça
 - Olhando para oeste, a subida dos Champs-Élysées com o Arco do Triunfo ao
-  fundo. Vocês estiveram lá em cima no dia 17; agora estão vendo do outro
-  extremo do eixo.
+  fundo, de onde vocês acabaram de vir: agora é o outro extremo do eixo.
 - Não atravessem a praça pelo meio sem usar as faixas: é uma das rotatórias
   mais movimentadas de Paris
 
-11h45 às 14h30 — JARDIN DES TUILERIES, entrando pelo portão oeste
+12h10 às 14h30 — JARDIN DES TUILERIES, entrando pelo portão oeste
 - Vocês entram pelo lado da Concorde e vão caminhando para o leste, na direção
   do Louvre. É o sentido certo: o jardim vai ficando mais fechado e mais
   monumental conforme se aproxima do palácio.
@@ -3229,7 +3259,7 @@ Manhã — sem pressa
 - Arco pequeno, de 1806, com quadriga no topo
 - Parem embaixo dele e olhem para trás, para oeste: em linha reta aparecem o
   Obelisco, a subida dos Champs-Élysées e o Arco do Triunfo. É o Eixo Histórico
-  de Paris, e vocês acabaram de percorrer o trecho final dele a pé.
+  de Paris, e vocês o percorreram hoje de ponta a ponta, do Arco até aqui.
 - Virando para o leste, a pirâmide já aparece
 
 15h00 às 16h00 — COUR NAPOLÉON E A PIRÂMIDE DO LOUVRE
