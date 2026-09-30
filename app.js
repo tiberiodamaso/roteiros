@@ -141,6 +141,7 @@ const state = {
   date: '2026-12-11',
   filter: 'all',
   openDays: {},
+  openFin: {},
   done: {},
 };
 
@@ -347,96 +348,138 @@ function progresso() {
 
 /* Estimativa de custo por grupo de gasto.
  *
- * O que já está pago não aparece em separado: cada valor fechado entra
- * diluído no grupo a que pertence, e o total do grupo é a estimativa
+ * A base é a planilha de custos da família (2 adultos + 1 criança de 10
+ * anos). O que já está pago não aparece em separado: cada valor fechado
+ * entra diluído no grupo a que pertence, e o total do grupo é a estimativa
  * completa daquele tipo de despesa — pago e a pagar juntos.
  *
+ * Ficam fora da conta, por decisão: roupas e equipamento de frio, e os
+ * valores que as outras famílias do grupo reembolsam (a tabela "Devem" da
+ * planilha). O que entra aqui é o custo da viagem, não o caixa.
+ *
+ * Cada linha é um item do detalhamento e carrega:
+ * `n`   o nome que aparece no drill-down.
  * `v`   valor por adulto.
  * `fam` total da família quando é um valor fechado e conhecido; quando
- *       ausente, é estimado como v × (2 + kid).
- * `kid` peso da criança de 10 anos naquela linha (0 = não paga,
- *       1 = paga inteiro). Na diluição de um valor fechado ela conta
- *       como 0,75 de um adulto.
+ *       ausente, é estimado como v × (2 + kid). Passando só `fam`, o valor
+ *       por adulto sai do rateio por 2,75.
+ * `kid` peso da criança naquela linha (0 = não paga, 1 = paga inteiro).
+ *       Na diluição de um valor fechado ela conta como 0,75 de um adulto.
+ * `est` marca a linha como estimativa. A tela imprime o selo a partir
+ *       daqui, e um grupo com `est` no cabeçalho é o que não tem nenhuma
+ *       linha fechada.
  */
 function finance() {
   const e = n => n * CAMBIO_EUR, f = n => n * CAMBIO_CHF;
   const share = 1 / 2.75;
-  const pago = { voos: 18269.28, vieZag: 3621.82, hosp: 22022.57, passeios: 7571.17, basel: 442.57 };
 
   const G = [
-    { titulo: 'Voos', tom: '#3a55a0', kid: 0.9,
-      itens: 'Ida do Brasil, Lisboa → Paris, Viena → Zagreb, Zagreb → Paris e a volta de Orly',
-      linhas: [
-        { v: pago.voos * share, fam: pago.voos },
-        // Viena → Zagreb deixou de ser estimativa: bilhete comprado, R$ 3.621,82.
-        { v: pago.vieZag * share, fam: pago.vieZag },
+    { k:'voos', titulo:'Voos', tom:'#3a55a0', kid:0.9,
+      itens:'Tudo emitido. Os cinco trechos, as bagagens despachadas e a marcação de assentos',
+      linhas:[
+        { n:'Bilhete principal — GRU → Lisboa, Lisboa → Paris e a volta de Orly', fam:15321.51 },
+        { n:'Viena → Zagreb', fam:3621.43 },
+        { n:'Zagreb → Paris', fam:3310.44 },
+        { n:'Bagagens despachadas', fam:1384.05 },
+        { n:'Marcação de assentos', fam:1178.43 },
       ] },
-    { titulo: 'Hospedagem', tom: '#7a4577', kid: 0.75,
-      itens: '7 bases, 21 noites em cama. A noite no Nightjet está em trens e transfers',
-      linhas: [
-        { v: pago.hosp * share, fam: pago.hosp },
+
+    { k:'hosp', titulo:'Hospedagem', tom:'#7a4577', kid:0.75,
+      itens:'7 bases, 22 diárias. A noite no Nightjet está em trens e transfers',
+      linhas:[
+        { n:'Lisboa · Hotel Inn Rossio, 3 noites', fam:1919.72 },
+        { n:'Paris ① · ibis budget Porte de Montmartre, 5 noites', fam:2213.95 },
+        { n:'Interlaken · The Guesthouse by The Hey Hotel, 2 noites', fam:2547.72 },
+        { n:'Zurique · ibis budget Zurich City West, 3 noites', fam:2702.22 },
+        // A planilha traz 13.246,03 nesta linha, que é a casa inteira e não a
+        // parte da família: o que falta são as 3 últimas parcelas de R$ 1.704.
+        { n:'Viena · Vienna Stay Apartments Tabor, 4 noites — 3 parcelas de R$ 1.704', fam:5112 },
+        { n:'Zagreb · Hotel Garden, 3 noites', fam:2559.81 },
+        { n:'Paris ② · Hotel du Cadran, 2 noites', fam:5353.12 },
       ] },
-    { titulo: 'Trens e transfers', tom: '#2f6b4f', kid: 0.5,
-      itens: 'Swiss Half Fare Card, TGV Lyria, Luzern–Interlaken Express, Nightjet, ÖBB até Salzburgo e os transfers de aeroporto',
-      linhas: [
-        { v: f(150), kid: 0 },        // Swiss Half Fare Card — criança grátis com o Family Card
-        { v: e(80), kid: 0.5 },       // TGV Lyria Paris → Basel
-        // Basel → Interlaken comprado, R$ 442,57. A reserva de assento do
-        // panorâmico é compra à parte e continua pendente: CHF 12 por pessoa,
-        // taxa fixa sem meia tarifa, então a criança paga inteiro.
-        { v: pago.basel * share, fam: pago.basel },
-        { v: f(12), kid: 1 },         // reserva do Luzern-Interlaken Express
-        // Nightjet Zurique → Viena, comprado: € 129,90 por adulto e € 34,90
-        // pela criança — a tarifa infantil é ~27% da adulta, e não os 0,7
-        // que estavam estimados aqui.
-        { v: e(129.90), kid: 34.90 / 129.90 },
-        { v: e(40), kid: 0.5 },       // ÖBB Viena ⇄ Salzburgo
-        { v: e(50), kid: 1 },         // transfers restantes: custo por veículo, agora rateado entre 8 e não 9
+
+    { k:'trens', titulo:'Trens e transfers', tom:'#2f6b4f', kid:0.5,
+      itens:'Dois trechos comprados; o resto é estimativa pelas tarifas do roteiro',
+      linhas:[
+        { n:'Basel → Interlaken, via Luzern', fam:426 },
+        { n:'Nightjet Zurique → Viena', fam:1799.48 },
+        // Tarifas com o Half Fare, as mesmas da tabela PASSES.
+        { n:'Swiss Half Fare Card — CHF 150 por adulto, criança com o Family Card', v:f(150), kid:0, est:true },
+        { n:'TGV Lyria Paris → Basel — ~€ 80 por adulto', v:e(80), kid:0.5, est:true },
+        { n:'Reserva de assento do Luzern–Interlaken Express — CHF 12 por pessoa, sem meia', v:f(12), kid:1, est:true },
+        { n:'Interlaken Ost → Zürich HB — CHF 37,50 por adulto', v:f(37.5), kid:0, est:true },
+        { n:'ÖBB Viena ⇄ Salzburgo — ~€ 40 por adulto', v:e(40), kid:0.5, est:true },
+        // 12 trechos privados nos 14 da planilha: os dois de Interlaken saem
+        // no ônibus da Guest Card. Custo por veículo, dois por trecho,
+        // rateado entre as 8 pessoas.
+        { n:'Transfers privados — 12 trechos, 2 veículos em cada, ~€ 140 por pessoa', v:e(140), kid:1, est:true },
       ] },
-    { titulo: 'Passeios e ingressos', tom: '#b4552f', kid: 0.5,
-      itens: 'Disney, cruzeiro no Sena, Lindt, teleféricos do First e do Titlis, Torre Eiffel, zoo de Schönbrunn e Plitvice',
-      linhas: [
-        { v: pago.passeios * share, fam: pago.passeios },
-        { v: f(60), kid: 0.5 },              // Grindelwald–First e trem BOB
-        { v: f(60), kid: 0.5 },              // Titlis
-        { v: e(30), kid: 0.5 },              // Torre Eiffel até o cume
-        // O ingresso do palácio de Schönbrunn (27 €) saiu: o dia 25 não entra
-        // mais nas salas. No lugar dele entra o zoo, que virou o único ingresso
-        // do dia — ~29 € por adulto, a confirmar no site antes de fechar a conta.
-        { v: e(29) + f(13), kid: 0.35 },     // Zoo de Schönbrunn e Museu Nacional Suíço — o Orsay saiu com o programa do dia 02
-        // Plitvice deixou de ser estimativa: a excursão da GetYourGuide está
-        // comprada, com a entrada do parque inclusa, a R$ 534,04 por adulto.
-        // O peso da criança segue estimado — se a operadora cobrar tarifa
-        // infantil própria, troque o 0.5 pelo valor real dividido por 534,04.
-        { v: 534.04, kid: 0.5 },
+
+    { k:'passeios', titulo:'Passeios e ingressos', tom:'#b4552f', kid:0.5,
+      itens:'Disney, Sena e Lindt comprados; Plitvice com preço fechado; o resto estimado',
+      linhas:[
+        { n:'Disney Paris, dois dias', fam:2030.51 },
+        { n:'Cruzeiro no Sena — Bateaux-Mouches', fam:186.89 },
+        { n:'Lindt Home of Chocolate', fam:215.41 },
+        // Preço fechado e por cabeça (R$ 535 na planilha das outras famílias),
+        // mas a excursão ainda não foi paga.
+        { n:'Excursão a Plitvice, com a entrada do parque — R$ 534 por pessoa, a pagar', v:534.04, kid:1 },
+        { n:'Oceanário de Lisboa — ~€ 25 por adulto', v:e(25), kid:0.7, est:true },
+        { n:'Castelo de São Jorge — ~€ 15 por adulto', v:e(15), kid:0, est:true },
+        { n:'Torre Eiffel até o cume — ~€ 30 por adulto', v:e(30), kid:0.5, est:true },
+        { n:'Trem de Grindelwald e teleférico do First — CHF 48 por adulto', v:f(48), kid:0.5, est:true },
+        { n:'Trem Zurique ⇄ Engelberg — CHF 38 por adulto', v:f(38), kid:0, est:true },
+        { n:'Teleférico Engelberg ⇄ Titlis — CHF 48 por adulto', v:f(48), kid:0.5, est:true },
+        { n:'Museu Nacional Suíço, Zurique — CHF 13 por adulto', v:f(13), kid:0, est:true },
+        { n:'Zoo de Schönbrunn — ~€ 29 por adulto', v:e(29), kid:0.5, est:true },
+        { n:'Kunsthistorisches Museum, Viena — ~€ 21 por adulto', v:e(21), kid:0, est:true },
       ] },
-    { titulo: 'Alimentação', tom: '#a2761c', kid: 0.6,
-      itens: '23 dias. Lisboa e Paris ~€ 30–35/dia · Suíça ~CHF 45–50/dia · Viena e Zagreb ~€ 25–28/dia',
-      linhas: [
-        { v: e(550) + f(240), kid: 0.6 },
+
+    { k:'alim', titulo:'Alimentação', tom:'#a2761c', kid:0.6, est:true,
+      itens:'Nada disso está na planilha: são 23 dias estimados pelo custo de cada base',
+      linhas:[
+        { n:'Lisboa · 3 dias a ~€ 30', v:e(90), est:true },
+        { n:'Paris ① · 4 dias a ~€ 35', v:e(140), est:true },
+        { n:'Interlaken · 2 dias a ~CHF 50', v:f(100), est:true },
+        { n:'Zurique · 3 dias a ~CHF 47', v:f(140), est:true },
+        { n:'Viena · 4 dias a ~€ 28, com apartamento e mercado', v:e(112), est:true },
+        { n:'Zagreb · 3 dias a ~€ 25', v:e(75), est:true },
+        { n:'Paris ② · 3 dias a ~€ 35', v:e(105), est:true },
+        { n:'Dias de viagem · trem, estação e aeroporto', v:e(28), est:true },
       ] },
-    { titulo: 'Transporte urbano', tom: '#2c3f78', kid: 0.5,
-      itens: 'Navigo Semaine, Zapping de Lisboa e as zonas de Zurique, Viena e Zagreb',
-      linhas: [
-        { v: e(105) + f(60), kid: 0.5 },
+
+    { k:'urb', titulo:'Transporte urbano', tom:'#2c3f78', kid:0.5, est:true,
+      itens:'Nada disso está na planilha: os valores vêm das tarifas levantadas para cada cidade',
+      linhas:[
+        { n:'Lisboa · Viva Viagem com Zapping, um cartão por pessoa', v:e(10.5), kid:1, est:true },
+        { n:'Paris ① · Navigo Semaine, zonas 1 a 5', v:e(32.4), kid:1, est:true },
+        { n:'Interlaken · Guest Card, já paga na diária', v:0, kid:0 },
+        { n:'Zurique · ZVV, zona 110 e as zonas até Kilchberg', v:f(28), kid:0.5, est:true },
+        { n:'Viena · avulsos no app, ~7 viagens — criança não paga', v:e(21), kid:0, est:true },
+        { n:'Zagreb · avulsos de 30 e 60 min', v:e(7.5), kid:0.5, est:true },
+        { n:'Paris ② · avulsos e Navigo Easy', v:e(10), kid:1, est:true },
       ] },
-    { titulo: 'Compras e imprevistos', tom: '#9e2c46', kid: 0.6,
-      itens: 'Mercados de Natal, lembranças, cafés e uma reserva para o que não estava no plano',
-      linhas: [
-        { v: 1300, kid: 0.6 },
-        { v: 800, kid: 0.5 },
+
+    { k:'compras', titulo:'Compras e imprevistos', tom:'#9e2c46', kid:0.6, est:true,
+      itens:'Mercados de Natal, lembranças, cafés e a reserva para o que não estava no plano',
+      linhas:[
+        { n:'Mercados de Natal, lembranças e cafés', v:1300, kid:0.6, est:true },
+        { n:'Reserva para imprevistos', v:800, kid:0.5, est:true },
       ] },
   ];
 
   let totA = 0, totF = 0;
   const grupos = G.map(g => {
     let a = 0, fam = 0;
-    g.linhas.forEach(l => {
-      a += l.v;
-      fam += (l.fam !== undefined ? l.fam : l.v * (2 + (l.kid !== undefined ? l.kid : g.kid)));
+    const itens = g.linhas.map(l => {
+      const kid = l.kid !== undefined ? l.kid : g.kid;
+      const la = l.v !== undefined ? l.v : l.fam * share;
+      const lf = l.fam !== undefined ? l.fam : la * (2 + kid);
+      a += la; fam += lf;
+      return { n: l.n, est: !!l.est, aTxt: brl(la), famTxt: brl(lf) };
     });
     totA += a; totF += fam;
-    return { titulo: g.titulo, tom: g.tom, itens: g.itens, a, fam };
+    return { k: g.k, titulo: g.titulo, tom: g.tom, itens: g.itens, est: !!g.est, linhas: itens, a, fam };
   });
 
   // Maior primeiro: a página passa a responder "para onde vai o dinheiro".
@@ -454,7 +497,7 @@ function finance() {
 
   return {
     grupos: grupos.map((g, i) => ({
-      titulo: g.titulo, tom: g.tom, itens: g.itens,
+      k: g.k, titulo: g.titulo, tom: g.tom, itens: g.itens, est: g.est, linhas: g.linhas,
       aTxt: brl(g.a), famTxt: brl(g.fam),
       pct: pcts[i],
     })),
@@ -886,24 +929,40 @@ function viewReservar() {
 function viewFinanceiro() {
   const f = finance();
 
-  const grupos = f.grupos.map(g => `<div class="fingrupo" style="--col:${g.tom}">
-    <div class="fingrupo__top">
-      <div>
-        <div class="fingrupo__t">${esc(g.titulo)}</div>
-        <div class="fingrupo__itens">${esc(g.itens)}</div>
+  const grupos = f.grupos.map(g => {
+    const aberto = !!state.openFin[g.k];
+    const linhas = g.linhas.map(l => `<div class="findet__l">
+      <div class="findet__n">${esc(l.n)}${l.est ? '<span class="tagest">estimativa</span>' : ''}</div>
+      <div class="findet__v">${esc(l.aTxt)} · ${esc(l.famTxt)}</div>
+    </div>`).join('');
+
+    return `<div class="fingrupo" style="--col:${g.tom}">
+      <div class="fingrupo__top">
+        <div>
+          <div class="fingrupo__t">${esc(g.titulo)}${g.est ? '<span class="tagest tagest--t">estimativa</span>' : ''}</div>
+          <div class="fingrupo__itens">${esc(g.itens)}</div>
+        </div>
+        <div class="fin__total">
+          <div class="eyebrow">adulto · família</div>
+          <div>${esc(g.aTxt)} · ${esc(g.famTxt)}</div>
+        </div>
       </div>
-      <div class="fin__total">
-        <div class="eyebrow">adulto · família</div>
-        <div>${esc(g.aTxt)} · ${esc(g.famTxt)}</div>
+      <div class="bar bar--slim"><i style="width:${g.pct}%"></i></div>
+      <div class="fingrupo__pct">${g.pct}% do total por adulto</div>
+      <button type="button" class="fingrupo__more" data-fin="${esc(g.k)}" aria-expanded="${aberto}">
+        <span>${aberto ? 'esconder o detalhe' : 'ver os ' + g.linhas.length + ' itens'}</span>
+        <span class="tl__sign">${aberto ? '−' : '+'}</span>
+      </button>
+      <div class="findet${aberto ? ' is-open' : ''}">
+        <div class="findet__h"><span>item</span><span>adulto · família</span></div>
+        ${linhas}
       </div>
-    </div>
-    <div class="bar bar--slim"><i style="width:${g.pct}%"></i></div>
-    <div class="fingrupo__pct">${g.pct}% do total por adulto</div>
-  </div>`).join('');
+    </div>`;
+  }).join('');
 
   return `<section class="rise">
     <h1>Financeiro</h1>
-    <div class="sub" style="max-width:760px">Estimativa da viagem inteira, por grupo de gasto. Cada grupo já inclui o que está pago e o que ainda falta comprar. Valores por adulto e para uma família de dois adultos e uma criança de 10 anos.</div>
+    <div class="sub" style="max-width:760px">Estimativa da viagem inteira, por grupo de gasto. Cada grupo já inclui o que está pago e o que ainda falta comprar, e abre num detalhamento item a item. Valores por adulto e para uma família de dois adultos e uma criança de 10 anos.</div>
 
     <div class="gridfit" style="margin-top:26px">
       <div class="card card--dark">
@@ -918,7 +977,7 @@ function viewFinanceiro() {
       </div>
       <div class="card" style="--col:#2f6b4f">
         <div class="eyebrow eyebrow--col" style="font-size:14.5px">por dia, por adulto</div>
-        <div class="fin__v" style="color:#2f6b4f">${esc(f.porDia)}</div>
+        <div class="fin__v fin__v--col">${esc(f.porDia)}</div>
         <div class="kpi__s">média dos 23 dias, com tudo diluído</div>
       </div>
     </div>
@@ -928,10 +987,11 @@ function viewFinanceiro() {
     <div class="card card--dark fin__notes" style="margin-top:22px">
       <div style="font-family:var(--display);font-size:26px">Como ler estes números</div>
       <ul>
-        <li>Tudo aqui é estimativa da viagem completa. O que já foi pago não aparece à parte: está somado dentro do grupo a que pertence.</li>
+        <li>Abra o detalhe de um grupo para ver item a item. O que está marcado como <strong>estimativa</strong> ainda não tem preço fechado; o resto é valor de planilha.</li>
+        <li>O que já foi pago não aparece à parte: está somado dentro do grupo a que pertence.</li>
         <li>Câmbio usado: 1 € = R$ ${esc(f.eur)} e 1 CHF = R$ ${esc(f.chf)}.</li>
         <li>A coluna por adulto considera a criança como 0,75 de um adulto no que é rateado, e como meia-entrada ou gratuidade onde a tarifa prevê.</li>
-        <li>Alimentação estimada por base: mais barata em Viena e Zagreb (apartamento e mercado), mais cara na Suíça. Café da manhã de hotel não entra onde já está incluso.</li>
+        <li>Ficam fora da conta as roupas e o equipamento de frio, e os valores que as outras famílias do grupo reembolsam.</li>
         <li>Compras e imprevistos carrega uma reserva. Se nada der errado, ela volta para casa com vocês.</li>
       </ul>
     </div>
@@ -1213,6 +1273,15 @@ document.addEventListener('click', ev => {
     const i = DAYS.findIndex(d => d.id === state.date);
     const alvoDia = DAYS[Math.min(DAYS.length - 1, Math.max(0, i + (+el.dataset.step)))];
     return ir('diario', alvoDia.id, { keepScroll: true });
+  }
+
+  if ((el = alvo('[data-fin]'))) {
+    const k = el.dataset.fin;
+    state.openFin[k] = !state.openFin[k];
+    const y = window.scrollY;
+    render();
+    window.scrollTo(0, y);
+    return;
   }
 
   if ((el = alvo('[data-toggle]'))) {

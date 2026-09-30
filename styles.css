@@ -365,6 +365,33 @@ h3 { font-size: 26px; }
 .fingrupo__itens { font-size: 16.5px; color: var(--muted); max-width: 56ch; text-wrap: pretty; margin-top: 2px; }
 .fingrupo__pct { font-family: var(--mono); font-size: 15px; color: var(--muted); margin-top: 8px; }
 
+/* O verde do "por dia" precisa ser classe e não style inline: uma cor inline
+   ganha de qualquer regra do @media print. */
+.fin__v--col { color: var(--col); }
+
+/* Selo de estimativa — o mesmo tom em qualquer lugar, para a leitura ser
+   "preço ainda não fechado" e não decoração do grupo. */
+.tagest { font-family: var(--mono); font-size: 12.5px; letter-spacing: .1em; text-transform: uppercase;
+  color: var(--muted); border: 1px solid var(--line-strong); border-radius: 999px; padding: 1px 8px;
+  margin-left: 8px; white-space: nowrap; vertical-align: middle; }
+.tagest--t { font-size: 13px; position: relative; top: -3px; }
+
+/* Drill-down do grupo */
+.fingrupo__more { display: flex; align-items: center; gap: 10px; margin-top: 14px; padding: 6px 12px;
+  background: none; border: 1px solid var(--line-strong); border-radius: 999px; cursor: pointer;
+  font-family: var(--mono); font-size: 14px; letter-spacing: .06em; color: var(--muted); }
+.fingrupo__more:hover { border-color: var(--col); color: var(--col); }
+.fingrupo__more .tl__sign { font-size: 18px; line-height: 1; }
+
+.findet { display: none; margin-top: 14px; border-top: 1px solid var(--line); }
+.findet.is-open { display: block; }
+.findet__h { display: flex; justify-content: space-between; gap: 16px; padding: 10px 0 6px;
+  font-family: var(--mono); font-size: 13px; letter-spacing: .14em; text-transform: uppercase; color: var(--muted); }
+.findet__l { display: flex; justify-content: space-between; align-items: baseline; gap: 16px;
+  padding: 9px 0; border-top: 1px solid var(--line); }
+.findet__n { font-size: 17px; color: var(--body); text-wrap: pretty; }
+.findet__v { font-family: var(--mono); font-size: 15.5px; white-space: nowrap; }
+
 /* ── prático ───────────────────────────────────────────────── */
 .res { background: var(--card); border: 1px solid var(--line); border-left: 4px solid var(--col); border-radius: 10px; padding: 14px 18px; display: grid; grid-template-columns: 1fr 1fr; gap: 10px; align-items: center; }
 .res__n { font-family: var(--display); font-size: 24px; }
@@ -469,6 +496,10 @@ h3 { font-size: 26px; }
   .res { grid-template-columns: 1fr; }
   .fingrupo__top { flex-direction: column; align-items: flex-start; gap: 8px; }
   .fin__total { text-align: left; }
+  /* O cabeçalho de duas colunas não sobrevive à quebra: no estreito, o valor
+     já vem embaixo do nome e a legenda vira ruído. */
+  .findet__h { display: none; }
+  .findet__l { flex-direction: column; align-items: flex-start; gap: 2px; }
   .cal__tag { display: none; }
 }
 
@@ -510,6 +541,10 @@ h3 { font-size: 26px; }
   .kpi--dark .kpi__s, .card--dark .kpi__s, .fin__notes ul { color: var(--muted) !important; opacity: 1; }
   .bar--dark { border: 1px solid var(--line); }
   .bar--dark > i { background: var(--muted); }
+
+  /* No papel o drill-down sai aberto: um botão "ver os itens" não clica. */
+  .fingrupo__more { display: none; }
+  .findet { display: block; }
 
   /* No papel não se toca num link: o número do telefone volta como texto. */
   .lnk[data-tel]::after { content: " " attr(data-tel); }
