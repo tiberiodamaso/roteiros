@@ -99,7 +99,7 @@ BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
    zentralbahn.ch. Não estava na lista de vocês e é crítica: é o que garante
    que os 8 sentem juntos, do lado direito, e que estarão no trem panorâmico
    e não no regional. Reservem ANTES de comprar o bilhete Basel -> Interlaken.
-5. PASSAGENS ÖBB VIENA <-> SALZBURGO, 26/12
+5. PASSAGENS ÖBB VIENA <-> SALZBURGO, 27/12
    Não estava na lista de vocês. App ÖBB, tarifa Sparschiene, que é promocional
    com quantidade limitada por partida. Comprada na véspera, vocês pagam o
    preço cheio oito vezes. Vale escrever ao serviço de grupos da ÖBB, que
@@ -323,13 +323,18 @@ PREÇOS EM VIGOR (Wiener Linien, desde 01/01/2026)
 - O digital, comprado no app WienMobil ou na loja online, sai cerca de 5% mais
   barato que o de papel
 
-RECOMENDAÇÃO PARA O GRUPO: PASSE DE 7 DIAS DIGITAL, 25,20 EUR por adulto
-A conta: vocês ficam cinco dias e devem fazer de dez a doze viagens por pessoa
-(centro no dia 25, ida e volta à estação no dia 26 para Salzburgo, Schönbrunn
-centro e museu no dia 27, e a saída no dia 28). A doze viagens avulsas digitais, o
-custo seria cerca de 36 EUR por pessoa. O passe de 7 dias custa 25,20 EUR e
-ainda tira a decisão de cada viagem da cabeça de todo mundo.
-- 7 adultos x 25,20 EUR = 176,40 EUR
+RECOMENDAÇÃO PARA O GRUPO: AVULSOS, MAIS UM 24H NO DIA 26 — 21,70 EUR/adulto
+A conta, depois que o roteiro fechou: são 8 viagens por pessoa entre 24 e 28/12.
+- 25/12, Schönbrunn: 2 viagens (a volta já passa pelo Prater, que é a estação
+  de casa e não cria viagem nova)
+- 26/12, centro + museu + arena + volta: 4 viagens
+- 27/12, ida e volta à Wien Hbf para Salzburgo: 2 viagens
+A 3,00 EUR no app, as 8 saem por 24,00 EUR — abaixo dos 25,20 EUR do passe de
+7 dias, que por isso perde, mas só por 1,20 EUR.
+A EXCEÇÃO É O DIA 26: quatro viagens a 3,00 EUR dão 12,00 EUR, contra 9,70 EUR
+do bilhete de 24h digital. Comprando o 24h SÓ nesse dia e avulsos nos outros
+quatro trechos, o adulto gasta 21,70 EUR — menos que qualquer caminho puro.
+- 7 adultos x 21,70 EUR = 151,90 EUR
 
 A CRIANÇA PROVAVELMENTE NÃO PAGA NADA EM VIENA
 Menores de 15 anos viajam de graça na rede da Wiener Linien aos domingos, nos
@@ -369,7 +374,7 @@ CARTÃO TURÍSTICO: VIENNA CITY CARD
 - ATENÇÃO: as versões de 48 e 72 horas também foram extintas em 01/01/2026
 - VEREDITO PARA ESTE ROTEIRO: não compensa. Vocês fazem poucas entradas pagas
   em Viena, essencialmente Schönbrunn. Só valeria se decidissem incluir vários
-  museus do Hofburg e o Museu de História da Arte no dia 27.
+  museus do Hofburg e o Museu de História da Arte no dia 26.
 
 NOVIDADE, MAS NÃO CONTEM COM ELA
 - Desde maio de 2026 a Wiener Linien testa o "Tap+Ride", em que se encosta o
@@ -384,10 +389,12 @@ ONDE VOCÊS ESTÃO HOSPEDADOS
 - Para Schönbrunn: metrô até Karlsplatz e depois a linha U4 até a estação
   Schönbrunn. Confirmem a conexão no app WienMobil na hora.
 
-CUSTO POR ADULTO EM VIENA: 25,20 EUR
+CUSTO POR ADULTO EM VIENA: 21,70 EUR
+- Avulsos nos dias de 2 viagens, mais um bilhete de 24h (9,70 EUR) no dia 26,
+  que tem 4 viagens por causa do jogo de hóquei. Ver o veredito na tela Prático.
 
 ---------------------------------------------------------------
-5. SALZBURGO — bate-volta em 26/12
+5. SALZBURGO — bate-volta em 27/12
 ---------------------------------------------------------------
 O passe de Viena NÃO cobre este trecho. É trem nacional, ÖBB.
 
@@ -1232,26 +1239,33 @@ Linha 9, direção Pont de Sèvres
 - Miromesnil -> Franklin D. Roosevelt -> Alma-Marceau -> Iéna -> TROCADÉRO
 - Cerca de 8 min. Saída: placas "Place du Trocadéro".
 
-08h45 às 11h45 — Trocadéro e Torre Eiffel
-- 08h45 Fotos no Trocadéro (sol nasce por volta das 08h40)
-- 09h05 Descida pelos jardins, travessia da Pont d'Iéna
-- 09h20 Fila da segurança
-- 09h30 Abertura da Torre (não abre antes)
-- 09h40 às 11h45 Visita
-- Ingresso com hora marcada. Venda abre 60 dias antes, em toureiffel.paris.
+08h45 às 12h30 — Trocadéro e Torre Eiffel
+- INGRESSO COMPRADO. Entrada às 10h30, ATÉ O TOPO. Hora marcada: não vale em
+  outro horário
+- 08h45 Fotos no Trocadéro (sol nasce por volta das 08h40). A primeira hora é
+  a que vale: a esplanada fica de frente para a Torre, iluminada de lado
+- 09h25 Descida pelos jardins, travessia da Pont d'Iéna, ~15 min
+- 09h50 Fila da segurança, com 40 min de folga. Oito pessoas num raio-x não
+  passam em dez minutos
+- Confiram o pilar de entrada impresso no ingresso: elevador e escada entram
+  por pilares diferentes
+- 10h30 às 12h30 Visita. São dois elevadores, o do 2º andar e o do cume, e o
+  segundo tem fila própria já lá em cima
+- O CUME FECHA COM VENTO FORTE e nesse caso a visita para no 2º andar.
+  Confiram o aviso em toureiffel.paris antes de sair do hotel
 
 TRECHO 2 — Torre -> Almoço
 
-12h00 — Alma-Marceau -> Franklin D. Roosevelt
+12h45 — Alma-Marceau -> Franklin D. Roosevelt
 - Da Torre até a estação são 13 min a pé pela margem: Port de Suffren ->
   Quai Branly -> Pont de l'Alma
 - Linha 9, direção Mairie de Montreuil
 - Alma-Marceau -> FRANKLIN D. ROOSEVELT, 1 estação, 2 min
 - Saída: "Rond-Point des Champs-Élysées"
 
-12h10 — A pé até a Rue de Ponthieu, 5 min para o norte
+12h55 — A pé até a Rue de Ponthieu, 5 min para o norte
 
-12h20 às 13h30 — Almoço: Smash.B Élysée
+13h10 às 14h15 — Almoço: Smash.B Élysée
 - 37 bis Rue de Ponthieu. Sem reserva, serviço de balcão.
 
 TRECHO 3 — Almoço -> Champs-Élysées
@@ -1261,7 +1275,7 @@ Ele foi para 01/01, onde abre o Eixo Histórico que termina no Louvre. O dia 1º
 percorre o eixo inteiro de uma vez, do Arco ao Carrousel, e este dia 17 fica
 com a Torre, a avenida e o Sena.
 
-13h30 às 14h40 — Champs-Élysées subindo até George V
+14h15 às 15h15 — Champs-Élysées subindo até George V
 - Da Rue de Ponthieu, 5 min a pé de volta ao Rond-Point des Champs-Élysées
 - Aclive suave. Calçada do lado par (2, 4, 6...)
 - Marcos: Rue de Marignan -> Rue Marbeuf -> AVENUE GEORGE V, uns 700 m
@@ -1270,16 +1284,16 @@ com a Torre, a avenida e o Sena.
 - A subida para em George V, na metade do caminho até o Étoile. O Arco fica ao
   fundo o tempo todo, e a visita a ele é no dia 1º
 
-14h45 — George V -> Alma-Marceau
+15h15 — George V -> Alma-Marceau
 - Linha 1, direção Château de Vincennes, 1 estação -> Franklin D. Roosevelt
 - Baldeação para a Linha 9, direção Pont de Sèvres, 1 estação -> Alma-Marceau
 - ~10 min no total, contando a troca
 
-15h00 às 16h25 — Parada para aquecer
+15h30 às 16h25 — Parada para aquecer
 - La Mascotte — Av. du Président Wilson 6, 3 min a pé da saída do metrô
 - Evitem Chez Francis e Le Grand Corona (3,6 e 3,7)
-- São 1h25 sentados no aquecido antes de um barco aberto em dezembro: é a parte
-  do dia que sustenta o resto, e ela herdou o tempo que era do Arco
+- É quase uma hora sentados no aquecido antes de um barco aberto em dezembro:
+  é a parte do dia que sustenta o resto
 - Gorro, cachecol e luvas no corpo agora, não no barco
 - Banheiro aqui; os do barco são pequenos
 
@@ -2532,9 +2546,28 @@ do dia é o do zoo.
 - Jardins fecham às 17h30, mas o mercado fica fora deles
 - Pista de gelo, carrossel, roda-gigante e trenzinho infantil
 
+Fim de tarde — PRATER, na porta de casa
+- Veio do dia 27, que virou Salzburgo. Ele não custa deslocamento nenhum:
+  o Prater fica na saída da Praterstern, que é a estação de casa
+- COMO CHEGAR: volta pela estação SCHÖNBRUNN (U4), U4 direção Heiligenstadt
+  até Schwedenplatz, depois U1 direção Leopoldau até PRATERSTERN. Um bilhete
+- Aberto ao público desde 1766, por decreto de José II, que liberou o antigo
+  terreno de caça imperial: um dos parques públicos mais antigos do mundo.
+  O Wurstelprater, o parque de diversões dentro dele, é de 1895
+- Área aberta 365 dias por ano, sem catraca. Paga-se por brinquedo
+- Temporada de inverno de 01/11 a 14/03: parte das atrações só abre com
+  tempo bom
+- Riesenrad (roda-gigante de 1897): 10h às 21h45
+- Wintermarkt no Riesenradplatz: domingos e feriados, 11h às 22h. 25/12 é
+  feriado
+- Quem estiver cansado faz o trecho até a Taborstraße 41 a pé, sem esperar
+
 Noite — Jantar em casa
-- Volta pela estação SCHÖNBRUNN (U4), na Schönbrunner Schloßstraße, ao
-  lado do pátio de honra. Não pela Hietzing, que serviu o zoo de manhã
+- As barracas do Wintermarkt resolvem o jantar de quem quiser comer ali
+  mesmo; o resto come no apartamento, a poucos minutos
+- A volta já foi feita pela estação SCHÖNBRUNN (U4), na Schönbrunner
+  Schloßstraße, ao lado do pátio de honra. Não pela Hietzing, que serviu o
+  zoo de manhã
 - Pela Praterstern: U4 (-> Schwedenplatz, 9 paradas) + U1 (-> Praterstern,
   2 paradas)
 - Pela Taborstraße: U4 (-> Schottenring, 10 paradas) + U2 (-> Taborstraße,
@@ -2546,46 +2579,129 @@ Noite — Jantar em casa
 
 
 ---------------------------------------------------------------
-26/12 (SÁBADO) — Salzburgo, bate-volta
+26/12 (SÁBADO) — Viena inteira e hóquei no gelo
 ---------------------------------------------------------------
 
-Confirmem antes: o mercado de Natal de Salzburgo costuma encerrar em 26/12.
-Se for o último dia, melhor ainda; se já tiver fechado, o resto do programa
-segue de pé.
+26/12 é STEFANITAG, feriado nacional na Áustria: comércio fechado, museus,
+palácios e restaurantes abertos. Este é o dia das entradas pagas e dos
+interiores — e o dia do jogo.
+
+TRANSPORTE DO DIA: são 4 viagens de metrô (centro, museu, arena e volta).
+A 3,00 EUR no app dá 12,00 EUR, contra 9,70 EUR do bilhete de 24h. ESTE É O
+ÚNICO DIA DA ESTADIA EM QUE O 24H COMPENSA — comprem só aqui.
+
+Manhã — Centro histórico completo
+- COMO CHEGAR: da Praterstern, U1 direção Oberlaa, três paradas —
+  Nestroyplatz, Schwedenplatz, STEPHANSPLATZ. ~5 min, saída na porta da
+  catedral
+- Stephansplatz e Stephansdom, agora POR DENTRO (no dia 25 só por fora)
+- Graben e Kohlmarkt: saem da própria Stephansplatz e concentram a Coluna da
+  Peste, as fachadas imperiais e a subida até o Hofburg
+- Comércio fechado no feriado: o trecho é de caminhada e fachada
+- Sábado de Stefanitag enche o centro mais que um domingo comum. Saiam cedo
+- A Kohlmarkt termina na entrada do Hofburg. Entrar ou não se decide na hora:
+  a tarde tem museu e jogo, e os dois têm hora
+
+12h30 — Almoço: Figlmüller Wollzeile
+- Wollzeile 5, a 3 min a pé do Stephansplatz. Schnitzel de 30 cm
+- Aberto todos os dias das 11h às 22h
+- RESERVEM: a casa aceita reserva de até 8 pessoas, exatamente o tamanho do
+  grupo. RESERVEM PARA AS 12h30 — 13h já come a margem do jogo
+- Saindo para o museu, a estação é a mesma Stephansplatz: é ali que a U3 passa
+
+14h00 às 16h15 — Kunsthistorisches Museum
+- COMO CHEGAR: do Stephansplatz, U3 direção Ottakring, duas paradas até
+  VOLKSTHEATER, e ~5 min a pé
+- A coleção dos Habsburgo: a maior reunião de Bruegel do mundo, além de
+  Vermeer, Rafael e Ticiano. Prédio de 1891
+- COMPREM OS INGRESSOS ONLINE. Tarde de feriado é pico
+- Fecha às segundas, então sábado está livre. CONFIRMEM O HORÁRIO DE 26/12 no
+  site: é feriado e a casa pode encerrar mais cedo
+- QUEM FECHA A VISITA É O JOGO, NÃO O MUSEU. Saída às 16h15, sem exceção
+- Combinem ponto e hora de reencontro lá dentro: o museu é grande e, com oito
+  pessoas, o grupo se separa
+
+16h45 — HÓQUEI NO GELO, NEURO.IO ARENA
+- Attemsgasse 1, 1220 Wien
+- VIC x FTC, início às 17h30. CHEGAR ÀS 16h45 — 45 min de antecedência
+- COMO CHEGAR, saindo do museu: do Volkstheater, U3 direção Simmering até
+  Stephansplatz, e ali a U1 direção Leopoldau até KAGRAN. É baldeação, então
+  vale um bilhete só. ~25 min, mais 5 a pé da estação
+- A arena fica na mesma U1 do apartamento. É por isso que um jogo às 17h30
+  cabe num dia de museu
+- Três períodos de 20 min com dois intervalos: com as paradas, ~2h15 de
+  arena, terminando por volta das 19h45
+- O JANTAR É AQUI, nas barracas da arena. Não há restaurante reservado: 26/12
+  é feriado e casa aberta à noite é exceção
+
+Noite — Volta ao apartamento
+- Da Kagran, U1 direção Oberlaa até PRATERSTERN, e dali à Taborstraße 41,
+  poucos minutos a pé. ~15 min no total
+- ADIANTEM HOJE O QUE DER DAS MALAS: amanhã vocês voltam de Salzburgo por
+  volta das 19h30 e o despertador de segunda é às 6h
+
+
+---------------------------------------------------------------
+27/12 (DOMINGO) — Salzburgo, bate-volta
+---------------------------------------------------------------
+
+O MERCADO DE NATAL DE SALZBURGO ENCERRA EM 26/12. No dia 27 ele não existe
+mais, e o resto do programa não depende dele. Foi o preço de trazer o dia de
+Viena para o sábado do jogo.
+
+O Railjet Wien <-> Salzburg roda de hora em hora também aos domingos.
+ATENÇÃO: 27/12 é domingo, mas NÃO é feriado na Áustria — horários publicados
+para "sábados e feriados" não valem hoje.
+
+06h00 — Café em casa
+- O trem parte às 7h30 e hoje é o dia com o maior tempo fora de casa
+- Da Praterstern à Wien Hbf: U1 direção Oberlaa, seis paradas, até
+  SÜDTIROLER PLATZ-HAUPTBAHNHOF, ~12 min. Saiam às 6h50 para estar na
+  plataforma às 7h15
+- A margem é de 15 minutos, e não de 5: o bilhete vale SÓ no trem das 7h30,
+  não no seguinte, e não há reembolso
 
 07h30 — Saída de Viena, Wien Hauptbahnhof
+- Railjet, ~2h20 a 2h30. Chegada às 10h00
+- Da estação ao centro histórico a pé: ~1,5 km, uns 20 min, tudo plano.
+  Rainerstraße, Mirabellgarten, Makartsteg
+- SALZBURGO SE FAZ INTEIRA A PÉ. Não há bilhete urbano a comprar: o único
+  trecho mecânico do dia é o funicular da Fortaleza
 
 10h00 — Chegada + ponte
 - Makartsteg Bridge, a ponte dos cadeados
 - Entrada na cidade velha
 
-Cidade velha + mercados
+Cidade velha
 - Salzburg Old Town
 - Getreidegasse
-- Domplatz
-- Mercado de Natal
+- Domplatz e Residenzplatz — com o mercado desmontado, as praças barrocas
+  aparecem vazias, sem as barracas por cima delas
 
 Almoço típico, indo a pé
 - Opção 1 — Stiegl-Keller (melhor recomendação)
   - Fica colado na subida da Fortaleza, menos turístico que o centro
-  - Vista linda da cidade
-  - Frequentado por locais e turistas, mas não é caça-turista
-  - Preço mais honesto que os restaurantes da Getreidegasse
+  - Vista linda da cidade, preço mais honesto que o da Getreidegasse
+  - A CASA PUBLICA HORÁRIO DE SÁBADOS E FERIADOS, E 27/12 NÃO É NENHUM DOS
+    DOIS. Confirmem o horário de domingo antes de reservar
+  - RESERVEM: oito pessoas, domingo de fim de ano, restaurante com vista
   - O que pedir: schnitzel (muito bem servido), porco assado com batatas,
     goulash, cerveja Stiegl (local de Salzburgo)
 - Opção 2 — Augustiner Bräu Mülln (mais autêntico ainda)
   - Cervejaria histórica de monges, desde 1621
-  - Self-service: você escolhe a comida nas estações
-  - Mesas comunitárias grandes, muito mais local do que turístico
-  - Como funciona: paga entrada simples, pega comida em balcões, cerveja em
-    canecas de litro ou meio litro
+  - Self-service, mesas comunitárias, não aceita nem exige reserva — o que
+    resolve oito pessoas sem combinar nada
+  - Abre mais tarde que o Stiegl-Keller e fica fora do centro histórico
 
 Fortaleza
-- Hohensalzburg Fortress
-- Vista panorâmica. Subir com o funicular.
-- Ponto alto do dia
+- Hohensalzburg Fortress. Subir com o funicular, a FestungsBahn
+- Horário de inverno: 9h30 às 17h, todos os dias
+- Ingresso na bilheteria: 18,00 EUR all-inclusive, 14,50 EUR na versão básica
+  com funicular, 11,20 EUR a pé sem o funicular
+- O SALZBURG CARD NÃO COMPENSA: 38,00 EUR por adulto e o único gasto do dia é
+  a fortaleza. Como o dia é todo a pé, não há transporte para o passe cobrir
 
-17h00 — Retorno para Viena e jantar em casa
+17h00 — Retorno para Viena, jantar em casa e malas
 - De volta à estação pelo mesmo caminho, a pé, ~20 min
 - Railjet SALZBURG HBF -> WIEN HBF, ~2h30. Chegada ~19h30
 - Na Wien Hbf, estação de metrô SÜDTIROLER PLATZ-HAUPTBAHNHOF: U1 direção
@@ -2593,50 +2709,10 @@ Fortaleza
 - Da Praterstern à Taborstraße 41, poucos minutos a pé
 - Trecho urbano é Wiener Linien: avulso de 3,00 EUR, à parte da ÖBB
 - Chegada em casa ~20h. Jantar no apartamento
-
-
----------------------------------------------------------------
-27/12 (DOMINGO) — Viena, o dia mais importante
----------------------------------------------------------------
-
-Domingo é o melhor dia de atrações abertas de toda a estadia em Viena.
-Este é o dia para o que exige entrada paga e interiores.
-
-Palácio de Schönbrunn
-- Residência da Sissi
-- Jardins, se não estiver neve pesada
-- Interior do palácio
-- Ingresso com hora marcada, comprar antecipado
-
-Centro histórico completo
-- Stephansplatz e Stephansdom (agora por dentro)
-- Graben
-- Kohlmarkt
-
-Opcional, dependendo de abertura
-- Museus do Hofburg
-- Museu de História da Arte
-
-Prater (16h30)
-- Aberto ao público desde 1766, por decreto de José II, que liberou o
-  antigo terreno de caça imperial: um dos parques públicos mais antigos
-  do mundo. O parque de diversões dentro dele, o Wurstelprater, é de 1895
-- COMO CHEGAR do museu: Volkstheater, U3 direção Simmering ->
-  Stephansplatz, e U1 direção Leopoldau -> PRATERSTERN. Um bilhete só
-- Área aberta 365 dias por ano, sem catraca. Paga-se por brinquedo
-- Temporada de inverno de 01/11 a 14/03: parte das atrações só abre com
-  tempo bom
-- Riesenrad (roda-gigante de 1897): 10h às 21h45
-- Wintermarkt no Riesenradplatz: domingos e feriados, 11h às 22h
-- Pôr do sol às 16h10: chega-se com tudo iluminado
-- Do Praterstern ao apartamento, poucos minutos a pé
-
-Volta ao apartamento e malas (noite)
-- COMO CHEGAR, saindo do Wintermarkt: do Praterstern à Taborstraße 41 são
-  poucos minutos a pé, planos e iluminados. Sem metrô, sem bilhete
-- MALAS PRONTAS HOJE. Amanhã é voo para Zagreb, com transfer nos dois
-  lados e franquia de bagagem a conferir
-- Separar a bagagem de mão e conferir os passaportes
+- ÚLTIMA NOITE EM VIENA: MALAS PRONTAS HOJE. Amanhã o despertador é às 6h e o
+  voo para Zagreb é às 9h30. Separem a bagagem de mão e confiram os passaportes
+- Se quiserem a noite mais folgada, o Railjet das 16h00 chega ~18h30 e custa
+  uma hora de Salzburgo
 
 
 ===============================================================

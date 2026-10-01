@@ -193,7 +193,7 @@ const PENDENCIAS = {
   '2026-12-11': ['Cartões Viva Viagem com Zapping, na máquina do Rossio', 'Almoço na Casa do Alentejo e jantar no Trama — reservados'],
   '2026-12-12': ['Ingresso do Castelo de São Jorge, comprado online na véspera'],
   '2026-12-15': ['Reserva de mesa no app da Disneyland Paris'],
-  '2026-12-17': ['Torre Eiffel com hora marcada · Le Son de la Terre 18h50 (o cruzeiro do Sena já está comprado, Bateaux-Mouches)'],
+  '2026-12-17': ['Le Son de la Terre 18h50 — a Torre Eiffel (10h30, até o topo) e o cruzeiro do Sena já estão comprados'],
   '2026-12-18': ['Reserva de assento no Luzern-Interlaken Express, partida das 13h06 — o bilhete Basel → Interlaken já está comprado', 'Pedir a Interlaken Guest Card no check-in'],
   '2026-12-19': ['Bilhete Interlaken Ost → Grindelwald (véspera) · teleférico do First só na bilheteria, depois das webcams'],
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
@@ -201,8 +201,8 @@ const PENDENCIAS = {
   '2026-12-22': ['Bilhete Zürich HB → Engelberg (véspera) · teleférico do Titlis só na base · Ice Flyer à parte'],
   '2026-12-23': ['Transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação — o Nightjet já está comprado'],
   '2026-12-25': ['Ingressos do Zoo de Schönbrunn — o único do dia · nada de palácio por dentro'],
-  '2026-12-26': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene'],
-  '2026-12-27': ['Ingressos do Kunsthistorisches, comprados online — nenhuma reserva de jantar hoje'],
+  '2026-12-26': ['Ingressos do Kunsthistorisches, comprados online · mesa no Figlmüller às 12h30 — o jantar é na arena'],
+  '2026-12-27': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene · mesa no Stiegl-Keller, conferindo o horário de domingo'],
   '2026-12-28': ['Transfers dos dois lados · confirmar a franquia de bagagem despachada — o voo VIE → ZAG já está comprado'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
   '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nenhum ingresso: o dia não tem programação'],
@@ -292,15 +292,16 @@ const MODO_FIXO = {
   '2026-12-25|Jardins franceses': { modo:'a pé', ate:'o parterre, subindo para o palácio' },
   '2026-12-25|Fonte de Netuno': { modo:'a pé', ate:'o pé da colina' },
   '2026-12-25|Subida ao Gloriette': { modo:'a pé', ate:'o alto da colina' },
-  '2026-12-25|Jantar em casa': { modo:'U4 + U1/U2', ate:'o apartamento' },
-  '2026-12-26|Wien Hbf → Salzburg Hbf': 'trem',
-  '2026-12-26|Fortaleza Hohensalzburg': 'funicular',
-  '2026-12-26|Retorno para Viena e jantar em casa': { modo:'a pé + trem + U1', ate:'Salzburg Hbf, Wien Hbf e o apartamento' },
-  '2026-12-27|Kunsthistorisches Museum': { modo:'U3', ate:'Volkstheater' },
-  '2026-12-27|Figlmüller Wollzeile — o schnitzel': { modo:'a pé', ate:'a Wollzeile 5' },
-  '2026-12-27|Centro histórico completo': { modo:'U1', ate:'Stephansplatz' },
-  '2026-12-27|Prater': { modo:'U3 + U1', ate:'Praterstern' },
-  '2026-12-27|Volta ao apartamento e malas': { modo:'a pé', ate:'a Taborstraße 41' },
+  '2026-12-25|Prater, na porta de casa': { modo:'U4 + U1', ate:'a Praterstern' },
+  '2026-12-25|Jantar em casa': { modo:'a pé', ate:'a Taborstraße 41' },
+  '2026-12-26|Centro histórico completo': { modo:'U1', ate:'Stephansplatz' },
+  '2026-12-26|Figlmüller Wollzeile — o schnitzel': { modo:'a pé', ate:'a Wollzeile 5' },
+  '2026-12-26|Kunsthistorisches Museum': { modo:'U3', ate:'Volkstheater' },
+  '2026-12-26|Hóquei no gelo — NEURO.IO ARENA': { modo:'U3 + U1', ate:'Kagran' },
+  '2026-12-26|Volta ao apartamento': { modo:'U1', ate:'a Praterstern' },
+  '2026-12-27|Wien Hbf → Salzburg Hbf': 'trem',
+  '2026-12-27|Fortaleza Hohensalzburg': 'funicular',
+  '2026-12-27|Retorno para Viena e jantar em casa': { modo:'a pé + trem + U1', ate:'Salzburg Hbf, Wien Hbf e o apartamento' },
   '2026-12-28|Transfer ao aeroporto de Viena': { modo:'transfer', ate:'o aeroporto de Viena' },
   '2026-12-28|Chegada em Zagreb': 'avião',
   '2026-12-28|Três coisas para resolver no balcão': 'transfer',
@@ -593,7 +594,7 @@ function viewInicio() {
   // Um dia por cidade, mais o Natal e o Ano-Novo.
   const vistos = {};
   const luz = DAYS.filter(d => {
-    if (d.id === '2026-12-26' || d.id === '2027-01-01') return true;
+    if (d.id === '2026-12-27' || d.id === '2027-01-01') return true;
     if (vistos[d.city]) return false;
     vistos[d.city] = 1;
     return true;

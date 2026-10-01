@@ -65,7 +65,7 @@ export const CITIES = [
     hotel:'Vienna Stay Apartments Tabor 1020', ci:'24/12 (qui) 15h00', co:'28/12 (seg) 11h00',
     end:'Taborstraße 41, Leopoldstadt, 1020 Viena', app:'Booking.com',
     mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien',
-    resumo:'Natal em casa, Schönbrunn no dia 25, bate-volta a Salzburgo e o domingo no centro histórico.',
+    resumo:'Natal em casa, Schönbrunn no dia 25, o centro histórico e o jogo de hóquei no sábado, e o bate-volta a Salzburgo no domingo.',
     dias:['2026-12-24','2026-12-25','2026-12-26','2026-12-27','2026-12-28'],
     dicas:[
       ['A tarifa de Viena mudou em 01/01/2026','Os passes de 48 e 72 horas foram EXTINTOS. Sobraram avulso, 24 horas e 7 dias.'],
@@ -110,8 +110,8 @@ export const CITIES = [
 ];
 
 export const SIDE_TRIPS = [
-  { k:'salzburgo', n:'Salzburgo', base:'Viena', col:'#9e2c46', data:'26/12', dia:'2026-12-26',
-    resumo:'Bate-volta de railjet, ~2h20 cada trecho. Cidade velha, Getreidegasse, mercado de Natal e a Fortaleza.' },
+  { k:'salzburgo', n:'Salzburgo', base:'Viena', col:'#9e2c46', data:'27/12', dia:'2026-12-27',
+    resumo:'Bate-volta de railjet, ~2h20 cada trecho. Cidade velha, Getreidegasse e a Fortaleza. O mercado de Natal já terá encerrado.' },
   { k:'plitvice', n:'Lagos de Plitvice', base:'Zagreb', col:'#a2761c', data:'29 ou 30/12', dia:'2026-12-29',
     resumo:'Bate-volta de ~2h de estrada. No inverno só os Lagos Inferiores abrem e o parque fecha às 16h.' },
 ];
@@ -199,12 +199,12 @@ export const DAYS = [
     sun:['08:40','16:55'],
     blocks:[
       B('08h00','Hotel → Trocadéro',['**Como chegar**: A pé até a estação de metrô Porte de Saint-Ouen, na linha 13 — 10 a 12 min, plano.','Linha 13 direção Châtillon-Montrouge até Miromesnil (~12 min). Baldeação 4–5 min.','Linha 9 direção Pont de Sèvres até Trocadéro (~8 min). Saída “Place du Trocadéro”.']),
-      B('08h45','Trocadéro e Torre Eiffel',['08h45 fotos no Trocadéro (sol nasce ~08h40) · 09h05 descida pelos jardins e Pont d’Iéna · 09h20 fila da segurança.','09h30 abertura da Torre — não abre antes. Visita das 09h40 às 11h45, com hora marcada.']),
-      B('12h00','Alma-Marceau → Franklin D. Roosevelt',['**Como chegar**: Da Torre até a estação são 13 min a pé pela margem: Port de Suffren → Quai Branly → Pont de l’Alma.','Linha 9 direção Mairie de Montreuil, 1 estação. Saída “Rond-Point des Champs-Élysées”.']),
-      B('12h20','Almoço — Smash.B Élysée',['37 bis Rue de Ponthieu. Sem reserva, serviço de balcão. Cheguem 12h20, antes do pico do almoço de escritório.']),
-      B('13h30','Champs-Élysées subindo até George V',['**Como chegar**: Da Rue de Ponthieu são 5 min a pé até o Rond-Point des Champs-Élysées. Dali subam a avenida pela calçada do lado par: Rue de Marignan → Rue Marbeuf → Avenue George V, uns 700 m de aclive suave.','É o trecho comercial da avenida, o das vitrines e das árvores decoradas. A iluminação de Natal só acende no fim da tarde, depois de vocês.','A subida para na Avenue George V, na metade do caminho até o Étoile — o Arco do Triunfo fica ao fundo o tempo todo e é visitado em 01/01.']),
-      B('14h45','George V → Alma-Marceau',['**Como chegar**: Linha 1 direção Château de Vincennes, 1 estação até Franklin D. Roosevelt.','Baldeação para a Linha 9 direção Pont de Sèvres, 1 estação até Alma-Marceau. ~10 min no total, contando a troca.']),
-      B('15h00','Parada para aquecer — La Mascotte',['**Como chegar**: Av. du Président Wilson 6, 3 min a pé da saída do metrô. Chez Francis e Le Grand Corona, ali perto, têm nota 3,6 e 3,7.','São 1h25 sentados no aquecido antes de um barco aberto em dezembro: banheiro, café e descanso.','**Gorro, cachecol e luvas no corpo aqui**, não no barco. Usem o banheiro daqui: os do barco são pequenos.']),
+      B('08h45','Trocadéro e Torre Eiffel',['**08h45 fotos no Trocadéro.** O sol nasce às 08h40 e a primeira hora é a que vale: a esplanada fica de frente para a Torre, que recebe a luz de lado.','09h25 descida pelos jardins do Trocadéro e travessia da Pont d’Iéna, ~15 min.','**09h50 na fila da segurança**, com 40 min de folga. Oito pessoas num raio-x não passam em dez minutos.','**Ingresso comprado, entrada às 10h30, até o topo.** A hora é marcada e o ingresso não vale em outro horário.','Confiram o pilar de entrada impresso no ingresso: elevador e escada entram por pilares diferentes.','Reservem 2 horas lá dentro. São dois elevadores, o do 2º andar e o do cume, e o segundo tem fila própria já lá em cima. Descida por volta das 12h30.','**O cume fecha com vento forte** e nesse caso a visita para no 2º andar. Confiram o aviso no site antes de sair do hotel.']),
+      B('12h45','Alma-Marceau → Franklin D. Roosevelt',['**Como chegar**: Da Torre até a estação são 13 min a pé pela margem: Port de Suffren → Quai Branly → Pont de l’Alma.','Linha 9 direção Mairie de Montreuil, 1 estação. Saída “Rond-Point des Champs-Élysées”.']),
+      B('13h10','Almoço — Smash.B Élysée',['37 bis Rue de Ponthieu. Sem reserva, serviço de balcão.','O pico do almoço de escritório já terá passado: às 13h10 o balcão atende oito pessoas sem fila.']),
+      B('14h15','Champs-Élysées subindo até George V',['**Como chegar**: Da Rue de Ponthieu são 5 min a pé até o Rond-Point des Champs-Élysées. Dali subam a avenida pela calçada do lado par: Rue de Marignan → Rue Marbeuf → Avenue George V, uns 700 m de aclive suave.','É o trecho comercial da avenida, o das vitrines e das árvores decoradas. A iluminação de Natal só acende no fim da tarde, depois de vocês.','A subida para na Avenue George V, na metade do caminho até o Étoile — o Arco do Triunfo fica ao fundo o tempo todo e é visitado em 01/01.']),
+      B('15h15','George V → Alma-Marceau',['**Como chegar**: Linha 1 direção Château de Vincennes, 1 estação até Franklin D. Roosevelt.','Baldeação para a Linha 9 direção Pont de Sèvres, 1 estação até Alma-Marceau. ~10 min no total, contando a troca.']),
+      B('15h30','Parada para aquecer — La Mascotte',['**Como chegar**: Av. du Président Wilson 6, 3 min a pé da saída do metrô. Chez Francis e Le Grand Corona, ali perto, têm nota 3,6 e 3,7.','É quase uma hora sentados no aquecido antes de um barco aberto em dezembro: banheiro, café e descanso.','**Gorro, cachecol e luvas no corpo aqui**, não no barco. Usem o banheiro daqui: os do barco são pequenos.']),
       B('16h30','Cruzeiro no Sena — Bateaux-Mouches, já comprado',['**Como chegar**: Pont de l’Alma, Port de la Conférence — 5 min a pé do La Mascotte. Rampa de descida ao cais na margem direita, lado de montante da ponte.','16h45 fila de embarque, 17h00 partida.','Hora azul das 17h00 às 17h30. A Torre Eiffel cintila às 18h00.']),
       B('18h30','Jantar com música ao vivo — Le Son de la Terre',['Subam a rampa do cais e vão a pé até a **Avenue Montaigne**, nº 1 ou 3, no começo da avenida: é ali que vocês pedem o Uber. Rua larga, meio-fio livre e iluminada, com espaço para dois carros encostarem.','Não peçam na Place de l’Alma, que é rotatória de trânsito pesado, nem no cais, onde os carros não descem. Alternativa: Place de la Reine Astrid, ao lado — confiram no app qual das duas o sistema sugere.','Dois XL, 20–25 min, ~50 € no total. Destino: Le Son de la Terre, 2 Port de Montebello. Se o motorista não achar, Quai de Montebello ou Square René Viviani ficam a 3 min a pé.','Reserva às 18h50. Barcaça no Sena de frente para a Notre-Dame. +33 1 43 29 48 19.','É o jantar mais caro de Paris no roteiro: o preço cobre o cenário e o show ao vivo.']),
       B('21h15','Volta ao hotel',['**Como chegar**: A pé até Saint-Michel-Notre-Dame (6 min) e Linha 4 direção Porte de Clignancourt, direto, ~25 min.','Malas fechadas hoje: amanhã é dia de viagem.']),
@@ -303,28 +303,28 @@ export const DAYS = [
       B('13h20','Fonte de Netuno',['No pé da colina: grupo escultórico barroco de 1780 — Netuno, Tétis e o cortejo marinho.','Parada curta, uns 20 min, no caminho da descida.']),
       B('13h45','Jardins franceses',['**Como chegar**: O Grande Parterre, da fonte em direção ao palácio, com os canteiros geométricos e as estátuas nas laterais.','Caminhada plana, ~10 min. Em dezembro os canteiros estão sem flor e a simetria do traçado fica exposta.']),
       B('14h15','Almoço no mercado, no pátio de honra',['O parterre desemboca no pátio de honra: 90 barracas, das 10h às 19h nos dias 25 e 26. **Não fecha no Natal** — vira mercado de Ano Novo e segue até 06/01.','O almoço é aqui. As barracas atendem oito pessoas sem reserva.','O sol se põe às 16h08: almoçando agora, vocês ainda pegam luz e alcançam o mercado iluminado.','Pista de gelo, carrossel, roda-gigante e trenzinho infantil.']),
-      B('noite','Jantar em casa',['A volta sai da estação **Schönbrunn** (U4), na Schönbrunner Schloßstraße, ao lado do pátio de honra — não da Hietzing, que serviu o portão do zoo de manhã.','Pela **Praterstern**: U4 direção Heiligenstadt até Schwedenplatz (9 paradas), depois U1 direção Leopoldau até Praterstern (2 paradas).','Pela **Taborstraße**: U4 direção Heiligenstadt até Schottenring (10 paradas), depois U2 direção Seestadt até Taborstraße (1 parada).','Um bilhete de €3,00 cobre o percurso inteiro: a baldeação não conta como segunda viagem. Da estação até a Taborstraße 41 são poucos minutos a pé, planos.','Jantar no apartamento, com o que veio do mercado do dia 24. Os restaurantes de Viena hoje ou estão fechados ou cobram menu de Natal.','Amanhã o despertador é às 6h para Salzburgo.']),
+      B('fim de tarde','Prater, na porta de casa',['**Como chegar**: a volta sai da estação **Schönbrunn** (U4), na Schönbrunner Schloßstraße, ao lado do pátio de honra — não da Hietzing, que serviu o portão do zoo de manhã. U4 direção Heiligenstadt até Schwedenplatz, depois U1 direção Leopoldau até **Praterstern**. É baldeação, então vale um bilhete só.','O Prater fica na saída da Praterstern, a poucos minutos do apartamento: ele não custa deslocamento nenhum: é o caminho de casa.','Aberto ao público desde 1766, quando José II liberou ao povo o terreno de caça imperial — é um dos parques públicos mais antigos do mundo. O parque de diversões dentro dele, o Wurstelprater, é de 1895.','A área é aberta 365 dias por ano e não tem catraca: entrar não custa nada, paga-se por brinquedo. De 1º de novembro a 14 de março é temporada de inverno, e parte das atrações só abre com tempo bom.','O **Riesenrad**, a roda-gigante de 1897, opera das 10h às 21h45. No Riesenradplatz funciona o **Wintermarkt**, aos domingos e feriados das 11h às 22h — 25/12 é feriado.','Quem estiver cansado faz o trecho até a Taborstraße 41 a pé, sem esperar o resto do grupo.']),
+      B('noite','Jantar em casa',['As barracas do Wintermarkt resolvem o jantar de quem quiser comer ali mesmo; o resto come no apartamento, a poucos minutos.','A volta sai da estação **Schönbrunn** (U4), na Schönbrunner Schloßstraße, ao lado do pátio de honra — não da Hietzing, que serviu o portão do zoo de manhã.','Pela **Praterstern**: U4 direção Heiligenstadt até Schwedenplatz (9 paradas), depois U1 direção Leopoldau até Praterstern (2 paradas).','Pela **Taborstraße**: U4 direção Heiligenstadt até Schottenring (10 paradas), depois U2 direção Seestadt até Taborstraße (1 parada).','Um bilhete de €3,00 cobre o percurso inteiro: a baldeação não conta como segunda viagem. Da estação até a Taborstraße 41 são poucos minutos a pé, planos.','Jantar no apartamento, com o que veio do mercado do dia 24. Os restaurantes de Viena hoje ou estão fechados ou cobram menu de Natal.','Amanhã o despertador é às 6h para Salzburgo.']),
     ] },
-  { id:'2026-12-26', label:'26/12', wd:'sábado', city:'viena', title:'Salzburgo, bate-volta', sidetrip:'salzburgo',
-    sun:['07:53','16:20'], travel:{ from:'Viena', to:'Salzburgo', mode:'trem (ida e volta)' },
-    blocks:[
-      B('06h00','Café em casa',['Café no apartamento antes de sair: o trem parte às 7h30 e hoje é o dia com o maior tempo fora de casa.','Da Praterstern à Wien Hbf: U1 direção Oberlaa, seis paradas, até Südtiroler Platz-Hauptbahnhof, ~12 min. Saiam às 6h50 para estar na plataforma às 7h15.','A margem aqui é de 15 minutos, e não de 5: o bilhete vale **só no trem das 7h30**, não no seguinte, e não há reembolso. A janela de cancelamento é de minutos após a compra, e remarcar só antes do dia da viagem, com taxa.','**Confirmem o mercado de Salzburgo**: ele costuma encerrar em 26/12. Se já tiver fechado, o resto do programa não depende dele.']),
-      B('07h30','Wien Hbf → Salzburg Hbf',['**Como chegar**: Do apartamento à Wien Hbf: avulso da Wiener Linien, €3,00 no app. O trem para Salzburgo é ÖBB e foi comprado à parte — são duas compras diferentes.','Railjet, ~2h20 a 2h30. Chegada às 10h00.','Da estação ao centro histórico a pé: ~1,5 km, uns 20 min, tudo plano. Descendo a Rainerstraße, pelo Mirabellgarten e atravessando o Makartsteg.','**Salzburgo se faz inteira a pé.** Não há bilhete de transporte urbano a comprar hoje: a cidade velha é compacta e o único trecho mecânico do dia é o funicular da Fortaleza.']),
-      B('10h00','Entrada na cidade velha',['Makartsteg, a ponte dos cadeados. Depois Getreidegasse, Domplatz e o mercado de Natal.']),
-      B('almoço','Stiegl-Keller',['**Como chegar**: Festungsgasse 10, na subida da Fortaleza.','Salão com vista da cidade e preço abaixo do praticado na Getreidegasse.','Sábados e feriados abre das 11h às 22h — 26/12 é os dois.','**Reservem.** Oito pessoas, num 26 de dezembro, num restaurante com vista, não entram sem reserva.','Fica no caminho do funicular da Fortaleza, que é a parada seguinte: o almoço não custa deslocamento.','Alternativa: **Augustiner Bräu Mülln**, cervejaria de monges desde 1621, self-service, com comida nos balcões e mesas comunitárias. Não aceita nem exige reserva, o que resolve oito pessoas sem combinar nada, mas fica fora do centro histórico.']),
-      B('tarde','Fortaleza Hohensalzburg',['**Como chegar**: Subida pela FestungsBahn, o funicular: 198 m em 54 segundos, partindo a cada 10 min. Vista panorâmica sobre a cidade e os Alpes.','Horário de inverno da fortaleza: 9h30 às 17h.','Ingresso na bilheteria: €18,00 all-inclusive, com funicular, audioguia e todos os museus, ou €14,50 na versão básica com funicular. A pé, sem o funicular, €11,20.','**O Salzburg Card não compensa neste roteiro.** Custa €38,00 por adulto nas 24 horas, e o único gasto de hoje é o ingresso da fortaleza, €18,00. Como o dia é todo a pé, não há transporte para o passe cobrir: seriam €20 a mais por pessoa, €140 no grupo.','A logística do dia é um ingresso, comprado na bilheteria — sem passe, app ou validação.']),
-      B('17h00','Retorno para Viena e jantar em casa',['**Como chegar**: De volta à estação pelo mesmo caminho, a pé, ~20 min. Saiam com folga: o Railjet de volta também tem hora marcada.','Railjet **Salzburg Hbf → Wien Hbf**, ~2h30. Saindo às 17h00, a chegada é por volta das 19h30.','Na Wien Hbf a estação de metrô é a **Südtiroler Platz-Hauptbahnhof**: U1 direção Leopoldau até **Praterstern**, seis paradas, ~12 min. É o trecho da manhã no sentido inverso.','Da Praterstern até a Taborstraße 41 são poucos minutos a pé. Este trecho é Wiener Linien, avulso de €3,00 no app, à parte do bilhete da ÖBB.','Chegada em casa por volta das 20h. Jantar no apartamento: depois de um dia inteiro a pé e cinco horas de trem, não há reserva a cumprir.']),
-    ] },
-  { id:'2026-12-27', label:'27/12', wd:'domingo', city:'viena', title:'Viena, o dia mais importante',
+  { id:'2026-12-26', label:'26/12', wd:'sábado', city:'viena', title:'Viena inteira e hóquei no gelo',
     sun:['07:45','16:10'],
     blocks:[
-      B('manhã','Café em casa',['Último café da manhã no apartamento antes do dia cheio — amanhã são só malas e aeroporto.','Domingo o comércio fecha, mas museus e palácios abrem. É também um dos dias mais movimentados do ano em Viena.']),
-      B('manhã','Centro histórico completo',['**Como chegar**: da Praterstern, U1 direção Oberlaa, três paradas — Nestroyplatz, Schwedenplatz, Stephansplatz. ~5 min, com saída na porta da catedral.','Stephansplatz e Stephansdom, agora **por dentro** — no dia 25 a catedral só dava para ver por fora.','Depois, **Graben** e **Kohlmarkt**: as duas ruas saem da própria Stephansplatz e concentram a Coluna da Peste, as fachadas imperiais e a subida até o Hofburg.','Domingo o comércio está fechado, então o trecho é de caminhada e fachada, não de compras. Em contrapartida as ruas ficam vazias numa manhã de domingo.','A Kohlmarkt termina na entrada do Hofburg. Entrar ou não fica para o grupo decidir na hora: a tarde já está comprometida com o Kunsthistorisches.']),
-      B('almoço','Figlmüller Wollzeile — o schnitzel',['**Como chegar**: Wollzeile 5, a 3 min a pé do Stephansplatz. O schnitzel da casa tem 30 cm de diâmetro e transborda do prato.','Vocês já estarão no Stephansplatz: a Wollzeile começa ali. Não há metrô entre a manhã e o almoço.','Aberto todos os dias das 11h às 22h. **Reservem**: a casa aceita reserva de até 8 pessoas, exatamente o tamanho do grupo, e sem ela há fila na porta.','Reservem para as 12h30 ou 13h: a manhã no centro fica inteira e sobra tarde para o museu.','**Saindo daqui para o museu, a estação é a Stephansplatz** — a mesma de onde vocês vieram. Voltem os 3 min a pé pela Wollzeile: é ali que a U3 passa.']),
-      B('14h00','Kunsthistorisches Museum',['**Como chegar**, saindo do almoço: do Stephansplatz, U3 direção Ottakring, duas paradas até Volkstheater, e ~5 min a pé até o museu.','A coleção dos Habsburgo: a maior reunião de Bruegel do mundo, além de Vermeer, Rafael e Ticiano. O prédio é de 1891.','**Comprem os ingressos antes, pela internet.** Domingo à tarde é o horário de maior movimento, e oito pessoas na bilheteria formam fila.','Fecha às segundas; domingo abre até as 18h. Entrando por volta das 14h sobram quatro horas — confirmem o horário de 27/12 no site.','Reservem ~2h e combinem ponto e hora de reencontro lá dentro: o museu é grande e, com oito pessoas, o grupo se separa.','Hoje é o dia de mais deslocamento em Viena: ~3 viagens, €3,00 cada no app, contra €10,20 do bilhete de 24h.']),
-      B('16h30','Prater',['**Como chegar**, saindo do museu: do Volkstheater, U3 direção Simmering até Stephansplatz, e ali a U1 direção Leopoldau até **Praterstern**. É baldeação, então vale um bilhete só.','Aberto ao público desde 1766, quando José II liberou ao povo o terreno de caça imperial — é um dos parques públicos mais antigos do mundo. O parque de diversões dentro dele, o Wurstelprater, é de 1895.','A área é aberta 365 dias por ano e não tem catraca: entrar não custa nada, paga-se por brinquedo. De 1º de novembro a 14 de março é temporada de inverno, e parte das atrações só abre com tempo bom.','O **Riesenrad**, a roda-gigante de 1897, opera das 10h às 21h45. No Riesenradplatz funciona o **Wintermarkt**, aos domingos e feriados das 11h às 22h — 27/12 é domingo.','O sol se põe às 16h10: vocês chegam com tudo já iluminado.',
-      '**O jantar de hoje é aqui**, nas barracas do Wintermarkt — não há restaurante reservado para a última noite. Comam antes de sair do Prater.']),
-      B('noite','Volta ao apartamento e malas',['**Como chegar**, saindo do Wintermarkt: do Praterstern até a Taborstraße 41 são poucos minutos a pé, planos e iluminados. Não há metrô a pegar nem bilhete a comprar.','**Malas prontas hoje.** Amanhã é dia de mudança de país: voo para Zagreb, com transfer nos dois lados e franquia de bagagem a conferir.','Deixem separado o que vai na bagagem de mão e confiram os passaportes antes de dormir.']),
+      B('manhã','Café em casa',['Café no apartamento sem pressa: o primeiro compromisso com hora é o almoço.','**26/12 é Stefanitag**, feriado nacional na Áustria. O comércio fecha, e museus, palácios e restaurantes abrem.','É o último dia sem despertador: amanhã vocês saem de casa às 6h50 para Salzburgo.']),
+      B('manhã','Centro histórico completo',['**Como chegar**: da Praterstern, U1 direção Oberlaa, três paradas — Nestroyplatz, Schwedenplatz, Stephansplatz. ~5 min, com saída na porta da catedral.','Stephansplatz e Stephansdom, agora **por dentro** — no dia 25 a catedral só dava para ver por fora.','Depois, **Graben** e **Kohlmarkt**: as duas ruas saem da própria Stephansplatz e concentram a Coluna da Peste, as fachadas imperiais e a subida até o Hofburg.','O comércio está fechado no feriado, então o trecho é de caminhada e fachada, não de compras.','Sábado de Stefanitag enche o centro mais do que um domingo comum. Saiam cedo: às 10h a Graben já está cheia.','A Kohlmarkt termina na entrada do Hofburg. Entrar ou não fica para o grupo decidir na hora: a tarde tem museu e jogo, e os dois têm hora marcada.']),
+      B('almoço','Figlmüller Wollzeile — o schnitzel',['**Como chegar**: Wollzeile 5, a 3 min a pé do Stephansplatz. O schnitzel da casa tem 30 cm de diâmetro e transborda do prato.','Vocês já estarão no Stephansplatz: a Wollzeile começa ali. Não há metrô entre a manhã e o almoço.','Aberto todos os dias das 11h às 22h. **Reservem**: a casa aceita reserva de até 8 pessoas, exatamente o tamanho do grupo, e sem ela há fila na porta.','**Reservem para as 12h30.** Hoje a tarde tem museu e jogo com hora marcada, e 13h já come a margem.','**Saindo daqui para o museu, a estação é a Stephansplatz** — a mesma de onde vocês vieram. Voltem os 3 min a pé pela Wollzeile: é ali que a U3 passa.']),
+      B('14h00','Kunsthistorisches Museum',['**Como chegar**, saindo do almoço: do Stephansplatz, U3 direção Ottakring, duas paradas até Volkstheater, e ~5 min a pé até o museu.','A coleção dos Habsburgo: a maior reunião de Bruegel do mundo, além de Vermeer, Rafael e Ticiano. O prédio é de 1891.','**Comprem os ingressos antes, pela internet.** Tarde de feriado é horário de pico, e oito pessoas na bilheteria formam fila.','Fecha às segundas, então sábado está livre. **Confirmem o horário de 26/12 no site**: é feriado e a casa pode encerrar mais cedo.','**São 2h15 aqui, das 14h às 16h15, e quem fecha a visita é o jogo, não o museu.** Combinem ponto e hora de reencontro lá dentro: o museu é grande e, com oito pessoas, o grupo se separa.','Hoje são **4 viagens** de metrô: centro, museu, arena e volta. A €3,00 no app dá €12,00 — mais do que os €9,70 do bilhete de 24h, que só neste dia passa a compensar.']),
+      B('16h45','Hóquei no gelo — NEURO.IO ARENA',['**Como chegar**, saindo do museu: do Volkstheater, U3 direção Simmering até Stephansplatz, e ali a U1 direção Leopoldau até **Kagran**. É baldeação, então vale um bilhete só. ~25 min, mais 5 a pé da estação.','Attemsgasse 1, 1220 Wien. **VIC × FTC, com início às 17h30** — cheguem às 16h45, os 45 min de antecedência que o ingresso pede.','Saiam do Kunsthistorisches às 16h15. É o único horário rígido da tarde.','São três períodos de 20 minutos com dois intervalos: com as paradas, cerca de 2h15 de arena, terminando por volta das 19h45.','**O jantar é aqui**, nas barracas da arena. Não há restaurante reservado: 26/12 é feriado e casa aberta à noite é exceção.','A arena fica na mesma U1 do apartamento — é por isso que um jogo às 17h30 cabe num dia de museu.']),
+      B('noite','Volta ao apartamento',['**Como chegar**: da Kagran, U1 direção Oberlaa até **Praterstern**, e dali até a Taborstraße 41 são poucos minutos a pé. ~15 min no total.','**Adiantem hoje o que der das malas.** Amanhã vocês voltam de Salzburgo por volta das 19h30 e o despertador de segunda é às 6h.']),
+    ] },
+  { id:'2026-12-27', label:'27/12', wd:'domingo', city:'viena', title:'Salzburgo, bate-volta', sidetrip:'salzburgo',
+    sun:['07:53','16:20'], travel:{ from:'Viena', to:'Salzburgo', mode:'trem (ida e volta)' },
+    blocks:[
+      B('06h00','Café em casa',['Café no apartamento antes de sair: o trem parte às 7h30 e hoje é o dia com o maior tempo fora de casa.','Da Praterstern à Wien Hbf: U1 direção Oberlaa, seis paradas, até Südtiroler Platz-Hauptbahnhof, ~12 min. Saiam às 6h50 para estar na plataforma às 7h15.','A margem aqui é de 15 minutos, e não de 5: o bilhete vale **só no trem das 7h30**, não no seguinte, e não há reembolso. A janela de cancelamento é de minutos após a compra, e remarcar só antes do dia da viagem, com taxa.','**O mercado de Natal de Salzburgo encerra em 26/12**, então hoje ele não existe mais. O resto do programa não depende dele.']),
+      B('07h30','Wien Hbf → Salzburg Hbf',['**Como chegar**: Do apartamento à Wien Hbf: avulso da Wiener Linien, €3,00 no app. O trem para Salzburgo é ÖBB e foi comprado à parte — são duas compras diferentes.','Railjet, ~2h20 a 2h30. Chegada às 10h00. O Railjet roda de hora em hora também aos domingos.','Da estação ao centro histórico a pé: ~1,5 km, uns 20 min, tudo plano. Descendo a Rainerstraße, pelo Mirabellgarten e atravessando o Makartsteg.','**Salzburgo se faz inteira a pé.** Não há bilhete de transporte urbano a comprar hoje: a cidade velha é compacta e o único trecho mecânico do dia é o funicular da Fortaleza.']),
+      B('10h00','Entrada na cidade velha',['Makartsteg, a ponte dos cadeados. Depois Getreidegasse e Domplatz.','Com o mercado desmontado, a Domplatz e a Residenzplatz aparecem vazias — é a praça barroca sem as barracas por cima dela.']),
+      B('almoço','Stiegl-Keller',['**Como chegar**: Festungsgasse 10, na subida da Fortaleza.','Salão com vista da cidade e preço abaixo do praticado na Getreidegasse.','**A casa publica horário de sábados e feriados, e 27/12 não é nenhum dos dois.** Confirmem o horário de domingo antes de reservar.','**Reservem.** Oito pessoas, num domingo de fim de ano, num restaurante com vista, não entram sem reserva.','Fica no caminho do funicular da Fortaleza, que é a parada seguinte: o almoço não custa deslocamento.','Alternativa: **Augustiner Bräu Mülln**, cervejaria de monges desde 1621, self-service, com comida nos balcões e mesas comunitárias. Não aceita nem exige reserva, o que resolve oito pessoas sem combinar nada, mas abre mais tarde que o Stiegl-Keller e fica fora do centro histórico.']),
+      B('tarde','Fortaleza Hohensalzburg',['**Como chegar**: Subida pela FestungsBahn, o funicular: 198 m em 54 segundos, partindo a cada 10 min. Vista panorâmica sobre a cidade e os Alpes.','Horário de inverno da fortaleza: 9h30 às 17h, todos os dias.','Ingresso na bilheteria: €18,00 all-inclusive, com funicular, audioguia e todos os museus, ou €14,50 na versão básica com funicular. A pé, sem o funicular, €11,20.','**O Salzburg Card não compensa neste roteiro.** Custa €38,00 por adulto nas 24 horas, e o único gasto de hoje é o ingresso da fortaleza, €18,00. Como o dia é todo a pé, não há transporte para o passe cobrir: seriam €20 a mais por pessoa, €140 no grupo.','A logística do dia é um ingresso, comprado na bilheteria — sem passe, app ou validação.']),
+      B('17h00','Retorno para Viena e jantar em casa',['**Como chegar**: De volta à estação pelo mesmo caminho, a pé, ~20 min. Saiam com folga: o Railjet de volta também tem hora marcada.','Railjet **Salzburg Hbf → Wien Hbf**, ~2h30. Saindo às 17h00, a chegada é por volta das 19h30.','Na Wien Hbf a estação de metrô é a **Südtiroler Platz-Hauptbahnhof**: U1 direção Leopoldau até **Praterstern**, seis paradas, ~12 min. É o trecho da manhã no sentido inverso.','Da Praterstern até a Taborstraße 41 são poucos minutos a pé. Este trecho é Wiener Linien, avulso de €3,00 no app, à parte do bilhete da ÖBB.','Chegada em casa por volta das 20h. Jantar no apartamento: depois de um dia inteiro a pé e cinco horas de trem, não há reserva a cumprir.','**Esta é a última noite em Viena e as malas têm de ficar prontas hoje** — amanhã o despertador é às 6h e o voo para Zagreb é às 9h30. Deixem separado o que vai na bagagem de mão e confiram os passaportes antes de dormir.','Se quiserem a noite mais folgada, o Railjet das 16h00 chega por volta das 18h30 e custa uma hora de Salzburgo.']),
     ] },
   { id:'2026-12-28', label:'28/12', wd:'segunda', city:'zagreb', title:'Viena → Zagreb + primeira noite de Advent',
     sun:['07:32','16:15'], travel:{ from:'Viena', to:'Zagreb', mode:'voo' },
@@ -414,6 +414,7 @@ export const DECISOES = [
 
 export const CHECKLIST = [
   { k:'b0', titulo:'Já resolvido', sub:'Não mexer', tom:'#2f6b4f', items:[
+    { id:'c1', mapa:'Torre Eiffel, Paris', t:'Ingressos Torre Eiffel, 17/12 — comprados', n:'Entrada às 10h30, até o topo. Hora marcada: o ingresso não vale em outro horário.', url:'https://www.toureiffel.paris' },
     { id:'r1', mapa:'Disneyland Paris', t:'Ingressos Disneyland Paris, 15 e 16/12' },
     { id:'r2', mapa:'Lindt Home of Chocolate, Kilchberg', t:'Lindt Home of Chocolate, 21/12', n:'Slot confirmado às 16h30' },
     { id:'a1', t:'Aéreo internacional de ida — Brasil → Lisboa, chegada 11/12 às 05h15', n:'Bilhetes emitidos para os 8.' },
@@ -434,10 +435,9 @@ export const CHECKLIST = [
     { id:'p12', mapa:'Trg Antuna, Ivana i Vladimira Mažuranića 14, 10000 Zagreb', t:'Excursão a Plitvice pela GetYourGuide, 29/12', n:'Comprada, com o ingresso do parque incluído. Embarque às 7h50 no Trg Antuna, Ivana i Vladimira Mažuranića 14 — não no hotel. R$ 534,04 por adulto, à vista. O trajeto para em Rastoke na ida.' },
   ]},
   { k:'b1', titulo:'Comprar já', sub:'Estes esgotam ou encarecem sozinhos', tom:'#b4552f', items:[
-    { id:'c1', mapa:'Torre Eiffel, Paris', t:'Ingressos Torre Eiffel, 17/12, com hora marcada', n:'Venda abre 60 dias antes. Esgotam semanas antes.', url:'https://www.toureiffel.paris' },
     { id:'c2', mapa:'Paris Gare de Lyon', t:'TGV Lyria, Paris Gare de Lyon → Basel SBB, 18/12', n:'Reserva de assento obrigatória, não se viaja em pé.', url:'https://www.tgv-lyria.com' },
     { id:'c4', t:'Reserva de assento no Luzern-Interlaken Express, 18/12', n:'CRÍTICA e não estava na lista de vocês: garante os 8 sentados juntos, do lado direito, e no trem panorâmico. Reservem para a partida das 13h06 — a reserva vale só para o trem reservado. CHF 12 por pessoa no inverno. Reservem ANTES de comprar o bilhete Basel → Interlaken.', url:'https://shop.luzern.com/en/routing/zentralbahn-luzern-interlaken-express', urlN:'Reservar o assento' },
-    { id:'c5', mapa:'Wien Hauptbahnhof', t:'Passagens ÖBB Viena ⇄ Salzburgo, 26/12', n:'Tarifa Sparschiene, quantidade limitada por partida. Comprada na véspera, vocês pagam o preço cheio oito vezes. Vale escrever ao serviço de grupos (atende a partir de 6 pessoas).', url:'https://www.oebb.at' },
+    { id:'c5', mapa:'Wien Hauptbahnhof', t:'Passagens ÖBB Viena ⇄ Salzburgo, 27/12', n:'Tarifa Sparschiene, quantidade limitada por partida. Comprada na véspera, vocês pagam o preço cheio oito vezes. Vale escrever ao serviço de grupos (atende a partir de 6 pessoas).', url:'https://www.oebb.at' },
     { id:'c11', mapa:'Palácio de Schönbrunn, Viena', t:'Ingresso Palácio de Schönbrunn, 27/12, com hora marcada', n:'Domingo entre o Natal e o Ano Novo é dos dias mais cheios do ano em Viena.' },
   ]},
   { k:'b2', titulo:'Próximas semanas', sub:'Sem pressa, mas não deixem para depois', tom:'#a2761c', items:[
@@ -700,42 +700,47 @@ export const LUGARES = {
   '2026-12-25|Jardins franceses': { mapa:'Großes Parterre, Schloss Schönbrunn, Wien', mapaN:'Grande Parterre' },
   '2026-12-25|Fonte de Netuno': { mapa:'Neptunbrunnen, Schloss Schönbrunn, Wien', mapaN:'Fonte de Netuno' },
   '2026-12-25|Subida ao Gloriette': { mapa:'Gloriette, Schloss Schönbrunn, Wien', mapaN:'Gloriette' },
-  '2026-12-25|Jantar em casa': { mapa:'U-Bahn-Station Schönbrunn, Wien', mapaN:'Schönbrunn (U4)', extras:[
-    { n:'Apartamento', mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien' },
+  '2026-12-25|Prater, na porta de casa': { mapa:'Wiener Prater, Wien', mapaN:'Prater', extras:[
+    { n:'Schönbrunn (U4)', mapa:'U-Bahn-Station Schönbrunn, Wien' },
+    { n:'Riesenrad', mapa:'Wiener Riesenrad, Riesenradplatz, Wien' },
+    { n:'Wintermarkt', url:'https://www.wintermarkt.at/en/' },
   ] },
+  '2026-12-25|Jantar em casa': { mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien', mapaN:'Apartamento' },
   '2026-12-25|Almoço no mercado, no pátio de honra': { mapa:'Weihnachtsmarkt Schloss Schönbrunn, Wien', mapaN:'Mercado no pátio de honra', tel:'+43 1 811 13-0', url:'https://www.weihnachtsmarkt-schoenbrunn.at/en', urlN:'Site do mercado' },
   '2026-12-25|Zoo de Schönbrunn': { mapa:'Tiergarten Schönbrunn, Wien', mapaN:'Tiergarten', extras:[
     { n:'Site do zoo', url:'https://www.zoovienna.at/en/' },
   ], url:'https://www.zoovienna.at/en/zoo-and-visitors/tickets-online-en/', urlN:'Comprar ingresso' },
 
   '2026-12-26|Café em casa': { mapa:'Bahnhof Wien Praterstern', mapaN:'Praterstern (U1)', extras:[
-    { n:'Wien Hauptbahnhof', mapa:'Wien Hauptbahnhof' },
+    { n:'Stephansplatz (U1)', mapa:'U-Bahn-Station Stephansplatz, Wien' },
   ] },
-  '2026-12-26|Wien Hbf → Salzburg Hbf': { mapa:'Salzburg Hauptbahnhof' },
-  '2026-12-26|Entrada na cidade velha': { mapa:'Getreidegasse, Salzburgo' },
-  '2026-12-26|Stiegl-Keller': { mapa:'Stiegl-Keller, Festungsgasse 10, Salzburg', mapaN:'Stiegl-Keller',
-    tel:'+43 662 84 26 81', url:'https://www.restaurant-stieglkeller.at/en/', urlN:'Site e reserva', extras:[
-    { n:'Augustiner Bräu Mülln', mapa:'Augustiner Bräu Kloster Mülln, Salzburg' },
-  ] },
-  '2026-12-26|Fortaleza Hohensalzburg': { mapa:'Festung Hohensalzburg, Salzburgo' },
-
-  '2026-12-26|Retorno para Viena e jantar em casa': { mapa:'Salzburg Hauptbahnhof', mapaN:'Salzburg Hbf', extras:[
-    { n:'Wien Hbf', mapa:'Wien Hauptbahnhof' },
-    { n:'Apartamento', mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien' },
-  ] },
-
-  '2026-12-27|Kunsthistorisches Museum': { mapa:'Kunsthistorisches Museum Wien', mapaN:'Kunsthistorisches' },
-  '2026-12-27|Figlmüller Wollzeile — o schnitzel': { mapa:'Figlmüller Wollzeile 5, 1010 Wien', mapaN:'Figlmüller',
-    tel:'+43 1 512 61 77', url:'https://www.figlmueller.at/en/wollzeile/reservations/', urlN:'Reservar online' },
-  '2026-12-27|Centro histórico completo': { mapa:'Stephansdom, Wien', mapaN:'Stephansdom', extras:[
+  '2026-12-26|Centro histórico completo': { mapa:'Stephansdom, Wien', mapaN:'Stephansdom', extras:[
     { n:'Graben', mapa:'Graben, 1010 Wien' },
     { n:'Kohlmarkt', mapa:'Kohlmarkt, 1010 Wien' },
   ] },
-  '2026-12-27|Prater': { mapa:'Wiener Prater, Wien', mapaN:'Prater', extras:[
-    { n:'Riesenrad', mapa:'Wiener Riesenrad, Riesenradplatz, Wien' },
-    { n:'Wintermarkt', url:'https://www.wintermarkt.at/en/' },
+  '2026-12-26|Figlmüller Wollzeile — o schnitzel': { mapa:'Figlmüller Wollzeile 5, 1010 Wien', mapaN:'Figlmüller',
+    tel:'+43 1 512 61 77', url:'https://www.figlmueller.at/en/wollzeile/reservations/', urlN:'Reservar online' },
+  '2026-12-26|Kunsthistorisches Museum': { mapa:'Kunsthistorisches Museum Wien', mapaN:'Kunsthistorisches' },
+  '2026-12-26|Hóquei no gelo — NEURO.IO ARENA': { mapa:'NEURO.IO ARENA, Attemsgasse 1, 1220 Wien', mapaN:'NEURO.IO ARENA', extras:[
+    { n:'Kagran (U1)', mapa:'U-Bahn-Station Kagran, Wien' },
   ] },
-  '2026-12-27|Volta ao apartamento e malas': { mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien', mapaN:'Apartamento' },
+  '2026-12-26|Volta ao apartamento': { mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien', mapaN:'Apartamento' },
+
+  '2026-12-27|Café em casa': { mapa:'Bahnhof Wien Praterstern', mapaN:'Praterstern (U1)', extras:[
+    { n:'Wien Hauptbahnhof', mapa:'Wien Hauptbahnhof' },
+  ] },
+  '2026-12-27|Wien Hbf → Salzburg Hbf': { mapa:'Salzburg Hauptbahnhof' },
+  '2026-12-27|Entrada na cidade velha': { mapa:'Getreidegasse, Salzburgo' },
+  '2026-12-27|Stiegl-Keller': { mapa:'Stiegl-Keller, Festungsgasse 10, Salzburg', mapaN:'Stiegl-Keller',
+    tel:'+43 662 84 26 81', url:'https://www.restaurant-stieglkeller.at/en/', urlN:'Site e reserva', extras:[
+    { n:'Augustiner Bräu Mülln', mapa:'Augustiner Bräu Kloster Mülln, Salzburg' },
+  ] },
+  '2026-12-27|Fortaleza Hohensalzburg': { mapa:'Festung Hohensalzburg, Salzburgo' },
+
+  '2026-12-27|Retorno para Viena e jantar em casa': { mapa:'Salzburg Hauptbahnhof', mapaN:'Salzburg Hbf', extras:[
+    { n:'Wien Hbf', mapa:'Wien Hauptbahnhof' },
+    { n:'Apartamento', mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien' },
+  ] },
 
   '2026-12-28|Café em casa': { mapa:'Vienna Stay Apartments Tabor 1020, Taborstraße 41, Wien', mapaN:'Apartamento' },
   '2026-12-28|Transfer ao aeroporto de Viena': { mapa:'Aeroporto de Viena' },
@@ -835,17 +840,19 @@ export const PASSES = [
     ] },
 
   { k:'viena', city:'viena', titulo:'Áustria — avulso ou passe?', moeda:'€', melhor:'a',
-    custo:'≈ 21 € por adulto, em avulsos',
-    sub:'São ~7 viagens por pessoa em Viena entre 24 e 28/12: duas no dia de Schönbrunn, duas no de Salzburgo e três no dia 27. Nenhum passe alcança isso.',
+    custo:'≈ 21,70 € por adulto, misturando avulso e um 24h',
+    sub:'São ~8 viagens por pessoa em Viena entre 24 e 28/12: duas no dia de Schönbrunn, quatro no dia 26 e duas no de Salzburgo. Nenhum passe de 7 dias alcança isso.',
     colA:'avulso', colB:'com passe',
     linhas:[
-      { t:'A estadia inteira, 7 viagens por adulto', a:21, b:25.2,
-        nota:'7 Tage WIEN digital, 25,20 €. Só compensa a partir de 9 viagens, e o roteiro para em 7.' },
-      { t:'27/12, o dia mais pesado: 3 viagens', a:9, b:9.7,
-        nota:'24 Stunden WIEN digital, 9,70 €. Equivale a pouco mais de 3 avulsos, e a quarta viagem do dia não existe.' },
+      { t:'A estadia inteira, 8 viagens por adulto', a:24, b:25.2,
+        nota:'7 Tage WIEN digital, 25,20 €. Só compensa a partir de 9 viagens, e o roteiro para em 8.' },
+      { t:'25 e 27/12, os dias de ida e volta simples: 2 viagens', a:6, b:9.7,
+        nota:'24 Stunden WIEN digital, 9,70 €. Num dia de duas viagens ele custa mais que o dobro do avulso.' },
     ],
     veredito:[
-      '**Avulso ganha nos dois recortes.** O passe de 7 dias custaria 4,20 € a mais por adulto, quase 30 € no grupo.',
+      '**Avulso ganha a estadia inteira, mas por pouco**: 24,00 € contra 25,20 € do passe de 7 dias, 1,20 € por adulto.',
+      '**A exceção é 26/12**, o dia do Kunsthistorisches e do jogo de hóquei: são quatro viagens, 12,00 € em avulsos contra 9,70 € do bilhete de 24h. **Comprem o de 24h só nesse dia.**',
+      'Misturando os dois — 24h no dia 26 e avulsos nos outros quatro trechos — o adulto gasta 21,70 €, menos do que qualquer um dos caminhos puros.',
       'Desde 01/01/2026 os passes de 48 e 72 horas não existem mais, e o de 7 dias passou a ter início livre — não está mais preso à semana de segunda a segunda. Nem assim ele alcança.',
       '**A criança não paga nada em Viena**: menores de 15 viajam grátis nas férias escolares, e o recesso de Natal cobre 24 a 28/12.',
       'Comprem no app: o avulso sai a 3,00 € em vez de 3,20 €. **Uma passagem vale a viagem inteira num sentido**, com baldeação — U1 mais U4 até Schönbrunn é um bilhete só.',
@@ -862,8 +869,8 @@ export const TRANSPORTE = [
     notas:['O Half Fare não é passe: é cartão de desconto. Vocês continuam comprando bilhete para cada trecho.','**Não existe desconto no embarque.** O bilhete precisa ser comprado já pela metade do preço; mostrar o cartão ao fiscal não converte um bilhete cheio em meio, e não há reembolso depois.','**Tenham o cartão antes de comprar o primeiro bilhete suíço.** Há fontes dizendo que dá para comprar o bilhete com desconto antes de ter o cartão, desde que ele esteja válido no dia da viagem — mas como todos os bilhetes suíços do roteiro são comprados na véspera de cada trecho, comprar o cartão antes resolve a dúvida sem custar nada.','A reserva de assento do Luzern-Interlaken Express não depende disso: é taxa fixa, não tem meia.','**A criança não compra Half Fare Card.** Ela ganha o Swiss Family Card, gratuito, emitido no nome dela quando é incluída na compra do cartão de um dos pais — é um cartão por criança, não um adendo ao do adulto.','**O Family Card só vale acompanhada de um dos pais**, com bilhete válido. Indo com avó, tio ou qualquer outro adulto do grupo, ele não vale e é preciso bilhete de criança pela metade.','**Malas não pagam nada.** A SBB não cobra bagagem nem impõe peso ou tamanho: vale o que cada um carrega sozinho e cabe no bagageiro. Existe despacho porta a porta ou estação a estação, a CHF 12 por volume, mas o roteiro não precisa dele.','A Guest Card não é comprada: o hotel entrega no check-in, uma por pessoa, e ela já está paga na taxa de turismo da diária. Dá transporte público local grátis na região de Interlaken enquanto vocês estiverem hospedados — mas não vale para o trem de Grindelwald nem para teleféricos.','Mostrem ao fiscal três coisas: cartão, bilhete do trecho e passaporte ORIGINAL.'] },
   { city:'zurique', comprar:'Zona 110 — avulso ou passe diário', custo:'CHF 150 + trechos', app:'SBB Mobile / ZVV',
     notas:['O mesmo bilhete serve para trem, ônibus e tram dentro das zonas compradas.','20/12 avulso · 21/12 passe diário com zonas até Kilchberg · 22/12 avulso · 23/12 passe diário.','Passe diário custa duas passagens avulsas: da terceira viagem em diante compensa. Vale 24h a partir da compra.','Não há venda dentro do tram, e não há validação nem catraca — o bilhete já sai com data e hora.'] },
-  { city:'viena', comprar:'Bilhetes avulsos no app', custo:'≈ 21 € / adulto', app:'WienMobil + ÖBB',
-    notas:['Avulso €3,20, ou €3,00 no app — ~5% mais barato. São ~7 viagens por pessoa: €21,00 por adulto, €147,00 no grupo.','O passe de 7 dias digital (€25,20) só compensa a partir de 9 viagens, e o roteiro não chega lá. Os passes de 48 e 72 horas foram extintos em 01/01/2026.','UMA passagem vale a viagem inteira num sentido, com baldeação: U1 + U4 até Schönbrunn é um bilhete só.','A criança provavelmente não paga: menores de 15 viajam grátis aos domingos, feriados e férias escolares.','Salzburgo é ÖBB, comprado à parte.'] },
+  { city:'viena', comprar:'Avulsos no app, e um 24h no dia 26', custo:'≈ 21,70 € / adulto', app:'WienMobil + ÖBB',
+    notas:['Avulso €3,20, ou €3,00 no app — ~5% mais barato. São ~8 viagens por pessoa entre 24 e 28/12.','**No dia 26 comprem o bilhete de 24h**, €9,70 no app: com o jogo de hóquei no fim da tarde são quatro viagens, e aí o avulso fica mais caro. Nos outros dias, avulso.','O passe de 7 dias digital (€25,20) só compensa a partir de 9 viagens, e o roteiro não chega lá. Os passes de 48 e 72 horas foram extintos em 01/01/2026.','UMA passagem vale a viagem inteira num sentido, com baldeação: U1 + U4 até Schönbrunn é um bilhete só.','A criança provavelmente não paga: menores de 15 viajam grátis aos domingos, feriados e férias escolares.','Salzburgo é ÖBB, comprado à parte.'] },
   { city:'zagreb', comprar:'Bilhetes avulsos de 30 ou 60 minutos', custo:'5 a 10 €', app:'quiosques Tisak',
     notas:['30 min ≈ 0,55 € · 60 min ≈ 0,95 € · 90 min ≈ 1,35 € · diário ≈ 4,00 €.','Quase toda Zagreb se atravessa em 30 minutos: o bilhete mais barato costuma bastar.','O roteiro é quase todo a pé — o transporte vira exceção. O diário só compensa no dia de Mirogoj.','Comprem vários avulsos de uma vez num quiosque e distribuam. Validem no tram.'] },
   { city:'paris2', comprar:'Avulsos ou Navigo Easy', custo:'≈ 10 €', app:'Île-de-France Mobilités',
