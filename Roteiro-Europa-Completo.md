@@ -145,7 +145,7 @@ BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
 19. TRANSFER CDG -> Hotel du Cadran, 31/12
     Não estava na lista de vocês. É dia de Réveillon; não contem com táxi na
     hora.
-20. TRANSFER Hotel du Cadran -> AEROPORTO DE ORLY, 02/01, saída às 16h00
+20. TRANSFER Hotel du Cadran -> AEROPORTO DE ORLY, 02/01, saída às 15h10
     Não estava na lista de vocês. Voo às 20h35 em ORLY.
     ATENÇÃO: vocês CHEGAM no Charles de Gaulle em 31/12 e PARTEM de Orly em
     02/01. São aeroportos diferentes; confiram na hora de contratar os dois.
@@ -3438,15 +3438,16 @@ Alternativa, se o grupo quiser mais um ponto no dia
 ---------------------------------------------------------------
 
 VOO CONFIRMADO: 02/01 às 20h35 do AEROPORTO DE ORLY (ORY), chegada em GRU em
-03/01 às 06h50. Check-out do hotel às 12h00 (antecipado para 11h45 no plano do dia).
+03/01 às 06h50. Check-out do hotel às 12h00 (antecipado para 10h30 no plano do dia).
 
 ESTE DIA TEM UM PROGRAMA SÓ, E COM HORA DE VOLTAR
 Não há museu nem ingresso. O dia é café da manhã no hotel, o almoço nas
 GALERIES LAFAYETTE e a saída para Orly.
 A RUE CLER SAIU DO ÚLTIMO DIA. As compras de despedida — queijo, chocolate,
 vinho — passaram para o andar Gourmet das Galeries, no mesmo almoço.
-O QUE MANDA NO DIA É A VOLTA, NÃO A IDA: o transfer sai às 16h00 e a margem
-inteira está entre o fim do almoço e esse horário. Museu não entra; a loja
+O QUE MANDA NO DIA É A VOLTA, NÃO A IDA: o transfer sai às 15h10 para vocês
+estarem em Orly às 16h00, e a margem inteira está entre o fim do almoço e esse
+horário. Museu não entra; a loja
 entra porque é almoço e fica a uma linha de metrô direta.
 
 ATENÇÃO — SÃO DOIS AEROPORTOS DIFERENTES NESTA PERNA
@@ -3455,11 +3456,11 @@ Ao contratar os dois transfers, confiram o aeroporto de cada um. É o erro mais
 fácil de cometer, e sai caro no dia.
 
 O RELÓGIO DO DIA
-- 16h00 — Saída do hotel, cedo e sem pressa. Do 7º arrondissement até Orly são
-  cerca de 30 a 40 minutos de carro; reservem 50, porque é sábado à tarde.
-- 16h50 — Chegada ao aeroporto. Sobram quase quatro horas até o voo, com
-  oito pessoas e oito malas para despachar num balcão só. É a folga que vocês
-  escolheram ter.
+- 15h10 — Saída do hotel, cedo e sem pressa. Do 7º arrondissement até Orly são
+  cerca de 30 a 40 minutos de carro; RESERVEM 50, porque é sábado à tarde — são
+  esses 50 minutos que colocam vocês no aeroporto às 16h00.
+- 16h00 — Chegada ao aeroporto. Sobram 4h35 até o voo, com oito pessoas e oito
+  malas para despachar num balcão só. É a folga que vocês escolheram ter.
 
 COMO IR ATÉ ORLY
 - RECOMENDADO: transfer privado, dois carros grandes, reservado com
@@ -3478,27 +3479,30 @@ COMO IR ATÉ ORLY
 
 O DIA, HORA A HORA
 
-09h00 — Café da manhã no hotel
-- Último café da viagem, servido no hotel. Nada marcado antes do check-out.
-- CONFIRMEM NA RECEPÇÃO, NA VÉSPERA, até que horas o café é servido. Se
-  encerrar às 10h, ninguém pode dormir até tarde: a próxima refeição é só ao
-  meio-dia e meia.
+08h00 — Café da manhã no hotel
+- Último café da viagem, servido no hotel. Até o check-out não há nada
+  marcado: as duas horas e meia seguintes são para fechar mala sem pressa.
+- CONFIRMEM NA RECEPÇÃO, NA VÉSPERA, a que horas o café COMEÇA a ser servido.
+  Em hotel pequeno 8h costuma ser o primeiro horário, e hoje o grupo todo
+  depende dele.
+- São 4h30 entre este café e o almoço nas Galeries. Saiam da mesa com alguma
+  coisa no bolso: a criança não atravessa isso em jejum.
 
-11h00 — Check-out e malas na recepção
+10h30 — Check-out e malas na recepção
 - Redistribuir peso entre as malas e conferir passaportes e cartões de
   embarque de todo mundo.
 - As malas ficam na recepção: ninguém carrega nada para o almoço.
 - Quarenta minutos para isso com oito pessoas não é exagero: a saída para o
-  metrô é às 11h40.
+  metrô é às 11h10.
 
-12h00 às 14h30 — GALERIES LAFAYETTE: CÚPULA, TERRAÇO E ALMOÇO
+11h30 às 13h45 — GALERIES LAFAYETTE: CÚPULA, TERRAÇO E ALMOÇO
 - 40 Boulevard Haussmann, 75009
-- COMO CHEGAR: saída do hotel às 11h40. A pé até École Militaire e LINHA 8,
+- COMO CHEGAR: saída do hotel às 11h10. A pé até École Militaire e LINHA 8,
   direção Créteil-Pointe du Lac, até OPÉRA — 6 estações, ~13 min, SEM
   BALDEAÇÃO. Da Opéra, 5 min a pé pela Rue Halévy
 - Sábado abre das 10h às 20h30; o GOURMET, que é o andar de comida, das 9h30
   às 21h30
-- ALMOÇO POR VOLTA DAS 12h45, no Gourmet, em balcões: cada um escolhe o que
+- ALMOÇO POR VOLTA DAS 12h30, no Gourmet, em balcões: cada um escolhe o que
   quer e NÃO HÁ MESA PARA OITO A RESERVAR. Era o problema do último dia, e
   some aqui
 - AS ÚLTIMAS COMPRAS DE QUEIJO, CHOCOLATE E VINHO SÃO AQUI, no mesmo andar, e
@@ -3510,16 +3514,16 @@ O DIA, HORA A HORA
 - Duas coisas gratuitas a ver antes de comer: a CÚPULA DE VITRAL de 1912 sobre
   o salão central e o TERRAÇO, com vista aberta da Ópera e dos telhados. A
   árvore e as vitrines de Natal costumam ficar até a primeira semana de janeiro
-- SAIR ÀS 14h30. É a única refeição da viagem com hora para acabar
+- SAIR ÀS 13h45. É a única refeição da viagem com hora para acabar
 - NÃO SERVE PARA O DIA 1º: as Galeries Lafayette fecham em 1º de janeiro
 
-14h30 — Volta ao hotel pelas malas
-- Linha 8, direção Balard, o caminho da ida ao contrário. Chegada ~15h00
-- Sobra uma hora no hotel antes do transfer. É a folga que paga um atraso de
-  metrô sem virar problema
+13h45 — Volta ao hotel pelas malas
+- Linha 8, direção Balard, o caminho da ida ao contrário. Chegada ~14h15
+- Sobram quase 55 min no hotel antes do transfer. É a folga que paga um atraso
+  de metrô sem virar problema
 
-16h00 — Saída para Orly
+15h10 — Saída para Orly
 
-16h50 — Aeroporto
+16h00 — Aeroporto
 
 20h35 — Voo

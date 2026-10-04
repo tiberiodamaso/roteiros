@@ -180,7 +180,7 @@ const DAYS = (() => {
       });
     }
     if (d.id === '2027-01-02') {
-      return Object.assign({}, d, { nota: 'Um programa só: café da manhã no hotel, almoço nas Galeries Lafayette e saída para Orly às 16h00. Nada de museu nem ingresso — quem manda no dia é o transfer, não a ida.' });
+      return Object.assign({}, d, { nota: 'Um programa só: café da manhã no hotel, almoço nas Galeries Lafayette e transfer às 15h10 para estar em Orly às 16h00. Nada de museu nem ingresso — quem manda no dia é o transfer, não a ida.' });
     }
     return d;
   });
@@ -205,7 +205,7 @@ const PENDENCIAS = {
   '2026-12-27': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene · mesa no Stiegl-Keller, conferindo o horário de domingo'],
   '2026-12-28': ['Transfers dos dois lados · confirmar a franquia de bagagem despachada — o voo VIE → ZAG já está comprado'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
-  '2027-01-02': ['Transfer hotel → ORLY às 16h00 · nada a comprar: o almoço nas Galeries Lafayette é em balcão, sem reserva'],
+  '2027-01-02': ['Transfer hotel → ORLY às 15h10, para chegar às 16h00 · nada a comprar: o almoço nas Galeries Lafayette é em balcão, sem reserva'],
 };
 
 /* Contato de uma parada da timeline. Quando a parada é uma refeição
@@ -873,7 +873,7 @@ function viewChecklist() {
       <div style="font-family:var(--display);font-size:26px">Decidido</div>
       <ul style="margin:10px 0 0;padding-left:18px;font-size:17.5px;color:var(--body)">
         <li style="margin-bottom:4px">Plitvice em <strong>${PLITVICE === '29' ? '29/12' : '30/12'}</strong>. O dia 30 segue como reserva de clima, mas o roteiro e as compras já contam com o 29.</li>
-        <li>02/01 <strong>com um programa só</strong>: café da manhã no hotel, almoço nas Galeries Lafayette e Orly às 16h00. Não há ingresso a comprar para o último dia.</li>
+        <li>02/01 <strong>com um programa só</strong>: café da manhã no hotel, almoço nas Galeries Lafayette e transfer às 15h10 para Orly. Não há ingresso a comprar para o último dia.</li>
       </ul>
     </div>
   </section>`;
