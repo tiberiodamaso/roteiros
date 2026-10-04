@@ -252,6 +252,8 @@ const MODO_FIXO = {
   '2026-12-15|Marne-la-Vallée-Chessy': 'trem',
   '2026-12-15|RER A → Châtelet → Linha 4': 'trem',
   '2026-12-17|Hotel → Trocadéro': 'metrô',
+  '2026-12-17|Café da manhã — Carette': { modo:'a pé', ate:'a Place du Trocadéro' },
+  '2026-12-17|Trocadéro e Torre Eiffel': { modo:'a pé', ate:'a esplanada do Trocadéro' },
   // O trecho até aqui é a caminhada pela margem; o metrô só começa dentro
   // desta parada.
   '2026-12-17|Alma-Marceau → Franklin D. Roosevelt': 'a pé',
@@ -319,6 +321,7 @@ const MODO_FIXO = {
   // estação e o pé do Arco é a pé, por baixo da praça.
   '2027-01-01|Arco do Triunfo, acesso subterrâneo': { modo:'a pé', ate:'o pé do Arco, pela passagem subterrânea' },
   '2027-01-01|Étoile → Concorde': { modo:'metrô', ate:'a Place de la Concorde' },
+  '2027-01-01|Ladurée, na Rue Royale': { modo:'a pé', ate:'o nº 16 da Rue Royale' },
   '2027-01-01|Volta ao hotel': 'metrô',
   '2027-01-02|Saída para Orly': 'transfer',
 };

@@ -1225,8 +1225,11 @@ Ex-Walt Disney Studios Park, renomeado em março de 2026.
 
 TRECHO 1 — Hotel -> Trocadéro
 
-08h00 — A pé até a estação de metrô Porte de Saint-Ouen, na linha 13
+07h15 — A pé até a estação de metrô Porte de Saint-Ouen, na linha 13
   10 a 12 min, plano
+  SAÍDA 45 MIN MAIS CEDO do que as fotos pedem: o café da manhã de hoje é na
+  própria Place du Trocadéro, e não no hotel. Quem contar com o café do hotel
+  vai ficar sem.
 
 Linha 13, direção Châtillon-Montrouge
 - Porte de Saint-Ouen -> Guy Môquet -> La Fourche -> Place de Clichy -> Liège
@@ -1238,6 +1241,15 @@ Baldeação em Miromesnil, 4 a 5 min
 Linha 9, direção Pont de Sèvres
 - Miromesnil -> Franklin D. Roosevelt -> Alma-Marceau -> Iéna -> TROCADÉRO
 - Cerca de 8 min. Saída: placas "Place du Trocadéro".
+
+08h00 às 08h40 — Café da manhã: CARETTE
+- 4 Place du Trocadéro, 75016, a poucos passos da saída do metrô — antes da
+  esplanada, não depois
+- Abre às 7h de segunda a sexta, e 17/12 é quinta. Às 8h não há fila e oito
+  pessoas entram sem reserva
+- Salão de chá clássico do 16º, conhecido pelos macarons e pelo chocolate quente
+- SAIR DA MESA ÀS 08h40: o sol nasce nesse minuto e a primeira hora de luz é a
+  que vale na esplanada
 
 08h45 às 12h30 — Trocadéro e Torre Eiffel
 - INGRESSO COMPRADO. Entrada às 10h30, ATÉ O TOPO. Hora marcada: não vale em
@@ -3305,14 +3317,26 @@ Manhã — sem pressa
 - Saída: placas "Jardin des Tuileries" ou "Place de la Concorde"
 - A pé, descendo a própria avenida, são 1,9 km e 25 a 30 minutos
 
-11h45 às 12h10 — Place de la Concorde
+11h45 às 12h05 — Place de la Concorde
 - O Obelisco de Luxor no centro da praça
 - Olhando para oeste, a subida dos Champs-Élysées com o Arco do Triunfo ao
   fundo, de onde vocês acabaram de vir: agora é o outro extremo do eixo.
 - Não atravessem a praça pelo meio sem usar as faixas: é uma das rotatórias
   mais movimentadas de Paris
 
-12h10 às 14h30 — JARDIN DES TUILERIES, entrando pelo portão oeste
+12h05 às 12h35 — LADURÉE, Rue Royale
+- 16 Rue Royale, 75008. Da Concorde, subam a Rue Royale em direção à Madeleine:
+  350 m, uns 5 min, o nº 16 antes da igreja
+- É o endereço de 1862, onde a casa nasceu. O macaron de duas conchas unidas
+  por recheio é atribuído a Pierre Desfontaines, primo do fundador, por volta
+  de 1930
+- ABRE EM 1º DE JANEIRO, das 8h30 às 19h30 — uma das poucas casas do centro que
+  não fecha no feriado. Confirmem na véspera mesmo assim
+- Salão de chá e balcão de venda. Com oito pessoas e as Tuileries em seguida, o
+  balcão resolve em 15 min; sentar custa uma hora
+- A volta é pela mesma rua, até o portão oeste das Tuileries
+
+12h35 às 14h30 — JARDIN DES TUILERIES, entrando pelo portão oeste
 - Vocês entram pelo lado da Concorde e vão caminhando para o leste, na direção
   do Louvre. É o sentido certo: o jardim vai ficando mais fechado e mais
   monumental conforme se aproxima do palácio.
