@@ -180,7 +180,7 @@ const DAYS = (() => {
       });
     }
     if (d.id === '2027-01-02') {
-      return Object.assign({}, d, { nota: 'Um programa só: a feira da Rue Cler até as 11h30, almoço nas Galeries Lafayette e saída para Orly às 16h00. Nada de museu nem ingresso — quem manda no dia é o transfer, não a ida.' });
+      return Object.assign({}, d, { nota: 'Um programa só: café da manhã no hotel, almoço nas Galeries Lafayette e saída para Orly às 16h00. Nada de museu nem ingresso — quem manda no dia é o transfer, não a ida.' });
     }
     return d;
   });
@@ -243,6 +243,7 @@ const MODO_FIXO = {
   // Parada sem deslocamento: o "a pé" padrão sugeriria uma caminhada que não
   // existe.
   '2026-12-15|Café da manhã no hotel': 'no hotel',
+  '2027-01-02|Café da manhã no hotel': 'no hotel',
   '2026-12-14|Porte de Clignancourt → Anvers': 'metrô',
   '2026-12-14|Subida até a Basílica': 'funicular',
   '2026-12-14|Uber ou Bolt até o hotel': 'transfer',
@@ -872,7 +873,7 @@ function viewChecklist() {
       <div style="font-family:var(--display);font-size:26px">Decidido</div>
       <ul style="margin:10px 0 0;padding-left:18px;font-size:17.5px;color:var(--body)">
         <li style="margin-bottom:4px">Plitvice em <strong>${PLITVICE === '29' ? '29/12' : '30/12'}</strong>. O dia 30 segue como reserva de clima, mas o roteiro e as compras já contam com o 29.</li>
-        <li>02/01 <strong>sem programação</strong>: café da manhã, a feira da Rue Cler, almoço e Orly cedo. Não há ingresso a comprar para o último dia.</li>
+        <li>02/01 <strong>com um programa só</strong>: café da manhã no hotel, almoço nas Galeries Lafayette e Orly às 16h00. Não há ingresso a comprar para o último dia.</li>
       </ul>
     </div>
   </section>`;

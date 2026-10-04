@@ -3441,8 +3441,10 @@ VOO CONFIRMADO: 02/01 às 20h35 do AEROPORTO DE ORLY (ORY), chegada em GRU em
 03/01 às 06h50. Check-out do hotel às 12h00 (antecipado para 11h45 no plano do dia).
 
 ESTE DIA TEM UM PROGRAMA SÓ, E COM HORA DE VOLTAR
-Não há museu nem ingresso. O dia é a feira da Rue Cler na porta do hotel até
-as 11h30, o almoço nas GALERIES LAFAYETTE e a saída para Orly.
+Não há museu nem ingresso. O dia é café da manhã no hotel, o almoço nas
+GALERIES LAFAYETTE e a saída para Orly.
+A RUE CLER SAIU DO ÚLTIMO DIA. As compras de despedida — queijo, chocolate,
+vinho — passaram para o andar Gourmet das Galeries, no mesmo almoço.
 O QUE MANDA NO DIA É A VOLTA, NÃO A IDA: o transfer sai às 16h00 e a margem
 inteira está entre o fim do almoço e esse horário. Museu não entra; a loja
 entra porque é almoço e fica a uma linha de metrô direta.
@@ -3476,32 +3478,35 @@ COMO IR ATÉ ORLY
 
 O DIA, HORA A HORA
 
-09h00 — Café da manhã e a Rue Cler em dia de feira
-- Sábado é o dia forte da rua. Padarias, queijarias, peixaria, floricultura,
-  tudo funcionando. É o retrato mais parisiense do bairro e fica na porta.
-- ATÉ AS 11h30, para o check-out caber. Últimas compras de queijo, chocolate e
-  vinho para levar. Comprem agora, não no aeroporto.
+09h00 — Café da manhã no hotel
+- Último café da viagem, servido no hotel. Nada marcado antes do check-out.
+- CONFIRMEM NA RECEPÇÃO, NA VÉSPERA, até que horas o café é servido. Se
+  encerrar às 10h, ninguém pode dormir até tarde: a próxima refeição é só ao
+  meio-dia e meia.
 
-- CUIDADO COM O QUE NÃO EMBARCA: queijo fresco, presunto cru e mel entram na
-  restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a
-  vácuo, chocolate e vinho despachado passam sem problema.
-
-11h45 — Check-out e malas na recepção
-- Redistribuir peso entre as malas, guardar as compras da manhã e conferir
-  passaportes e cartões de embarque de todo mundo.
+11h00 — Check-out e malas na recepção
+- Redistribuir peso entre as malas e conferir passaportes e cartões de
+  embarque de todo mundo.
 - As malas ficam na recepção: ninguém carrega nada para o almoço.
-- Quarenta e cinco minutos parecem muito para isso. Com oito pessoas e as
-  compras da feira na mão, não são.
+- Quarenta minutos para isso com oito pessoas não é exagero: a saída para o
+  metrô é às 11h40.
 
-12h30 às 14h30 — ALMOÇO NAS GALERIES LAFAYETTE
+12h00 às 14h30 — GALERIES LAFAYETTE: CÚPULA, TERRAÇO E ALMOÇO
 - 40 Boulevard Haussmann, 75009
-- COMO CHEGAR: a pé até École Militaire e LINHA 8, direção Créteil-Pointe du
-  Lac, até OPÉRA — 6 estações, ~13 min, SEM BALDEAÇÃO. Da Opéra, 5 min a pé
-  pela Rue Halévy
+- COMO CHEGAR: saída do hotel às 11h40. A pé até École Militaire e LINHA 8,
+  direção Créteil-Pointe du Lac, até OPÉRA — 6 estações, ~13 min, SEM
+  BALDEAÇÃO. Da Opéra, 5 min a pé pela Rue Halévy
 - Sábado abre das 10h às 20h30; o GOURMET, que é o andar de comida, das 9h30
   às 21h30
-- O almoço é no Gourmet, em balcões: cada um escolhe o que quer e NÃO HÁ MESA
-  PARA OITO A RESERVAR. Era o problema do último dia, e some aqui
+- ALMOÇO POR VOLTA DAS 12h45, no Gourmet, em balcões: cada um escolhe o que
+  quer e NÃO HÁ MESA PARA OITO A RESERVAR. Era o problema do último dia, e
+  some aqui
+- AS ÚLTIMAS COMPRAS DE QUEIJO, CHOCOLATE E VINHO SÃO AQUI, no mesmo andar, e
+  não no aeroporto. O Gourmet cobra mais que uma feira de rua: considerem isso
+  no volume
+- CUIDADO COM O QUE NÃO EMBARCA: queijo fresco, presunto cru e mel entram na
+  restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a
+  vácuo, chocolate e vinho despachado passam sem problema
 - Duas coisas gratuitas a ver antes de comer: a CÚPULA DE VITRAL de 1912 sobre
   o salão central e o TERRAÇO, com vista aberta da Ópera e dos telhados. A
   árvore e as vitrines de Natal costumam ficar até a primeira semana de janeiro
