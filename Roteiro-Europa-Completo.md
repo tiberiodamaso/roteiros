@@ -145,7 +145,7 @@ BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
 19. TRANSFER CDG -> Hotel du Cadran, 31/12
     Não estava na lista de vocês. É dia de Réveillon; não contem com táxi na
     hora.
-20. TRANSFER Hotel du Cadran -> AEROPORTO DE ORLY, 02/01, saída às 15h30
+20. TRANSFER Hotel du Cadran -> AEROPORTO DE ORLY, 02/01, saída às 16h00
     Não estava na lista de vocês. Voo às 20h35 em ORLY.
     ATENÇÃO: vocês CHEGAM no Charles de Gaulle em 31/12 e PARTEM de Orly em
     02/01. São aeroportos diferentes; confiram na hora de contratar os dois.
@@ -3368,44 +3368,63 @@ Manhã — sem pressa
   É a melhor luz possível para a foto, e vocês já estarão posicionados.
 - O CARROUSEL DU LOUVRE NÃO ABRE EM 1º DE JANEIRO. A galeria subterrânea sob o
   pátio não serve de abrigo hoje
-- Quem estiver com frio tem a SAMARITAINE, 9 Rue de la Monnaie, 10 min a pé
-  pela margem: abre das 12h às 20h e é praticamente a única loja de porta
-  aberta no feriado. Fechados no dia 1º: Galeries Lafayette (Haussmann e
-  Champs-Élysées), Printemps, Le Bon Marché, BHV e o próprio Carrousel
+- ENTRE O FIM DA HORA AZUL (17h30) E O JANTAR (19h) NÃO HÁ ABRIGO POR PERTO.
+  Vistam-se para ficar fora, ou peçam o primeiro horário do jantar
+- Fechados no dia 1º: Galeries Lafayette (Haussmann e Champs-Élysées),
+  Printemps, Le Bon Marché, BHV e o Carrousel du Louvre. A única exceção é a
+  Samaritaine, 9 Rue de la Monnaie, 12h às 20h, a 10 min a pé — fora do
+  roteiro, mas é o recurso se alguém não aguentar o frio
 
-17h15 às 18h30 — SAMARITAINE, a única loja aberta
-- 9 Rue de la Monnaie, 75001, na esquina com o Quai du Louvre. Do pátio do
-  Louvre são 800 m pela Rue de Rivoli ou pela margem, uns 10 min
-- ABRE DAS 12h ÀS 20h EM 1º DE JANEIRO. Galeries Lafayette (Haussmann e
-  Champs-Élysées), Printemps, Le Bon Marché, BHV e o Carrousel du Louvre
-  fecham todos: ela é praticamente a única loja grande aberta no feriado
-- O prédio é o programa: o vão central com a claraboia de vidro e a escadaria
-  Art Nouveau, restaurados na reabertura de 2021
-- Parada aquecida com banheiro depois de uma tarde inteira ao ar livre
-- Há cafés dentro, mas o jantar do dia continua sem casa marcada
+19h00 — JANTAR: CASA FESTA
+- 16 Rue Jean-Jacques Rousseau, 75001. Do pátio do Louvre são 700 m a pé, uns
+  10 min, pela Rue Saint-Honoré e a Rue du Louvre
+- Pizzaria franco-italiana de bairro, com mesa, terraço e reserva. Pizza e
+  massa, longe dos 35 a 50 EUR por pessoa das brasseries da Rue de Rivoli
+- RESERVEM PARA OITO AINDA EM DEZEMBRO e confirmem na ligação as duas coisas
+  que não estão publicadas em lugar nenhum: se abrem em 1º de janeiro e se
+  sentam oito numa mesa só
+- Jantar em Paris começa a ser servido às 19h. PEÇAM O PRIMEIRO HORÁRIO QUE A
+  CASA DER: entre o fim da hora azul, às 17h30, e a abertura, não há onde se
+  abrigar por perto. O Carrousel du Louvre não abre no feriado
 
-18h30 — Volta ao hotel
-- Estação PONT NEUF, a 2 min da porta da Samaritaine
-- LINHA 7, direção La Courneuve, até OPÉRA, 4 estações
-- Baldeação para a LINHA 8, direção Balard, até ÉCOLE MILITAIRE, 5 estações
+21h00 — Volta ao hotel
+- Estação LOUVRE-RIVOLI, a 4 min a pé do restaurante
+- LINHA 1, direção La Défense, até CONCORDE, 3 estações
+- Baldeação para a LINHA 8, direção Balard, até ÉCOLE MILITAIRE, 3 estações
 - Cerca de 25 min no total, com a baldeação
 
-(rota antiga, se preferirem voltar pelo próprio pátio)
-- Metrô Palais Royal-Musée du Louvre, na saída norte do pátio
-- LINHA 1, direção La Défense
-  Palais Royal-Musée du Louvre -> Tuileries -> CONCORDE, 2 estações
-- Baldeação para a LINHA 8, direção Balard
-  Concorde -> Invalides -> La Tour-Maubourg -> ÉCOLE MILITAIRE, 3 estações
-- Cerca de 20 minutos no total, com a baldeação
+SE A CASA FESTA NÃO ABRIR NO DIA 1º
+ATENÇÃO REAL: 1º de janeiro é o dia de menor funcionamento do ano em Paris,
+junto com 25 de dezembro. A maioria dos restaurantes fecha, e os que abrem
+lotam e cobram menu fixo de data. Por isso o plano B importa tanto quanto o
+plano A.
 
-Jantar de 01/01
-- ATENÇÃO REAL: 1º de janeiro é o dia de menor funcionamento do ano em Paris,
-  junto com 25 de dezembro. A maioria dos restaurantes fecha, e os que abrem
-  lotam.
-- Reservem com semanas de antecedência, ou
-- Comprem na Rue Cler no dia 31 e façam a refeição no hotel, ou
-- Comam no próprio mercado das Tuileries antes de voltar, o que resolve o
-  problema de uma vez
+PERTO DO LOUVRE, "ABERTO" E "SEM CARA DE TURISTA" PUXAM PARA LADOS OPOSTOS: os
+bistrôs de bairro fecham no feriado, e quem abre ali é brasserie de Rivoli, com
+menu de data a 35 a 50 EUR por pessoa. Para oito, são 150 a 250 EUR a mais do
+que o mercado.
+
+EM ORDEM DE CUSTO-BENEFÍCIO:
+1. MERCADO DAS TUILERIES — funciona até 23h45 no dia 1º, sem reserva, atende
+   oito pessoas em balcões. Tartiflette, raclette, crepe e vinho quente por uns
+   15 a 20 EUR por pessoa. É a opção que já está no roteiro
+2. COMPRA DA RUE CLER NO DIA 31 E JANTAR NO HOTEL — a mais barata de todas, e a
+   única que não depende de nada estar aberto
+3. RUE SAINTE-ANNE — 10 min a pé do pátio do Louvre, pela Avenue de l'Opéra. É
+   a rua japonesa de Paris: ramen e udon de 10 a 18 EUR, balcão cheio de
+   parisienses, nada de turismo. Higuma (32 bis), Sapporo Ramen (37),
+   Kunitora-ya (39), Laï Laï Ken (7)
+   CONFIRMEM NA VÉSPERA: 1º de janeiro é feriado grande no Japão também, e
+   parte das casas fecha nessa semana. A rua pode estar inteira aberta ou
+   inteira às escuras
+4. RESTAURANTE COM RESERVA FEITA SEMANAS ANTES — caro, e sem garantia de ser o
+   tipo de lugar que vocês procuram
+
+A SAMARITAINE SAIU DO ROTEIRO. Ela é a única loja grande aberta no dia 1º
+(12h às 20h, 9 Rue de la Monnaie) e serviria de abrigo aquecido no fim da
+tarde, mas os restaurantes de dentro são de preço alto e o dia passou a
+terminar no jantar da Casa Festa. Fica registrada aqui como recurso, caso o
+grupo precise de teto e banheiro entre 17h30 e 19h.
 
 Alternativa, se o grupo quiser mais um ponto no dia
 - A Ópera Garnier fica a 2 estações do Louvre pela Linha 1 até Palais Royal
@@ -3419,12 +3438,12 @@ Alternativa, se o grupo quiser mais um ponto no dia
 ---------------------------------------------------------------
 
 VOO CONFIRMADO: 02/01 às 20h35 do AEROPORTO DE ORLY (ORY), chegada em GRU em
-03/01 às 06h50. Check-out do hotel às 12h00 (antecipado para 11h30 no plano do dia).
+03/01 às 06h50. Check-out do hotel às 12h00 (antecipado para 11h45 no plano do dia).
 
 ESTE DIA TEM UM PROGRAMA SÓ, E COM HORA DE VOLTAR
 Não há museu nem ingresso. O dia é a feira da Rue Cler na porta do hotel até
-as 11h15, o almoço nas GALERIES LAFAYETTE e a saída para Orly.
-O QUE MANDA NO DIA É A VOLTA, NÃO A IDA: o transfer sai às 15h30 e a margem
+as 11h30, o almoço nas GALERIES LAFAYETTE e a saída para Orly.
+O QUE MANDA NO DIA É A VOLTA, NÃO A IDA: o transfer sai às 16h00 e a margem
 inteira está entre o fim do almoço e esse horário. Museu não entra; a loja
 entra porque é almoço e fica a uma linha de metrô direta.
 
@@ -3434,9 +3453,9 @@ Ao contratar os dois transfers, confiram o aeroporto de cada um. É o erro mais
 fácil de cometer, e sai caro no dia.
 
 O RELÓGIO DO DIA
-- 15h30 — Saída do hotel, cedo e sem pressa. Do 7º arrondissement até Orly são
+- 16h00 — Saída do hotel, cedo e sem pressa. Do 7º arrondissement até Orly são
   cerca de 30 a 40 minutos de carro; reservem 50, porque é sábado à tarde.
-- 16h20 — Chegada ao aeroporto. Sobram mais de quatro horas até o voo, com
+- 16h50 — Chegada ao aeroporto. Sobram quase quatro horas até o voo, com
   oito pessoas e oito malas para despachar num balcão só. É a folga que vocês
   escolheram ter.
 
@@ -3460,21 +3479,21 @@ O DIA, HORA A HORA
 09h00 — Café da manhã e a Rue Cler em dia de feira
 - Sábado é o dia forte da rua. Padarias, queijarias, peixaria, floricultura,
   tudo funcionando. É o retrato mais parisiense do bairro e fica na porta.
-- ATÉ AS 11h15, para o check-out caber. Últimas compras de queijo, chocolate e
+- ATÉ AS 11h30, para o check-out caber. Últimas compras de queijo, chocolate e
   vinho para levar. Comprem agora, não no aeroporto.
 
 - CUIDADO COM O QUE NÃO EMBARCA: queijo fresco, presunto cru e mel entram na
   restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a
   vácuo, chocolate e vinho despachado passam sem problema.
 
-11h30 — Check-out e malas na recepção
+11h45 — Check-out e malas na recepção
 - Redistribuir peso entre as malas, guardar as compras da manhã e conferir
   passaportes e cartões de embarque de todo mundo.
 - As malas ficam na recepção: ninguém carrega nada para o almoço.
-- Meia hora parece pouco com oito pessoas — por isso a feira encerra às 11h15,
-  e não ao meio-dia.
+- Quarenta e cinco minutos parecem muito para isso. Com oito pessoas e as
+  compras da feira na mão, não são.
 
-12h15 às 14h00 — ALMOÇO NAS GALERIES LAFAYETTE
+12h30 às 14h30 — ALMOÇO NAS GALERIES LAFAYETTE
 - 40 Boulevard Haussmann, 75009
 - COMO CHEGAR: a pé até École Militaire e LINHA 8, direção Créteil-Pointe du
   Lac, até OPÉRA — 6 estações, ~13 min, SEM BALDEAÇÃO. Da Opéra, 5 min a pé
@@ -3486,16 +3505,16 @@ O DIA, HORA A HORA
 - Duas coisas gratuitas a ver antes de comer: a CÚPULA DE VITRAL de 1912 sobre
   o salão central e o TERRAÇO, com vista aberta da Ópera e dos telhados. A
   árvore e as vitrines de Natal costumam ficar até a primeira semana de janeiro
-- SAIR ÀS 14h00. É a única refeição da viagem com hora para acabar
+- SAIR ÀS 14h30. É a única refeição da viagem com hora para acabar
 - NÃO SERVE PARA O DIA 1º: as Galeries Lafayette fecham em 1º de janeiro
 
-14h00 — Volta ao hotel pelas malas
-- Linha 8, direção Balard, o caminho da ida ao contrário. Chegada ~14h30
+14h30 — Volta ao hotel pelas malas
+- Linha 8, direção Balard, o caminho da ida ao contrário. Chegada ~15h00
 - Sobra uma hora no hotel antes do transfer. É a folga que paga um atraso de
   metrô sem virar problema
 
-15h30 — Saída para Orly
+16h00 — Saída para Orly
 
-16h20 — Aeroporto
+16h50 — Aeroporto
 
 20h35 — Voo
