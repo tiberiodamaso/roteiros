@@ -3317,26 +3317,14 @@ Manhã — sem pressa
 - Saída: placas "Jardin des Tuileries" ou "Place de la Concorde"
 - A pé, descendo a própria avenida, são 1,9 km e 25 a 30 minutos
 
-11h45 às 12h05 — Place de la Concorde
+11h45 às 12h10 — Place de la Concorde
 - O Obelisco de Luxor no centro da praça
 - Olhando para oeste, a subida dos Champs-Élysées com o Arco do Triunfo ao
   fundo, de onde vocês acabaram de vir: agora é o outro extremo do eixo.
 - Não atravessem a praça pelo meio sem usar as faixas: é uma das rotatórias
   mais movimentadas de Paris
 
-12h05 às 12h35 — LADURÉE, Rue Royale
-- 16 Rue Royale, 75008. Da Concorde, subam a Rue Royale em direção à Madeleine:
-  350 m, uns 5 min, o nº 16 antes da igreja
-- É o endereço de 1862, onde a casa nasceu. O macaron de duas conchas unidas
-  por recheio é atribuído a Pierre Desfontaines, primo do fundador, por volta
-  de 1930
-- ABRE EM 1º DE JANEIRO, das 8h30 às 19h30 — uma das poucas casas do centro que
-  não fecha no feriado. Confirmem na véspera mesmo assim
-- Salão de chá e balcão de venda. Com oito pessoas e as Tuileries em seguida, o
-  balcão resolve em 15 min; sentar custa uma hora
-- A volta é pela mesma rua, até o portão oeste das Tuileries
-
-12h35 às 14h30 — JARDIN DES TUILERIES, entrando pelo portão oeste
+12h10 às 14h30 — JARDIN DES TUILERIES, entrando pelo portão oeste
 - Vocês entram pelo lado da Concorde e vão caminhando para o leste, na direção
   do Louvre. É o sentido certo: o jardim vai ficando mais fechado e mais
   monumental conforme se aproxima do palácio.
@@ -3378,11 +3366,31 @@ Manhã — sem pressa
 - O sol se põe por volta das 17h00 em 1º de janeiro
 - Entre 16h30 e 17h30 a pirâmide acende por dentro enquanto o céu ainda tem cor.
   É a melhor luz possível para a foto, e vocês já estarão posicionados.
-- Se o grupo estiver com frio, alternem: uma parte espera aquecida no Carrousel
-  du Louvre, a galeria comercial subterrânea sob o pátio, com acesso pela
-  Place du Carrousel
+- O CARROUSEL DU LOUVRE NÃO ABRE EM 1º DE JANEIRO. A galeria subterrânea sob o
+  pátio não serve de abrigo hoje
+- Quem estiver com frio tem a SAMARITAINE, 9 Rue de la Monnaie, 10 min a pé
+  pela margem: abre das 12h às 20h e é praticamente a única loja de porta
+  aberta no feriado. Fechados no dia 1º: Galeries Lafayette (Haussmann e
+  Champs-Élysées), Printemps, Le Bon Marché, BHV e o próprio Carrousel
 
-17h30 — Volta ao hotel
+17h15 às 18h30 — SAMARITAINE, a única loja aberta
+- 9 Rue de la Monnaie, 75001, na esquina com o Quai du Louvre. Do pátio do
+  Louvre são 800 m pela Rue de Rivoli ou pela margem, uns 10 min
+- ABRE DAS 12h ÀS 20h EM 1º DE JANEIRO. Galeries Lafayette (Haussmann e
+  Champs-Élysées), Printemps, Le Bon Marché, BHV e o Carrousel du Louvre
+  fecham todos: ela é praticamente a única loja grande aberta no feriado
+- O prédio é o programa: o vão central com a claraboia de vidro e a escadaria
+  Art Nouveau, restaurados na reabertura de 2021
+- Parada aquecida com banheiro depois de uma tarde inteira ao ar livre
+- Há cafés dentro, mas o jantar do dia continua sem casa marcada
+
+18h30 — Volta ao hotel
+- Estação PONT NEUF, a 2 min da porta da Samaritaine
+- LINHA 7, direção La Courneuve, até OPÉRA, 4 estações
+- Baldeação para a LINHA 8, direção Balard, até ÉCOLE MILITAIRE, 5 estações
+- Cerca de 25 min no total, com a baldeação
+
+(rota antiga, se preferirem voltar pelo próprio pátio)
 - Metrô Palais Royal-Musée du Louvre, na saída norte do pátio
 - LINHA 1, direção La Défense
   Palais Royal-Musée du Louvre -> Tuileries -> CONCORDE, 2 estações
@@ -3411,12 +3419,14 @@ Alternativa, se o grupo quiser mais um ponto no dia
 ---------------------------------------------------------------
 
 VOO CONFIRMADO: 02/01 às 20h35 do AEROPORTO DE ORLY (ORY), chegada em GRU em
-03/01 às 06h50. Check-out do hotel às 12h00.
+03/01 às 06h50. Check-out do hotel às 12h00 (antecipado para 11h30 no plano do dia).
 
-ESTE DIA NÃO TEM PROGRAMAÇÃO, POR ESCOLHA
-Não há museu, ingresso nem passeio marcado. O último dia é café da manhã, a
-feira da Rue Cler na porta do hotel, almoço, e saída cedo para Orly. Isso é o
-plano, e não uma sobra de tempo a ser preenchida.
+ESTE DIA TEM UM PROGRAMA SÓ, E COM HORA DE VOLTAR
+Não há museu nem ingresso. O dia é a feira da Rue Cler na porta do hotel até
+as 11h15, o almoço nas GALERIES LAFAYETTE e a saída para Orly.
+O QUE MANDA NO DIA É A VOLTA, NÃO A IDA: o transfer sai às 15h30 e a margem
+inteira está entre o fim do almoço e esse horário. Museu não entra; a loja
+entra porque é almoço e fica a uma linha de metrô direta.
 
 ATENÇÃO — SÃO DOIS AEROPORTOS DIFERENTES NESTA PERNA
 Vocês chegam a Paris em 31/12 no CHARLES DE GAULLE e partem em 02/01 de ORLY.
@@ -3450,22 +3460,39 @@ O DIA, HORA A HORA
 09h00 — Café da manhã e a Rue Cler em dia de feira
 - Sábado é o dia forte da rua. Padarias, queijarias, peixaria, floricultura,
   tudo funcionando. É o retrato mais parisiense do bairro e fica na porta.
-- Últimas compras de queijo, chocolate e vinho para levar. Comprem agora, não
-  no aeroporto.
+- ATÉ AS 11h15, para o check-out caber. Últimas compras de queijo, chocolate e
+  vinho para levar. Comprem agora, não no aeroporto.
 
 - CUIDADO COM O QUE NÃO EMBARCA: queijo fresco, presunto cru e mel entram na
   restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a
   vácuo, chocolate e vinho despachado passam sem problema.
 
-12h00 — Check-out e malas na recepção
+11h30 — Check-out e malas na recepção
 - Redistribuir peso entre as malas, guardar as compras da manhã e conferir
   passaportes e cartões de embarque de todo mundo.
-- Uma hora parece muito para isso. Com oito pessoas, não é.
+- As malas ficam na recepção: ninguém carrega nada para o almoço.
+- Meia hora parece pouco com oito pessoas — por isso a feira encerra às 11h15,
+  e não ao meio-dia.
 
-13h00 — Almoço no bairro
-- RESERVA: liguem na véspera. Sábado de almoço com oito pessoas no 7º lota.
-- É a última refeição da viagem e não há nada depois dela: pode durar o quanto
-  quiser.
+12h15 às 14h00 — ALMOÇO NAS GALERIES LAFAYETTE
+- 40 Boulevard Haussmann, 75009
+- COMO CHEGAR: a pé até École Militaire e LINHA 8, direção Créteil-Pointe du
+  Lac, até OPÉRA — 6 estações, ~13 min, SEM BALDEAÇÃO. Da Opéra, 5 min a pé
+  pela Rue Halévy
+- Sábado abre das 10h às 20h30; o GOURMET, que é o andar de comida, das 9h30
+  às 21h30
+- O almoço é no Gourmet, em balcões: cada um escolhe o que quer e NÃO HÁ MESA
+  PARA OITO A RESERVAR. Era o problema do último dia, e some aqui
+- Duas coisas gratuitas a ver antes de comer: a CÚPULA DE VITRAL de 1912 sobre
+  o salão central e o TERRAÇO, com vista aberta da Ópera e dos telhados. A
+  árvore e as vitrines de Natal costumam ficar até a primeira semana de janeiro
+- SAIR ÀS 14h00. É a única refeição da viagem com hora para acabar
+- NÃO SERVE PARA O DIA 1º: as Galeries Lafayette fecham em 1º de janeiro
+
+14h00 — Volta ao hotel pelas malas
+- Linha 8, direção Balard, o caminho da ida ao contrário. Chegada ~14h30
+- Sobra uma hora no hotel antes do transfer. É a folga que paga um atraso de
+  metrô sem virar problema
 
 15h30 — Saída para Orly
 

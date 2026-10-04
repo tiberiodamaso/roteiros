@@ -180,7 +180,7 @@ const DAYS = (() => {
       });
     }
     if (d.id === '2027-01-02') {
-      return Object.assign({}, d, { nota: 'Sem programação, por escolha: café da manhã, a feira da Rue Cler, almoço e saída para Orly às 15h30. Nada de museu nem ingresso.' });
+      return Object.assign({}, d, { nota: 'Um programa só: a feira da Rue Cler até as 11h15, almoço nas Galeries Lafayette e saída para Orly às 15h30. Nada de museu nem ingresso — quem manda no dia é o transfer, não a ida.' });
     }
     return d;
   });
@@ -205,7 +205,7 @@ const PENDENCIAS = {
   '2026-12-27': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene · mesa no Stiegl-Keller, conferindo o horário de domingo'],
   '2026-12-28': ['Transfers dos dois lados · confirmar a franquia de bagagem despachada — o voo VIE → ZAG já está comprado'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
-  '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nenhum ingresso: o dia não tem programação'],
+  '2027-01-02': ['Transfer hotel → ORLY às 15h30 · nada a comprar: o almoço nas Galeries Lafayette é em balcão, sem reserva'],
 };
 
 /* Contato de uma parada da timeline. Quando a parada é uma refeição
@@ -321,8 +321,10 @@ const MODO_FIXO = {
   // estação e o pé do Arco é a pé, por baixo da praça.
   '2027-01-01|Arco do Triunfo, acesso subterrâneo': { modo:'a pé', ate:'o pé do Arco, pela passagem subterrânea' },
   '2027-01-01|Étoile → Concorde': { modo:'metrô', ate:'a Place de la Concorde' },
-  '2027-01-01|Ladurée, na Rue Royale': { modo:'a pé', ate:'o nº 16 da Rue Royale' },
+  '2027-01-01|Samaritaine, a única loja aberta': { modo:'a pé', ate:'o 9 Rue de la Monnaie' },
   '2027-01-01|Volta ao hotel': 'metrô',
+  '2027-01-02|Almoço nas Galeries Lafayette': { modo:'metrô', ate:'Opéra' },
+  '2027-01-02|Volta ao hotel pelas malas': { modo:'metrô', ate:'École Militaire' },
   '2027-01-02|Saída para Orly': 'transfer',
 };
 
