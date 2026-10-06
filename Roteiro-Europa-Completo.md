@@ -82,15 +82,18 @@ BLOCO 0 — JÁ RESOLVIDO, não mexer
 ---------------------------------------------------------------
 - Ingressos Disneyland Paris, 15 e 16/12
 - Lindt Home of Chocolate, 21/12 — slot confirmado às 16h30
+- Ingressos do hóquei no gelo, 26/12 — VIC x FTC às 17h30, chegar às 16h45
 - Todas as hospedagens
 
 ---------------------------------------------------------------
 BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
 ---------------------------------------------------------------
-1. Ingressos TORRE EIFFEL, 17/12, com hora marcada
-   Venda abre 60 dias antes, em toureiffel.paris. Esgotam semanas antes.
-2. TGV LYRIA, Paris Gare de Lyon -> Basel SBB, 18/12
-   tgv-lyria.com. Reserva de assento obrigatória, não se viaja em pé.
+1. Ingressos TORRE EIFFEL, 17/12, com hora marcada — COMPRADOS
+   Entrada às 10h30, até o topo. Hora marcada: o ingresso não vale em outro
+   horário.
+2. TGV LYRIA, Paris Gare de Lyon -> Basel SBB, 18/12 — COMPRADO
+   Partida 07h20 da Gare de Lyon e chegada 10h26 em Basel SBB. 3h06, com
+   lugares marcados.
 3. NIGHTJET Zurique -> Viena, 23/12 — COMPRADO
    Partida 23/12 às 21h40 da Zürich HB, chegada 24/12 às 08h00 na Wien
    Hauptbahnhof. Compartimento privativo comfort, até 4 por cabine.
@@ -1362,10 +1365,8 @@ Rota panorâmica do Passo do Brünig
 
 QUE BILHETES COMPRAR
 
-1. TGV Lyria, Paris Gare de Lyon -> Basel SBB
-- tgv-lyria.com ou sbb.ch, com meses de antecedência
-- Os TGV esgotam e não é permitido viajar em pé. Reserva de assento obrigatória.
-- Tarifas com desconto a partir de cerca de 50 EUR se comprado cedo
+1. TGV Lyria, Paris Gare de Lyon -> Basel SBB — COMPRADO
+- Partida 07h20, chegada 10h26 em Basel SBB. 3h06, com lugares marcados.
 - Nenhum passe suíço cobre esse trecho
 
 2. Bilhete SBB, Basel SBB -> Interlaken Ost
@@ -1600,10 +1601,10 @@ MANHÃ EM PARIS
   Com 8 pessoas e malas, não dá para correr.
 
 TRECHO 1 — Paris -> Basel
-- 07h15 TGV Lyria, Paris Gare de Lyon -> Basel SBB. 3h04, lugares marcados.
+- 07h20 TGV Lyria, Paris Gare de Lyon -> Basel SBB. 3h06, lugares marcados.
 - Atravessa a Borgonha e as montanhas do Jura ao longo do rio Doubs
 - Durmam na primeira metade; vocês acordaram às 5h15
-- Cerca de 10h20 Chegada em Basel SBB
+- 10h26 Chegada em Basel SBB
 
 TRECHO 2 — Basel -> Luzern
 - Reservem 40 minutos de baldeação. Não saiam da estação.
@@ -2635,7 +2636,8 @@ Manhã — Centro histórico completo
 
 16h45 — HÓQUEI NO GELO, NEURO.IO ARENA
 - Attemsgasse 1, 1220 Wien
-- VIC x FTC, início às 17h30. CHEGAR ÀS 16h45 — 45 min de antecedência
+- INGRESSOS COMPRADOS. VIC x FTC, início às 17h30. CHEGAR ÀS 16h45 — 45
+  min de antecedência
 - COMO CHEGAR, saindo do museu: do Volkstheater, U3 direção Simmering até
   Stephansplatz, e ali a U1 direção Leopoldau até KAGRAN. É baldeação, então
   vale um bilhete só. ~25 min, mais 5 a pé da estação
