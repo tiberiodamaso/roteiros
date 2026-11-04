@@ -190,11 +190,11 @@ const dayOf = id => DAYS.find(d => d.id === id);
 
 // O que precisa ser comprado ou reservado para cada data.
 const PENDENCIAS = {
-  '2026-12-11': ['Cartões Viva Viagem com Zapping, na máquina do Rossio', 'Almoço na Casa do Alentejo e jantar no Trama — reservados'],
-  '2026-12-12': ['Ingresso do Castelo de São Jorge, comprado online na véspera'],
+  '2026-12-11': ['Cartões Viva Viagem com Zapping, na máquina do Rossio — o transfer do aeroporto já está contratado', 'Almoço na Casa do Alentejo e jantar no Trama — reservados'],
+  '2026-12-12': ['Ingresso do Castelo de São Jorge, comprado online na véspera — o do Oceanário já está comprado'],
   '2026-12-15': ['Reserva de mesa no app da Disneyland Paris'],
   '2026-12-17': ['Le Son de la Terre 18h50 — a Torre Eiffel (10h30, até o topo) e o cruzeiro do Sena já estão comprados'],
-  '2026-12-18': ['Reserva de assento no Luzern-Interlaken Express, partida das 13h06 — o TGV e o bilhete Basel → Interlaken já estão comprados', 'Pedir a Interlaken Guest Card no check-in'],
+  '2026-12-18': ['Reserva de assento no Luzern-Interlaken Express, partida das 13h06 — o TGV, o bilhete Basel → Interlaken e o transfer até a Gare de Lyon já estão resolvidos', 'Pedir a Interlaken Guest Card no check-in'],
   '2026-12-19': ['Bilhete Interlaken Ost → Grindelwald (véspera) · teleférico do First só na bilheteria, depois das webcams'],
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
   '2026-12-21': ['Passe diário com as zonas até Kilchberg, comprado às 9h'],
@@ -407,25 +407,35 @@ function finance() {
       ] },
 
     { k:'trens', titulo:'Trens e transfers', tom:'#2f6b4f', kid:0.5,
-      itens:'Três trechos com preço fechado; o resto é estimativa pelas tarifas do roteiro',
+      itens:'Oito itens com preço fechado; o resto é estimativa pelas tarifas do roteiro',
       linhas:[
         { n:'TGV Lyria Paris → Basel', fam:1143.76 },
         { n:'Basel → Interlaken, via Luzern', fam:426 },
         { n:'Nightjet Zurique → Viena', fam:1799.48 },
-        // Tarifas com o Half Fare, as mesmas da tabela PASSES.
-        { n:'Swiss Half Fare Card — CHF 150 por adulto, criança com o Family Card', v:f(150), kid:0, est:true },
+        // A criança não compra Half Fare: viaja com o Swiss Family Card. Por
+        // isso esta linha fica em `v` com kid:0, e não em `fam` — o por-adulto
+        // aqui é o preço de um cartão, não uma fatia do total da família.
+        { n:'Swiss Half Fare Card — 2 adultos, criança com o Family Card', v:1023.02, kid:0 },
+        { n:'Transfer aeroporto de Lisboa → hotel, 11/12', fam:87.30 },
+        { n:'Transfer hotel → aeroporto de Lisboa, 14/12', fam:87.30 },
+        { n:'Transfer aeroporto de Paris → hotel, 14/12', fam:270.15 },
+        { n:'Transfer hotel → Gare de Lyon, 18/12', fam:258.39 },
         { n:'Reserva de assento do Luzern–Interlaken Express — CHF 12 por pessoa, sem meia', v:f(12), kid:1, est:true },
         { n:'Interlaken Ost → Zürich HB — CHF 37,50 por adulto', v:f(37.5), kid:0, est:true },
         { n:'ÖBB Viena ⇄ Salzburgo — ~€ 40 por adulto', v:e(40), kid:0.5, est:true },
-        // 12 trechos privados nos 14 da planilha: os dois de Interlaken saem
-        // no ônibus da Guest Card. Custo por veículo, dois por trecho,
-        // rateado entre as 8 pessoas.
-        { n:'Transfers privados — 12 trechos, 2 veículos em cada, ~€ 140 por pessoa', v:e(140), kid:1, est:true },
+        // Sobram 8 dos 12 trechos privados (os dois de Interlaken saem no
+        // ônibus da Guest Card); os outros 4 já estão fechados acima. Mantida
+        // a tarifa por trecho da pesquisa original, ~€ 11,70 por pessoa: os
+        // dois de Lisboa saíram bem abaixo dela (R$ 87,30 a família) e os dois
+        // de Paris bateram (R$ 258 a R$ 270), e o que falta é quase todo
+        // trecho de aeroporto, do tipo caro.
+        { n:'Transfers privados que faltam — 8 trechos, 2 veículos em cada, ~€ 93 por pessoa', v:e(93.33), kid:1, est:true },
       ] },
 
     { k:'passeios', titulo:'Passeios e ingressos', tom:'#b4552f', kid:0.5,
-      itens:'Disney, Eiffel, Sena, Lindt e o hóquei comprados; Plitvice fechado; o resto estimado',
+      itens:'Oceanário, Disney, Eiffel, Sena, Lindt e o hóquei comprados; Plitvice fechado; o resto estimado',
       linhas:[
+        { n:'Oceanário de Lisboa', fam:436.92 },
         { n:'Disney Paris, dois dias', fam:2030.51 },
         { n:'Torre Eiffel até o topo', fam:496 },
         { n:'Cruzeiro no Sena — Bateaux-Mouches', fam:186.89 },
@@ -434,7 +444,6 @@ function finance() {
         // Preço fechado e por cabeça (R$ 535 na planilha das outras famílias),
         // mas a excursão ainda não foi paga.
         { n:'Excursão a Plitvice, com a entrada do parque — R$ 534 por pessoa, a pagar', v:534.04, kid:1 },
-        { n:'Oceanário de Lisboa — ~€ 25 por adulto', v:e(25), kid:0.7, est:true },
         { n:'Castelo de São Jorge — ~€ 15 por adulto', v:e(15), kid:0, est:true },
         { n:'Trem de Grindelwald e teleférico do First — CHF 48 por adulto', v:f(48), kid:0.5, est:true },
         { n:'Trem Zurique ⇄ Engelberg — CHF 38 por adulto', v:f(38), kid:0, est:true },

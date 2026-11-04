@@ -135,7 +135,7 @@ export const DAYS = [
     sun:['07:48','17:16'],
     blocks:[
       B('08h30','Hotel → Oceanário',['**Como chegar**: Rossio, Linha Verde sentido Telheiras → Alameda (4 estações).','Baldeação Linha Vermelha sentido Aeroporto → Oriente (5 estações), 5–10 min a pé. ~30 min no total.']),
-      B('10h00','Oceanário de Lisboa',['2h a 2h30. Ingresso avulso, comprado online.']),
+      B('10h00','Oceanário de Lisboa',['2h a 2h30. **Ingresso comprado**, avulso.']),
       B('12h30','Almoço — Nova Cervejaria',['**Como chegar**: Alameda dos Oceanos, 4 min a pé do Oceanário, plano.','Reserva necessária: +351 21 894 2169.','Porções enormes: peçam para dividir.']),
       B('14h30','Uber/Bolt até o Castelo',['**Como chegar**: Dois carros XL, 25–30 min, ~18 € por carro. Desembarque no Largo do Chão da Feira — confirmem com o motorista que ele sobe até lá.']),
       B('15h00','Castelo de São Jorge',['Fecha às 18h no inverno, última entrada 17h30. Ingresso online na véspera.']),
@@ -417,6 +417,7 @@ export const DECISOES = [
 
 export const CHECKLIST = [
   { k:'b0', titulo:'Já resolvido', sub:'Não mexer', tom:'#2f6b4f', items:[
+    { id:'r7', mapa:'Oceanário de Lisboa', t:'Ingresso do Oceanário de Lisboa, 12/12 — comprado', n:'Avulso, comprado online.' },
     { id:'c1', mapa:'Torre Eiffel, Paris', t:'Ingressos Torre Eiffel, 17/12 — comprados', n:'Entrada às 10h30, até o topo. Hora marcada: o ingresso não vale em outro horário.', url:'https://www.toureiffel.paris' },
     { id:'r1', mapa:'Disneyland Paris', t:'Ingressos Disneyland Paris, 15 e 16/12' },
     { id:'r2', mapa:'Lindt Home of Chocolate, Kilchberg', t:'Lindt Home of Chocolate, 21/12', n:'Slot confirmado às 16h30' },
@@ -428,6 +429,11 @@ export const CHECKLIST = [
     { id:'c2', mapa:'Paris Gare de Lyon', t:'TGV Lyria, Paris Gare de Lyon → Basel SBB, 18/12', n:'Comprado. Partida 07h20 da Gare de Lyon e chegada 10h26 em Basel SBB, 3h06, com lugares marcados.', url:'https://www.tgv-lyria.com' },
     { id:'v3', t:'Bilhete Basel SBB → Interlaken Ost, 18/12', n:'Conexão 11h16 → 14h54, rota via Luzern. Bilhete comum: vale o dia inteiro em qualquer trem dessa rota. A reserva de assento do panorâmico é compra à parte e continua pendente.' },
     { id:'c3', mapa:'Zürich Hauptbahnhof', t:'Nightjet Zurique → Viena, noite de 23 para 24/12', n:'Comprado. Partida em 23/12 às 21h40 da Zürich HB e chegada em 24/12 às 08h00 na Wien Hauptbahnhof. Compartimento privativo comfort, até 4 por cabine. € 129,90 por adulto e € 34,90 pela criança.' },
+    { id:'p1', t:'Swiss Half Fare Card, início 18/12 — comprados', n:'CHF 150 por adulto, sete cartões, com o Swiss Family Card no nome da criança: ela não compra Half Fare e só viaja de graça acompanhada de um dos pais. Baixem o PDF no celular de cada pessoa ainda no Brasil e confiram que o nome está igual ao do passaporte. No app SBB Mobile, logado na conta da compra, as tarifas passam a sair pela metade sozinhas.', url:'https://www.sbb.ch/en/travelcards-and-tickets/railpasses/half-fare-card.html' },
+    { id:'p2', t:'Transfer aeroporto → hotel, Lisboa, 11/12 — contratado', n:'Pouso às 05h15. Passem o número do voo à empresa, para rastrearem o atraso.' },
+    { id:'p3', t:'Transfer hotel → aeroporto, Lisboa, 14/12 às 05h30 — contratado' },
+    { id:'p4', t:'Transfer aeroporto → hotel, Paris, 14/12 (Welcome Pickups) — contratado' },
+    { id:'p5', t:'Transfer hotel → Gare de Lyon, Paris, 18/12 às 05h45 — contratado' },
     { id:'a3', t:'Aéreo internacional de volta — Paris (Orly) → Guarulhos, 02/01 às 20h35', n:'Chegada em GRU em 03/01 às 06h50. Saída do hotel 15h10, chegada em Orly às 16h00. Orly, não CDG.' },
     { id:'h1', mapa:'Hotel Inn Rossio, Lisboa', t:'Hotel Inn Rossio, Lisboa', n:'11/12 14h00 → 14/12 12h00 · 3 noites' },
     { id:'h2', mapa:'Ibis Budget Paris Porte de Montmartre', t:'Ibis Budget Paris Porte de Montmartre', n:'14/12 14h30 → 18/12 madrugada · 4 noites' },
@@ -445,11 +451,6 @@ export const CHECKLIST = [
     { id:'c11', mapa:'Palácio de Schönbrunn, Viena', t:'Ingresso Palácio de Schönbrunn, 27/12, com hora marcada', n:'Domingo entre o Natal e o Ano Novo é dos dias mais cheios do ano em Viena.' },
   ]},
   { k:'b2', titulo:'Próximas semanas', sub:'Sem pressa, mas não deixem para depois', tom:'#a2761c', items:[
-    { id:'p1', t:'Swiss Half Fare Card — início 18/12, CHF 150 × 7 adultos', n:'Comprar em sbb.ch LOGADO na conta do app SBB Mobile, com nome igual ao passaporte. PEDIR O SWISS FAMILY CARD JUNTO, no nome da criança e na compra do cartão do pai ou da mãe: ela não compra Half Fare, e só viaja de graça acompanhada de um dos pais. Baixar o PDF no celular de cada pessoa ainda no Brasil. O swissrailways.com também é canal oficial (Switzerland Travel Centre, subsidiária da SBB), mas vende em dólar e o desconto não fica preso à conta do app — no sbb.ch o SBB Mobile passa a cotar meia tarifa sozinho.', url:'https://www.sbb.ch/en/travelcards-and-tickets/railpasses/half-fare-card.html' },
-    { id:'p2', t:'Transfer aeroporto → hotel, Lisboa, 11/12', n:'Pouso às 05h15. Passem o número do voo para rastrearem o atraso.' },
-    { id:'p3', t:'Transfer hotel → aeroporto, Lisboa, 14/12 às 05h30' },
-    { id:'p4', t:'Transfer aeroporto → hotel, Paris, 14/12 (Welcome Pickups)' },
-    { id:'p5', t:'Transfer hotel → Gare de Lyon, Paris, 18/12 às 05h45' },
     { id:'t1', t:'Transfer hotel → Zürich HB para o Nightjet, 23/12', n:'Check-out às 11h e as malas ficam no guarda-volumes da estação até a noite. Alternativa sem contratar nada: o tram 4 sai do Technopark, na porta do hotel, direto à estação central — mas são oito malas grandes num tram de domingo… quarta-feira de véspera de Natal.' },
     { id:'p6', t:'Transfer apartamento → aeroporto de Viena, 28/12', n:'Dois carros grandes. Alternativa: não há tram até o aeroporto de Viena — o que existe é o S-Bahn S7 ou o CAT desde Wien Mitte, com baldeação e escadas. Com oito malas, o transfer ganha.' },
     { id:'p7', t:'Transfer aeroporto de Zagreb → Hotel Garden, 28/12' },

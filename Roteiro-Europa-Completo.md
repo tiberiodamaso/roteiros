@@ -80,9 +80,12 @@ três divergências a resolver, marcadas com ATENÇÃO.
 ---------------------------------------------------------------
 BLOCO 0 — JÁ RESOLVIDO, não mexer
 ---------------------------------------------------------------
+- Ingresso do Oceanário de Lisboa, 12/12 — avulso, comprado online
 - Ingressos Disneyland Paris, 15 e 16/12
 - Lindt Home of Chocolate, 21/12 — slot confirmado às 16h30
 - Ingressos do hóquei no gelo, 26/12 — VIC x FTC às 17h30, chegar às 16h45
+- Swiss Half Fare Card, 7 adultos, com o Swiss Family Card da criança
+- Transfers de Lisboa (11 e 14/12), de Paris (14/12) e até a Gare de Lyon (18/12)
 - Todas as hospedagens
 
 ---------------------------------------------------------------
@@ -131,14 +134,19 @@ BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
 BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
 ---------------------------------------------------------------
 12. SWISS HALF FARE CARD, início 18/12, CHF 150 por adulto, 7 adultos
-    Comprar em sbb.ch LOGADO na conta do app SBB Mobile, com nome igual ao
-    passaporte. PEDIR O SWISS FAMILY CARD JUNTO, para a criança viajar de
-    graça. Baixar o PDF no celular de cada pessoa ainda no Brasil.
-13. TRANSFER aeroporto -> hotel, LISBOA, 11/12 (Lisbon Airport Transfers)
-14. TRANSFER hotel -> aeroporto, LISBOA, 14/12 às 05h30
+    — COMPRADOS
+    Com o SWISS FAMILY CARD no nome da criança, que não compra Half Fare e só
+    viaja de graça acompanhada de um dos pais. Baixar o PDF no celular de cada
+    pessoa ainda no Brasil, e conferir que o nome está igual ao do passaporte.
+    No app SBB Mobile, logado na conta da compra, as tarifas já saem pela
+    metade.
+13. TRANSFER aeroporto -> hotel, LISBOA, 11/12 — CONTRATADO
+    Lisbon Airport Transfers. Pouso às 05h15; passar o número do voo.
+14. TRANSFER hotel -> aeroporto, LISBOA, 14/12 às 05h30 — CONTRATADO
     Não estava na lista de vocês, que só previa a ida.
-15. TRANSFER aeroporto -> hotel, PARIS, 14/12 (Welcome Pickups)
-16. TRANSFER hotel -> Gare de Lyon, PARIS, 18/12 às 05h45
+15. TRANSFER aeroporto -> hotel, PARIS, 14/12 — CONTRATADO
+    Welcome Pickups.
+16. TRANSFER hotel -> Gare de Lyon, PARIS, 18/12 às 05h45 — CONTRATADO
 17. TRANSFER apartamento -> aeroporto de Viena, 28/12
     Não estava na lista de vocês. Dois carros grandes. Não há tram até o
     aeroporto de Viena: a alternativa seria S-Bahn S7 ou CAT desde Wien Mitte,
@@ -162,9 +170,12 @@ BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
     Bolt não opera lá e não há tram. O ônibus local é GRÁTIS com a Guest Card e
     resolve os dois trechos. Deixem o número de um táxi salvo antes.
 23. NAVIGO SEMAINE, Paris, comprar no dia 14/12 no guichê ou pelo app
-24. PASSE DE 7 DIAS DA WIENER LINIEN, Viena
-    Não estava na lista de vocês. 25,20 EUR por adulto na versão digital, no
-    app WienMobil. A criança provavelmente não paga nada.
+24. BILHETES AVULSOS DA WIENER LINIEN, Viena — NÃO o passe de 7 dias
+    Deixar o app WienMobil instalado e o cartão cadastrado antes de viajar.
+    Avulso a 3,00 EUR no app, e são ~8 viagens por pessoa entre 24 e 28/12: o
+    passe digital de 7 dias (25,20 EUR) só compensaria a partir de 9. A
+    EXCEÇÃO é 26/12, o dia do jogo de hóquei, que tem 4 viagens: nesse dia
+    comprar o bilhete de 24h, 9,70 EUR. A criança provavelmente não paga nada.
 25. [DECIDIDO: PLITVICE — FALTA COMPRAR] TRANSFER hotel -> Plitvice COM O
     INGRESSO DO PARQUE INCLUÍDO, 29/12 (o 30/12 fica de reserva de clima)
     É UM PACOTE SÓ: transporte porta a porta mais a entrada do parque, e não
@@ -848,6 +859,7 @@ O que evitar na Rua Augusta
 - Cerca de 30 minutos, uma baldeação só
 
 10h00 — Oceanário de Lisboa (2h a 2h30)
+- INGRESSO COMPRADO, avulso, online
 
 12h30 — Almoço: Nova Cervejaria
 - Alameda dos Oceanos 2.11.01 D — 4 min a pé do Oceanário, plano
