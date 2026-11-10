@@ -239,13 +239,13 @@ const MODO_FIXO = {
   '2026-12-13|Cais do Sodré → Alcântara-Mar': 'trem',
   '2026-12-13|Alcântara-Mar → Belém': 'trem',
   '2026-12-13|Belém → Chiado, 25–30 min': 'trem',
-  '2026-12-14|Transfer Welcome Pickups → hotel': 'avião',
+  '2026-12-14|Transfer Welcome Pickups → hotel': { modo:'avião', ate:'Paris-Orly' },
   // Parada sem deslocamento: o "a pé" padrão sugeriria uma caminhada que não
   // existe.
   '2026-12-15|Café da manhã no hotel': 'no hotel',
   '2027-01-02|Café da manhã no hotel': 'no hotel',
   '2026-12-14|Porte de Clignancourt → Anvers': 'metrô',
-  '2026-12-14|Subida até a Basílica': 'funicular',
+  '2026-12-14|Subida até a Basílica': { modo:'funicular', ate:'a Basílica' },
   '2026-12-14|Uber ou Bolt até o hotel': 'transfer',
   '2026-12-15|Linha 4 até Châtelet': 'metrô',
   '2026-12-15|A baldeação em Châtelet-Les Halles': 'metrô',
@@ -260,15 +260,15 @@ const MODO_FIXO = {
   '2026-12-17|Alma-Marceau → Franklin D. Roosevelt': 'a pé',
   '2026-12-17|Champs-Élysées subindo até George V': { modo:'a pé', ate:'o Rond-Point des Champs-Élysées' },
   '2026-12-17|George V → Alma-Marceau': 'metrô',
-  '2026-12-17|Jantar com música ao vivo — Le Son de la Terre': 'transfer',
-  '2026-12-17|Volta ao hotel': 'metrô',
+  '2026-12-17|Jantar com música ao vivo — Le Son de la Terre': { modo:'transfer', ate:'Le Son de la Terre' },
+  '2026-12-17|Volta ao hotel': { modo:'metrô', ate:'o hotel' },
   '2026-12-18|Gare de Lyon — TGV Lyria para Basel SBB': 'transfer',
   '2026-12-18|Basel': 'trem',
   '2026-12-18|Luzern-Interlaken Express': 'trem',
-  '2026-12-18|Chegada em Interlaken Ost': 'trem',
-  '2026-12-18|Check-in na Guesthouse by The Hey Hotel': 'ônibus',
+  '2026-12-18|Chegada em Interlaken Ost': { modo:'trem', ate:'Interlaken Ost' },
+  '2026-12-18|Check-in na Guesthouse by The Hey Hotel': { modo:'ônibus', ate:'a Guesthouse' },
   '2026-12-19|Trem até Grindelwald': { modo:'ônibus', ate:'estação Interlaken Ost' },
-  '2026-12-19|Subida ao First': 'teleférico',
+  '2026-12-19|Subida ao First': { modo:'teleférico', ate:'o First' },
   '2026-12-19|Snow tubing na Bodmi Arena': { modo:'teleférico + ônibus', ate:'Bodmi Arena' },
   '2026-12-19|Volta a Interlaken': { modo:'ônibus', ate:'estação de Grindelwald' },
   '2026-12-20|Interlaken Ost → Zürich HB': { modo:'Uber ou ônibus', ate:'Interlaken Ost' },
@@ -279,12 +279,12 @@ const MODO_FIXO = {
   '2026-12-21|Lago de Zurique, Bürkliplatz': 'tram',
   '2026-12-21|Singing Christmas Tree, Werdmühleplatz': { modo:'tram 11', ate:'Rennweg, e 3 min a pé' },
   '2026-12-21|Ônibus 165 até Kilchberg': { modo:'tram 11', ate:'Bürkliplatz' },
-  '2026-12-21|Retorno e jantar no Kreis 5': 'tram',
+  '2026-12-21|Retorno e jantar no Kreis 5': { modo:'ônibus + tram', ate:'o Kreis 5' },
   '2026-12-22|Zurique → Engelberg': { modo:'tram 4 + trem', ate:'Engelberg' },
   '2026-12-22|No cume, a 3.020 m': 'teleférico',
   '2026-12-22|Trübsee, na descida': 'teleférico',
-  '2026-12-22|Descida final': 'teleférico',
-  '2026-12-22|Volta e jantar': 'trem',
+  '2026-12-22|Descida final': { modo:'teleférico', ate:'Engelberg' },
+  '2026-12-22|Volta e jantar': { modo:'trem', ate:'Zurique' },
   '2026-12-23|Guarda-volumes na Zürich HB': { modo:'tram 4', ate:'Bahnhofquai/HB' },
   '2026-12-23|Christkindlimarkt, dentro da Zürich HB': { modo:'a pé', ate:'o saguão da estação' },
   '2026-12-23|Polybahn e a Polyterrasse': 'funicular',
@@ -306,17 +306,16 @@ const MODO_FIXO = {
   '2026-12-27|Fortaleza Hohensalzburg': 'funicular',
   '2026-12-27|Retorno para Viena e jantar em casa': { modo:'a pé + trem + U1', ate:'Salzburg Hbf, Wien Hbf e o apartamento' },
   '2026-12-28|Transfer ao aeroporto de Viena': { modo:'transfer', ate:'o aeroporto de Viena' },
-  '2026-12-28|Chegada em Zagreb': 'avião',
+  '2026-12-28|Chegada em Zagreb': { modo:'avião', ate:'Zagreb' },
   '2026-12-28|Três coisas para resolver no balcão': 'transfer',
-  '2026-12-29|Funicular de Zagreb': 'funicular',
+  '2026-12-29|Funicular de Zagreb': { modo:'funicular', ate:'a Cidade Baixa' },
   '2026-12-29|Parque Plitvice': 'transfer',
   '2026-12-29|Retorno a Zagreb': { modo:'transfer', ate:'Zagreb' },
   '2026-12-29|Malas prontas': { modo:'a pé', ate:'o hotel' },
-  '2026-12-30|Museu Técnico Nikola Tesla': 'tram',
   '2026-12-30|Parque Plitvice': 'transfer',
   '2026-12-30|Retorno a Zagreb': { modo:'transfer', ate:'Zagreb' },
   '2026-12-30|Malas prontas': { modo:'a pé', ate:'o hotel' },
-  '2026-12-31|Chegada ao hotel': 'avião',
+  '2026-12-31|Chegada ao hotel': { modo:'avião', ate:'Paris-CDG' },
   '2027-01-01|Hotel → Charles de Gaulle-Étoile': { modo:'metrô', ate:'Charles de Gaulle-Étoile' },
   // A passagem subterrânea é o único acesso ao monumento; a perna entre a
   // estação e o pé do Arco é a pé, por baixo da praça.
@@ -324,11 +323,23 @@ const MODO_FIXO = {
   '2027-01-01|Étoile → Concorde': { modo:'metrô', ate:'a Place de la Concorde' },
   '2027-01-01|Jantar — Casa Festa': { modo:'a pé', ate:'a Rue Jean-Jacques Rousseau' },
   '2027-01-01|Se a Casa Festa não abrir no dia 1º': { modo:'a pé', ate:'as Tuileries ou a Rue Sainte-Anne' },
-  '2027-01-01|Volta ao hotel': 'metrô',
+  '2027-01-01|Volta ao hotel': { modo:'metrô', ate:'o hotel' },
   '2027-01-02|Almoço nas Galeries Lafayette': { modo:'metrô', ate:'Opéra' },
   '2027-01-02|Volta ao hotel pelas malas': { modo:'metrô', ate:'École Militaire' },
-  '2027-01-02|Saída para Orly': 'transfer',
+  '2027-01-02|Saída para Orly': { modo:'transfer', ate:'Orly' },
 };
+
+/* A decisão do Plitvice troca o conteúdo dos dias 29 e 30 (ver DAYS, acima).
+ * Como as chaves são `data|título do bloco seguinte` e um furo cai no
+ * fallback 'a pé', espelha 29 ⇄ 30 sem sobrescrever o que já existe — do
+ * contrário a perna do funicular, entre outras, renderizaria como caminhada
+ * no dia em que a cidade cair. Mesmo espelho existe em LUGARES. */
+for (const [k, v] of Object.entries({ ...MODO_FIXO })) {
+  const data = k.slice(0, 10), titulo = k.slice(11);
+  if (data !== '2026-12-29' && data !== '2026-12-30') continue;
+  const gemeo = (data === '2026-12-29' ? '2026-12-30' : '2026-12-29') + '|' + titulo;
+  if (!(gemeo in MODO_FIXO)) MODO_FIXO[gemeo] = v;
+}
 
 /* ══════════════════════════════════════════════════════════════
    4. Números derivados
@@ -441,9 +452,9 @@ function finance() {
         { n:'Cruzeiro no Sena — Bateaux-Mouches', fam:186.89 },
         { n:'Lindt Home of Chocolate', fam:215.41 },
         { n:'Hóquei no gelo em Viena — VIC × FTC', fam:691 },
-        // Preço fechado e por cabeça (R$ 535 na planilha das outras famílias),
-        // mas a excursão ainda não foi paga.
-        { n:'Excursão a Plitvice, com a entrada do parque — R$ 534 por pessoa, a pagar', v:534.04, kid:1 },
+        // Preço fechado e por cabeça (R$ 535 na planilha das outras famílias).
+        // Sem rótulo de pagamento: esta tela informa o custo, não o caixa.
+        { n:'Excursão a Plitvice, com a entrada do parque — R$ 534 por pessoa', v:534.04, kid:1 },
         { n:'Castelo de São Jorge — ~€ 15 por adulto', v:e(15), kid:0, est:true },
         { n:'Trem de Grindelwald e teleférico do First — CHF 48 por adulto', v:f(48), kid:0.5, est:true },
         { n:'Trem Zurique ⇄ Engelberg — CHF 38 por adulto', v:f(38), kid:0, est:true },
@@ -693,10 +704,13 @@ function cidadeLista() {
 
   const side = D.SIDE_TRIPS.map(s => {
     const dia = s.k === 'plitvice' ? (PLITVICE === '29' ? '2026-12-29' : '2026-12-30') : s.dia;
+    // A excursão está comprada para o dia escolhido: o card não pode anunciar
+    // "29 ou 30/12" enquanto o Prático e o checklist dão a data como fechada.
+    const quando = s.k === 'plitvice' ? (PLITVICE === '29' ? '29/12' : '30/12') : s.data;
     return `<div class="citycard citycard--side hoverable" style="--col:${s.col}">
       ${photo('foto-' + s.k, LEGENDAS[s.k] || s.n)}
       <button type="button" class="citycard__body citycard__body--side" data-day="${esc(dia)}">
-        <div class="citycard__dates" style="font-size:15px">${esc(s.data)} · a partir de ${esc(s.base)}</div>
+        <div class="citycard__dates" style="font-size:15px">${esc(quando)} · a partir de ${esc(s.base)}</div>
         <div class="citycard__n" style="font-size:30px">${esc(s.n)}</div>
         <div class="citycard__resumo" style="margin-top:8px">${esc(s.resumo)}</div>
       </button>
@@ -891,13 +905,24 @@ function viewChecklist() {
 
 /* — 05 · Falta reservar — */
 
+/* Duas reservas estão presas à decisão do Plitvice: p25 é o jantar do dia do
+   parque e p28 é o almoço do dia da cidade. Quando a decisão troca, os dois
+   dias trocam com ela — sem isto a linha mostraria a data errada e o botão
+   "ver o dia" pularia para o dia errado. */
+function diaDaReserva(r) {
+  if (r.id !== 'p25' && r.id !== 'p28') return r.dia;
+  const plit = PLITVICE === '29' ? '2026-12-29' : '2026-12-30';
+  return r.id === 'p25' ? plit : (plit === '2026-12-29' ? '2026-12-30' : '2026-12-29');
+}
+
 function viewReservar() {
   const total = D.RESTAURANTES.length;
   const feitas = D.RESTAURANTES.filter(r => state.done[r.id]).length;
   const pct = Math.round((feitas / total) * 100);
 
   const linhas = D.RESTAURANTES.map(r => {
-    const d = dayOf(r.dia) || {};
+    const dia = diaDaReserva(r);
+    const d = dayOf(dia) || {};
     const on = !!state.done[r.id];
     return `<div class="mesa${on ? ' is-done' : ''}" style="--col:${colOf(r.city)}">
       <button type="button" class="clbox${on ? ' is-on' : ''}" data-check="${esc(r.id)}"
@@ -914,7 +939,7 @@ function viewReservar() {
           ${r.urgente ? '<span class="mesa__tag">esgota</span>' : ''}
         </div>
         ${r.n ? `<div class="mesa__n">${esc(r.n)}</div>` : ''}
-        ${linksHtml(r, `<button type="button" class="lnk" data-day="${esc(r.dia)}">${ICONES.dia}ver o dia</button>`)}
+        ${linksHtml(r, `<button type="button" class="lnk" data-day="${esc(dia)}">${ICONES.dia}ver o dia</button>`)}
       </div>
     </div>`;
   }).join('');

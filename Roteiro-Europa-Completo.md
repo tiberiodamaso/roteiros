@@ -126,9 +126,6 @@ BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
 10. JANTAR LE SON DE LA TERRE, 17/12 às 18h50
     Não estava na lista de vocês. +33 1 43 29 48 19. Barcaça com música ao
     vivo em dezembro esgota.
-11. INGRESSO PALÁCIO DE SCHÖNBRUNN, 27/12, com hora marcada
-    Não estava na lista de vocês. Domingo entre o Natal e o Ano Novo é dos
-    dias mais cheios do ano em Viena.
 
 ---------------------------------------------------------------
 BLOCO 2 — COMPRAR NAS PRÓXIMAS SEMANAS
@@ -245,10 +242,11 @@ do Half Fare.
 ---------------------------------------------------------------
 O QUE AINDA DEPENDE DE VOCÊS PARA EU FECHAR
 ---------------------------------------------------------------
-- Plitvice em 29 ou 30/12. Está decidido que vai acontecer; falta cravar o dia.
-  Recomendo o 29, e a decisão final pode ficar para a noite do dia 28, olhando
-  a previsão do tempo.
 - Escolha entre menu de Réveillon e ceia no hotel, em 31/12.
+
+RESOLVIDO DEPOIS: Plitvice ficou no dia 29/12, e a excursão com o ingresso do
+parque incluído já está comprada para essa data. O dia 30 segue sendo o dia da
+cidade, que funciona com qualquer tempo.
 - O dia 02/01 não é mais uma escolha: fica SEM PROGRAMAÇÃO, por decisão de
   vocês. Café da manhã, a feira da Rue Cler, almoço e Orly cedo.
 

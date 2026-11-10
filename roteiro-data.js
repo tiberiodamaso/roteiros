@@ -112,7 +112,7 @@ export const CITIES = [
 export const SIDE_TRIPS = [
   { k:'salzburgo', n:'Salzburgo', base:'Viena', col:'#9e2c46', data:'27/12', dia:'2026-12-27',
     resumo:'Bate-volta de railjet, ~2h20 cada trecho. Cidade velha, Getreidegasse e a Fortaleza. O mercado de Natal já terá encerrado.' },
-  { k:'plitvice', n:'Lagos de Plitvice', base:'Zagreb', col:'#a2761c', data:'29 ou 30/12', dia:'2026-12-29',
+  { k:'plitvice', n:'Lagos de Plitvice', base:'Zagreb', col:'#a2761c', data:'29/12', dia:'2026-12-29',
     resumo:'Bate-volta de ~2h de estrada. No inverno só os Lagos Inferiores abrem e o parque fecha às 16h.' },
 ];
 
@@ -252,7 +252,7 @@ export const DAYS = [
     blocks:[
       B('Importante no dia','Dois horários fixos: 14h30 e 15h35',['O Singing Christmas Tree às 14h30, no Werdmühleplatz, e o ônibus das 15h35 para Kilchberg. Todo o resto do dia é flexível; esses dois não.','Para entrar na Lindt às 16h30 vocês precisam **estar** em Kilchberg às 16h10. O ônibus leva 20 min e sai de Bürkliplatz: embarque às 15h35.','O coral dura ~30 min e acaba às 15h00 — sobram 35 minutos para voltar de tram à Bürkliplatz, que são uns 15 contando a caminhada até Rennweg. Cabe, mas sem passeio no meio.','Segunda é o dia mais tranquilo da semana para os mercados: nas noites de fim de semana o Wienachtsdorf fica difícil de circular.'],true),
       B('07h00','Café da manhã no hotel',['Comam com calma: o próximo compromisso de comida é o almoço de feira, às 12h10, e o jantar só às 20h.','Ao sair, na máquina da parada Technopark, comprem o **passe diário com as zonas até Kilchberg**, marcando a redução Half Fare. Digitem o destino “Kilchberg” e o sistema calcula as zonas.','Resolve ida, volta e todos os trams do dia numa compra só.']),
-      B('11h00','Wienachtsdorf, Sechseläutenplatz',['**Abre às 11h nas segundas.** Da parada Technopark, na porta do hotel: tram 4 direção Bahnhof Tiefenbrunnen, direto até Opernhaus. São 14 paradas, uns 18 min, sem baldeação.','O maior mercado da cidade, com mais de 100 barracas, voltado a artesanato e design. Carrossel, curling bávaro e pista de gelo.']),
+      B('11h00','Wienachtsdorf, Sechseläutenplatz',['**Como chegar**: da parada Technopark, na porta do hotel, tram 4 direção Bahnhof Tiefenbrunnen até Opernhaus. São 14 paradas, uns 18 min, sem baldeação.','**Abre às 11h nas segundas** — não vale chegar antes.','O maior mercado da cidade, com mais de 100 barracas, voltado a artesanato e design. Carrossel, curling bávaro e pista de gelo.']),
       B('11h10','Patinação no gelo',['A pista fica dentro do próprio mercado, com aluguel de patins no local. 12h10 devolver os patins.','Quem não patinar fica nas barracas em volta, com vista para a pista.']),
       B('12h10','Almoço de feira, sem restaurante',['**Raclette** raspada sobre batatas — o prato de feira suíço mais comum.','**Bratwurst** com Bürli, comida na mão, com mostarda.','**Fondue no chalé**: fechado e aquecido, com mesa e teto. Resolve quem não puder comer em pé no frio; o grupo não precisa fazer a mesma coisa.','Chäschüechli, marroni (castanhas no cone de papel, que aquecem a mão), magenbrot, glühwein — e Kinderpunsch sem álcool para a criança.','Vários mercados operam sem dinheiro em espécie: levem cartão. E façam uma refeição completa: o jantar é só às 20h.']),
       B('13h30','Lago de Zurique, Bürkliplatz',['**Como chegar**: 2 min a pé atravessando a Quaibrücke. Caminhada curta pela margem, com os Alpes ao sul se o dia estiver limpo.','**Localizem o ponto do ônibus 165 agora**, à luz do dia. Vocês voltam às 15h35 sem tempo de procurar.']),
@@ -305,7 +305,7 @@ export const DAYS = [
       B('13h45','Jardins franceses',['**Como chegar**: O Grande Parterre, da fonte em direção ao palácio, com os canteiros geométricos e as estátuas nas laterais.','Caminhada plana, ~10 min. Em dezembro os canteiros estão sem flor e a simetria do traçado fica exposta.']),
       B('14h15','Almoço no mercado, no pátio de honra',['O parterre desemboca no pátio de honra: 90 barracas, das 10h às 19h nos dias 25 e 26. **Não fecha no Natal** — vira mercado de Ano Novo e segue até 06/01.','O almoço é aqui. As barracas atendem oito pessoas sem reserva.','O sol se põe às 16h08: almoçando agora, vocês ainda pegam luz e alcançam o mercado iluminado.','Pista de gelo, carrossel, roda-gigante e trenzinho infantil.']),
       B('fim de tarde','Prater, na porta de casa',['**Como chegar**: a volta sai da estação **Schönbrunn** (U4), na Schönbrunner Schloßstraße, ao lado do pátio de honra — não da Hietzing, que serviu o portão do zoo de manhã. U4 direção Heiligenstadt até Schwedenplatz, depois U1 direção Leopoldau até **Praterstern**. É baldeação, então vale um bilhete só.','O Prater fica na saída da Praterstern, a poucos minutos do apartamento: ele não custa deslocamento nenhum: é o caminho de casa.','Aberto ao público desde 1766, quando José II liberou ao povo o terreno de caça imperial — é um dos parques públicos mais antigos do mundo. O parque de diversões dentro dele, o Wurstelprater, é de 1895.','A área é aberta 365 dias por ano e não tem catraca: entrar não custa nada, paga-se por brinquedo. De 1º de novembro a 14 de março é temporada de inverno, e parte das atrações só abre com tempo bom.','O **Riesenrad**, a roda-gigante de 1897, opera das 10h às 21h45. No Riesenradplatz funciona o **Wintermarkt**, aos domingos e feriados das 11h às 22h — 25/12 é feriado.','Quem estiver cansado faz o trecho até a Taborstraße 41 a pé, sem esperar o resto do grupo.']),
-      B('noite','Jantar em casa',['As barracas do Wintermarkt resolvem o jantar de quem quiser comer ali mesmo; o resto come no apartamento, a poucos minutos.','A volta sai da estação **Schönbrunn** (U4), na Schönbrunner Schloßstraße, ao lado do pátio de honra — não da Hietzing, que serviu o portão do zoo de manhã.','Pela **Praterstern**: U4 direção Heiligenstadt até Schwedenplatz (9 paradas), depois U1 direção Leopoldau até Praterstern (2 paradas).','Pela **Taborstraße**: U4 direção Heiligenstadt até Schottenring (10 paradas), depois U2 direção Seestadt até Taborstraße (1 parada).','Um bilhete de €3,00 cobre o percurso inteiro: a baldeação não conta como segunda viagem. Da estação até a Taborstraße 41 são poucos minutos a pé, planos.','Jantar no apartamento, com o que veio do mercado do dia 24. Os restaurantes de Viena hoje ou estão fechados ou cobram menu de Natal.','Amanhã o despertador é às 6h para Salzburgo.']),
+      B('noite','Jantar em casa',['As barracas do Wintermarkt resolvem o jantar de quem quiser comer ali mesmo; o resto come no apartamento, a poucos minutos.','Jantar no apartamento, com o que veio do mercado do dia 24. Os restaurantes de Viena hoje ou estão fechados ou cobram menu de Natal.','Amanhã o despertador é às 6h para Salzburgo.']),
     ] },
   { id:'2026-12-26', label:'26/12', wd:'sábado', city:'viena', title:'Viena inteira e hóquei no gelo',
     sun:['07:45','16:10'],
@@ -395,7 +395,7 @@ export const DAYS = [
       B('10h30','Check-out e malas na recepção',['Peso redistribuído, passaportes e cartões de embarque conferidos. As malas ficam na recepção e ninguém carrega nada para o almoço.','Quarenta minutos para isso com oito pessoas não é exagero: a saída para o metrô é às 11h10.']),
       B('11h30','Almoço nas Galeries Lafayette',['**Como chegar**: saída do hotel às 11h10. A pé até École Militaire e **Linha 8** direção Créteil-Pointe du Lac até **Opéra**, 6 estações, ~13 min, sem baldeação. Da Opéra são 5 min a pé pela Rue Halévy.','40 Boulevard Haussmann. Sábado abre das 10h às 20h30, e o **Gourmet**, que é o andar de comida, das 9h30 às 21h30.','Duas coisas a ver antes de comer, ambas gratuitas: a **cúpula de vitral** de 1912 sobre o salão central e o **terraço**, com vista aberta da Ópera e dos telhados. A árvore e as vitrines de Natal costumam ficar até a primeira semana de janeiro.','**Almoço por volta das 12h30, no Gourmet**, em balcões: cada um escolhe o que quer e **não há mesa para oito a reservar** — era o problema do último dia, e some aqui.','**As últimas compras de queijo, chocolate e vinho são aqui**, no mesmo andar, e não no aeroporto. O Gourmet cobra mais que uma feira de rua: considerem isso no volume.','Cuidado com o que não embarca: queijo fresco, presunto cru e mel entram na restrição de produtos de origem animal na chegada ao Brasil. Queijo curado a vácuo, chocolate e vinho despachado, sem problema.','**Saiam às 13h45.** O almoço tem hora para acabar hoje, e é a única refeição da viagem em que isso vale.']),
       B('13h45','Volta ao hotel pelas malas',['**Como chegar**: Linha 8 direção Balard, o caminho da ida ao contrário. Chegada por volta das 14h15.','Sobram quase 55 min no hotel antes do transfer. É a folga que paga um atraso de metrô sem virar problema.']),
-      B('15h10','Saída para Orly',['Transfer privado reservado com antecedência, dois carros grandes. Do 7º até Orly são 30–40 min de carro; **reservem 50, é sábado à tarde** — são esses 50 min que colocam vocês no aeroporto às 16h00.','Chegando às 16h00, sobram 4h35 para o voo das 20h35. É a folga que vocês escolheram ter, com oito malas num balcão só.','Alternativa se o transfer falhar: Linha 8 até Madeleine e Linha 14 direto ao aeroporto, 45–50 min. Mas há **tarifa de aeroporto** específica, bem mais cara — e é uma baldeação com oito malas.']),
+      B('15h10','Saída para Orly',['**Como chegar**: transfer privado reservado com antecedência, dois carros grandes. Do 7º até Orly são 30–40 min de carro; **reservem 50, é sábado à tarde** — são esses 50 min que colocam vocês no aeroporto às 16h00.','Chegando às 16h00, sobram 4h35 para o voo das 20h35. É a folga que vocês escolheram ter, com oito malas num balcão só.','Alternativa se o transfer falhar: Linha 8 até Madeleine e Linha 14 direto ao aeroporto, 45–50 min. Mas há **tarifa de aeroporto** específica, bem mais cara — e é uma baldeação com oito malas.']),
     ] },
 ];
 
@@ -448,7 +448,6 @@ export const CHECKLIST = [
   { k:'b1', titulo:'Comprar já', sub:'Estes esgotam ou encarecem sozinhos', tom:'#b4552f', items:[
     { id:'c4', t:'Reserva de assento no Luzern-Interlaken Express, 18/12', n:'CRÍTICA e não estava na lista de vocês: garante os 8 sentados juntos, do lado direito, e no trem panorâmico. Reservem para a partida das 13h06 — a reserva vale só para o trem reservado. CHF 12 por pessoa no inverno. Reservem ANTES de comprar o bilhete Basel → Interlaken.', url:'https://shop.luzern.com/en/routing/zentralbahn-luzern-interlaken-express', urlN:'Reservar o assento' },
     { id:'c5', mapa:'Wien Hauptbahnhof', t:'Passagens ÖBB Viena ⇄ Salzburgo, 27/12', n:'Tarifa Sparschiene, quantidade limitada por partida. Comprada na véspera, vocês pagam o preço cheio oito vezes. Vale escrever ao serviço de grupos (atende a partir de 6 pessoas).', url:'https://www.oebb.at' },
-    { id:'c11', mapa:'Palácio de Schönbrunn, Viena', t:'Ingresso Palácio de Schönbrunn, 27/12, com hora marcada', n:'Domingo entre o Natal e o Ano Novo é dos dias mais cheios do ano em Viena.' },
   ]},
   { k:'b2', titulo:'Próximas semanas', sub:'Sem pressa, mas não deixem para depois', tom:'#a2761c', items:[
     { id:'t1', t:'Transfer hotel → Zürich HB para o Nightjet, 23/12', n:'Check-out às 11h e as malas ficam no guarda-volumes da estação até a noite. Alternativa sem contratar nada: o tram 4 sai do Technopark, na porta do hotel, direto à estação central — mas são oito malas grandes num tram de domingo… quarta-feira de véspera de Natal.' },
@@ -658,11 +657,11 @@ export const LUGARES = {
   '2026-12-21|Singing Christmas Tree, Werdmühleplatz': { mapa:'Werdmühleplatz, Zürich', url:'https://www.singingchristmastree.ch/', urlN:'Programação dos corais' },
   '2026-12-21|Ônibus 165 até Kilchberg': { mapa:'Lindt Home of Chocolate, Kilchberg' },
   '2026-12-21|Lindt Home of Chocolate': { mapa:'Lindt Home of Chocolate, Kilchberg' },
-  '2026-12-21|Tarde livre, com folga de verdade': { mapa:'Fraumünster, Zürich', extras:[
+  '2026-12-21|Tarde livre no centro': { mapa:'Fraumünster, Zürich', extras:[
     { n:'Münsterhof', mapa:'Münsterhof, Zürich' },
     { n:'Paradeplatz', mapa:'Paradeplatz, Zürich' },
   ] },
-  '2026-12-21|Retorno e jantar no Kreis 5': { mapa:'Più Schiffbau, Hardstrasse 259, 8005 Zürich', mapaN:'Più Schiffbau' },
+  '2026-12-21|Retorno e jantar no Kreis 5': { res:'p23', mapaN:'Più Schiffbau' },
 
   '2026-12-22|Café da manhã no hotel, webcams e mochila': { url:'https://www.titlis.ch/', urlN:'Titlis — site oficial', extras:[
     { n:'Webcams: Titlis Panorama e Trübsee', url:'https://www.engelberg.ch/en/webcams/' },
@@ -686,8 +685,8 @@ export const LUGARES = {
   '2026-12-23|Almoço perto da estação': { mapa:'ShopVille, Zürich Hauptbahnhof' },
   '2026-12-23|Polybahn e a Polyterrasse': { mapa:'Polyterrasse, Zürich' },
 
-  '2026-12-23|Jantar sentado perto da estação': { mapa:'Brasserie Federal, Bahnhofplatz 15, Zürich', mapaN:'Brasserie Federal',
-    tel:'+41 44 217 15 15', url:'https://www.brasserie-federal.ch/', urlN:'Reservar no site', extras:[
+  '2026-12-23|Jantar sentado perto da estação': { res:'p27', mapaN:'Brasserie Federal',
+    url:'https://www.brasserie-federal.ch/', urlN:'Reservar no site', extras:[
     { n:'Zeughauskeller', mapa:'Zeughauskeller, Bahnhofstrasse 28a, Zürich' },
   ] },
   '2026-12-23|Parada aquecida e preparativos': { mapa:'ShopVille, Zürich Hauptbahnhof' },
@@ -812,6 +811,20 @@ export const LUGARES = {
   '2027-01-02|Volta ao hotel pelas malas': { mapa:'Hotel du Cadran, 10 Rue du Champ de Mars, 75007 Paris', mapaN:'Hotel du Cadran' },
   '2027-01-02|Saída para Orly': { mapa:'Aeroporto de Paris-Orly' },
 };
+
+/* A decisão do Plitvice (ver DECISOES) troca o conteúdo dos dias 29 e 30: o
+ * dia escolhido recebe PLITVICE_DAY e o outro recebe o dia da cidade. As
+ * chaves desta tabela são `data|título`, então, sem espelho, escolher
+ * "Plitvice em 30" derrubaria em silêncio TODOS os chips de Maps do dia da
+ * cidade. Espelha 29 ⇄ 30 sem sobrescrever o que já existe; as chaves que
+ * não casam com o dia ativo ficam inertes, que é o comportamento normal de
+ * uma chave sem bloco. */
+for (const [k, v] of Object.entries({ ...LUGARES })) {
+  const data = k.slice(0, 10), titulo = k.slice(11);
+  if (data !== '2026-12-29' && data !== '2026-12-30') continue;
+  const gemeo = (data === '2026-12-29' ? '2026-12-30' : '2026-12-29') + '|' + titulo;
+  if (!(gemeo in LUGARES)) LUGARES[gemeo] = v;
+}
 
 /* Vale a pena o cartão? Duas contas por escrito, uma por país.
  *
