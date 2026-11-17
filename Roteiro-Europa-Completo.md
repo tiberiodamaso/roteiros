@@ -41,8 +41,10 @@ Horários locais de cada aeroporto.
   EMITIDO. Voo noturno: o roteiro começa no desembarque, já no dia 11.
 - LIS -> ORY • parte 14/12 (seg) 08h15 • chega 14/12 (seg) 11h45
   EMITIDO, companhia a confirmar. Check-out 05h00, transfer 05h30.
-- VIE -> ZAG • parte 28/12 (seg) entre 9h e 11h
-  A CONFIRMAR. Comprar a franquia de bagagem junto, em reserva única.
+- VIE -> ZAG • parte 28/12 (seg) 09h40 • chega 28/12 (seg) 10h30
+  EMITIDO, companhia a confirmar. Horário remarcado pela companhia (era
+  09h30 -> 10h20). Conferir se a franquia de bagagem despachada entrou na
+  reserva única dos 8.
 - ZAG -> CDG • Croatia Airlines • parte 31/12 (qui) 08h25 • chega 10h30
   EMITIDO. Direto, ~2h05. É este voo da manhã que salva a tarde do dia 31.
   ATENÇÃO AO SENTIDO: em 31/12 o voo é Zagreb -> Paris, e não o contrário.
@@ -101,18 +103,16 @@ BLOCO 1 — COMPRAR JÁ. Estes esgotam ou encarecem sozinhos.
    Partida 23/12 às 21h40 da Zürich HB, chegada 24/12 às 08h00 na Wien
    Hauptbahnhof. Compartimento privativo comfort, até 4 por cabine.
    129,90 EUR por adulto e 34,90 EUR pela criança.
-4. RESERVA DE ASSENTO no LUZERN-INTERLAKEN EXPRESS, 18/12
-   zentralbahn.ch. Não estava na lista de vocês e é crítica: é o que garante
-   que os 8 sentem juntos, do lado direito, e que estarão no trem panorâmico
-   e não no regional. Reservem ANTES de comprar o bilhete Basel -> Interlaken.
-5. PASSAGENS ÖBB VIENA <-> SALZBURGO, 27/12
-   Não estava na lista de vocês. App ÖBB, tarifa Sparschiene, que é promocional
-   com quantidade limitada por partida. Comprada na véspera, vocês pagam o
-   preço cheio oito vezes. Vale escrever ao serviço de grupos da ÖBB, que
-   atende a partir de 6 pessoas.
-6. VOO VIENA (VIE) -> ZAGREB (ZAG), 28/12
-   Decidido avião. Partida entre 9h e 11h. Comprar franquia de bagagem junto.
-   Reserva única para os 8.
+4. RESERVA DE ASSENTO no LUZERN-INTERLAKEN EXPRESS, 18/12 — COMPRADA
+   Para a partida das 13h06, lado direito no sentido Luzern -> Interlaken.
+   Vale só para esse trem: se o Lyria atrasar e o grupo pegar o das 14h06,
+   o bilhete continua valendo mas os assentos não acompanham.
+5. PASSAGENS ÖBB VIENA <-> SALZBURGO, 27/12 — COMPRADAS
+   Ida e volta: 07h30 da Wien Hbf e retorno no Railjet das 17h00 de
+   Salzburg Hbf, chegando a Viena por volta das 19h30.
+6. VOO VIENA (VIE) -> ZAGREB (ZAG), 28/12 — EMITIDO
+   Partida 09h40, chegada 10h30, direto, ~50 min. Horário remarcado pela
+   companhia. Conferir a franquia de bagagem despachada na reserva dos 8.
 7. VOO ZAGREB (ZAG) -> PARIS (CDG), 31/12
    Não estava na lista de vocês. Preferir o voo da manhã: em 31/12 o comércio
    da região dos Champs-Élysées fecha entre 15h e 18h, e chegar às 16h30
@@ -2745,7 +2745,9 @@ Fortaleza
 
 Check-out do apartamento às 11h00. Check-in em Zagreb às 15h00.
 
-DECIDIDO: AVIÃO. PASSAGEM AINDA NÃO COMPRADA.
+DECIDIDO: AVIÃO. PASSAGEM EMITIDA — parte 09h40, chega 10h30.
+- O horário foi remarcado pela companhia: era 09h30 -> 10h20. Confiram portão
+  e horário no app antes de sair de casa; este voo já mudou uma vez
 - Viena (VIE) -> Zagreb (ZAG), voo direto, cerca de 1h
 - Operado por Austrian Airlines e Croatia Airlines
 - A opção de trem foi descartada. Ela existia (direto Wien Hbf -> Zagreb Glavni
@@ -2755,40 +2757,30 @@ DECIDIDO: AVIÃO. PASSAGEM AINDA NÃO COMPRADA.
   criança, trocar sete horas de trem por uma de voo compra um dia inteiro de
   viagem de volta.
 
-O QUE OBSERVAR NA HORA DE COMPRAR
-1. HORÁRIO: procurem partida no MEIO DA MANHÃ. O check-out é às 11h e o
-   check-in em Zagreb às 15h. Um voo saindo entre 9h e 11h coloca vocês em
-   Zagreb no começo da tarde, com a tarde e a noite do Advent inteiras pela
-   frente.
-   Evitem voo do fim da tarde: vocês ficariam com as malas nas costas o dia
-   todo em Viena e chegariam a Zagreb já de noite, sem tempo de nada.
-2. BAGAGEM DESPACHADA: em rota curta europeia ela quase nunca está incluída na
-   tarifa básica. São oito malas grandes. Comprem a franquia junto com a
-   passagem, porque no balcão do aeroporto ela custa bem mais caro.
-   Confiram também o peso máximo por peça — é mais baixo que em voo
-   intercontinental, e vocês estarão vindo de três semanas de compras.
-3. NOVE ASSENTOS: comprem tudo numa reserva só, para não correrem o risco de a
-   companhia separar o grupo, especialmente a criança dos pais.
-4. COMPAREM COM A AUSTRIAN E A CROATIA DIRETO NOS SITES, além dos buscadores.
-   Em rotas curtas de companhia tradicional, a tarifa com bagagem incluída
-   vendida no site próprio às vezes sai abaixo da tarifa básica de buscador
-   mais a bagagem avulsa.
-5. NÃO É O MESMO CASO DO VOO DE 31/12. Aquele, Zagreb -> Paris, também está
-   pendente. Se comprarem os dois na mesma sessão, conferem duas vezes as datas:
-   28/12 é Viena -> Zagreb; 31/12 é Zagreb -> Paris.
+O QUE AINDA CONFERIR NESTA RESERVA
+1. BAGAGEM DESPACHADA: em rota curta europeia ela quase nunca entra na tarifa
+   básica, e são oito malas grandes. Confiram se a franquia está na reserva —
+   no balcão do aeroporto ela custa bem mais caro. Confiram também o peso
+   máximo por peça: é mais baixo que em voo intercontinental, e vocês estarão
+   vindo de três semanas de compras.
+2. RESERVA ÚNICA PARA OS 8: confiram que a companhia não separou o grupo,
+   especialmente a criança dos pais.
+3. O HORÁRIO JÁ MUDOU UMA VEZ: era 09h30 -> 10h20 e virou 09h40 -> 10h30.
+   Confiram portão e horário no app da companhia antes de sair de casa.
 
 LOGÍSTICA DO DIA
 - Manhã: café no apartamento com o que sobrou das compras, malas fechadas na
   véspera
-- 08h30 a 09h00 — Transfer do apartamento ao aeroporto de Viena.
+- 07h00 — Transfer do apartamento ao aeroporto de Viena.
   O apartamento fica no bairro 1020, e o aeroporto de Viena fica a cerca de
   20 km. Reservem dois carros grandes com antecedência; não tentem resolver na
   hora com oito pessoas e oito malas.
   Alternativa de transporte público: trem S-Bahn ou railjet do Wien Hauptbahnhof
   ao aeroporto. Só compensa se o grupo estiver disposto a arrastar as malas até
   a estação.
-- Cheguem ao aeroporto com 2h30 de antecedência. Voo europeu de baixa distância
-  pede menos, mas despachar oito malas num balcão único leva tempo.
+- Saindo às 7h, vocês chegam ao aeroporto por volta das 7h30, duas horas antes
+  da partida. Voo europeu de baixa distância pede menos, mas despachar oito
+  malas num balcão único leva tempo.
 - Chegada em Zagreb: reservem o transfer até o Hotel Garden antes de viajar.
   O aeroporto fica a cerca de 20 km do centro. Há ônibus de
   ligação até a rodoviária, mas com oito malas dois carros resolvem melhor.

@@ -194,7 +194,7 @@ const PENDENCIAS = {
   '2026-12-12': ['Ingresso do Castelo de São Jorge, comprado online na véspera — o do Oceanário já está comprado'],
   '2026-12-15': ['Reserva de mesa no app da Disneyland Paris'],
   '2026-12-17': ['Le Son de la Terre 18h50 — a Torre Eiffel (10h30, até o topo) e o cruzeiro do Sena já estão comprados'],
-  '2026-12-18': ['Reserva de assento no Luzern-Interlaken Express, partida das 13h06 — o TGV, o bilhete Basel → Interlaken e o transfer até a Gare de Lyon já estão resolvidos', 'Pedir a Interlaken Guest Card no check-in'],
+  '2026-12-18': ['Nada a comprar: o TGV, o bilhete Basel → Interlaken, a reserva de assento do panorâmico e o transfer até a Gare de Lyon já estão resolvidos', 'Pedir a Interlaken Guest Card no check-in'],
   '2026-12-19': ['Bilhete Interlaken Ost → Grindelwald (véspera) · teleférico do First só na bilheteria, depois das webcams'],
   '2026-12-20': ['Bilhete Interlaken Ost → Zürich HB (véspera) · avulso zona 110'],
   '2026-12-21': ['Passe diário com as zonas até Kilchberg, comprado às 9h'],
@@ -202,7 +202,7 @@ const PENDENCIAS = {
   '2026-12-23': ['Transfer ou tram 4 até a Zürich HB · jantar reservado perto da estação — o Nightjet já está comprado'],
   '2026-12-25': ['Ingressos do Zoo de Schönbrunn — o único do dia · nada de palácio por dentro'],
   '2026-12-26': ['Ingressos do Kunsthistorisches, comprados online · mesa no Figlmüller às 12h30 — o jantar é na arena'],
-  '2026-12-27': ['Passagens ÖBB Viena ⇄ Salzburgo, tarifa Sparschiene · mesa no Stiegl-Keller, conferindo o horário de domingo'],
+  '2026-12-27': ['Mesa no Stiegl-Keller, conferindo o horário de domingo · ingresso da Fortaleza só na bilheteria — as passagens da ÖBB já estão compradas'],
   '2026-12-28': ['Transfers dos dois lados · confirmar a franquia de bagagem despachada — o voo VIE → ZAG já está comprado'],
   '2026-12-31': ['Transfer CDG → Hotel du Cadran (o voo já está comprado)'],
   '2027-01-02': ['Transfer hotel → ORLY às 15h10, para chegar às 16h00 · nada a comprar: o almoço nas Galeries Lafayette é em balcão, sem reserva'],
@@ -418,7 +418,7 @@ function finance() {
       ] },
 
     { k:'trens', titulo:'Trens e transfers', tom:'#2f6b4f', kid:0.5,
-      itens:'Oito itens com preço fechado; o resto é estimativa pelas tarifas do roteiro',
+      itens:'Dez itens com preço fechado; sobram os bilhetes suíços avulsos e os transfers que faltam',
       linhas:[
         { n:'TGV Lyria Paris → Basel', fam:1143.76 },
         { n:'Basel → Interlaken, via Luzern', fam:426 },
@@ -431,9 +431,9 @@ function finance() {
         { n:'Transfer hotel → aeroporto de Lisboa, 14/12', fam:87.30 },
         { n:'Transfer aeroporto de Paris → hotel, 14/12', fam:270.15 },
         { n:'Transfer hotel → Gare de Lyon, 18/12', fam:258.39 },
-        { n:'Reserva de assento do Luzern–Interlaken Express — CHF 12 por pessoa, sem meia', v:f(12), kid:1, est:true },
+        { n:'Reserva de assento do Luzern–Interlaken Express', fam:251.31 },
+        { n:'ÖBB Viena ⇄ Salzburgo, ida e volta', fam:1526.52 },
         { n:'Interlaken Ost → Zürich HB — CHF 37,50 por adulto', v:f(37.5), kid:0, est:true },
-        { n:'ÖBB Viena ⇄ Salzburgo — ~€ 40 por adulto', v:e(40), kid:0.5, est:true },
         // Sobram 8 dos 12 trechos privados (os dois de Interlaken saem no
         // ônibus da Guest Card); os outros 4 já estão fechados acima. Mantida
         // a tarifa por trecho da pesquisa original, ~€ 11,70 por pessoa: os
@@ -874,10 +874,12 @@ function viewChecklist() {
           <div class="clblock__t">${esc(b.titulo)}</div>
           <div class="clblock__sub">${esc(b.sub)}</div>
         </div>
-        <div class="clblock__stat">${c} / ${b.items.length}</div>
+        <div class="clblock__stat">${b.items.length ? `${c} / ${b.items.length}` : 'vazio'}</div>
       </div>
-      <div class="bar bar--slim"><i style="width:${Math.round((c / b.items.length) * 100)}%"></i></div>
-      <div style="display:flex;flex-direction:column;gap:2px">${items}</div>
+      <div class="bar bar--slim"><i style="width:${b.items.length ? Math.round((c / b.items.length) * 100) : 100}%"></i></div>
+      <div style="display:flex;flex-direction:column;gap:2px">${
+        items || '<div class="clitem__n">Nada pendente: tudo o que estava aqui já foi comprado.</div>'
+      }</div>
     </div>`;
   }).join('');
 
